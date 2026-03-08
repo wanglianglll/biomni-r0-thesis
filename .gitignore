@@ -1,0 +1,85 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ============ 虚拟环境 ============
+venv/
+.venv/
+env/
+.conda/
+
+# ============ 模型权重（非常大，不要上传） ============
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.onnx
+checkpoints/
+output/
+outputs/
+saved_models/
+wandb/
+runs/
+logs/
+
+# ============ 数据文件（太大，不要上传） ============
+data/
+datasets/
+*.parquet
+*.hdf5
+*.csv.gz
+*.tar.gz
+*.zip
+
+# ============ 密钥和配置（安全考虑） ============
+.env
+*.key
+*secret*
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ============ Jupyter ============
+.ipynb_checkpoints/
+
+# ============ IDE ============
+.vscode/
+.idea/
+./data
+./data
+# ============ Biomni Data Lake（太大，不上传） ============
+data/
+biomni_data/
+data/biomni_data/data_lake/
+
+# ============ 大文件类型 ============
+*.csv
+*.pkl
+*.parquet
+*.tsv
+*.json.gz
+*.txt.gz
+
+# ============ 二进制工具（可通过脚本重新安装） ============
+biomni_env/biomni_tools/bin/
+biomni_env/biomni_tools/fasttree/FastTree
+biomni_env/biomni_tools/gcta/
+biomni_env/biomni_tools/iq-tree/bin/
+biomni_env/biomni_tools/muscle/
+biomni_env/biomni_tools/plink_2_0/
+
+# ============ macOS 垃圾文件 ============
+__MACOSX/
+.DS_Store
+._*
