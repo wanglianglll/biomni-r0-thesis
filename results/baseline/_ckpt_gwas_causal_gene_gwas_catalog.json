@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 630,
+    "score": 0.0,
+    "extracted": "APOA5",
+    "ground_truth": "APOA4",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with a composite measure related to sex differences or sex-related traits. The locus contains a cluster of genes on chromosome 11q23.3, which is well-known as the **APOA1/C3/A4/A5 gene cluster**, heavily"
+  },
+  {
+    "task_instance_id": 591,
+    "score": 0.0,
+    "extracted": "SIK3",
+    "ground_truth": "APOA4",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with sex-related traits or sexual dimorphism across multiple phenotypes.  \n\nThe locus contains genes from the **APOA1/C3/A4/A5 gene cluster** on chromosome 11q23.3, which is well known for lipid metaboli"
+  },
+  {
+    "task_instance_id": 541,
+    "score": 1.0,
+    "extracted": "NAT8",
+    "ground_truth": "NAT8",
+    "raw_preview": "The GWAS phenotype is metabolite levels of **N-acetylasparagine**.  \nN-acetylasparagine is a derivative of asparagine, and its acetylation is mediated by N-acetyltransferase enzymes.  \n\nAmong the genes in the locus, **NAT8** and **NAT8B** are N-acetyltransferase family members.  \nSpecifically, **NAT"
+  },
+  {
+    "task_instance_id": 85,
+    "score": 1.0,
+    "extracted": "ACY3",
+    "ground_truth": "ACY3",
+    "raw_preview": "The GWAS phenotype is metabolite levels of **N-acetyltryptophan**, which is a metabolite derived from tryptophan via acetylation.  \nAmong the genes in the locus, **ACY3** encodes **aminoacylase 3**, an enzyme that hydrolyzes N-acetylated amino acids, including N-acetyltryptophan. This makes it the m"
+  },
+  {
+    "task_instance_id": 242,
+    "score": 0.0,
+    "extracted": "CXCL8",
+    "ground_truth": "RASSF6",
+    "raw_preview": "Prostate cancer GWAS loci often implicate genes involved in inflammation, cell cycle regulation, and tumor suppression.  \n\nLooking at the gene list:  \n- **AFM, AFP, ALB** are mainly liver-expressed plasma proteins, not strongly linked to prostate cancer.  \n- **ANKRD17** is an ankyrin repeat protein,"
+  },
+  {
+    "task_instance_id": 159,
+    "score": 1.0,
+    "extracted": "RNF213",
+    "ground_truth": "RNF213",
+    "raw_preview": "Moyamoya disease is a rare cerebrovascular disorder characterized by progressive stenosis of the intracranial internal carotid arteries and their proximal branches, leading to the formation of a compensatory network of small, fragile blood vessels (the \"moyamoya\" appearance).  \n\nGenome-wide associat"
+  },
+  {
+    "task_instance_id": 35,
+    "score": 1.0,
+    "extracted": "LONP1",
+    "ground_truth": "LONP1",
+    "raw_preview": "Mitochondrial DNA copy number (mtDNA-CN) is influenced by nuclear genes involved in mitochondrial biogenesis, maintenance, and turnover. Among the genes in the locus, **LONP1** (Lon peptidase 1, mitochondrial) is a strong candidate because it encodes a mitochondrial protease that degrades misfolded "
+  },
+  {
+    "task_instance_id": 170,
+    "score": 0.0,
+    "extracted": "WNT10B",
+    "ground_truth": "PRKAG1",
+    "raw_preview": "Based on the GWAS phenotype \"Body mass index\" (BMI) and the list of genes in the locus, the most likely causal gene is **WNT10B**.  \n\nWNT10B is a well-established gene involved in adipogenesis, fat cell differentiation, and energy metabolism. Variants in or near WNT10B have been repeatedly associate"
+  },
+  {
+    "task_instance_id": 543,
+    "score": 1.0,
+    "extracted": "LPL",
+    "ground_truth": "LPL",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with a composite measure related to sex differences or sex-related traits. Among the genes listed, **LPL** (Lipoprotein Lipase) is a strong candidate.  \n\nLPL is involved in lipid metabolism and has well-"
+  },
+  {
+    "task_instance_id": 535,
+    "score": 1.0,
+    "extracted": "ACAN",
+    "ground_truth": "ACAN",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to genetic associations with traits that show sex differences or are related to sex-specific biology. Among the genes listed, **ACAN** (Aggrecan) is a strong candidate. ACAN is involved in cartilage structure and skeletal develo"
+  },
+  {
+    "task_instance_id": 601,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Multi-trait sum score\" from the provided list, I need to consider biological relevance and known associations.  \n\nThe locus contains several genes, including multiple metallothionein genes (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2"
+  },
+  {
+    "task_instance_id": 95,
+    "score": 0.0,
+    "extracted": "SLC18A1",
+    "ground_truth": "LPL",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with a composite measure related to sex differences or sexual dimorphism across multiple traits. Among the genes listed in the locus:\n\n- **ATP6V1B2**: Involved in vacuolar ATPase activity, acidification;"
+  },
+  {
+    "task_instance_id": 240,
+    "score": 1.0,
+    "extracted": "TRIM58",
+    "ground_truth": "TRIM58",
+    "raw_preview": "The GWAS phenotype \"platelet side fluorescence distribution width\" relates to platelet characteristics, which are often associated with platelet production, size, and activation. Among the genes listed, **TRIM58** is known to be involved in megakaryocyte differentiation and platelet formation. Varia"
+  },
+  {
+    "task_instance_id": 460,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" the locus likely relates to sex-related traits, which could involve hormonal regulation, sexual development, or secondary sexual characteristics. Among the genes listed, **CETP** (Cholesteryl Ester Transfer Protein) is a strong candidate. CETP pla"
+  },
+  {
+    "task_instance_id": 557,
+    "score": 0.0,
+    "extracted": "ZFP69B",
+    "ground_truth": "SLFNL1",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits related to sex differences or sexual development. Among the genes listed, several are plausible candidates based on known biological functions:  \n\n- **FOXO6** is involved in transcriptional r"
+  },
+  {
+    "task_instance_id": 206,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "Based on known genetic associations, **SLC39A8** (solute carrier family 39 member 8) is a strong candidate for influencing central nucleus volume.  \n\nThis gene encodes a zinc/iron transporter, and variants in *SLC39A8* have been linked to multiple traits relevant to brain structure and neurological "
+  },
+  {
+    "task_instance_id": 392,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Multi-trait sex score\" from the provided list, I need to consider biological relevance, known gene functions, and prior associations with sex-related traits or multi-trait analyses.  \n\nThe \"Multi-trait sex score\" likely relates to sexual dim"
+  },
+  {
+    "task_instance_id": 397,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "Looking at the GWAS phenotype \"Multi-trait sex score,\" this likely relates to genetic associations with sex-related traits or sex differences across multiple phenotypes.  \n\nAmong the genes in the locus, the **metallothionein (MT) gene family** (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2A, M"
+  },
+  {
+    "task_instance_id": 536,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sum score\" and the list of genes in the locus, the most likely causal gene is **CETP** (Cholesteryl Ester Transfer Protein).  \n\nCETP is a well-established gene involved in lipid metabolism, particularly in transferring cholesteryl esters between lipoproteins."
+  },
+  {
+    "task_instance_id": 217,
+    "score": 1.0,
+    "extracted": "BDNF",
+    "ground_truth": "BDNF",
+    "raw_preview": "Based on the GWAS phenotype \"Smoking initiation (MTAG)\" and the list of genes in the locus, the most likely causal gene is **BDNF** (Brain-Derived Neurotrophic Factor).  \n\nBDNF is a well-studied neurotrophic factor involved in neuronal survival, growth, and synaptic plasticity, and it has been stron"
+  },
+  {
+    "task_instance_id": 4,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "Based on the GWAS phenotype \"Anterior amygdaloid area volume,\" which relates to the size of a specific subregion of the amygdala involved in emotional processing and linked to various neurological and psychiatric conditions, the most likely causal gene in the provided locus is **SLC39A8**.  \n\nThis g"
+  },
+  {
+    "task_instance_id": 568,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex-related traits or sexual dimorphism. Among the genes listed, several are involved in sex hormone pathways, reproductive biology, or have known sexual dimorphism in expression or function.  \n\n- **CETP** (choleste"
+  },
+  {
+    "task_instance_id": 98,
+    "score": 1.0,
+    "extracted": "SULT1A1",
+    "ground_truth": "SULT1A1",
+    "raw_preview": "Based on the GWAS phenotype \"Metabolite levels (propyl 4-hydroxybenzoate sulfate),\" the key clue is the specific metabolite: **propyl 4-hydroxybenzoate sulfate**.  \n\nThis compound is a sulfate conjugate of propyl 4-hydroxybenzoate (propylparaben). The sulfation reaction is catalyzed by **sulfotransf"
+  },
+  {
+    "task_instance_id": 406,
+    "score": 0.0,
+    "extracted": "PCSK7",
+    "ground_truth": "CEP164",
+    "raw_preview": "Based on the GWAS phenotype \"Triglyceride to HDL cholesterol ratio,\" which is a lipid metabolism trait, I need to identify the most likely causal gene from the provided list.  \n\nKey biological context:  \n- **PCSK7** (Proprotein Convertase Subtilisin/Kexin Type 7) is involved in protein processing an"
+  },
+  {
+    "task_instance_id": 502,
+    "score": 0.0,
+    "extracted": "WNK1",
+    "ground_truth": "B4GALNT3",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex‑related traits or sexual dimorphism. Among the genes in the locus, **WNK1** (lysine‑deficient protein kinase 1) is known to be involved in pathways that can influence sex‑hormone signaling, renal electrolyte bal"
+  },
+  {
+    "task_instance_id": 47,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Multi-trait sex score\" from the provided list, I need to consider genes known to be involved in sex-related traits, hormone regulation, or sexual dimorphism.  \n\nThe locus includes several **metallothionein (MT)** genes (MT1A, MT1B, MT1E, MT1"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "SIK3",
+    "ground_truth": "APOA4",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that differ between sexes or have sex-specific effects, potentially related to sex hormones, development, or dimorphism.  \n\nThe locus contains genes on chromosome 11q23.3, which is a well-kno"
+  },
+  {
+    "task_instance_id": 200,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "Based on the GWAS phenotype \"central nucleus volume,\" which likely refers to a brain imaging trait related to the volume of the central nucleus (a subregion of the amygdala involved in fear and emotional processing), I need to evaluate the biological plausibility of each gene in the locus.  \n\n- **BA"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex-related traits or sexual dimorphism. Looking at the genes in the locus, several are involved in biological processes that could plausibly relate to sex differences or hormone regulation.  \n\nOne notable candidate"
+  },
+  {
+    "task_instance_id": 27,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "Based on the GWAS phenotype \"medial nucleus volume,\" which refers to a brain structure (likely the medial nucleus of the thalamus or amygdala, often involved in memory and emotion), I need to consider which gene among BANK1, PPP3CA, and SLC39A8 has the strongest biological plausibility for influenci"
+  },
+  {
+    "task_instance_id": 559,
+    "score": 0.0,
+    "extracted": "GCKR",
+    "ground_truth": "TRIM54",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sum score,\" this is a broad, complex trait often related to metabolic, cardiovascular, or anthropometric measures. Among the genes in the locus, **GCKR** (Glucokinase Regulator) is a well-established gene associated with multiple metabolic traits, including f"
+  },
+  {
+    "task_instance_id": 230,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex‑related traits or sexual dimorphism. Among the genes in the locus, several metallothionein genes (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2A, MT3, MT4) are notable because metallothioneins are involved"
+  },
+  {
+    "task_instance_id": 489,
+    "score": 0.0,
+    "extracted": "CATSPER1",
+    "ground_truth": "SART1",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" the trait is strongly associated with sex-related biology, likely involving sexual development, fertility, or sex hormone pathways.  \n\nLooking through the gene list, **CATSPER1** stands out as the most plausible causal gene. CATSPER1 encodes a sub"
+  },
+  {
+    "task_instance_id": 378,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex differences or sex-related traits across multiple phenotypes. Looking at the genes in the locus, several are involved in sex hormone biology, immune function, or metal regulation, but one stands out as having a "
+  },
+  {
+    "task_instance_id": 288,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex‑related traits or sexual dimorphism. Among the genes in the locus, several are involved in sex hormone pathways or have known roles in sex‑specific biology.  \n\n**Key observations:**  \n- **CETP** (cholesteryl est"
+  },
+  {
+    "task_instance_id": 418,
+    "score": 0.0,
+    "extracted": "C4A",
+    "ground_truth": "ZBTB12",
+    "raw_preview": "The GWAS phenotype is neonatal circulating Complement Component 4 (C4) protein concentration.  \nThe locus contains many genes, but the most directly relevant ones are **C4A** and **C4B**, which encode the two forms of complement component 4.  \nC4 protein concentration in circulation is strongly dete"
+  },
+  {
+    "task_instance_id": 391,
+    "score": 1.0,
+    "extracted": "BDNF",
+    "ground_truth": "BDNF",
+    "raw_preview": "Based on the GWAS phenotype \"Body mass index\" and the provided genes in the locus, the most likely causal gene is **BDNF** (Brain-Derived Neurotrophic Factor).  \n\nBDNF is a well-established gene involved in neuronal growth, appetite regulation, and energy homeostasis, with strong genetic and functio"
+  },
+  {
+    "task_instance_id": 498,
+    "score": 0.0,
+    "extracted": "GAK",
+    "ground_truth": "TMEM175",
+    "raw_preview": "Based on the GWAS phenotype of Parkinson's disease and the list of genes in the locus, the most likely causal gene is **GAK** (Cyclin G-Associated Kinase).  \n\nGAK is a well-established risk gene for Parkinson's disease in multiple GWAS studies and is involved in clathrin-mediated membrane traffickin"
+  },
+  {
+    "task_instance_id": 138,
+    "score": 1.0,
+    "extracted": "SLCO1B1",
+    "ground_truth": "SLCO1B1",
+    "raw_preview": "Based on the GWAS phenotype \"Metabolite levels (1-linoleoyl-GPG (18:2))\" and the list of genes in the locus, the most likely causal gene is **SLCO1B1**.  \n\nThis metabolite is a lysophosphatidylglycerol, and SLCO1B1 encodes a hepatic organic anion transporter known to be involved in the uptake of var"
+  },
+  {
+    "task_instance_id": 62,
+    "score": 0.0,
+    "extracted": "APOA5",
+    "ground_truth": "APOA4",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that show sex differences or are related to sex-specific biology. The locus contains several genes, many of which are clustered on chromosome 11q23.3 within the **APOA1/C3/A4/A5 gene cluster*"
+  },
+  {
+    "task_instance_id": 471,
+    "score": 0.0,
+    "extracted": "GLI2",
+    "ground_truth": "INHBB",
+    "raw_preview": "Based on known genetic associations with prostate cancer risk, among the genes listed, **GLI2** is the most plausible candidate.  \n\nGLI2 encodes a transcription factor in the Hedgehog signaling pathway, which is implicated in prostate development and cancer progression. Hedgehog signaling dysregulat"
+  },
+  {
+    "task_instance_id": 128,
+    "score": 0.0,
+    "extracted": "SIK3",
+    "ground_truth": "APOA4",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that differ between sexes or have sex-specific effects, potentially involving hormones, body composition, or metabolic traits.  \n\nThe locus contains genes from the **APOA1/C3/A4/A5 gene clust"
+  },
+  {
+    "task_instance_id": 623,
+    "score": 0.0,
+    "extracted": "SIK3",
+    "ground_truth": "APOA4",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that show sex differences or a composite score related to sex-specific biology. The locus contains several genes, many of which are clustered on chromosome 11q23.3, a well-known region for li"
+  },
+  {
+    "task_instance_id": 520,
+    "score": 0.0,
+    "extracted": "GAS7",
+    "ground_truth": "MYH13",
+    "raw_preview": "Based on the GWAS phenotype \"Primary open angle glaucoma (multi-trait analysis)\" and the list of genes in the locus, the most likely causal gene is **GAS7**.  \n\n**Reasoning:**  \n- **GAS7** (Growth Arrest Specific 7) has been implicated in glaucoma pathogenesis in multiple studies. It is expressed in"
+  },
+  {
+    "task_instance_id": 64,
+    "score": 0.0,
+    "extracted": "ANGPTL4",
+    "ground_truth": "PRAM1",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits related to sex differences or sexual dimorphism, potentially including anthropometric, reproductive, or hormone-related traits.  \n\nAmong the genes in the locus:  \n\n- **ANGPTL4** (Angiopoietin"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 1.0,
+    "extracted": "LPL",
+    "ground_truth": "LPL",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that differ between sexes or are influenced by sex chromosomes/hormones. Among the listed genes, **LPL (Lipoprotein Lipase)** is a well-known gene involved in lipid metabolism, and lipid trai"
+  },
+  {
+    "task_instance_id": 156,
+    "score": 1.0,
+    "extracted": "CETP",
+    "ground_truth": "CETP",
+    "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex-related traits or sexual dimorphism. Among the genes in the locus, several **metallothionein (MT) genes** (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2A, MT3, MT4) are notable because metallothioneins are"
+  },
+  {
+    "task_instance_id": 40,
+    "score": 0.0,
+    "extracted": "C4A",
+    "ground_truth": "NOTCH4",
+    "raw_preview": "The GWAS phenotype is neonatal circulating Complement Component 4 (C4) protein concentration.  \nThe locus contains many genes in the **major histocompatibility complex (MHC) region** on chromosome 6p21.3, which includes the **C4A** and **C4B** genes encoding the C4 protein isoforms.  \n\nGiven that th"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 1.0,
+    "extracted": "LONP1",
+    "ground_truth": "LONP1",
+    "raw_preview": "Mitochondrial DNA copy number (adjusted) is a quantitative trait related to mitochondrial biogenesis and function. Among the genes in the locus, **LONP1** (Lon peptidase 1, mitochondrial) is a key mitochondrial protease involved in mitochondrial protein quality control, metabolism, and mtDNA mainten"
+  },
+  {
+    "task_instance_id": 379,
+    "score": 0.0,
+    "extracted": "ZFHX3",
+    "ground_truth": "PKD1L3",
+    "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this is likely related to a genetic locus associated with sex-related traits or sexual development. Among the genes listed, **ZFHX3** (Zinc Finger Homeobox 3) is a strong candidate.  \n\nZFHX3 is known to be involved in transcriptional regulation an"
+  }
+]

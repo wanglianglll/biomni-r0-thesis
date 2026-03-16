@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 212,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000130638\", \"ENSG00000113318\", \"ENSG00000118965\", \"ENSG00000131446\", \"ENSG00000051180\"]}",
+    "ground_truth": "ENSG00000161011",
+    "raw_preview": "Let's map the phenotypes to HPO terms and consider the clinical picture:  \n\n- **HP:0000474** → Short neck  \n- **HP:0000733** → Restlessness  \n- **HP:0002354** → Bradykinesia  \n- **HP:0002442** → Parkinsonism  \n- **HP:0002446** → Rigidity  \n- **HP:0006892** → Cerebral atrophy  \n- **HP:0010522** → Parkinsonism with favorable response to dopaminergic medication  \n- **HP:0011204** → Lewy bodies  \n- **HP:0001250** → Seizures  \n- **HP:0002300** → Akinesia  \n- **HP:0012735** → Cerebral cortical atrophy  \n- **HP:0001347** → Hyperreflexia  \n- **HP:0000741** → Dementia  \n- **HP:0008572** → Autonomic dysfunction  \n- **HP:0000554** → Retinal degeneration  \n- **HP:0012653** → Neurofibrillary tangles  \n- **HP:0011736** → Neuronal loss in central nervous system  \n- **HP:0001025** → Urticaria (likely unre"
+  },
+  {
+    "task_instance_id": 295,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000168291\", \"ENSG00000100519\", \"ENSG00000177189\", \"ENSG00000168291\", \"ENSG00000168291\"]}",
+    "ground_truth": "ENSG00000168291",
+    "raw_preview": "Let's map the HPO terms to clinical features:\n\n- HP:0000343: Sloping forehead  \n- HP:0000582: Upslanted palpebral fissure  \n- HP:0001251: Ataxia  \n- HP:0001254: Lethargy  \n- HP:0001510: Growth delay  \n- HP:0001999: Abnormal facial shape  \n- HP:0002094: Dyspnea  \n- HP:0008872: Feeding difficulties in infancy  \n- HP:0002007: Frontal bossing  \n- HP:0000767: Pectus excavatum  \n- HP:0000316: Hypertelorism  \n- HP:0000286: Epicanthus  \n- HP:0002119: Ventriculomegaly  \n- HP:0007642: Progressive gait ataxia  \n- HP:0012426: Bradycardia  \n\nThis combination suggests a multisystem disorder with facial dysmorphism, neurological involvement (ataxia, ventriculomegaly), growth delay, feeding difficulties, skeletal findings (pectus excavatum), and possible cardiorespiratory issues (bradycardia, dyspnea).  \n"
+  },
+  {
+    "task_instance_id": 457,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000167772\", \"ENSG00000183337\", \"ENSG00000111678\", \"ENSG00000138738\", \"ENSG00000137700\"]}",
+    "ground_truth": "ENSG00000137700",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features:  \n\n- HP:0001250 → Seizure  \n- HP:0002719 → Recurrent infections  \n- HP:0003077 → Hypertriglyceridemia  \n- HP:0004322 → Short stature  \n- HP:0100543 → Cognitive impairment  \n- HP:0004426 → Thrombocytopenia  \n- HP:0011947 → Respiratory tract infection  \n- HP:0010562 → Hepatomegaly  \n- HP:0012531 → Pain  \n- HP:0031826 → Functional neutrophil defect  \n- HP:0011034 → Hypertriglyceridemic pancreatitis  \n- HP:0011413 → Episodic abdominal pain  \n- HP:0030502 → Fat deposition in liver  \n- HP:0400008 → Autosomal recessive inheritance  \n\nThis combination points toward a disorder with **immune dysfunction, hypertriglyceridemia, hepatomegaly, recurrent infections, thrombocytopenia, seizures, cognitive impairment, and short stature**, likely a"
+  },
+  {
+    "task_instance_id": 251,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000268221\", \"ENSG00000131018\", \"ENSG00000120457\", \"ENSG00000179142\", \"ENSG00000088367\"]}",
+    "ground_truth": "ENSG00000179142",
+    "raw_preview": "Let's map the phenotypes to their descriptions and then evaluate the candidate genes.\n\n**Phenotype mapping (HPO IDs):**\n- HP:0002902: **Cerebral calcification**\n- HP:0012606: **Abnormal CNS myelination**\n- HP:0001508: **Failure to thrive**\n- HP:0001945: **Fever**\n- HP:0011739: **Abnormality of the basal ganglia**\n- HP:0031864: **Abnormal cerebral white matter morphology**\n- HP:0004749: **Spasticity**\n- HP:0012531: **Pain**\n- HP:0004447: **Abnormality of the globus pallidus**\n\nThis combination strongly suggests a **leukodystrophy or neurodegenerative disorder with brain calcification, white matter abnormalities, basal ganglia involvement, and spasticity**.\n\nKey features: cerebral calcification, abnormal CNS myelination, abnormality of basal ganglia/globus pallidus, spasticity, and pain.\n\n**"
+  },
+  {
+    "task_instance_id": 488,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000197912\", \"ENSG00000244687\", \"ENSG00000116014\", \"ENSG00000129167\", \"ENSG00000043355\"]}",
+    "ground_truth": "ENSG00000039650",
+    "raw_preview": "Let's map the provided HPO terms to clinical features:\n\n- HP:0001761: **Talipes equinovarus** (clubfoot)\n- HP:0010522: **Smooth philtrum**\n- HP:0002751: **Osteoporosis**\n- HP:0001251: **Ataxia**\n- HP:0000988: **Skin rash**\n- HP:0000708: **Behavioral abnormality**\n- HP:0002014: **Diarrhea**\n- HP:0001717: **Abnormal myocardium morphology**\n- HP:0000752: **Hyperactivity**\n- HP:0002487: **Hyperkinesis**\n- HP:0000976: **Dry skin**\n\nKey pattern:  \n- Neurodevelopmental issues (ataxia, hyperactivity, behavioral abnormalities)  \n- Connective tissue/skeletal issues (osteoporosis, clubfoot)  \n- Dermatological issues (dry skin, skin rash)  \n- Cardiac abnormality (abnormal myocardium)  \n- Gastrointestinal (diarrhea)  \n- Facial feature (smooth philtrum)\n\nThis constellation is highly suggestive of a **di"
+  },
+  {
+    "task_instance_id": 486,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000185245\", \"ENSG00000141524\", \"ENSG00000162510\", \"ENSG00000133703\", \"ENSG00000100836\"]}",
+    "ground_truth": "ENSG00000075624",
+    "raw_preview": "Let's map the HPO terms to clinical features and assess the candidate genes.\n\n**Key phenotypes (HPO terms decoded):**\n- HP:0000348: High, narrow palate\n- HP:0000407: Sensorineural hearing impairment\n- HP:0000618: Blue irides\n- HP:0000882: Broad ribs\n- HP:0001263: Global developmental delay\n- HP:0002015: Dysphagia\n- HP:0002571: Tracheoesophageal fistula\n- HP:0002650: Scoliosis\n- HP:0002721: Immunodeficiency\n- HP:0007325: Aplasia/Hypoplasia of the radius\n- HP:0008796: Radial club hand\n- HP:0100613: Radial deviation of finger\n- HP:0100543: Arterial stenosis\n- HP:0001249: Intellectual disability\n- HP:0004935: Pulmonary artery stenosis\n- HP:0000973: Bruising susceptibility\n- HP:0030659: Abnormal platelet volume\n- HP:0000691: Downturned corners of mouth\n- HP:0002343: Incoordination\n- HP:0001254:"
+  },
+  {
+    "task_instance_id": 303,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000102001\", \"ENSG00000177189\", \"ENSG00000115947\", \"ENSG00000181544\", \"ENSG00000269335\"]}",
+    "ground_truth": "ENSG00000158352",
+    "raw_preview": "Let's break this down.  \n\nFirst, I'll map the HPO terms to their descriptions:  \n\n- HP:0001007 — Hirsutism  \n- HP:0001250 — Seizures  \n- HP:0001762 — Pes planus (flat feet)  \n- HP:0000750 — Delayed speech and language development  \n- HP:0001374 — Contractures of the joints of the hands  \n- HP:0001249 — Intellectual disability  \n- HP:0000518 — Cataract  \n- HP:0001263 — Global developmental delay  \n- HP:0000139 — Uterine leiomyoma  \n- HP:0008222 — Uterine fibroids (same as above, redundant)  \n- HP:0004756 — Epilepsy (redundant with seizures)  \n- HP:0011413 — Abnormality of the uterus  \n\nKey pattern: Intellectual disability, seizures, joint contractures, cataracts, uterine fibroids, hirsutism, flat feet, speech delay.  \n\nThis strongly suggests **Coffin–Siris syndrome** or a related chromatin-"
+  },
+  {
+    "task_instance_id": 350,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000130812\", \"ENSG00000187498\", \"ENSG00000158517\", \"ENSG00000100348\", \"ENSG00000164309\"]}",
+    "ground_truth": "ENSG00000130812",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes step by step.  \n\nFirst, I'll map the provided HPO terms to their descriptions:  \n\n- HP:0007029 → Progressive muscle weakness  \n- HP:0001123 → Ptosis  \n- HP:0001250 → Seizures  \n- HP:0001269 → Psychosis  \n- HP:0002363 → Bradykinesia  \n- HP:0002647 → Parkinsonism  \n- HP:0032263 → REM sleep behavior disorder  \n- HP:0002170 → Intracranial hemorrhage  \n- HP:0001640 → Cardiomyopathy  \n- HP:0003201 → Muscle fiber necrosis  \n- HP:0002616 → Myoglobinuria  \n- HP:0012246 → Respiratory insufficiency due to muscle weakness  \n- HP:0011611 → Elevated serum creatine kinase  \n\nThis phenotype combination suggests a **mitochondrial disorder** or **metabolic myopathy** with features of progressive muscle weakness, cardiomyopathy, myoglobinuria, elevated CK, and"
+  },
+  {
+    "task_instance_id": 269,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000164946\", \"ENSG00000143224\", \"ENSG00000053747\", \"ENSG00000149591\", \"ENSG00000165704\"]}",
+    "ground_truth": "ENSG00000196924",
+    "raw_preview": "Let's map the HPO terms to clinical features:  \n\n- HP:0001643 → Patent ductus arteriosus  \n- HP:0002024 → Malabsorption  \n- HP:0002719 → Recurrent infections  \n- HP:0000776 → Pectus excavatum  \n- HP:0006288 → Hypocalcemia  \n- HP:0001717 → Left ventricular hypertrophy  \n- HP:0000742 → Delayed social development  \n- HP:0000989 → Skin rash  \n- HP:0002354 → EEG abnormality  \n- HP:0000752 → Hyperactivity  \n- HP:0002487 → Bruising susceptibility  \n- HP:0012578 → Thrombocytopenia  \n\nThis combination suggests a multisystem disorder with cardiac, skeletal, immune, hematologic, and neurodevelopmental involvement.  \n\nKey clues:  \n- **Patent ductus arteriosus** + **hypocalcemia** + **recurrent infections** + **thrombocytopenia** → points toward **22q11.2 deletion syndrome (DiGeorge/velocardiofacial sy"
+  },
+  {
+    "task_instance_id": 201,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000185379\", \"ENSG00000101200\", \"ENSG00000169397\", \"ENSG00000198799\", \"ENSG00000153956\"]}",
+    "ground_truth": "ENSG00000185624",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features and then consider the candidate genes.\n\n**Key HPO terms and their clinical meanings:**\n- HP:0000262: Dolichocephaly\n- HP:0000494: Downslanted palpebral fissures\n- HP:0000520: Proptosis\n- HP:0000592: Abnormal auditory evoked potentials\n- HP:0000684: Cleft palate\n- HP:0000944: Overfolded helix\n- HP:0001334: Tremor\n- HP:0001511: Intrauterine growth retardation\n- HP:0002650: Scoliosis\n- HP:0002652: Spondylolisthesis\n- HP:0002757: Osteolytic defects of the phalanges of the hand\n- HP:0003312: Abnormal form of the vertebral bodies\n- HP:0004322: Short stature\n- HP:0006367: Short toe\n- HP:0011800: Midface retrusion\n- HP:0009118: Aplasia/Hypoplasia of the middle phalanges of the hand\n- HP:0005692: Joint hyperflexibility\n- HP:0001263: Global"
+  },
+  {
+    "task_instance_id": 161,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000136546\", \"ENSG00000120008\", \"ENSG00000139687\", \"ENSG00000198513\", \"ENSG00000146021\"]}",
+    "ground_truth": "ENSG00000133703",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features:  \n\n- HP:0000269 - **Prominent occiput**  \n- HP:0000324 - **Facial asymmetry**  \n- HP:0000568 - **Microphthalmia**  \n- HP:0000612 - **Iris coloboma**  \n- HP:0001252 - **Muscular hypotonia**  \n- HP:0001305 - **Dandy-Walker malformation**  \n- HP:0001347 - **Hyperreflexia**  \n- HP:0002007 - **Frontal bossing**  \n- HP:0002816 - **Abnormality of the foot**  \n- HP:0007360 - **Aplasia/Hypoplasia of the cerebrum**  \n- HP:0007370 - **Aplasia/Hypoplasia of the cerebellum**  \n- HP:0009720 - **Abnormality of the corticospinal tract**  \n- HP:0031826 - **Abnormal autonomic nervous system physiology**  \n- HP:0002648 - **Abnormality of the fontanelles**  \n- HP:0011362 - **Abnormal hair pattern**  \n- HP:0002118 - **Abnormality of the cerebral vent"
+  },
+  {
+    "task_instance_id": 43,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000162676\", \"ENSG00000198886\", \"ENSG00000165195\", \"ENSG00000102030\", \"ENSG00000012048\"]}",
+    "ground_truth": "ENSG00000197746",
+    "raw_preview": "Let's map the HPO terms to clinical features:  \n\n- HP:0000496 → Strabismus  \n- HP:0001252 → Muscular hypotonia  \n- HP:0001332 → Dystonia  \n- HP:0001336 → Myoclonus  \n- HP:0001522 → Death in infancy (severe phenotype)  \n- HP:0001744 → Splenomegaly  \n- HP:0002069 → Generalized tonic-clonic seizures  \n- HP:0002240 → Hepatomegaly  \n- HP:0005268 → Cholestasis  \n- HP:0012235 → Elevated hepatic transaminases  \n- HP:0002211 → Elevated alkaline phosphatase  \n- HP:0003470 → Paraparesis  \n- HP:0001369 → Craniosynostosis  \n- HP:0000486 → Strabismus (duplicate)  \n- HP:0011001 → Increased hepatic glycogen content  \n\nThis pattern suggests a severe metabolic disorder with hepatosplenomegaly, seizures, hypotonia, dystonia, myoclonus, and early death.  \nKey clues: hepatosplenomegaly, cholestasis, elevated l"
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000163873\", \"ENSG00000167114\", \"ENSG00000171105\", \"ENSG00000106692\", \"ENSG00000170927\"]}",
+    "ground_truth": "ENSG00000170540",
+    "raw_preview": "Let's map the HPO terms to clinical features:  \n\n- HP:0002355: EEG abnormality  \n- HP:0005109: Abnormal aortic morphology  \n- HP:0007178: Autosomal dominant inheritance  \n- HP:0010867: Abnormal aortic valve morphology  \n- HP:0001336: Myoclonus  \n- HP:0003326: Myalgia  \n- HP:0001251: Ataxia  \n- HP:0000708: Behavioral abnormality  \n- HP:0012443: Brain atrophy  \n- HP:0001257: Spasticity  \n- HP:0010286: Progressive gait ataxia  \n- HP:0001279: Psychosis  \n- HP:0025421: Cerebellar atrophy  \n- HP:0001746: Aortic regurgitation  \n- HP:0010953: Cognitive impairment  \n- HP:0011852: Abnormal repetitive mannerisms  \n- HP:0031923: Abnormality of the aortic arch  \n\nThis phenotype combination suggests **ataxia, myoclonus, progressive gait ataxia, cognitive/psychiatric features, brain/cerebellar atrophy, p"
+  },
+  {
+    "task_instance_id": 401,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000168769\", \"ENSG00000164692\", \"ENSG00000101405\", \"ENSG00000108395\", \"ENSG00000106477\"]}",
+    "ground_truth": "ENSG00000168769",
+    "raw_preview": "Let's map the HPO terms to clinical features and then match to known gene-disease associations.\n\nKey phenotypes from the list (HP: terms decoded):\n\n- HP:0010972 → Abnormality of neutrophil physiology  \n- HP:0001945 → Fever  \n- HP:0001962 → Palpitations  \n- HP:0002875 → Dysphagia  \n- HP:0001873 → Thrombocytopenia  \n- HP:0005528 → Osteopenia  \n- HP:0010876 → Granulocytopenia  \n- HP:0003474 → Peripheral neuropathy  \n- HP:0002366 → Sleep disturbance  \n- HP:0002653 → Scoliosis  \n- HP:0010741 → Chronic neutropenia  \n- HP:0100603 → Neurogenic bladder  \n- HP:0001640 → Cardiomyopathy  \n- HP:0001511 → Intrauterine growth retardation  \n- HP:0031273 → Leukopenia  \n- HP:0001892 → Abnormal bleeding  \n- HP:0001276 → Hypertonia  \n- HP:0000969 → Edema  \n- HP:0012531 → Pain  \n- HP:0012378 → Fatigue  \n- HP:0"
+  },
+  {
+    "task_instance_id": 190,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000163017\", \"ENSG00000136104\", \"ENSG00000183242\", \"ENSG00000171094\", \"ENSG00000134259\"]}",
+    "ground_truth": "ENSG00000171094",
+    "raw_preview": "Let's break this down step by step.  \n\nFirst, I'll map the provided HPO terms to their phenotypic descriptions:  \n\n- **HP:0004375** → Abnormality of the gastrointestinal tract  \n- **HP:0001250** → Seizure  \n- **HP:0000752** → Hyperactivity  \n- **HP:0002487** → Hyperreflexia  \n- **HP:0001717** → Abnormal myocardium morphology  \n- **HP:0100880** → Cardiomyopathy  \n- **HP:0001944** → Acidosis  \n- **HP:0005231** → Renal tubular dysfunction  \n\nThese phenotypes together suggest a **mitochondrial disorder** or **metabolic disorder** with multi-system involvement: neurological (seizures, hyperactivity, hyperreflexia), cardiac (cardiomyopathy, abnormal myocardium), gastrointestinal, renal tubular dysfunction, and metabolic acidosis.  \n\nThis pattern is highly consistent with **mitochondrial complex "
+  },
+  {
+    "task_instance_id": 309,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000111262\", \"ENSG00000163497\", \"ENSG00000187240\", \"ENSG00000174640\", \"ENSG00000115234\"]}",
+    "ground_truth": "ENSG00000111262",
+    "raw_preview": "Let's map the HPO terms to clinical features:\n\n- HP:0002172 → Intracranial hemorrhage  \n- HP:0002370 → Seizure  \n- HP:0002411 → Meningitis  \n- HP:0000622 → Epicanthus  \n- HP:0000975 → Hyperhidrosis  \n- HP:0001260 → Dysarthria  \n- HP:0003394 → Scoliosis  \n- HP:0003552 → Prolonged QT interval  \n- HP:0001751 → Polyhydramnios  \n- HP:0025502 → Hypoglycemia  \n- HP:0002315 → Headache  \n- HP:0002650 → Skeletal dysplasia  \n- HP:0002098 → Respiratory distress  \n- HP:0001717 → Left ventricular hypertrophy  \n- HP:0031218 → Subdural hemorrhage  \n- HP:0100764 → Nephrotic syndrome  \n\nThis combination suggests a multisystem disorder with neurological, skeletal, cardiac, renal, and metabolic features.  \nKey clues: intracranial/subdural hemorrhage, seizures, skeletal dysplasia, prolonged QT, hypoglycemia, n"
+  },
+  {
+    "task_instance_id": 259,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000134250\", \"ENSG00000138759\", \"ENSG00000126778\", \"ENSG00000138696\", \"ENSG00000108813\"]}",
+    "ground_truth": "ENSG00000081087",
+    "raw_preview": "Let's map the HPO terms to clinical features:  \n\n- **HP:0004330** – Abnormality of the dentition  \n- **HP:0006824** – Craniosynostosis  \n- **HP:0009830** – Peripheral neuropathy  \n- **HP:0025517** – Osteolysis  \n- **HP:0007367** – Aplasia/Hypoplasia of the radius  \n- **HP:0000405** – Conductive hearing impairment  \n- **HP:0002120** – Generalized myoclonic seizures  \n- **HP:0001273** – Abnormal corpus callosum morphology  \n- **HP:0100256** – Preaxial polydactyly  \n- **HP:0025116** – Osteopenia  \n- **HP:0009102** – Hypoplasia of the maxilla  \n\nThis combination suggests a skeletal dysplasia with craniosynostosis, limb anomalies, peripheral neuropathy, seizures, and osteolysis.  \n\nThe phenotype strongly matches **Hajdu–Cheney syndrome** (acro-osteolysis, craniofacial abnormalities, osteoporosi"
+  },
+  {
+    "task_instance_id": 105,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000177239\", \"ENSG00000166347\", \"ENSG00000152217\", \"ENSG00000140564\", \"ENSG00000100300\"]}",
+    "ground_truth": "ENSG00000165280",
+    "raw_preview": "Let's break this down systematically.  \n\nFirst, I'll map the HPO terms to recognizable phenotypic features:  \n\n- HP:0002166 → **Neurological speech impairment**  \n- HP:0002460 → **Dystonia**  \n- HP:0002141 → **Ischemic stroke**  \n- HP:0009830 → **Peripheral neuropathy**  \n- HP:0001260 → **Dysarthria**  \n- HP:0001324 → **Muscle weakness**  \n- HP:0000708 → **Behavioral abnormality**  \n- HP:0002355 → **Difficulty walking**  \n- HP:0002354 → **Sleep disturbance**  \n- HP:0031284 → **Feeding difficulties in infancy**  \n- HP:0012531 → **Pain**  \n- HP:0031005 → **Abnormal liver morphology**  \n- HP:0100256 → **Postural instability**  \n- HP:0100724 → **Hyperkinetic movements**  \n- HP:0003418 → **Bradykinesia**  \n- HP:0010297 → **Abnormality of the tongue**  \n- HP:0100806 → **Thin upper lip vermilion*"
+  },
+  {
+    "task_instance_id": 53,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000172062\", \"ENSG00000165688\", \"ENSG00000106070\", \"ENSG00000152700\", \"ENSG00000185344\"]}",
+    "ground_truth": "ENSG00000152700",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\n**Step 1: Phenotype mapping**  \nThe given HPO terms are:\n\n- HP:0002014 – Diarrhea  \n- HP:0003146 – Constipation  \n- HP:0000488 – Strabismus  \n- HP:0002570 – Megacolon  \n- HP:0002630 – Intestinal pseudo-obstruction  \n- HP:0001508 – Failure to thrive  \n- HP:0001510 – Growth delay  \n- HP:0002013 – Vomiting  \n- HP:0003270 – Abdominal distention  \n- HP:0006565 – Gastrointestinal dysmotility  \n- HP:0000505 – Visual impairment  \n- HP:0000559 – Retinal degeneration  \n- HP:0000518 – Cataract  \n- HP:0002097 – Respiratory distress  \n- HP:0001818 – Thin skin  \n\nThese suggest a **neurocristopathy or enteric neuropathy** with **ocular involvement** — possibly **MNGIE-like syndrome** (mitochondrial neurogastrointestinal encephalopathy) or "
+  },
+  {
+    "task_instance_id": 389,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000165409\", \"ENSG00000196411\", \"ENSG00000169876\", \"ENSG00000107562\", \"ENSG00000123384\"]}",
+    "ground_truth": "ENSG00000143669",
+    "raw_preview": "Let's break this down systematically.\n\nFirst, I'll map the HPO terms to recognizable phenotypic features:\n\n- HP:0000225 = Gingival fibromatosis  \n- HP:0000504 = Coloboma  \n- HP:0000969 = Thin skin  \n- HP:0000978 = Bruising susceptibility  \n- HP:0001263 = Global developmental delay  \n- HP:0001272 = Cerebellar atrophy  \n- HP:0001873 = Thrombocytopenia  \n- HP:0001903 = Anemia  \n- HP:0001945 = Fever  \n- HP:0002205 = Pulmonary fibrosis  \n- HP:0002240 = Hepatomegaly  \n- HP:0002665 = Lymphoma  \n- HP:0002716 = Lymphadenopathy  \n- HP:0002721 = Immunodeficiency  \n- HP:0003401 = Camptodactyly  \n- HP:0007440 = Generalized hyperpigmentation  \n- HP:0009830 = Peripheral neuropathy  \n- HP:0011364 = Thickened skin of palms  \n- HP:0100838 = Neoplasm of the lung  \n- HP:0200042 = Skin ulcer  \n- HP:0025408 = A"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000115760\", \"ENSG00000168000\", \"ENSG00000136732\", \"ENSG00000166603\", \"ENSG00000162426\"]}",
+    "ground_truth": "ENSG00000173801",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\n**Step 1: Phenotype mapping**  \nThe given HPO terms are:\n\n- HP:0000982 – Palmoplantar keratoderma  \n- HP:0004751 – Ventricular septal defect  \n- HP:0010719 – Abnormal atrioventricular conduction  \n- HP:0000113 – Polycystic kidney dysplasia  \n- HP:0001324 – Muscle weakness  \n- HP:0001640 – Cardiomegaly  \n- HP:0003202 – Skeletal muscle atrophy  \n- HP:0000708 – Behavioral abnormality  \n- HP:0011675 – Arrhythmia  \n- HP:0001948 – Metabolic acidosis  \n- HP:0000956 – Café-au-lait spot  \n- HP:0001645 – Sudden cardiac death  \n- HP:0200114 – Skin erosion  \n- HP:0005881 – Flexion contracture  \n- HP:0025230 – Dilated cardiomyopathy  \n- HP:0003010 – Abnormality of the musculature  \n- HP:0000540 – Retinal detachment  \n\nThis combination su"
+  },
+  {
+    "task_instance_id": 441,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000006756\", \"ENSG00000147224\", \"ENSG00000102030\", \"ENSG00000112367\", \"ENSG00000156345\"]}",
+    "ground_truth": "ENSG00000102030",
+    "raw_preview": "Let's map the HPO terms to clinical features:  \n\n- HP:0000270 = Receding chin  \n- HP:0001263 = Global developmental delay  \n- HP:0002059 = Cerebral atrophy  \n- HP:0002650 = Scoliosis  \n- HP:0000369 = Low-set ears  \n- HP:0000494 = Downslanted palpebral fissures  \n- HP:0000520 = Proptosis  \n- HP:0004415 = Disproportionate tall stature  \n- HP:0000534 = Hyperactivity  \n- HP:0001629 = Ventricular septal defect  \n- HP:0000400 = Macrotia  \n- HP:0000341 = Narrow maxilla  \n- HP:0000708 = Behavioral abnormality  \n- HP:0011675 = Arrhythmia  \n- HP:0003762 = Progressive visual loss  \n- HP:0008572 = Accelerated skeletal maturation  \n- HP:0002858 = Meningioma  \n- HP:0000791 = Hematuria  \n\nThis combination suggests a multisystem disorder with tall stature, accelerated skeletal maturation, developmental de"
+  },
+  {
+    "task_instance_id": 482,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000147180\", \"ENSG00000101557\", \"ENSG00000075415\", \"ENSG00000125779\", \"ENSG00000169359\"]}",
+    "ground_truth": "ENSG00000125779",
+    "raw_preview": "Let's analyze the patient's phenotypes by mapping the HPO terms to their descriptions:\n\n- HP:0000737: Irritability  \n- HP:0001300: Parkinsonism  \n- HP:0002063: Bradykinesia  \n- HP:0002493: Upper motor neuron signs  \n- HP:0100710: Self-mutilation  \n- HP:0001276: Hyperactivity  \n- HP:0000745: Agitation  \n- HP:0000648: Optic atrophy  \n- HP:0001288: Gait disturbance  \n- HP:0002167: Neurological speech impairment  \n- HP:0007256: Hyperreflexia  \n- HP:0001347: Hyperreflexia in upper limbs  \n- HP:0012898: Lower limb hyperreflexia  \n- HP:0000528: Anosmia  \n\nThis combination suggests a neurodegenerative disorder with features of parkinsonism, optic atrophy, hyperreflexia, upper motor neuron signs, and behavioral issues (irritability, agitation, self-mutilation, hyperactivity).  \n\nThe phenotype patte"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000171302\", \"ENSG00000157869\", \"ENSG00000102383\", \"ENSG00000010810\", \"ENSG00000167286\"]}",
+    "ground_truth": "ENSG00000171302",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features:  \n\n- HP:0000470 → Short neck  \n- HP:0000501 → Glaucoma  \n- HP:0001249 → Intellectual disability  \n- HP:0001591 → Neonatal hypotonia  \n- HP:0001629 → Ventricular septal defect  \n- HP:0003366 → Abnormality of the sternum  \n- HP:0005280 → Depressed nasal bridge  \n- HP:0005616 → Advanced bone age  \n- HP:0005692 → Hypertelorism  \n- HP:0010318 → Precocious puberty  \n- HP:0200055 → Small hand  \n- HP:0005288 → Depressed nasal ridge  \n- HP:0030311 → Bilateral cryptorchidism  \n- HP:0030310 → Unilateral cryptorchidism  \n- HP:0012531 → Pain  \n- HP:0006919 → Behavioral abnormality  \n- HP:0000718 → Aggressive behavior  \n- HP:0001251 → Ataxia  \n- HP:0011002 → Systemic arterial hypertension  \n- HP:0001539 → Omphalocele  \n- HP:0030878 → Abnormali"
+  },
+  {
+    "task_instance_id": 419,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000110756\", \"ENSG00000163961\", \"ENSG00000132842\", \"ENSG00000054983\", \"ENSG00000129757\"]}",
+    "ground_truth": "ENSG00000054983",
+    "raw_preview": "Let's start by mapping the provided HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- HP:0000505 → Visual impairment  \n- HP:0000708 → Behavioral abnormality  \n- HP:0000763 → Pectus excavatum  \n- HP:0001824 → Weight loss  \n- HP:0002205 → Respiratory distress  \n- HP:0002676 → Squamous cell carcinoma  \n- HP:0009830 → Peripheral neuropathy  \n- HP:0010318 → Right ventricular hypertrophy  \n- HP:0011968 → Feeding difficulties in infancy  \n- HP:0000365 → Hearing impairment  \n- HP:0011389 → Functional respiratory abnormality  \n- HP:0011443 → Abnormality of coordination  \n- HP:0005231 → Interstitial pulmonary abnormality  \n- HP:0002863 → Recurrent respiratory infections  \n- HP:0003304 → Kyphoscoliosis  \n- HP:0004398 → Premature graying of hair  \n\nThis combinati"
+  },
+  {
+    "task_instance_id": 80,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000188910\", \"ENSG00000128917\", \"ENSG00000243725\", \"ENSG00000107404\", \"ENSG00000105983\"]}",
+    "ground_truth": "ENSG00000105983",
+    "raw_preview": "Let's map the HPO terms to clinical features and then match to known syndromes.  \n\n**Key phenotypes from the list:**  \n- HP:0000316 (Hypertelorism)  \n- HP:0000366 (Abnormality of the auditory canal)  \n- HP:0000448 (Prominent nose)  \n- HP:0000457 (Broad nasal tip)  \n- HP:0001163 (Syndactyly)  \n- HP:0001177 (Triphalangeal thumb)  \n- HP:0001199 (Triphalangeal thumb, preaxial polydactyly)  \n- HP:0001376 (Limited elbow extension)  \n- HP:0001770 (Short foot)  \n- HP:0001841 (Pes planus)  \n- HP:0002000 (Frontal bossing)  \n- HP:0003019 (Abnormality of the wrist)  \n- HP:0006101 (Finger syndactyly)  \n- HP:0007370 (Aplasia/Hypoplasia of the thumb)  \n- HP:0009556 (Broad hallux)  \n- HP:0010689 (Broad thumb)  \n- HP:0100266 (Preaxial polydactyly)  \n- HP:0001249 (Intellectual disability)  \n- HP:0012068 (Se"
+  },
+  {
+    "task_instance_id": 205,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000124813\", \"ENSG00000178209\", \"ENSG00000116679\", \"ENSG00000072778\", \"ENSG00000253368\"]}",
+    "ground_truth": "ENSG00000139219",
+    "raw_preview": "Let's start by mapping the provided HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- HP:0000545 → Myopia  \n- HP:0000926 → Platyspondyly  \n- HP:0001373 → Limited elbow movement  \n- HP:0002751 → Osteoarthritis  \n- HP:0002857 → Genu valgum (knock knees)  \n- HP:0002983 → Coxa vara  \n- HP:0003019 → Metaphyseal widening  \n- HP:0003026 → Tibial bowing  \n- HP:0004322 → Short stature  \n- HP:0100255 → Epiphyseal dysplasia  \n- HP:0004324 → Increased bone mineral density  \n- HP:0000951 → Café-au-lait spots  \n- HP:0002654 → Scoliosis  \n- HP:0000575 → Abnormality of the sclera (blue sclerae possible)  \n- HP:0000694 → Downturned corners of mouth  \n- HP:0011713 → Epicanthus  \n- HP:0030953 → Narrow forehead  \n- HP:0030207 → Short chin  \n- HP:0011413 → Broad nasal tip"
+  },
+  {
+    "task_instance_id": 34,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000103449\", \"ENSG00000247626\", \"ENSG00000130702\", \"ENSG00000204386\", \"ENSG00000171714\"]}",
+    "ground_truth": "ENSG00000171714",
+    "raw_preview": "Let's analyze the phenotypes first by mapping the HPO terms:\n\n- HP:0009053: **Short stature**  \n- HP:0003236: **Elevated circulating creatinine concentration**  \n- HP:0003555: **Prolonged prothrombin time**  \n- HP:0031237: **Elevated circulating alkaline phosphatase activity**  \n- HP:0100297: **Multiple cafe-au-lait spots**  \n- HP:0012084: **Abnormal urinary color**  \n- HP:0001371: **Flexion contracture**  \n- HP:0001635: **Congestive heart failure**  \n- HP:0000588: **Ptosis**  \n- HP:0002582: **Portal hypertension**\n\nThis combination suggests a **multisystem disorder** involving growth failure, liver dysfunction (prolonged PT, elevated ALP, portal hypertension), cardiac involvement, contractures, café-au-lait spots, ptosis, and renal issues (elevated creatinine).  \n\nThe presence of café-au-"
+  },
+  {
+    "task_instance_id": 263,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000171681\", \"ENSG00000105329\", \"ENSG00000022267\", \"ENSG00000117724\", \"ENSG00000021488\"]}",
+    "ground_truth": "ENSG00000148384",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\nFirst, I'll map the HPO terms to their descriptions to understand the clinical picture:\n\n- HP:0000238 (Hydrocephalus)\n- HP:0001252 (Muscular hypotonia)\n- HP:0001696 (Situs inversus totalis)\n- HP:0002104 (Bronchiectasis)\n- HP:0002126 (Polymicrogyria)\n- HP:0002251 (Agenesis of corpus callosum)\n- HP:0002553 (Highly arched eyebrow)\n- HP:0030680 (Abnormality of cardiovascular system morphology)\n- HP:0002793 (Abnormal pattern of respiration)\n- HP:0004422 (Chronic sinusitis)\n- HP:0008872 (Feeding difficulties in infancy)\n- HP:0100729 (Chronic lung disease)\n- HP:0002789 (Recurrent lower respiratory tract infections)\n- HP:0002617 (Biliary atresia)\n- HP:0000508 (Ptosis)\n- HP:0001250 (Seizure)\n- HP:0002650 (Scoliosis)\n- HP:0001161 (Syn"
+  },
+  {
+    "task_instance_id": 427,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000035664\", \"ENSG00000141905\", \"ENSG00000162711\", \"ENSG00000075239\", \"ENSG00000055609\"]}",
+    "ground_truth": "ENSG00000055609",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features and then assess which candidate gene best matches the pattern.\n\n**Key HPO terms and their clinical interpretation:**\n- HP:0000232 (Hydrocephalus)\n- HP:0000272 (Malar flattening)\n- HP:0000316 (Hypertelorism)\n- HP:0001263 (Global developmental delay)\n- HP:0002263 (Abnormal pyramidal signs)\n- HP:0003196 (Short nose)\n- HP:0010864 (Intellectual disability)\n- HP:0000158 (Macrocephaly)\n- HP:0000248 (Brachycephaly)\n- HP:0000303 (Mandibular prognathism)\n- HP:0000337 (Broad forehead)\n- HP:0000365 (Hearing impairment)\n- HP:0000391 (Thickened helices)\n- HP:0000664 (Synophrys)\n- HP:0001513 (Obesity)\n- HP:0001647 (Bicuspid aortic valve)\n- HP:0001680 (Coarctation of aorta)\n- HP:0011675 (Arrhythmia)\n- HP:0000054 (Micropenis)\n- HP:0001376 (Radioul"
+  },
+  {
+    "task_instance_id": 366,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000005893\", \"ENSG00000117593\", \"ENSG00000121552\", \"ENSG00000156466\", \"ENSG00000198668\"]}",
+    "ground_truth": "ENSG00000104381",
+    "raw_preview": "Let's map the provided HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- HP:0000762: **Pectus excavatum**  \n- HP:0001288: **Gait disturbance**  \n- HP:0002460: **Dysdiadochokinesis**  \n- HP:0002936: **Progressive gait ataxia**  \n- HP:0003202: **Skeletal muscle atrophy**  \n- HP:0011675: **Arrhythmia**  \n- HP:0001421: **X-linked inheritance**  \n- HP:0001270: **Motor delay**  \n- HP:0008419: **Calf muscle hypertrophy**  \n- HP:0011715: **Hypertrophic cardiomyopathy**  \n- HP:0005191: **Scapular winging**  \n- HP:0011497: **Distal muscle weakness**  \n- HP:0004828: **Progressive distal muscle weakness**  \n- HP:0000951: **Café-au-lait spots**  \n\nThis phenotype combination suggests a progressive neuromuscular disorder with **hypertrophic cardiomyopathy, arrhythmi"
+  },
+  {
+    "task_instance_id": 91,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000125166\", \"ENSG00000176692\", \"ENSG00000145715\", \"ENSG00000167286\", \"ENSG00000198888\"]}",
+    "ground_truth": "ENSG00000162551",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\nFirst, I'll map the HPO terms to their descriptions:\n\n- HP:0000164: Abnormality of the teeth  \n- HP:0000239: Large fontanelles  \n- HP:0000737: Irritability  \n- HP:0000944: Abnormality of the metaphysis  \n- HP:0001363: Craniosynostosis  \n- HP:0001531: Polyhydramnios  \n- HP:0001903: Anemia  \n- HP:0002097: Respiratory distress  \n- HP:0008872: Feeding difficulties in infancy  \n- HP:0010781: Erythema  \n- HP:0001547: Ascites  \n- HP:0025502: Hypoplastic scapulae  \n- HP:0002487: Hypertonia  \n- HP:0000752: Hyperreflexia  \n- HP:0100518: Increased nuchal translucency  \n- HP:0001998: Fetal akinesia sequence  \n- HP:0000141: Abnormality of the uterus  \n- HP:0000003: Multicystic kidney dysplasia  \n- HP:0009927: Joint stiffness  \n\nThese phe"
+  },
+  {
+    "task_instance_id": 339,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000107404\", \"ENSG00000122507\", \"ENSG00000203867\", \"ENSG00000130707\", \"ENSG00000106344\"]}",
+    "ground_truth": "ENSG00000130707",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes step by step.  \n\nFirst, I'll map the HPO terms to their descriptions:  \n\n- HP:0001987 → **Feeding difficulties in infancy**  \n- HP:0011966 → **Feeding difficulties** (redundant with above)  \n- HP:0001399 → **Hepatic fibrosis**  \n- HP:0002013 → **Vomiting**  \n- HP:0002020 → **Gastroesophageal reflux**  \n- HP:0001047 → **Eczema**  \n- HP:0001901 → **Polycythemia**  \n- HP:0000808 → **Renal cyst**  \n- HP:0000143 → **Renal atrophy**  \n- HP:0031456 → **Biliary cirrhosis**  \n\nThis pattern suggests a disorder involving **liver fibrosis/cirrhosis, renal cysts/atrophy, polycythemia, and feeding difficulties in infancy**.  \n\nThe combination of **hepatic fibrosis, renal cysts, polycythemia, and sometimes eczema** is highly characteristic of **ARPKD (auto"
+  },
+  {
+    "task_instance_id": 473,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000152661\", \"ENSG00000175426\", \"ENSG00000176046\", \"ENSG00000060237\", \"ENSG00000270765\"]}",
+    "ground_truth": "ENSG00000125378",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features:  \n\n- HP:0000518 → Cataract  \n- HP:0000528 → Anophthalmia  \n- HP:0000568 → Microphthalmia  \n- HP:0001250 → Seizures  \n- HP:0000525 → Progressive visual loss  \n- HP:0001159 → Brachydactyly  \n- HP:3000050 → Short middle phalanx of the 5th finger  \n- HP:0000968 → Thin skin  \n- HP:0008070 → Dental crowding  \n- HP:0000028 → Cryptorchidism  \n- HP:0000639 → Nystagmus  \n- HP:0000545 → Retinal detachment  \n- HP:0006101 → Finger syndactyly  \n- HP:0100256 → Preaxial polydactyly  \n- HP:0001640 → Patent ductus arteriosus  \n- HP:0030154 → Short stature  \n- HP:0001818 → Small nail  \n- HP:0200025 → Short 5th finger  \n- HP:0000533 → Optic atrophy  \n\nThis combination suggests a syndrome with **ocular anomalies (microphthalmia, cataract, retinal det"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000081277\", \"ENSG00000179889\", \"ENSG00000148019\", \"ENSG00000153922\", \"ENSG00000135077\"]}",
+    "ground_truth": "ENSG00000125459",
+    "raw_preview": "Let's start by mapping the HPO terms to phenotypic features:\n\n- HP:0000218: High palate  \n- HP:0000276: Long face  \n- HP:0000365: Hearing impairment  \n- HP:0000739: Anxiety  \n- HP:0001265: Hyporeflexia  \n- HP:0001270: Motor delay  \n- HP:0001310: Dementia  \n- HP:0002073: Bradykinesia  \n- HP:0002075: Dystonia  \n- HP:0002650: Scoliosis  \n- HP:0002761: Spasticity  \n- HP:0003326: Myalgia  \n- HP:0003474: Sensory impairment  \n- HP:0003701: Proximal muscle weakness  \n- HP:0030890: Poor coordination  \n- HP:0100874: Abnormality of the plantar skin  \n- HP:0100887: Abnormality of globe size  \n- HP:0031466: Poor appetite  \n- HP:0012758: Neurodevelopmental delay  \n- HP:0012269: Abnormal CNS synaptic transmission  \n- HP:0100753: Slow saccadic eye movements  \n- HP:0000729: Autistic behavior  \n- HP:0100825"
+  },
+  {
+    "task_instance_id": 345,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000108823\", \"ENSG00000184937\", \"ENSG00000184937\", \"ENSG00000130700\", \"ENSG00000048392\"]}",
+    "ground_truth": "ENSG00000012504",
+    "raw_preview": "Let's analyze the patient's phenotypes by mapping the HPO terms:\n\n**HPO Terms and Interpretations:**\n- HP:0001508: Failure to thrive\n- HP:0001744: Splenomegaly\n- HP:0001872: Thrombocytopenia\n- HP:0001928: Acute myelomonocytic leukemia\n- HP:0002240: Hepatomegaly\n- HP:0002901: Hypoplastic anemia\n- HP:0004322: Short stature\n- HP:0100543: Cognitive impairment\n- HP:0004324: Increased body weight\n- HP:0003128: Lactic acidosis\n- HP:0002121: Basal ganglia calcification\n- HP:0007359: Hemiplegia/hemiparesis\n- HP:0001250: Seizures\n- HP:0025502: Hypomagnesemia\n- HP:0008677: Renal tubular acidosis\n- HP:0007115: Nephrocalcinosis\n- HP:0031249: Hyperaldosteronism\n\n**Clinical Picture:**\nThis constellation suggests a multisystem metabolic disorder with features of mitochondrial dysfunction, hematologic abno"
+  },
+  {
+    "task_instance_id": 264,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000170689\", \"ENSG00000173372\", \"ENSG00000156531\", \"ENSG00000102081\", \"ENSG00000107187\"]}",
+    "ground_truth": "ENSG00000102081",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.  \n\nFirst, I'll map the HPO terms to their descriptions:  \n\n- HP:0000276: Long face  \n- HP:0001252: Muscular hypotonia  \n- HP:0001388: Joint laxity  \n- HP:0002167: Neurological speech impairment  \n- HP:0007018: Attention deficit hyperactivity disorder  \n- HP:0011218: Broad forehead  \n- HP:0025270: Abnormal size of the palpebral fissures  \n- HP:0001250: Seizures  \n- HP:0030692: Hypermetropia  \n- HP:0100592: Intermittent exotropia  \n- HP:0000316: Hypertelorism  \n\nThis combination suggests a connective tissue disorder with neurodevelopmental features — long face, joint laxity, hypotonia, seizures, ADHD, speech impairment, and ocular findings (hypermetropia, exotropia, hypertelorism, abnormal palpebral fissures).  \n\nCandidate gene"
+  },
+  {
+    "task_instance_id": 241,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000179583\", \"ENSG00000147416\", \"ENSG00000106105\", \"ENSG00000135341\", \"ENSG00000172936\"]}",
+    "ground_truth": "ENSG00000010404",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\nFirst, I'll map the HPO terms to their descriptions to understand the clinical presentation:\n\n- HP:0000280: Coarse facial features\n- HP:0000403: Sensorineural hearing impairment\n- HP:0000457: Wide nasal bridge\n- HP:0000470: Short neck\n- HP:0000687: Abnormal morphology of the eyebrow\n- HP:0001085: Epicanthus\n- HP:0001744: Splenomegaly\n- HP:0002024: Malabsorption\n- HP:0002230: Generalized hirsutism\n- HP:0003272: Abdominal distention\n- HP:0005280: Depressed nasal bridge\n- HP:0007703: Retinal detachment\n- HP:0008155: Abnormal joint morphology\n- HP:0000178: Abnormality of the lower jaw\n- HP:0012795: Abnormal morphology of the mandibular condyle\n- HP:0002808: Kyphosis\n- HP:0002777: Abnormal form of the vertebral bodies\n- HP:000050"
+  },
+  {
+    "task_instance_id": 13,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000148606\", \"ENSG00000198785\", \"ENSG00000106128\", \"ENSG00000082458\", \"ENSG00000082458\"]}",
+    "ground_truth": "ENSG00000203908",
+    "raw_preview": "Let's map the provided HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- **HP:0001903** → Anemia  \n- **HP:0002017** → Nausea and vomiting  \n- **HP:0100878** → Abnormality of the plantar skin  \n- **HP:0400008** → Progressive sensorineural hearing impairment  \n- **HP:0000752** → Hyperreflexia  \n- **HP:0002487** → Hypertonia  \n- **HP:0000836** → Hyperinsulinemia  \n- **HP:0005268** → Diabetes mellitus  \n- **HP:0011069** → Abnormality of the cerebral white matter  \n- **HP:0001274** → Hyperactivity  \n- **HP:0001942** → Metabolic acidosis  \n- **HP:0002902** → Hyperammonemia  \n\nThis combination suggests a **mitochondrial disorder or a metabolic disorder** with features including anemia, hyperammonemia, metabolic acidosis, diabetes, hyperinsulinemia, CNS white"
+  },
+  {
+    "task_instance_id": 315,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000112079\", \"ENSG00000179148\", \"ENSG00000104774\", \"ENSG00000183010\", \"ENSG00000125744\"]}",
+    "ground_truth": "ENSG00000104774",
+    "raw_preview": "Let's analyze the phenotypes first. I'll map the HPO terms to their descriptions to understand the clinical picture:\n\n- HP:0000158: Macroglossia  \n- HP:0000189: High palate  \n- HP:0000365: Hearing impairment  \n- HP:0000689: Dental crowding  \n- HP:0000708: Behavioral abnormality  \n- HP:0000738: Hallucinations  \n- HP:0001249: Intellectual disability  \n- HP:0001263: Global developmental delay  \n- HP:0001744: Splenomegaly  \n- HP:0002240: Hepatomegaly  \n- HP:0002652: Scoliosis  \n- HP:0002750: Osteolysis  \n- HP:0004493: Hypoplastic iliac wing  \n- HP:0005280: Depressed nasal bridge  \n- HP:0007957: Corneal opacity  \n- HP:0010807: Tachycardia  \n- HP:0011039: Constipation  \n- HP:0011354: Generalized hirsutism  \n- HP:0100240: Fibromuscular dysplasia  \n- HP:0001999: Abnormal facial shape  \n- HP:000051"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000163702\", \"ENSG00000095951\", \"ENSG00000187736\", \"ENSG00000180616\", \"ENSG00000171298\"]}",
+    "ground_truth": "ENSG00000163702",
+    "raw_preview": "Let’s map the HPO terms to clinical features and then match to known genetic disorders.  \n\n**HPO terms and their meanings:**  \n- HP:0000153 – Oral cleft  \n- HP:0000988 – Skin rash  \n- HP:0000989 – Pruritus  \n- HP:0001231 – Nail dystrophy  \n- HP:0001597 – Abnormal hair morphology  \n- HP:0008388 – Palmoplantar keratoderma  \n- HP:0008872 – Skin erosion  \n- HP:0010783 – Erythema  \n- HP:0012735 – Atopic dermatitis  \n- HP:0200042 – Skin fissure  \n- HP:0001250 – Seizures  \n- HP:0004370 – Heat intolerance  \n- HP:0002205 – Pulmonary fibrosis  \n- HP:0410323 – Pneumothorax  \n- HP:0100651 – Pachygyria  \n- HP:0002039 – Gastroesophageal reflux  \n- HP:0000776 – Pectus excavatum  \n\nThis combination suggests a multisystem disorder involving skin (ichthyosis/keratoderma), hair/nail abnormalities, neurologic"
+  },
+  {
+    "task_instance_id": 387,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000141527\", \"ENSG00000117620\", \"ENSG00000168036\", \"ENSG00000112964\", \"ENSG00000158158\"]}",
+    "ground_truth": "ENSG00000213380",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\nFirst, I'll map the HPO terms to their descriptions:\n\n- HP:0001249 - Intellectual disability\n- HP:0002421 - Poor coordination\n- HP:0002465 - Dystonia\n- HP:0012537 - Bradykinesia\n- HP:0002244 - Abnormality of the liver\n- HP:0000565 - Abnormality of the iris\n- HP:0011015 - Abnormality of blood glucose concentration\n- HP:0001943 - Hypoglycemia\n- HP:0001272 - Cerebellar atrophy\n- HP:0001336 - Myoclonus\n- HP:0007420 - Generalized tonic-clonic seizures\n- HP:0002119 - Ventriculomegaly\n- HP:0003040 - Elevated hepatic transaminases\n- HP:0001627 - Abnormal heart morphology\n- HP:0030424 - Hypoplasia of the iris\n- HP:0001788 - Ascites\n\nThis phenotype combination suggests a complex neurodevelopmental and metabolic disorder with liver inv"
+  },
+  {
+    "task_instance_id": 273,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000142192\", \"ENSG00000166326\", \"ENSG00000184432\", \"ENSG00000172575\", \"ENSG00000169836\"]}",
+    "ground_truth": "ENSG00000142192",
+    "raw_preview": "Let's start by mapping the provided HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- **HP:0001288** → Gait disturbance  \n- **HP:0001297** → Stroke-like episode  \n- **HP:0001336** → Myoclonus  \n- **HP:0100659** → Cerebral aneurysm  \n- **HP:0001268** → Mental deterioration  \n- **HP:0002170** → Intracranial hemorrhage  \n- **HP:0000708** → Behavioral abnormality  \n- **HP:0002354** → EEG abnormality  \n- **HP:0002085** → Respiratory insufficiency  \n- **HP:0006897** → Spasticity  \n- **HP:0000400** → Macrotia  \n- **HP:0001944** → Acidosis  \n- **HP:0031909** → Lactic acidosis  \n- **HP:0003307** → Hyperglycinemia  \n- **HP:0025328** → Abnormal circulating enzyme concentration or activity  \n\n---\n\n**Key observations:**  \n- Stroke-like episodes, myoclonus, mental "
+  },
+  {
+    "task_instance_id": 166,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000130649\", \"ENSG00000009830\", \"ENSG00000117601\", \"ENSG00000114270\", \"ENSG00000111011\"]}",
+    "ground_truth": "ENSG00000204386",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes systematically.\n\nFirst, I'll map the HPO terms to their descriptions to understand the clinical presentation:\n\nKey phenotypes (selected for clarity):\n- HP:0000179 (Thick lower lip vermilion)\n- HP:0000431 (Wide nasal bridge)\n- HP:0000488 (Strabismus)\n- HP:0000639 (Nystagmus)\n- HP:0000943 (Hyperlordosis)\n- HP:0000962 (Hyperkeratosis)\n- HP:0001249 (Intellectual disability)\n- HP:0001250 (Seizures)\n- HP:0001252 (Muscular hypotonia)\n- HP:0001324 (Muscle weakness)\n- HP:0001336 (Myoclonus)\n- HP:0001350 (Aggressive behavior)\n- HP:0002167 (Neurological speech impairment)\n- HP:0002353 (EEG abnormality)\n- HP:0002750 (Delayed skeletal maturation)\n- HP:0003312 (Abnormal pyramidal sign)\n- HP:0003355 (Aminoaciduria)\n- HP:0003461 (Progressive neurologic dete"
+  },
+  {
+    "task_instance_id": 328,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000113924\", \"ENSG00000006042\", \"ENSG00000203782\", \"ENSG00000115524\", \"ENSG00000147155\"]}",
+    "ground_truth": "ENSG00000176884",
+    "raw_preview": "Let's start by mapping the provided HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- **HP:0001250** – Seizure  \n- **HP:0001268** – Mental deterioration  \n- **HP:0002463** – Dystonia  \n- **HP:0007362** – Progressive cerebellar ataxia  \n- **HP:0000369** – Low-set ears  \n- **HP:0011968** – Feeding difficulties in infancy  \n- **HP:0410011** – EEG abnormality  \n- **HP:0001249** – Intellectual disability  \n- **HP:0012758** – Neurodevelopmental delay  \n- **HP:0002493** – Upper motor neuron dysfunction  \n- **HP:0001260** – Dysarthria  \n- **HP:0000407** – Sensorineural hearing impairment  \n- **HP:0000347** – Micrognathia  \n- **HP:0001762** – Talipes equinovarus  \n- **HP:0001270** – Motor delay  \n- **HP:0003487** – Babinski sign  \n- **HP:0003552** – Cerebellar"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000116747\", \"ENSG00000060237\", \"ENSG00000115641\", \"ENSG00000205426\", \"ENSG00000141646\"]}",
+    "ground_truth": "ENSG00000060237",
+    "raw_preview": "Let's start by mapping the provided HPO terms to phenotypic features:\n\n- HP:0000822: Hypertension  \n- HP:0001324: Intellectual disability  \n- HP:0000164: Abnormality of the dentition  \n- HP:0000682: Dental crowding  \n- HP:0001510: Growth delay  \n- HP:0002321: Sleep disturbance  \n- HP:0003487: Babinski sign  \n- HP:0001249: Intellectual disability, severe  \n- HP:0001250: Seizures  \n- HP:0001508: Failure to thrive  \n- HP:0002245: Hepatomegaly  \n- HP:0000019: Urinary hesitancy  \n- HP:0000668: Hypotonia  \n- HP:0002176: Intracranial hemorrhage  \n- HP:0100518: Proteinuria  \n- HP:0001686: Patent ductus arteriosus  \n- HP:0001059: Telangiectasia  \n- HP:0004431: Short nose  \n\nThis combination suggests a multisystem disorder with neurological involvement, growth failure, facial dysmorphism (short nose"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000198561\", \"ENSG00000176692\", \"ENSG00000065618\", \"ENSG00000134371\", \"ENSG00000180879\"]}",
+    "ground_truth": "ENSG00000068078",
+    "raw_preview": "First, I need to map the HPO terms to phenotypic features to understand the clinical presentation.  \n\nHPO terms provided:  \n\n- HP:0000256 = Macrocephaly  \n- HP:0000774 = Narrow chest  \n- HP:0000926 = Platyspondyly  \n- HP:0000944 = Overconstricted pelvis  \n- HP:0001156 = Brachydactyly  \n- HP:0001171 = Toe syndactyly  \n- HP:0001252 = Muscular hypotonia  \n- HP:0001582 = Cutis laxa  \n- HP:0002007 = Frontal bossing  \n- HP:0002808 = Kyphoscoliosis  \n- HP:0002983 = Elbow flexion contracture  \n- HP:0003185 = Short nose  \n- HP:0006487 = Bowing of the long bones  \n- HP:0006703 = Short long bone  \n- HP:0100781 = Narrow iliac wings  \n- HP:0000239 = Large fontanelles  \n- HP:0002867 = Femoral bowing  \n- HP:0005613 = Advanced ossification of carpal bones  \n- HP:0000969 = Edema  \n- HP:0001387 = Joint stif"
+  },
+  {
+    "task_instance_id": 306,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000131711\", \"ENSG00000171931\", \"ENSG00000115486\", \"ENSG00000129757\", \"ENSG00000129757\"]}",
+    "ground_truth": "ENSG00000165671",
+    "raw_preview": "Let's break this down systematically.\n\nFirst, I'll map the provided HPO terms to their phenotypic descriptions to understand the clinical picture.  \n\n**Key phenotypes (HP: terms decoded):**  \n- HP:0001744 → Splenomegaly  \n- HP:0003006 → Elevated circulating creatinine concentration  \n- HP:0006744 → Elevated circulating alkaline phosphatase activity  \n- HP:0100243 → Elevated circulating creatine kinase activity  \n- HP:0000098 → Renal insufficiency  \n- HP:0000303 → Mandibular prognathia  \n- HP:0001513 → Growth abnormality  \n- HP:0001537 → Umbilical hernia  \n- HP:0001539 → Inguinal hernia  \n- HP:0001943 → Hypoglycemia  \n- HP:0005616 → Premature birth  \n- HP:0009796 → Large for gestational age  \n- HP:0000329 → Broad face  \n- HP:0011217 → Broad forehead  \n- HP:0000973 → Hirsutism  \n- HP:0011039"
+  },
+  {
+    "task_instance_id": 480,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000101384\", \"ENSG00000157045\", \"ENSG00000036828\", \"ENSG00000261150\", \"ENSG00000187955\"]}",
+    "ground_truth": "ENSG00000101384",
+    "raw_preview": "Let's analyze the phenotypes and candidate genes step by step.\n\nFirst, I'll map the HPO terms to their descriptions:\n\n- HP:0000268: Dolichocephaly  \n- HP:0000337: Broad forehead  \n- HP:0001156: Brachydactyly  \n- HP:0001511: Intrauterine growth retardation  \n- HP:0001636: Tetralogy of Fallot  \n- HP:0100538: Renal dysplasia  \n- HP:0001945: Fever  \n- HP:0001717: Pericardial effusion  \n- HP:0000121: Nephritis  \n- HP:0004936: Venous thrombosis  \n- HP:0011920: Short palm  \n- HP:0005942: Short 5th finger  \n- HP:0002039: Gastroesophageal reflux  \n\nThis combination suggests a multisystem disorder with skeletal abnormalities (brachydactyly, short palm, short 5th finger), cardiac defects (tetralogy of Fallot, pericardial effusion), renal issues (renal dysplasia, nephritis), growth issues (IUGR), and "
+  },
+  {
+    "task_instance_id": 319,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000075239\", \"ENSG00000130638\", \"ENSG00000116005\", \"ENSG00000168610\", \"ENSG00000173402\"]}",
+    "ground_truth": "ENSG00000102580",
+    "raw_preview": "Let's map the HPO terms to clinical features:\n\n- HP:0000819 (Diabetes mellitus)  \n- HP:0002066 (Gait ataxia)  \n- HP:0002522 (Athetosis)  \n- HP:0004325 (Decreased body weight)  \n- HP:0006827 (Cerebral atrophy)  \n- HP:0007108 (Frontotemporal cerebral atrophy)  \n- HP:0008619 (Cerebellar atrophy)  \n- HP:0003487 (Babinski sign)  \n- HP:0007369 (Atrophy of the spinal cord)  \n- HP:0001249 (Intellectual disability)  \n- HP:0001256 (Spasticity)  \n- HP:0012230 (Abnormal autonomic nervous system physiology)  \n- HP:0003419 (Spastic paraplegia)  \n- HP:0001373 (Flexion contracture)  \n- HP:0031826 (Functional motor deficit)  \n- HP:0008208 (Abnormal upper motor neuron morphology)  \n- HP:0011704 (Upper limb muscle weakness)  \n- HP:0008572 (Lower limb muscle weakness)  \n- HP:0011706 (Lower limb spasticity)  \n"
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "task_instance_id": 134,
+    "score": 1.0,
+    "extracted": "rs4253311",
+    "ground_truth": "rs4253311",
+    "raw_preview": "Bradykinin is a peptide involved in inflammation, blood pressure regulation, and pain. Genetic associations with bradykinin-related phenotypes (like angiotensin-converting enzyme activity, hereditary angioedema, or blood pressure) have been studied in GWAS.  \n\nAmong the listed variants:  \n\n- **rs425"
+  },
+  {
+    "task_instance_id": 178,
+    "score": 1.0,
+    "extracted": "rs9369898",
+    "ground_truth": "rs9369898",
+    "raw_preview": "To identify the most promising variant associated with homocysteine levels from the given list, I need to consider known genetic associations with homocysteine metabolism.  \n\nHomocysteine levels are strongly influenced by genes involved in folate metabolism, particularly **MTHFR** (methylenetetrahyd"
+  },
+  {
+    "task_instance_id": 197,
+    "score": 0.0,
+    "extracted": "rs2000999",
+    "ground_truth": "rs7542172",
+    "raw_preview": "To identify the most promising variant associated with erythritol from the given list, I need to consider which variant has the strongest known genetic association with erythritol levels or metabolism based on existing GWAS studies.  \n\nErythritol is a sugar alcohol, and its blood levels have been st"
+  },
+  {
+    "task_instance_id": 63,
+    "score": 1.0,
+    "extracted": "rs1801725",
+    "ground_truth": "rs1801725",
+    "raw_preview": "To identify the most promising variant associated with calcium levels from the given list, I need to consider known genetic associations with serum calcium concentration from genome-wide association studies (GWAS).  \n\nCalcium GWAS have consistently identified a strong association near the *CASR* gen"
+  },
+  {
+    "task_instance_id": 54,
+    "score": 0.0,
+    "extracted": "rs2282679",
+    "ground_truth": "rs4343",
+    "raw_preview": "Aspartylphenylalanine is a dipeptide (Asp-Phe) that can be measured in metabolomic studies. A GWAS on aspartylphenylalanine levels was conducted as part of metabolomics studies, and one of the most significant associations reported in the literature is with the **rs2282679** variant. This variant is"
+  },
+  {
+    "task_instance_id": 107,
+    "score": 0.0,
+    "extracted": "rs10882272",
+    "ground_truth": "rs6048216",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"D-Glucose,\" I need to consider which variant has the strongest known genetic association with glucose-related traits (such as fasting glucose, glucose levels, or type 2 diabetes).  \n\nFrom the list:  \n- **rs10882272** is in th"
+  },
+  {
+    "task_instance_id": 50,
+    "score": 1.0,
+    "extracted": "rs603424",
+    "ground_truth": "rs603424",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Myristic acid / Myristoleic acid,\" I need to consider which variant has the strongest known association with these fatty acid levels in published genome-wide association studies (GWAS).  \n\nMyristic acid (14:0) and myristoleic"
+  },
+  {
+    "task_instance_id": 174,
+    "score": 0.0,
+    "extracted": "rs174548",
+    "ground_truth": "rs750472",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"L-Alanine / L-Asparagine,\" I need to consider which variant shows the strongest statistical association with these metabolite levels in published genome-wide association studies (GWAS).  \n\nThe phenotype refers to blood or ser"
+  },
+  {
+    "task_instance_id": 211,
+    "score": 0.0,
+    "extracted": "rs646776",
+    "ground_truth": "rs6687813",
+    "raw_preview": "To identify the most promising variant associated with D-dimer measurement from the given list, I need to consider which variant has the strongest known genetic association with D-dimer levels based on published genome-wide association studies (GWAS).  \n\nD-dimer is a fibrin degradation product and a"
+  },
+  {
+    "task_instance_id": 169,
+    "score": 0.0,
+    "extracted": "rs8101881",
+    "ground_truth": "rs532545",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Uridine,\" I need to consider which variant has the strongest known association with uridine levels or related metabolism in published genome-wide association studies (GWAS).  \n\nUridine is a nucleoside, and its circulating lev"
+  },
+  {
+    "task_instance_id": 58,
+    "score": 0.0,
+    "extracted": "rs17145738",
+    "ground_truth": "rs116843064",
+    "raw_preview": "To identify the most promising variant associated with triglyceride measurement from the given list, I need to consider known genome-wide association study (GWAS) findings for triglyceride levels.  \n\nTriglyceride-associated loci are well studied, and several of these variants are known from large-sc"
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "rs10455872",
+    "ground_truth": "rs3757354",
+    "raw_preview": "To identify the most promising variant associated with low-density lipoprotein cholesterol (LDL-C) measurement from the given list, I need to consider known genome-wide association study (GWAS) findings for LDL cholesterol levels.  \n\nAmong the listed variants:  \n\n- **rs10455872** is a well-known SNP"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "rs12498742",
+    "ground_truth": "rs2160860",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"5-Hydroxy-L-tryptophan,\" I need to consider which variant has the strongest known genetic association with this metabolite.  \n\n5-Hydroxy-L-tryptophan is an intermediate in serotonin synthesis from tryptophan. GWAS studies on "
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "rs558971",
+    "ground_truth": "rs4949874",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype **L-Acetylcarnitine|Hexanoylcarnitine**, I need to prioritize the variant with the strongest reported association from GWAS studies on these metabolites.  \n\nL-Acetylcarnitine (C2) and Hexanoylcarnitine (C6) are acylcarnitines "
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "rs1532085",
+    "ground_truth": "rs3847502",
+    "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genetic associations from GWAS studies. HDL-C is a well-studied lipid trait with many established loci.  \n\nAmong the listed variants:  \n\n- **r"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "rs3780181",
+    "ground_truth": "rs17279437",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Dimethylglycine / L-Alanine,\" I need to consider which variant has the strongest reported association with these metabolites in published genome-wide association studies (GWAS).  \n\nDimethylglycine and L-alanine are involved i"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 1.0,
+    "extracted": "rs12150660",
+    "ground_truth": "rs12150660",
+    "raw_preview": "To identify the most promising variant associated with testosterone levels from the given list, I need to recall known genome-wide association study (GWAS) findings for testosterone.  \n\nTestosterone GWAS have identified several loci, including genes like **SHBG** (sex hormone-binding globulin), **CY"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 0.0,
+    "extracted": "rs2235544",
+    "ground_truth": "rs4687717",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Phosphate / Erythronic acid,\" I need to consider which variant has the strongest reported association with phosphate metabolism or related traits.  \n\nFrom the list:  \n- **rs2235544** is in the *SLC34A1* gene, which encodes a "
+  },
+  {
+    "task_instance_id": 129,
+    "score": 0.0,
+    "extracted": "rs17711722",
+    "ground_truth": "rs4814176",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Hydroxysphingomyelin C24:1,\" I need to consider which variant has the strongest known genetic association with this or closely related lipid traits.  \n\nHydroxysphingomyelins are a subclass of sphingomyelins, and their blood l"
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "rs1153858",
+    "ground_truth": "rs2270968",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"hydroxyisovaleroyl carnitine,\" I need to consider which variant has the strongest known association with this metabolite based on existing literature or GWAS catalog data.  \n\nHydroxyisovaleroyl carnitine (or 3-hydroxyisovaler"
+  },
+  {
+    "task_instance_id": 157,
+    "score": 0.0,
+    "extracted": "rs4983559",
+    "ground_truth": "rs748196",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"2-Arachidonoylglycerophosphocholine,\" I need to consider which variant has the strongest reported association with this specific metabolite in published genome-wide association studies (GWAS).  \n\n2-Arachidonoylglycerophosphoc"
+  },
+  {
+    "task_instance_id": 203,
+    "score": 0.0,
+    "extracted": "rs2108622",
+    "ground_truth": "rs2040771",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Citric acid,\" I need to consider known genetic associations with citric acid levels in human metabolism.  \n\nCitric acid is a key intermediate in the citric acid cycle (Krebs cycle), and its blood or urine levels can be influe"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "rs4983559",
+    "ground_truth": "rs9637599",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype **L-Valine**, I need to consider which variant has the strongest known genetic association with valine levels in human blood or metabolism.  \n\nValine is a branched-chain amino acid (BCAA), and GWAS studies have identified gene"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "rs1061808",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 149,
+    "score": 0.0,
+    "extracted": "rs2287623",
+    "ground_truth": "rs13375749",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Glutarylcarnitine,\" I need to consider which variant is most strongly linked to this metabolite trait based on known genetic associations.  \n\nGlutarylcarnitine is an acylcarnitine involved in mitochondrial fatty acid and amin"
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "rs5030062",
+    "ground_truth": "rs4253772",
+    "raw_preview": "To identify the most promising variant associated with cholesterol from the given list, I need to consider known genetic associations with cholesterol levels (total cholesterol, LDL, HDL, or triglycerides) from genome-wide association studies (GWAS).  \n\nLooking at the variants:  \n\n- **rs5030062** – "
+  },
+  {
+    "task_instance_id": 151,
+    "score": 0.0,
+    "extracted": "rs2769264",
+    "ground_truth": "rs2686796",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Uridine,\" I need to consider which variant has the strongest known genetic association with uridine levels or related metabolism in human genome-wide association studies (GWAS).  \n\nUridine is a nucleoside, and its circulating"
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "rs7883218",
+    "ground_truth": "rs2576452",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Arachidonate|1-Arachidonoylglycerophosphoinositol,\" I need to consider which variant has the strongest known association with lipid-related traits, particularly arachidonate metabolism.  \n\nArachidonate is a polyunsaturated fa"
+  },
+  {
+    "task_instance_id": 99,
+    "score": 1.0,
+    "extracted": "rs5030062",
+    "ground_truth": "rs5030062",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Bradykinin,\" I need to consider known genetic associations related to bradykinin pathways, such as those involved in hereditary angioedema (HAE), ACE inhibitor-induced angioedema, or bradykinin metabolism.  \n\nKey genes in bra"
+  },
+  {
+    "task_instance_id": 116,
+    "score": 0.0,
+    "extracted": "rs1801222",
+    "ground_truth": "rs3738934",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Nonanoylcarnitine,\" I need to consider which variant has the strongest known statistical association with this metabolite in published genome-wide association studies (GWAS).  \n\nNonanoylcarnitine (C9) is an acylcarnitine, and"
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "rs6748734",
+    "ground_truth": "rs3017098",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"L-Asparagine,\" I need to consider which variant has the strongest known association with asparagine levels or related metabolic traits based on existing genome-wide association studies (GWAS).  \n\nL-Asparagine is an amino acid"
+  },
+  {
+    "task_instance_id": 202,
+    "score": 1.0,
+    "extracted": "rs2073547",
+    "ground_truth": "rs2073547",
+    "raw_preview": "To identify the most promising variant associated with low-density lipoprotein cholesterol (LDL-C) measurement from the given list, I need to consider known genetic associations from GWAS studies. LDL-C is a well-studied trait with many established loci.  \n\nAmong the provided variants:  \n\n- **rs2073"
+  },
+  {
+    "task_instance_id": 74,
+    "score": 0.0,
+    "extracted": "rs4788815",
+    "ground_truth": "rs2366858",
+    "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genetic associations from GWAS studies. HDL-C is a well-studied lipid trait, and several loci have been identified.  \n\nAmong the listed varian"
+  },
+  {
+    "task_instance_id": 121,
+    "score": 1.0,
+    "extracted": "rs10455872",
+    "ground_truth": "rs10455872",
+    "raw_preview": "To identify the most promising variant associated with cholesterol from the given list, I need to consider known genome-wide association studies (GWAS) findings for cholesterol traits (total cholesterol, LDL, HDL, triglycerides).  \n\nLooking at the variants:  \n\n- **rs10455872** is a well-known SNP in"
+  },
+  {
+    "task_instance_id": 214,
+    "score": 0.0,
+    "extracted": "rs11591147",
+    "ground_truth": "rs12288023",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"N-Acetyl-L-phenylalanine,\" I need to consider which variant has the strongest known association with this metabolite based on existing genome-wide association studies (GWAS).  \n\nN-Acetyl-L-phenylalanine is an acetylated form "
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "rs1776029",
+    "ground_truth": "rs7529794",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype **LysoPC(16:0)**, I need to consider which variant has the strongest known association with this metabolite in published genome-wide association studies (GWAS).  \n\nLysoPC(16:0) is a lysophosphatidylcholine species often studie"
+  },
+  {
+    "task_instance_id": 188,
+    "score": 0.0,
+    "extracted": "rs1532085",
+    "ground_truth": "rs6073958",
+    "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genetic associations from prior GWAS studies. HDL-C is a well-studied lipid trait with many established loci.\n\nLooking at the variants:\n\n- **r"
+  },
+  {
+    "task_instance_id": 71,
+    "score": 0.0,
+    "extracted": "rs10882272",
+    "ground_truth": "rs7159888",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"N-glycan measurement,\" I need to consider which variant has the strongest known association with N-glycan levels in published genome-wide association studies (GWAS).  \n\nN-glycans are complex sugar structures attached to prote"
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "rs941206",
+    "ground_truth": "rs7954638",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"L-Histidine,\" I need to consider which variant has the strongest known genetic association with histidine levels in human metabolism.  \n\nAmong the listed variants:  \n\n- **rs1801133** is the well-known MTHFR C677T variant, whi"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "rs17711722",
+    "ground_truth": "rs10087900",
+    "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genome-wide association study (GWAS) findings for HDL cholesterol levels.  \n\nFrom established knowledge:  \n- **rs2231142** in the *ABCG2* gene"
+  },
+  {
+    "task_instance_id": 92,
+    "score": 0.0,
+    "extracted": "rs10934753",
+    "ground_truth": "rs7883218",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Thyroxine,\" I need to consider which variant has the strongest reported association with thyroxine levels in published genome-wide association studies (GWAS).  \n\nThyroxine (T4) GWAS have identified several loci, including gen"
+  },
+  {
+    "task_instance_id": 179,
+    "score": 1.0,
+    "extracted": "rs1800562",
+    "ground_truth": "rs1800562",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Iron,\" I need to consider known genetic associations with iron-related traits (e.g., serum iron levels, iron deficiency, iron overload).  \n\nAmong the listed variants:  \n\n- **rs1800562** is a well-known missense variant (C282Y"
+  },
+  {
+    "task_instance_id": 102,
+    "score": 0.0,
+    "extracted": "rs12550729",
+    "ground_truth": "rs4941615",
+    "raw_preview": "Ketoleucine is a metabolite derived from the branched-chain amino acid leucine, and its levels in blood or urine can be influenced by genetic variants, often identified through metabolomics GWAS.  \n\nLooking at the provided list of variants, **rs4680** is a well-known functional polymorphism in the *"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 212,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000161011",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 295,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000168291",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 457,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000137700",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 251,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000179142",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 488,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000039650",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 486,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000075624",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 303,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000158352",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 350,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000130812",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 269,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000196924",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 201,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000185624",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 161,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000133703",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 43,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000197746",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000170540",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 401,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000168769",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 190,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000171094",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 309,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000111262",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 259,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000081087",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 105,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000165280",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000152700",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 389,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000143669",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000173801",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 441,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000102030",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 482,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000125779",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000171302",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 419,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000054983",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 80,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000105983",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 205,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000139219",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 34,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000171714",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 263,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000148384",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 427,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000055609",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 366,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000104381",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 91,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000162551",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 339,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000130707",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 473,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000125378",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000125459",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 345,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000012504",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 264,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"FLNA\"]}",
+    "ground_truth": "ENSG00000102081",
+    "raw_preview": "Let's break this down step by step.  \n\nFirst, I'll map the given HPO terms to their phenotypic descriptions:  \n\n- HP:0000276 → Long face  \n- HP:0001252 → Muscular hypotonia  \n- HP:0001388 → Joint laxity  \n- HP:0002167 → Neurological speech impairment  \n- HP:0007018 → Attention deficit hyperactivity "
+  },
+  {
+    "task_instance_id": 241,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000010404",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 13,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000203908",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 315,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000104774",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000163702",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 387,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000213380",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 273,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000142192\"]}",
+    "ground_truth": "ENSG00000142192",
+    "raw_preview": "Let's break this down.  \n\nFirst, I'll map the given HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- **HP:0001288** → Gait disturbance  \n- **HP:0001297** → Stroke-like episode  \n- **HP:0001336** → Myoclonus  \n- **HP:0100659** → Cerebral aneurysm  \n- **HP:00012"
+  },
+  {
+    "task_instance_id": 166,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000204386",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 328,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000176884",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000060237",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000068078",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 306,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000165671",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 480,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000101384",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 319,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ENSG00000102580",
+    "raw_preview": ""
+  }
+]

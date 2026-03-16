@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 256,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly into a SmaI-linearized pUC19 plasmid, we need to consider the requirements for Gibson assembly and the specific sequence of the hslO gene.  \n\n- **Gibson assembly** requires PCR-amplified inserts with 20–40 bp overlaps at each end that are complementary to the linearized vector ends.  \n- **SmaI** cuts pUC19 at a single site in the multiple cloning site (MCS), producing blunt ends.  \n- The hslO gene sequence must be amplified with primers that add overlaps matching the regions flanking the SmaI site in pUC19.  \n\nLooking at the options:  \n- Option A has primers that appear to contain restriction sites (HindIII, SphI, PstI, etc.) not directly matching Gibson assembly into a SmaI-cut vector without checking overlaps.  \n- Option B primers "
+  },
+  {
+    "task_instance_id": 563,
+    "score": 0.0,
+    "extracted": "E",
+    "ground_truth": "A",
+    "raw_preview": "First, I need to determine the recognition site for MboI. MboI recognizes the sequence 5'-GATC-3' and cuts between the G and A on both strands, leaving blunt ends or staggered ends? Actually, MboI cuts at GATC, producing fragments with 5' overhangs (GATC-specific).  \n\nNow, I must scan the provided DNA sequence for all occurrences of \"GATC\". The sequence is long, so I'll search systematically.  \n\nSequence (provided as a continuous string):  \nAGCATA**TGGA**... Wait, I need to find \"GATC\" exactly.  \n\nLet me search manually in the text:  \n\n- Starting: AGCATATGGAAGACCAATACATGAGGGGGCATACGCTAGAACGCCCCGTATACCCTTACGATCCCTGCCGGCAGAACTGGTGCAGTACAGGACCGAGGAGCTGGACCCCAATCAGTGTACCCGAAGCCTCAAAACAAATAATTCCCAACGGGGCCGCCCTCGTCAATCCAAGGTCTAGTCAGCGTAACTCCTCTATAGTCACACCATGTGAATAAATCTTCGGCGGCTCTTTGTGCGCGACCAAAC"
+  },
+  {
+    "task_instance_id": 533,
+    "score": 1.0,
+    "extracted": "A",
+    "ground_truth": "A",
+    "raw_preview": "First, I need to identify the recognition site for NheI. NheI is a restriction enzyme that recognizes the sequence:  \n5'-GCTAGC-3'  \n3'-CGATCG-5'  \n\nNow, I must search the given DNA sequence for occurrences of \"GCTAGC\".  \n\nThe sequence is:  \nCCTTGGCCGTTACTATAAACGTATAGGAGTCTGCCAATGTATATTGACAGACTCCGGAACTACTTAGCAGCTAGCAAGCTGGCGCTATGAGGACTTTATTCCCTACGCCCGTAAAGCCTAATCATTACGCCACTAAACGATGATCCATGTCTTTGTCTATTCTTGTGCTCCCCCGAGATGATAGTAGACCTCTCTGCGGGAACCACATGGATGGTAACACTGGTGAGATAACCAAGAGGTACATTCACTGATTTATATTAATATCGATACTATAAACGCATACAGACGGTGCGGCTGTAAAACAAAGAGTCCTCAGCTGTAAACTTGATTCAGTATTAGTTTAGTGCCCATGAACCGGTACATATGCTCTGTTACAAGGCTAGGCTGCTATCTTCACCTCCGAATGGATACCGGTGGCTCATCCGATGCACCTTTCATGGCGTTGGAGGTCAATCCGCTGTGCCACACCGCGAACCTTTTGAGGGGACTAGAGGGTAGAAACTCAGCGCCTTAACCAGCTATAAGTTCGGCTTGTGAACCGCCAGTCATAGTAGAGTA"
+  },
+  {
+    "task_instance_id": 430,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "First, I need to identify the restriction sites for HindIII and XbaI.  \n- HindIII recognition sequence: AAGCTT (cuts after the first A)  \n- XbaI recognition sequence: TCTAGA (cuts after the first T)  \n\nThe gene sequence starts with ATGGCTTTTGCCTCATTAATTGAACGCC... and ends with ...CGACGTAAATAA.  \nTo clone into pUC19 using these enzymes, the forward primer should add a HindIII site at the 5' end of the gene, and the reverse primer should add an XbaI site at the 3' end (in reverse complement orientation so that after PCR the product has HindIII and XbaI ends).  \n\nChecking the gene start: The first nucleotides are ATGGCTTTT... so the forward primer should have AAGCTT followed by the start of the gene (ATG and then the next bases).  \nLooking at the options:  \n\n- Option B: Forward primer AAGCTTA"
+  },
+  {
+    "task_instance_id": 100,
+    "score": 1.0,
+    "extracted": "B",
+    "ground_truth": "B",
+    "raw_preview": "To determine the number of open reading frames (ORFs) encoding proteins longer than 26 amino acids, I need to scan the DNA sequence in all six reading frames (three forward, three reverse complement) for start codons (ATG) and stop codons (TAA, TAG, TGA), then check the length between them.  \n\nFirst, the sequence is:  \nTGCGCTAACCCGTATTCGCATGCCGGTTTAGCAGGCCGAGGCTCGAGTAGATAAAAGGCCAACCTAAGCTAAAGGGGTAAAGCGTAGTATTTGCTATGCACCTCTTCCGCCGCTATCGCGTCGCGTGGAAAACTCGGGGCTGTCGGGCTTACCGCGGGTAGTATAATCCAGATAGAGGCTTAATGTGCAGTTATTGTTTGTGTCTATGCAGCTCACGATTACTACCCACATAGGAATAGGGGACCCCTAAGATGATCCAATCGCGGGTGTCCAACAGGTTCTAGAGGTACCTGGGATCTGCTTTTTCCTCAGCGACACCAATCCAGAAAAAAGGGCTGCAATCCGTACCGCCGCACCGGAGGTTACGGTATTGCACATCTCAATCGAGGTAGGCTAACCATCCAGTGCCATCGAGACCCCAATGCTTGTATTGCGGCGTAAGAGCCATGTCTGTCCGACCCAGTCCTGTATACAAGTGA"
+  },
+  {
+    "task_instance_id": 226,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "C",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly into a HindII-linearized pUC19 plasmid, we need to consider that Gibson assembly requires overlapping ends between the insert and the vector.  \n\n- The plasmid pUC19 has a multiple cloning site (MCS) with many restriction sites, including HindII (which cuts at GTYRAC, where Y = C or T, R = A or G). However, HindII is not commonly used for cloning in pUC19; more common is HindIII (AAGCTT). The question says \"linearize the plasmid with HindII\" — but if we check pUC19 sequence, HindII sites exist, but one is not in the MCS in standard maps. This could complicate knowing the exact ends after HindII digestion unless the sequence is given.  \n- Gibson assembly primers are designed so that the 5' end of each primer has ~20–40 bp homology to t"
+  },
+  {
+    "task_instance_id": 448,
+    "score": 1.0,
+    "extracted": "A",
+    "ground_truth": "A",
+    "raw_preview": "To determine which primer pair will generate the given amplicon from the template, I need to check where the amplicon sequence appears in the template and then identify primers that bind at its start and end in the correct orientation.  \n\nThe amplicon sequence is:  \n**ATCAATTGGCGTATTACTCGGTCGGCACAAATCCCACTATCTCACAGCCCCCGCCCGTGTTAGCTGCTTGACAGAACACCTATAGCAGTCAGCAGACCAAGATTTAGCACACACGGATCGCGGTGACTTTTTAATACGAAAGGAACCGTATGGATAGCTAAAATTGGGATAATCGCACCTTCTATCGCGGTAGCAGCTACCGTTACCTATGCAGTCGCGCCGGTCTTACCAGAGAAAATGCAGCGCGACTAAACGGAGCAGTTTTGATCTGTACCCTCTTTAACCCATGAAGAGTCTGTACCAAGGGTCCCATATAGGTACTTAATTCTCCTTCCCTCTATTGCTTCGGCGGTTAGCTCGGTAGCTGGGGGATGTCTTACCCATTCCATAGGAACTGTTCAGTGGAAACGAACTCGAGTTCTAAGGTTGGAACAATTGAGGAGTGACGGGTCTCATGAGCTGCTCGCGCACAGAAATTGATCCTTTATGTCTCATTGCTGTCACCACGCCACCGCATTACGTGCAGGCTTG"
+  },
+  {
+    "task_instance_id": 547,
+    "score": 1.0,
+    "extracted": "A",
+    "ground_truth": "A",
+    "raw_preview": "First, I need to understand the enzymes: BsmI and AoxI.  \n\n- **BsmI** is a Type IIS restriction enzyme that recognizes the sequence GAATGC and cuts 1 nucleotide downstream on the top strand and 5 nucleotides downstream on the bottom strand (asymmetric cut). But for practical purposes in a double digest, we need the exact recognition sequence and cut positions.  \n  Looking up BsmI: Recognition: **GAATGC(1/5)** — meaning it cuts 1 base after the start of the recognition sequence on the top strand and 5 bases after on the bottom strand. This produces sticky ends with 4-base overhangs, but the fragment lengths depend on where it cuts relative to the sequence coordinates.\n\n- **AoxI** is less common. Looking it up: AoxI recognition sequence: **GACNNNNNNGTC** (where N is any base) and it cuts wit"
+  },
+  {
+    "task_instance_id": 571,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "A",
+    "raw_preview": "First, I need to identify the recognition site for the enzyme BstH2I.  \nBstH2I is a type II restriction enzyme, and its recognition sequence is: **5'-RGCGCY-3'** (where R = purine, Y = pyrimidine).  \n\nThat means it cuts at sequences where:  \n- Position 1: A or G  \n- Position 2: G  \n- Position 3: C  \n- Position 4: G  \n- Position 5: C  \n- Position 6: C or T  \n\nSo possible sites:  \nAGCGCT, AGCGCC, GGCGCT, GGCGCC.  \n\nNow I need to scan the given DNA sequence for matches to RGCGCY.  \n\nSequence (provided in question, very long):  \nCATATGTTTGGGTTTTTAGGATAGATCCAATCACAGCGGCCCCTCGTACGGTCGCCGGATCGTGTTTCAACCGGCGTACGAATGCTAAGTGGCCAAAATCAGACGGCGAACGACGATGTCACGACACCTCGCATGTCACAATTATGGGAGCACGCTGTTAATACAGCGCAGTGACCGGGCGCCGATAAGCAAGCACAGCACCGACAACTGGCAATAGCTGGACAGTATTGAGGAAGAAGGCTCGCGAAGAAACTATCATCAAGGGCTAG"
+  },
+  {
+    "task_instance_id": 213,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly, we need to consider that Gibson assembly requires overlapping ends between the PCR product and the linearized vector.  \n\nThe plasmid pUC19 linearized with HindII will have blunt ends (HindII is a blunt cutter, recognizing GTYRAC and cutting between Y and R). However, Gibson assembly typically uses homologous overlaps of 15–40 bp at the ends of the PCR product that match the ends of the linearized vector.  \n\nLooking at the primer sequences:  \n- Option B starts with `GATTACGCCAAGCTTGCATGCCTGCAGGTCATGCTGGAAAATTTGAATCTCTCTCTAT` and ends with `GAGCTCGGTACCCGGGGATCCTCTAGAGTCTCAGTCACGCACCCAGCCTTTGCGGATC`. These contain sequences that resemble common multiple cloning site regions (e.g., HindIII, SphI, PstI, etc.) but don’t obviously match t"
+  },
+  {
+    "task_instance_id": 359,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "First, I need to find which primer pair would amplify a 945 bp fragment from the given DNA template.  \nThe template length is long, but I only need to locate the primer binding sites and calculate the distance between them.\n\nLet’s examine each option:\n\n**Option A:**  \nForward: AAATCATGGTGGAGACCCGATGCTGTT  \nReverse: GGCTATTCGCCTTTGGGCTAGTTATCA  \n\nSearching the template:  \nForward sequence appears starting at position:  \n`AAATCATGGTGGAGACCCGATGCTGTT` – I see “AAATCATGGTGGAGACCCGATGCTGTT” in the template around the middle.  \nActually, scanning:  \n`...AGAAATCATGGTGGAGACCCGATGCTGTTATATAGT...`  \nSo forward starts at “AAATCATGGTGGAGACCCGATGCTGTT” – let’s find exact index.  \nI’ll count from the start:  \nTemplate starts AACAGGCCGCCAAGGGCCCATAGGACCGTTGCCTCCACAAACCGTAGGTAAGGGTTAATGGGCTATGTATCGTCTGCAT"
+  },
+  {
+    "task_instance_id": 171,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "To clone the gpp gene into pUC19 using EcoRI and SphI, the primers must add the correct restriction sites to the gene. EcoRI recognizes GAATTC and cuts after G, leaving a 5' overhang of AATT. SphI recognizes GCATGC and cuts after G, leaving a 5' overhang of CATG.  \n\nThe forward primer should start with the EcoRI site (GAATTC) followed immediately by the start of the gene (usually ATG, which must be positioned so that the cut site is correct). The reverse primer should have the SphI site (GCATGC) in reverse complement orientation at the 5' end, followed by the reverse complement of the end of the gene.  \n\nLooking at the options:  \n- **B**: Forward starts with GAATTCATG (EcoRI site then ATG in-frame), reverse starts with GCATGCTTAT (SphI site then sequence). This matches the expected pattern"
+  },
+  {
+    "task_instance_id": 98,
+    "score": 0.0,
+    "extracted": "D",
+    "ground_truth": "E",
+    "raw_preview": "To determine the number of open reading frames (ORFs) encoding proteins longer than 23 amino acids, we need to scan all six reading frames (three forward, three reverse complement) for start codons (ATG) and stop codons (TAA, TAG, TGA), then check the length between them.  \n\nFirst, the sequence is given in DNA, so we must consider both strands. An ORF is a stretch from a start codon to an in-frame stop codon, without intervening stops, and the protein length is counted as (stop_position – start_position)/3 – 1 (since stop codon doesn’t encode an amino acid). The requirement is >23 amino acids, so the ORF must have at least 24 codons from start to stop, meaning the distance in nucleotides from start to stop must be at least (24 × 3) + 3 = 75 nucleotides (since 24 codons = 72 nucleotides plu"
+  },
+  {
+    "task_instance_id": 292,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "D",
+    "raw_preview": "First, I need to examine the primer sequences to identify restriction enzyme sites that have been added to the ends.  \n\nPrimer 1: **CCCGGGATGGCAGCCAGACCGCGTAAGAATA**  \nThe first 6 bases are **CCCGGG**, which is the recognition site for **SmaI** (blunt ends). It’s also recognized by **XmaI** (sticky ends), but the sequence CCCGGG is exactly SmaI’s site.  \n\nPrimer 2: **GAGCTCTCACAACGCTACTTTGCTCCATCCT**  \nThe first 6 bases are **GAGCTC**, which is the recognition site for **SacI** (sticky ends).  \n\nSo the PCR product will have SmaI at the 5′ end of the forward strand and SacI at the 5′ end of the reverse strand (or vice versa depending on orientation).  \n\nFor cloning into pUC19, I need to check the multiple cloning site (MCS) of pUC19.  \npUC19 MCS (common sequence):  \n…GAGCTC**G**G**T**ACC… a"
+  },
+  {
+    "task_instance_id": 215,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "To determine the correct primer pair, I need to consider the requirements for Gibson assembly. The plasmid pUC19 is being linearized with HindII, which cuts at the sequence GTYRAC (where Y = C or T, R = A or G). In pUC19, HindII cuts within the multiple cloning site (MCS). For Gibson assembly, the PCR product must have ends homologous to the ends of the linearized vector.  \n\nLooking at the primer sequences:  \n- Each forward primer begins with \"GATTACGCCAAGCTTGCATGCCTGCAGGTC\", which includes homology to the pUC19 MCS upstream of the HindII site (specifically, it includes the HindIII site AAGCTT and SphI site GCATGC, then PstI site CTGCAG, and part of the sequence up to the HindII cut).  \n- Each reverse primer begins with \"GAGCTCGGTACCCGGGGATCCTCTAGAGTC\", which includes homology to the pUC19"
+  },
+  {
+    "task_instance_id": 61,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "First, I need to find the longest open reading frame (ORF) in the given DNA sequence. An ORF starts with a start codon (ATG) and ends with a stop codon (TAA, TAG, or TGA), and it should be in a single reading frame without in-frame stop codons. The longest ORF is usually the one with the most codons between a start and a stop.\n\nThe DNA sequence is provided as a string. I'll scan it in all six reading frames (three forward, three reverse complement) to find all ORFs and identify the longest one.\n\nGiven the length, I'll do a systematic check:\n\n1. **Forward frames**:  \n   - Frame 1: starting at position 1  \n   - Frame 2: starting at position 2  \n   - Frame 3: starting at position 3  \n\n2. **Reverse complement frames**:  \n   - Reverse complement of the sequence, then frames 1, 2, 3.\n\nBut since "
+  },
+  {
+    "task_instance_id": 406,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "B",
+    "raw_preview": "First, I need to identify the restriction sites for SalI and SacI.  \n- SalI recognizes GTCGAC and cuts between G and TC.  \n- SacI recognizes GAGCTC and cuts between G and AGCT.  \n\nThe gene sequence starts with ATGACC... and ends with ...AGATAA.  \nTo clone into a plasmid, we need to add the restriction sites to the ends of the gene via PCR primers.  \nThe forward primer should have SalI site (GTCGAC) followed by the start of the gene (ATGACC...).  \nThe reverse primer should have SacI site (GAGCTC) followed by the reverse complement of the end of the gene, because the gene will be inserted in the correct orientation when the reverse primer adds the complement of the 3' end.  \n\nThe gene ends with: ...AGATAA.  \nReverse complement of AGATAA (reading from the end of the gene backward on the templ"
+  },
+  {
+    "task_instance_id": 47,
+    "score": 1.0,
+    "extracted": "A",
+    "ground_truth": "A",
+    "raw_preview": "To find the longest open reading frame (ORF), we need to scan all six reading frames (three forward, three reverse complement) of the given DNA sequence for start (ATG) and stop codons, then identify the longest uninterrupted amino acid sequence between them.  \n\nThe DNA sequence is long, so I’ll summarize the key steps:  \n\n1. **Scan forward frames** for ATG → stop codon.  \n2. **Scan reverse complement frames** similarly.  \n3. **Translate** the longest candidate ORF to its amino acid sequence.  \n\nFrom a quick check of the options, several show the same beginning “MRDDVGFSNVRLLVSDFTGLTIPACAVEPFRHPSYATYSIKRQGTIRDIFAREKNHKMQFESFPRSE” with slight differences at the end (presence/absence of a stop codon symbol `*`, or a single amino acid difference).  \n\nLooking at the DNA sequence, near the begi"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "First, I need to find the longest open reading frame (ORF) in the given DNA sequence. An ORF starts with an ATG (start codon) and ends with a stop codon (TAA, TAG, or TGA) in the same reading frame. The question asks for the amino acid at position 53 in the longest ORF.\n\nI’ll scan the sequence in all six reading frames (three forward, three reverse complement) to identify ORFs and determine the longest one.\n\nThe sequence is very long, so I’ll do this systematically:\n\n1. **Forward frames:**\n   - Frame 1: starting at position 1\n   - Frame 2: starting at position 2\n   - Frame 3: starting at position 3\n\n2. **Reverse complement frames:**\n   - Reverse complement of the sequence, then frames 1, 2, 3.\n\nI’ll write a short script in my mind or reason step-by-step.\n\nGiven the length, I’ll look for st"
+  },
+  {
+    "task_instance_id": 417,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "B",
+    "raw_preview": "First, I need to understand the cloning strategy. The question asks for cloning a given gene sequence into the pUC19 plasmid using restriction-ligation cloning with the enzymes XmaI and EcoRI.  \n\n- **XmaI** recognition site: 5'-C↓CCGGG-3' (cuts after the first C, producing a 5' overhang: CCGG).  \n- **EcoRI** recognition site: 5'-G↓AATTC-3' (produces a 5' overhang: AATT).  \n\nIn restriction-ligation cloning, primers should add the appropriate restriction sites to the ends of the PCR-amplified gene so that, after digestion, the gene can be ligated into the plasmid cut with the same enzymes.  \n\nThe gene sequence given starts with `ATGAGTAAAAGCCGCTTAACGGTG...` and ends with `...CTGGTGTTGTTGCAATAA`? Wait, let's check the end of the provided sequence:  \n\nThe full sequence ends with: `...CTGGATTAA"
+  },
+  {
+    "task_instance_id": 267,
+    "score": 1.0,
+    "extracted": "D",
+    "ground_truth": "D",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly into a SmaI-linearized pUC19 plasmid, we need to consider the requirements for Gibson assembly and the specific features of pUC19 and the ubiI gene.  \n\n- **Gibson assembly** requires that the PCR product have ends homologous to the ends of the linearized vector.  \n- **SmaI** cuts pUC19 at a single site in the multiple cloning site (MCS), producing blunt ends. The sequence around the SmaI site in pUC19 is `CCCGGG` (SmaI cuts `CCC^GGG`).  \n- The linearized vector will therefore have blunt ends with `CCC` on one side and `GGG` on the other.  \n- For Gibson assembly, the primers must add homology to these ends: the forward primer should end with homology to the sequence upstream of the SmaI site in the vector, and the reverse primer shoul"
+  },
+  {
+    "task_instance_id": 327,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "C",
+    "raw_preview": "To determine which primer pair will generate a 401 bp amplicon, I need to check each primer pair option for binding sites on the given template and calculate the length of the resulting PCR product.  \n\nThe template is a single-stranded DNA sequence shown. For PCR, primers must bind in opposite orientations (one forward, one reverse complement) to amplify the region between them.  \n\nLet’s check each option:  \n\n**Option A:**  \nPrimer 1: `GTCCAGTCATTCCCCCGAAGATGA`  \nPrimer 2: `TGGGAGGCAAGTATGATTTCAATTGA`  \n\nSearching the template:  \nPrimer 1 appears at positions 121–144 (1-based indexing from start of given sequence):  \n`...TGCTGTCCAGTCATTCCCCCGAAGATGACCGCA...` matches exactly.  \nPrimer 2 appears at positions 521–544:  \n`...GGGCAATGGGAGGCAAGTATGATTTCAATTGAGTC...` matches exactly except last A"
+  },
+  {
+    "task_instance_id": 200,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly into a HindII-linearized pUC19 plasmid, we need to consider the requirements for Gibson assembly and the specific sequences involved.  \n\n- **Gibson assembly** requires that the PCR-amplified insert have ends with ~20–40 bp homology to the ends of the linearized vector.  \n- **pUC19** has a multiple cloning site (MCS) with various restriction sites, including HindII (which cuts at `GTYRAC`, where Y = C or T, R = A or G). However, HindII is not commonly used for cloning in pUC19; more common is HindIII (`AAGCTT`). The question says “linearize the plasmid with HindII” — but if this is a typo and they meant HindIII (common in pUC19 MCS), then the linearized ends would have `AAGCTT` overhangs.  \n- In Gibson assembly, if the vector is linea"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 1.0,
+    "extracted": "E",
+    "ground_truth": "E",
+    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, we need to look for features that influence translation initiation, particularly the sequence context around the start codon (AUG). In humans, the optimal context for translation initiation is known as the Kozak sequence, which is **ACC AUG G** (with the most important positions being a purine at -3, usually A, and a G at +4, relative to the A of AUG as +1).  \n\nComparing the sequences:  \n- All options are identical except for a short segment after the beginning. Specifically, they differ in the region around the first AUG that appears after the start of the sequence.  \n\nLooking at each:  \n\n**Option A**:  \n...GAC GCCC **UGA UGC** CUG... — The first AUG appears in **UGA UGC**, but UGA is a sto"
+  },
+  {
+    "task_instance_id": 27,
+    "score": 1.0,
+    "extracted": "A",
+    "ground_truth": "A",
+    "raw_preview": "First, I need to find the longest open reading frame (ORF) in the given DNA sequence. An ORF is a sequence that starts with a start codon (ATG) and ends with a stop codon (TAA, TAG, or TGA), without any in-frame stop codons in between, and is in a single reading frame.\n\nThe sequence is very long, so I'll look for all possible start codons and then find the corresponding stop codons in each reading frame to determine the longest ORF.\n\nI'll check all six reading frames (three forward, three reverse complement). Since the question asks for the amino acid at position 44 in the longest ORF, I need to identify that ORF, translate it, and then find the 44th amino acid.\n\nLet me start by scanning the sequence for start codons (ATG) in the forward frames.\n\nGiven the length, I'll do a systematic appr"
+  },
+  {
+    "task_instance_id": 524,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "First, I need to identify the recognition sequences for the enzymes BstSFI and SthSt3II.  \n\n- **BstSFI** recognizes: 5'-TTCGAA-3' (or its complement).  \n- **SthSt3II** recognizes: 5'-CCGCGG-3' (or its complement).  \n\nNext, I’ll scan the given DNA sequence for these sites.  \n\nSequence (given in question):  \nAGCTTGGCACCTCCACGAGGTATACTAGCCTTGCGGATACAAACGTCAGACTTCCGGAATGTACAGACCACAGTAACCGTTTCCCAGATTCACATCGGACAGGACAGGCACACCGACGGTTGAGAGCGCCTGGGAAAACTTGTAGTCAAGCGCTAGGTCTTAGCATGCATAAGAACGCCGGACACTACATCCCAGGCTCCCAATTGATTTAAATGCTGCAGCAACTTCCGTCGGTAATATACTTAGTGCGATGTTTCAAGCTTAATGTAGGGGCCAGATTATGCCACTGGTATTTAATACGGCGAAACCATCGGCCACTTCTCTCCACCTTGTAACGGCCCCATGAATCTAGATAGTAGTAGTCACATTCTTGGCTCTCGTGCATTCTTTTTGTCCTTCCGAGATGGGTGCATAAGAAACATGTTTAGTGCCACCCGGCCGGAGTCCTATTATGCCCGGAGTGAATCCTACCGTCGCCTGAACAGCACCTGT"
+  },
+  {
+    "task_instance_id": 505,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "To find the percent GC content, I need to count the total number of bases and the number of G and C bases in the given DNA sequence.  \n\nThe sequence is:  \nGGGTCATATATCACGACTATGCGAGATGGAGGCTAGCCATCGACGTAGGGCATTCCGCAAGGCGCGAGTCTTGCGAATACATCTGACAAACTAACGTGTCAGTAAGCAACTGCTGGAGGTGACGGCTCGGGAACCAAAATTTTCCACAAGACCCCGACTCACAGGCCGTTTTTCAACGTACTAACCTTACTCTTCTAAAATCTTTGCTACCCGCGCAAATCTTTTACAGTCCTCGACCTGAAACCCGGCGCGGCCACGACTAACCATAAACCGTGCACGGCTGGAATCGAGGTCGCTTAAGAGAGATGAGAATTTCGGGTCACCCTGTTTTTACACGTGGCTGCTCAGGGTTTATCTAGTATACACTGTGGGTGGGGACAGGGAGTACGCTAACCAACAGCACTAAACCTAGAGCTCAAGAAAGGGAGACGTTTATGATGACAGTACGGAGAAAGCACACAGGCGAATGGTGGCTAGGGCTCGTAGAAGTCCCCTGTCTGTGGTCTATGCGGTGTTTTTAAGTGTAGTGAAACAGCTCTGACCGTATGTGCGTGAGCCCCCGTGTAAAGGTGCAAATGGGAGGCACCCGGTGCCTGGTTACACGGGGCCCAAAGCCGAAGGAATTTGCTCTCGCCTGACAGAAAC"
+  },
+  {
+    "task_instance_id": 230,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly into a HindII-linearized pUC19 plasmid, we need to consider that Gibson assembly requires overlapping ends between the insert and the vector. The plasmid is linearized with HindII, which cuts at the sequence AAGCTT (leaving ends that are complementary to HindIII-cut sites, but note that HindII is not a standard restriction enzyme; it’s likely a typo and should be HindIII, as HindII recognizes a different sequence). In cloning contexts, pUC19 has a multiple cloning site with a HindIII site (AAGCTT), so linearization with HindIII would produce ends with A and AGCT overhangs.  \n\nGibson assembly primers should include ~20–25 bp gene-specific sequences plus ~15–40 bp overlaps matching the ends of the linearized vector. The forward primer "
+  },
+  {
+    "task_instance_id": 489,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "First, I'll count the total number of bases and the number of G and C bases in the sequence.  \n\nSequence:  \nCCGCTGCTACCAGGTATTTTCACAATGTGTCTGTCTTGCTCCCGGAGCATTGGGTCCGTCCACGAACCCCTGATTTGCCCCAGCTTGGTTGCGCTATGGTCTGCAGACCGGTGCATAAACAGA  \n\nLet’s count:  \n- Total length: I’ll count each character (all are A, T, C, or G).  \n  I can do this systematically:  \n\nC C G C T G C T A C C A G G T A T T T T C A C A A T G T G T C T G T C T T G C T C C C G G A G C A T T G G G T C C G T C C A C G A A C C C C T G A T T T G C C C C A G C T T G G T T G C G C T A T G G T C T G C A G A C C G G T G C A T A A A C A G A  \n\nCounting manually:  \nI’ll tally A, T, C, G:  \n\nA: positions where A appears:  \n4th from end is A, etc. Better to count all:  \n\nLet’s write tallies:  \n\nA: 1st A at position 9, then 14, 17, 18, 20, 2"
+  },
+  {
+    "task_instance_id": 260,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "D",
+    "raw_preview": "To determine the correct primer pair for Gibson assembly into a SmaI-linearized pUC19 plasmid, we need to consider the requirements for Gibson assembly and the features of pUC19.  \n\n- **Gibson assembly** requires that the PCR product have 20–40 bp overlaps with the ends of the linearized vector.  \n- **SmaI** cuts pUC19 at a single site in the multiple cloning site (MCS), producing blunt ends. The sequence around the SmaI site in pUC19 is `...CCCGGG...` (SmaI recognition site is CCCGGG, cutting between the C and G in the middle, leaving blunt ends `CCC` and `GGG`).  \n- For Gibson assembly into a SmaI-linearized vector, the PCR product should have ends homologous to the regions flanking the SmaI cut site in the plasmid.  \n- The **menA gene** from *E. coli* starts with `ATGACTGAACAACAAATTAGCC"
+  },
+  {
+    "task_instance_id": 378,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "First, I need to locate the primer sequences in the template DNA.  \n\nPrimer 1 (forward): GCGATCCCGCGATGTTAGGCTAC  \nPrimer 2 (reverse complement): The given reverse primer sequence is TGGATTTATGCTATGGGCCTTATTACA — but in PCR, the reverse primer binds to the complementary strand, so I need to find the reverse complement of this primer in the template.  \n\nLet’s check the template for the forward primer sequence exactly as given:  \nGCGATCCCGCGATGTTAGGCTAC  \n\nSearching the template:  \n…GCGATCCCGCGATGTTAGGCTACAACTTGCCTG…  \nYes, I see it starting at position:  \nAround “GCGATCCCGCGATGTTAGGCTACAACTTGCCTG…” — the primer matches exactly “GCGATCCCGCGATGTTAGGCTAC” (the next base is A, but primer ends at C). So forward primer binding site found.  \n\nNow reverse primer: TGGATTTATGCTATGGGCCTTATTACA  \nRever"
+  },
+  {
+    "task_instance_id": 288,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "The primers contain sequences that correspond to restriction enzyme recognition sites. The forward primer includes \"GGTACC\", which is the recognition site for Acc65I (and also KpnI, but Acc65I is listed). The reverse primer includes \"GGATCC\", which is the recognition site for BamHI. These sites are added to the ends of the PCR product to allow directional cloning into a plasmid digested with the same enzymes. pUC19 has a multiple cloning site containing both Acc65I and BamHI sites. Therefore, the PCR product should be digested with Acc65I and BamHI, and the plasmid pUC19 should be digested with the same enzymes for compatible ligation.\n\n[ANSWER]C[/ANSWER]"
+  },
+  {
+    "task_instance_id": 418,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "D",
+    "raw_preview": "Let's break this down.  \n\nWe are cloning the given gene into pUC19 using **XmaI** and **EcoRI**.  \n\n- **XmaI** recognition site: 5'-C↓CCGGG-3' (blunt/overhang? Actually XmaI cuts C↓CCGGG, producing 5' overhang CCGG).  \n- **EcoRI** recognition site: 5'-G↓AATTC-3' (5' overhang AATT).  \n\nWe need to add these sites to the **ends** of the gene sequence in the PCR primers.  \n\nThe gene sequence starts: **ATGAGTGCCAATGAAAACAACCTGATT...**  \nThe gene sequence ends: **...CAGCTTGATAAAATGCTCGCGGTAGTAAGCCAGCTCCGCCACCGATTCACGGATATCATCCATCG** — wait, that’s not matching the given end. Let's check the given end of the sequence in the question:  \n\nGiven end: `...GAGCATTTTATCAAGCTGTAA`  \nYes, so last few bases: `...ATCAAGCTGTAA` means the coding strand ends `TAA` (stop codon), then maybe extra? Actually `TAA"
+  },
+  {
+    "task_instance_id": 391,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "D",
+    "raw_preview": "First, I need to locate the primer sequences within the template DNA.  \n\nPrimer 1 (forward): TCATAAGTGATCGTAAAGCCACC  \nPrimer 2 (reverse): TATCGCAACTGAGTCTCTAGAACC  \n\nThe reverse primer sequence given is written 5'→3', but in the template it will be complementary and in reverse orientation. So I should search for the reverse complement of primer 2 in the template.  \n\nLet’s find primer 1 in the template:  \nPrimer 1: TCATAAGTGATCGTAAAGCCACC  \nSearching the template:  \nTemplate snippet: …ACTATCATAAGTGATCGTAAAGCCACCCTTACAAC…  \nYes, starting at position: let’s count.  \n\nI’ll index the template from 1 for clarity.  \n\nTemplate (first part):  \n1 TTGGCAGGCAAAGCCATGTCCTTTAGGGGAAAACGATAGATGATTCGAGAAGCCGCATTGAATCCAAAATGTACACCTTAGCTCGAGGAAAAAATCCACGATTTTGAGACTATAGTTCTCGCCGGCAGTTGACGAATGGCTATACCACGCAAGT"
+  },
+  {
+    "task_instance_id": 498,
+    "score": 0.0,
+    "extracted": "D",
+    "ground_truth": "C",
+    "raw_preview": "First, I need to determine the percent GC content of the given DNA sequence.  \nThe sequence is long, so I'll count the total number of bases and the number of G and C bases.  \n\nThe sequence is:  \nGACCTAGCTGCATCCGTGATTCTGCACACGCGCTCCTGGAGCCATTTCATTATGTTTCCTGTGGGTCCCGGATACATCATTATACCCAACAATCGCGAGGGTTGAAGTTTCCTGTAATACCACGCGGGCAAGGCATTGGGTCTTAGATTATCAATACCTATGTACAGTTACGGACAATGGTGGTTCTTAGAGAAGTACGACCCCAGGTGCCCGTTAGCTTCAGCGACTCGTTAGATGCCCCATATCACGTGAAAGCGACAAACAGGAAGGATGAAATTGATGATTGGCTACCCTCGGGCCACTTACCTATCTCCAAGCTCTTCTACAACTCGAGATCTCAGTTTTAGCCCCTCTATGGTGGTCATGTCTCGCACGAGTCTCAGTTTGCACGCGGTTTCTAGACAGCGATCGCTGGACGCACTGCGCGTATGCTGGGGCGCCATAGCGGTACTTCGCCTCAGCAGCTGATGGAAGGGTGGCTCCGGCCCTATGGCCAGGGGCAACGCATTCGCATCCCAGTTTTACTCTAAGCCTTTGTCCCTTCGTTAGAAACCGTCGGAAATGGATAAGGCGGGTAAGGCTGTCGCAGCTACCACTGCGTACG"
+  },
+  {
+    "task_instance_id": 138,
+    "score": 1.0,
+    "extracted": "B",
+    "ground_truth": "B",
+    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, we need to look for key features in the open reading frame (ORF), particularly around the start codon.  \n\nIn eukaryotes, translation initiation efficiency is strongly influenced by the **Kozak consensus sequence** around the start codon (AUG). The optimal Kozak sequence is **ACC AUG G**, with the most important positions being a purine (A or G) at −3 (three bases before AUG) and a G at +4 (one base after AUG).  \n\nLooking at the given sequences:  \n\n- **Option B**: `…CCAUGG…` → −3 = C (not optimal), +4 = G (good).  \n- **Option C**: `…UUAUGA…` → start codon is `AUG` but −3 = U, +4 = U (poor).  \n- **Option D**: `…CUGAUG…` → −3 = G (good), +4 = U (poor).  \n- **Option E**: `…CCUAUG…` → −3 = C (not"
+  },
+  {
+    "task_instance_id": 62,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "To find the longest open reading frame (ORF), we need to scan the DNA sequence in all six reading frames (three forward, three reverse complement) for start codons (ATG) and stop codons (TAA, TAG, TGA), then identify the longest uninterrupted sequence between them.  \n\nFirst, I’ll check the given DNA sequence for ORFs. The sequence is long, so I’ll look for the longest ORF by scanning for ATG followed by a stop codon far away.  \n\nLooking at the options, they all start with **MVRCRYVSGKIM…** which translates from an ATG near the middle of the sequence. Let’s locate that ATG in the given DNA:  \n\nThe DNA string contains:  \n`…GATGGTCCGTTGCCGATACGTGTCCGGAAAGATCATGTCGGAAAAGCGCAGGCCGAGACGATGTTACTTCC…`  \n\nWait — actually, scanning manually:  \nI see `ATGGTCCGTTGCCGATACGTGTCCGGAAAGATCATGTCGGAAAAGCGCA"
+  },
+  {
+    "task_instance_id": 471,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "To generate an amplicon containing the given sequence from the template, the primers must flank that exact sequence. The target amplicon sequence begins with \"TACTTCTGCTACCATGCCCCAGACTTCATGGCGGCGAATTCGAG...\" and ends with \"...GAGGGCCAGTTAATGTACGGT\".  \n\nLooking at the template sequence provided, the target amplicon starts at \"TACTTCTGCTACCATG...\" within the template and ends with \"...TAATGTACGGT\" before continuing into \"GTTCTACTTGCGACTGTTACGTCTAAGTTCATTGCTCTGGCGAAGGTACCTTACAATATGGGTCCTCACCCGCATTGACGA\".  \n\nChecking each primer pair:  \n\n- **A**: Forward primer \"GCCCGCCTGATACCAATAAGACC\" is upstream of the target start in the template (before \"TACTTCTGCTACCATG...\"), and reverse primer \"GTTCTACTTGCGACTGTTACGTC\" is downstream of the target end (after \"TAATGTACGGT\"), so this would amplify a longer"
+  },
+  {
+    "task_instance_id": 128,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "E",
+    "raw_preview": "To determine which RNA sequence has an ORF with high translation efficiency in human cells, we need to look for a strong Kozak consensus sequence around the start codon (AUG). The human Kozak sequence is typically **GCCRCCAUGG**, where R is a purine (A or G), and the most important positions are the -3 (A or G) and +4 (G) relative to the A (A of AUG is +1).  \n\nComparing the sequences, they are nearly identical except for a short region around the start codon. Let’s locate the start codon (AUG) in each:  \n\n- **A**: `…UUAUGGGAU…` → AUG at position shown, preceded by U (-3 = U, not ideal), followed by G (+4 = G, good).  \n- **B**: `…UAUGUGAU…` → AUG followed by U (+4 = U, not ideal).  \n- **C**: `…UGAUGGAU…` → AUG preceded by G (-3 = G, good), followed by G (+4 = G, good).  \n- **E**: `…CCAUGGGA"
+  },
+  {
+    "task_instance_id": 583,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "B",
+    "raw_preview": "First, I need to understand the enzymes involved.  \n\n**BcgI** is a restriction enzyme with the recognition site:  \n`CGANNNNNNTGC` (where N is any nucleotide) and it cuts as follows:  \n- One strand cut: between the first C and G: `C↓GANNNNNNTGC`  \n- Complementary strand cut: between the last G and C: `GCANNNNNN↑C`  \nSo it leaves a 2-base 5' overhang.  \n\n**Pme10899I** — I need to check its recognition sequence. This is a less common enzyme. Searching my knowledge:  \nPme10899I is likely an isoschizomer of something, but let's recall:  \nPme10899I recognizes `GCGAG` and cuts between G and C: `G↓CGAG`?  \nActually, I should verify: Some databases list Pme10899I as recognizing `GCGAG` (5' to 3') and cutting after the first G?  \nAlternatively, it might be `GCGAG` with cut between G and C on the top"
+  },
+  {
+    "task_instance_id": 520,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "D",
+    "raw_preview": "First, I need to identify the recognition site for Eco31I. Eco31I is a type IIs restriction enzyme that recognizes a non-palindromic sequence and cuts outside of the recognition site. The recognition sequence for Eco31I is: **GGTCTC(1/5)**, meaning it recognizes GGTCTC and cuts 1 base downstream on the top strand and 5 bases downstream on the bottom strand (or vice versa depending on orientation). However, in practice, for digestion, we need to know the exact cut sites relative to the recognition sequence.  \n\nFrom common databases: Eco31I (BsaI is sometimes confused, but Eco31I is actually the same as BsaI? Actually, Eco31I is a different enzyme with recognition site GGTCTC(N)₁⁄₅ — yes, that’s correct: it cuts 1 nucleotide after the recognition sequence on the top strand and 5 nucleotides "
+  },
+  {
+    "task_instance_id": 64,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "To find the longest open reading frame (ORF) in the given DNA sequence, we need to scan all six reading frames (three forward, three reverse complement) for start (ATG) and stop codons, then translate the longest candidate.  \n\nThe provided options are amino acid sequences, so we can compare them to the translation of the longest ORF we identify.  \n\nFirst, I’ll check the given DNA sequence for ORFs. The sequence is long, so I’ll do this conceptually:  \n- Look for ATG start codons in each reading frame.  \n- Find the next in-frame stop codon (TAA, TAG, TGA).  \n- Translate the segment from start to stop.  \n- Choose the longest one.  \n\nFrom a quick scan, I notice the sequence contains “ATGTACAATGCACGG…” which is an ATG start in the forward strand.  \nTranslating from that ATG in frame gives:  \nM"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "B",
+    "raw_preview": "First, I need to find the longest open reading frame (ORF) in the given DNA sequence. An ORF starts with an ATG (Met) codon and ends with a stop codon (TAA, TAG, or TGA) in the same reading frame. I should examine all six reading frames (three forward, three reverse) to identify the longest ORF.\n\nThe sequence is:  \nATTAGGAAGCCCTTGCTGATTCGTTTGTGTCCGTGCCTCCATTCTCAATACAATTCCGACTGCTGGTAAGTAGCCACAGCTCTGCTTTGATGAGAGAATGAATGGTGCTGGGAGTAAAGATGTTGAAGTTAGTGGGTGGGACACAATAGATTCGCGCAAGAGGCTGTAAGCGCTGGGCACGCTCCTTACATCCCCGCTAAATACAGGATTGTGACATCGTTCCCGGACCATGACAAGCCGCGAACACCACATCGGCCATGTGCGGTAAATCGCCCTTACAATGCCTGTCGTTGTTACTTATCAGTACTTAGTCCCGCGGCCTTCGACTAAAAGAAGAGCAGCGGTTCGGCTTTATAAAACACGTTATGGCGGTGTGTCATGCGCCTGCGCCGTTGATGGTTCCACTTGAAAACCCATAGTTATTGCCTATGAGCTCAACTTCTGCGAGCCAGCGACAGTAGAATTAGTGGAGAGATATGCAGG"
+  },
+  {
+    "task_instance_id": 156,
+    "score": 1.0,
+    "extracted": "E",
+    "ground_truth": "E",
+    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, we need to look for key features that promote efficient translation initiation, especially the Kozak consensus sequence around the start codon.  \n\nIn humans, the optimal Kozak sequence is **ACC AUG G**, where AUG is the start codon, with a purine (A or G) at position -3 (three bases before AUG) and a G at position +4 (one base after AUG) being particularly important for strong initiation.  \n\nLooking at the sequences:  \n- All options are identical except for a short region near the beginning where the start codon likely appears.  \n- In each sequence, we can search for **AUG** preceded by a purine at -3 and followed by G at +4.  \n\nScanning each:  \n\n**Option B**:  \n`...CGUAGCCUAUGUCGG...` → AUG"
+  },
+  {
+    "task_instance_id": 40,
+    "score": 0.0,
+    "extracted": "E",
+    "ground_truth": "F",
+    "raw_preview": "To find the longest open reading frame (ORF), I need to scan the DNA sequence in all six reading frames (three forward, three reverse complement) for start (ATG) and stop codons (TAA, TAG, TGA), then identify the longest uninterrupted amino acid sequence between them.  \n\nFirst, I’ll check the given DNA sequence for ORFs. The sequence is long, so I’ll look for the longest stretch starting with ATG and ending with a stop codon.  \n\nScanning the sequence, I notice near the middle:  \n`...ATGGACCACGTTATTTCTGGGAACCAGAATCTTTGTGTAGTAACCACATCTTCAATGAAGACCCCGGGGCTCGCACACCCTACGAACGTTGGCCGAGTTATGGGATACACCGGACTGGGGCATGCAAGAATTGATACATTTACCTTCGGAGTACAGGCAAAGCGCCTGCCAGCGTGCAGCTGACAGATCTTGCTAAGTCCCG...`  \n\nHere, `ATGGACCACGTT...` is a start codon. Following it, I translate until I hit a stop codon.  \nLookin"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "E",
+    "raw_preview": "First, I need to calculate the percent GC content of the given DNA sequence.  \nThe sequence is:  \n\nCGCGATGCGCGCGAGGCTCTTCACATGTGAGAACTCAGAAGCATTGCCAGCGTCCATGCGTTGGGTACTCCACACAGTCGCTTTAGGTATAAGTCCTCTTCCGATTTAAACGAGCTGGAGGAAAAGAAGCTAAAGTGAGTAAACCTCTATTACCGTTGAACAACGTGCATTTATTGTCCTTGATTCTGTGATGGAAACCCCGCGCAGCTTTCAACCCCTGCTCAGAGAGCGTACGACTGGTCTATGGGA  \n\nStep 1: Count total nucleotides.  \nI’ll count each base:  \n\nC: Count all C’s  \nG: Count all G’s  \nA: Count all A’s  \nT: Count all T’s  \n\nI’ll go through carefully:  \n\nSequence length: Let’s count total characters first (excluding spaces).  \nI’ll write a mental tally:  \n\nCGCGATGCGCGCGAGGCTCTTCACATGTGAGAACTCAGAAGCATTGCCAGCGTCCATGCGTTGGGTACTCCACACAGTCGCTTTAGGTATAAGTCCTCTTCCGATTTAAACGAGCTGGAGGAAAAGAAGCTAAAGTGAGTAAACCTCTATTACCGTTGAACAACGTGCATTTATTGT"
+  },
+  {
+    "task_instance_id": 379,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "First, I need to identify the two primers in the given primer pair:  \n\nForward primer: **GCTAGCTGCCGGTACTTCGAGTATAG**  \nReverse primer: **ATCGGGCTAACCTACGGAAAGT**  \n\nThe template DNA sequence is provided. I need to locate where each primer binds in the template.  \n\n---\n\n**Step 1: Find the forward primer binding site**  \nForward primer sequence: `GCTAGCTGCCGGTACTTCGAGTATAG`  \nSearching in the template (I’ll scan manually or by eye):  \nAround the middle of the template, I see:  \n`...AGCTAGCTGCCGGTACTTCGAGTATAGGCTAGCTGCA...`  \nYes, that’s an exact match starting at `AGCTAGCTGCCGGTACTTCGAGTATAG`.  \nSo forward primer binds at that location.  \n\nLet’s find its position in the template string (I’ll count characters from the start, but easier: note that the primer is 26 bases long).  \n\nActually, I "
+  },
+  {
+    "task_instance_id": 187,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "D",
+    "raw_preview": "To clone the torA gene into pUC19 using SmaI and XmaI, both enzymes recognize the same sequence (CCCGGG) but cut differently: SmaI produces blunt ends, while XmaI produces sticky ends (5' overhangs). They are not compatible for ligation unless used in a specific way—typically, you would use the same enzyme on both ends for cohesive-end ligation, but mixing them would not work because the ends are incompatible.  \n\nGiven the primer options, they all have CCCGGG at the 5' ends, which could be recognition sites for either enzyme, but the question does not specify whether the plasmid is cut with SmaI or XmaI. More importantly, to clone a gene, primers must include the restriction site followed by the gene-specific sequence matching the start and end of the torA coding sequence. Without knowing "
+  },
+  {
+    "task_instance_id": 216,
+    "score": 1.0,
+    "extracted": "E",
+    "ground_truth": "E",
+    "raw_preview": "To clone the plsB gene into pUC19 linearized with HindII using Gibson assembly, the primers must include homology arms that match the ends of the linearized plasmid.  \n\nHindII cuts at the sequence **GTYRAC** (where Y = C or T, R = A or G), but in many plasmid maps, HindII is often confused with HindIII (which cuts AAGCTT). Given typical pUC19 cloning, HindIII is a common restriction site in the multiple cloning site (MCS). However, the question explicitly says HindII, so we must assume the plasmid is cut at a HindII site in the MCS.  \n\nLooking at the primer sequences:  \n- Gibson assembly requires the forward primer to have a 5' overhang matching the vector's upstream sequence of the cut site, then the gene-specific sequence starting with the start codon.  \n- The reverse primer needs a 5' o"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 1.0,
+    "extracted": "B",
+    "ground_truth": "B",
+    "raw_preview": "To find the longest open reading frame (ORF), I need to scan the DNA sequence in all six reading frames and identify the longest stretch of codons that starts with ATG and ends with a stop codon (TAA, TAG, or TGA).  \n\nLooking at the given DNA sequence, I can search for ATG start codons and then translate until a stop codon is reached.  \n\nThe DNA sequence is long, but I notice an ATG near the beginning:  \n...TCGA**ATGTCATTTACGAGCGGATTCGTATACCTAGTCCACCGCGGTCGCTTCCGTGCGCCATTGTGCGGTTTCGAGTATCTGGGAAGTGCTAGGGTCTGGCAAACTAATAGGATCGTCGACAGGTTTCTAGTGATGAGATGCGGGTCTTGCATCGCGGATCCTCTACCACCATTCGGCACAACATTCTAG**...  \n\nThis ATG starts at position 1 in that substring (but within the full sequence, it's after \"TCGA\"). Translating from that ATG in frame:  \n\nDNA: ATG TCA TTT ACG AGC GGA TTC GTA TAC CTA GTC C"
+  }
+]

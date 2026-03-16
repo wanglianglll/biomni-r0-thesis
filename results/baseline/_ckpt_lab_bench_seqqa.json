@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 256,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 563,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 533,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 430,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 100,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "B",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 226,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 448,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 547,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 571,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 213,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 359,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 171,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 98,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 292,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 215,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 61,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 406,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "B",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 47,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 417,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "B",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 267,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 327,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 200,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "D",
+    "ground_truth": "E",
+    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, I need to look for key features that influence translation initiation, especially the sequence context around the start codon (AUG).  \n\nIn humans, the **Kozak consensus sequence** plays a major role: "
+  },
+  {
+    "task_instance_id": 27,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 524,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "E",
+    "raw_preview": "Let’s break this down.  \n\nThe question asks for fragment lengths after digesting a given DNA sequence with **BstSFI** and **SthSt3II**.  \n\nFirst, I need to recall or look up the recognition sites for these enzymes:  \n\n- **BstSFI** is a type IIs restriction enzyme with recognition site:  \n`CCTGCA(11/"
+  },
+  {
+    "task_instance_id": 505,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 230,
+    "score": 0.0,
+    "extracted": "Y",
+    "ground_truth": "C",
+    "raw_preview": "To answer this, we need to consider Gibson assembly requirements and the specifics of the question.  \n\nGibson assembly requires that the PCR product have ends homologous to the ends of the linearized vector.  \nThe plasmid is pUC19, linearized with HindII. HindII cuts at the sequence **GTYRAC** (wher"
+  },
+  {
+    "task_instance_id": 489,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 260,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 378,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 288,
+    "score": 0.0,
+    "extracted": "S",
+    "ground_truth": "C",
+    "raw_preview": "Let's analyze the primers and the plasmid.  \n\nThe forward primer sequence is: **GGTACCATGGCGACACAATCCAGTCCTG**  \nThe reverse primer sequence is: **GGATCCTCAATGACGGCCGAAAACGGGAC**  \n\n- **GGTACC** is the recognition site for **KpnI** (and also for **Acc65I**, which is an isoschizomer that produces the"
+  },
+  {
+    "task_instance_id": 418,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 391,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 498,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 138,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "B",
+    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, we need to look for key features that influence translation initiation and elongation.  \n\nThe main differences among the sequences are near the start codon region (the first AUG in each). Translation "
+  },
+  {
+    "task_instance_id": 62,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 471,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 128,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 583,
+    "score": 0.0,
+    "extracted": "I",
+    "ground_truth": "B",
+    "raw_preview": "First, I need to understand the enzymes involved.  \n\n**BcgI** is a Type IIs restriction enzyme with the recognition sequence:  \n`(10/12)CGANNNNNNTGC(12/10)` — meaning it cuts downstream of its recognition site.  \nSpecifically, it recognizes an asymmetric sequence:  \nOne strand: 5′-CGANNNNNNTGC-3′  \n"
+  },
+  {
+    "task_instance_id": 520,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 64,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "B",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 156,
+    "score": 1.0,
+    "extracted": "E",
+    "ground_truth": "E",
+    "raw_preview": "The question asks which RNA sequence contains an open reading frame (ORF) most likely to have high translation efficiency in a human cell.  \n\nKey factors for translation efficiency in humans include:  \n- A strong **Kozak sequence** around the start codon (AUG), ideally GCCRCCAUGG (where R is purine)"
+  },
+  {
+    "task_instance_id": 40,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "F",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 379,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 187,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "D",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 216,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "E",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "B",
+    "raw_preview": ""
+  }
+]
