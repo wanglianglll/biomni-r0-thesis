@@ -22,7 +22,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 load_dotenv("../.env", override=True)
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
-OUTPUT_DIR = "../results/baseline"
+OUTPUT_DIR = "../results/qwen_sft"
 LOCAL_PARQUET = "../data/biomni_eval1_dataset.parquet"
 MAX_RETRIES = 3
 os.makedirs(OUTPUT_DIR, exist_ok=True)
