@@ -3,3 +3,6 @@
 
 2.开局启动环境
 source /root/miniconda3/bin/activate biomni
+
+3.清除部分内存
+rm -rf output/sft_qwen2_7b/
