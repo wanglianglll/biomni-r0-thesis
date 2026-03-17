@@ -21,7 +21,7 @@ from typing import List, Tuple
 import gradio as gr
 
 # 配置
-FASTAPI_URL = os.getenv("LOCAL_INFER_URL", "http://127.0.0.1:8000/generate")
+FASTAPI_URL = os.getenv("LOCAL_INFER_URL", "http://127.0.0.1:6006/generate")
 USE_DIRECT_IMPORT = os.getenv("USE_DIRECT_IMPORT", "0") == "1"
 
 # 如果选择直接导入模式，则导入 LocalInfer 并实例化（会在此进程加载模型）
@@ -63,31 +63,29 @@ def call_local_model_direct(prompt: str, temperature: float, top_p: float, max_t
 
 def call_deepseek_api(prompt: str, temperature: float, top_p: float, max_tokens: int) -> str:
     """
-    如果你也想通过 Deepseek（外部 API）调用，可以使用这里的示例。
-    请通过环境变量设置 DEEPSEEK_API_KEY 与 DEEPSEEK_ENDPOINT。
+    Deepseek API gpt兼容方式
     """
     import json
     DEEPSEEK_API_KEY = os.environ.get("CUSTOM_MODEL_API_KEY") or os.environ.get("DEEPSEEK_API_KEY", "")
-    ENDPOINT = os.environ.get("CUSTOM_MODEL_BASE_URL") or os.environ.get("DEEPSEEK_ENDPOINT", "https://api.deepseek.com/v1/generate")
+    ENDPOINT = os.environ.get("CUSTOM_MODEL_BASE_URL") or os.environ.get("DEEPSEEK_ENDPOINT", "https://api.deepseek.com/v1/chat/completions")
     headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
     payload = {
-        "prompt": prompt,
-        "max_tokens": int(max_tokens),
+        "model": "deepseek-chat",  # 或 deepseek-coder
+        "messages": [{"role": "user", "content": prompt}],
         "temperature": float(temperature),
         "top_p": float(top_p),
+        "max_tokens": int(max_tokens)
     }
     try:
         r = requests.post(ENDPOINT, json=payload, headers=headers, timeout=120)
         r.raise_for_status()
         data = r.json()
-        # 根据 Deepseek 的返回格式解析（示例）
-        if isinstance(data, dict):
-            return data.get("text") or (data.get("choices", [{}])[0].get("text", str(data)))
-        return str(data)
+        # deepseek v1 兼容gpt格式
+        return data["choices"][0]["message"]["content"]
     except Exception as e:
         return f"[Deepseek API 调用失败] {e}"
 
-def respond(choice: str, prompt: str, temperature: float, top_p: float, max_tokens: int, history: List[Tuple[str,str]]):
+def respond(choice, prompt, temperature, top_p, max_tokens, history):
     if not prompt.strip():
         return history, ""
     if choice == "Local (direct import)":
@@ -97,8 +95,12 @@ def respond(choice: str, prompt: str, temperature: float, top_p: float, max_toke
     else:
         reply = call_deepseek_api(prompt, temperature, top_p, max_tokens)
 
-    history = history + [(prompt, reply)]
-    return history, ""
+    # 新 history 列表
+    new_history = history + [
+        {"role": "user", "content": prompt},
+        {"role": "assistant", "content": reply}
+    ]
+    return new_history, ""
 
 with gr.Blocks() as demo:
     gr.Markdown("## Biomni-R0 thesis — 本地推理 Web 原型")
