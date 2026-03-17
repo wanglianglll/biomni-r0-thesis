@@ -1,0 +1,3053 @@
+{
+  "crispr_delivery": [
+    {
+      "task_instance_id": 10,
+      "score": 1.0,
+      "extracted": "a",
+      "ground_truth": "a",
+      "raw_preview": "HEK293T cells are an immortalized human embryonic kidney cell line that is widely used in research due to their high transfection efficiency and robust growth. They are particularly easy to transfect with plasmid DNA using standard chemical transfection reagents (like calcium phosphate, lipofectamin"
+    },
+    {
+      "task_instance_id": 22,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "Primary T-cells are non-dividing, sensitive to DNA toxicity, and require high editing efficiency for potential therapeutic applications.  \n- **Plasmid transfection** (a) is inefficient and can cause DNA toxicity.  \n- **Lentivirus/retrovirus** (b) integrates into the genome, raising safety concerns f"
+    },
+    {
+      "task_instance_id": 18,
+      "score": 0.0,
+      "extracted": "f",
+      "ground_truth": "b",
+      "raw_preview": "For in vivo editing of mouse skin, the key considerations are:  \n- **Target tissue accessibility**: Skin is relatively accessible for topical or local delivery.  \n- **Efficiency and specificity**: Need to deliver CRISPR components to skin cells (keratinocytes, fibroblasts, etc.).  \n- **Safety**: In "
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "d",
+      "ground_truth": "b",
+      "raw_preview": "For editing human brain organoids, the key considerations are achieving high editing efficiency in complex 3D structures, minimizing off-target effects, and avoiding prolonged exposure to editing components that could cause toxicity or immune responses.  \n\n- **Plasmid transfection** (a) is inefficie"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 1.0,
+      "extracted": "a",
+      "ground_truth": "a",
+      "raw_preview": "For editing the HeLa cell line, the most relevant CRISPR delivery method is **plasmid transfection**. HeLa cells are a well-established, robust, and easily cultured immortalized human cell line that readily takes up exogenous DNA via standard transfection methods (e.g., lipofection or electroporatio"
+    },
+    {
+      "task_instance_id": 7,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "Primary macrophages are non-dividing, terminally differentiated immune cells that are notoriously difficult to transfect with standard plasmid-based methods. They also have active antiviral defenses that can limit viral vector efficiency and trigger immune responses.  \n\n- **Plasmid transfection (a)*"
+    },
+    {
+      "task_instance_id": 42,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "Primary macrophages are non-dividing, terminally differentiated immune cells that are notoriously difficult to transfect with standard plasmid methods. They are also sensitive to viral transduction and immune responses to foreign nucleic acids.  \n\n- **Plasmid transfection (a)** is inefficient in pri"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "For editing human colon organoids, the key considerations are achieving high editing efficiency while minimizing off-target effects, avoiding genomic integration of CRISPR components, and maintaining organoid viability.  \n\n- **Plasmid transfection** (a) can be inefficient and may cause prolonged Cas"
+    },
+    {
+      "task_instance_id": 28,
+      "score": 1.0,
+      "extracted": "e",
+      "ground_truth": "e",
+      "raw_preview": "For in vivo editing of mouse liver, the key considerations are efficient delivery to hepatocytes, minimizing off-target effects, and avoiding prolonged Cas9 expression that could increase immune responses or off-target editing.  \n\n- **Plasmid transfection** (a) is inefficient for in vivo use.  \n- **"
+    },
+    {
+      "task_instance_id": 38,
+      "score": 1.0,
+      "extracted": "f",
+      "ground_truth": "f",
+      "raw_preview": "For in vivo editing of the mouse eye, the key considerations are achieving efficient delivery to the target cells (e.g., retinal cells, corneal cells) while minimizing off-target effects, immune responses, and long-term expression risks.  \n\n- **Plasmid transfection (a)** is inefficient for in vivo u"
+    }
+  ],
+  "gwas_causal_gene_gwas_catalog": [
+    {
+      "task_instance_id": 630,
+      "score": 0.0,
+      "extracted": "APOA5",
+      "ground_truth": "APOA4",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with a composite measure related to sex differences or sex-related traits. The locus contains a cluster of genes on chromosome 11q23.3, which is well-known as the **APOA1/C3/A4/A5 gene cluster**, heavily"
+    },
+    {
+      "task_instance_id": 591,
+      "score": 0.0,
+      "extracted": "SIK3",
+      "ground_truth": "APOA4",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with sex-related traits or sexual dimorphism across multiple phenotypes.  \n\nThe locus contains genes from the **APOA1/C3/A4/A5 gene cluster** on chromosome 11q23.3, which is well known for lipid metaboli"
+    },
+    {
+      "task_instance_id": 541,
+      "score": 1.0,
+      "extracted": "NAT8",
+      "ground_truth": "NAT8",
+      "raw_preview": "The GWAS phenotype is metabolite levels of **N-acetylasparagine**.  \nN-acetylasparagine is a derivative of asparagine, and its acetylation is mediated by N-acetyltransferase enzymes.  \n\nAmong the genes in the locus, **NAT8** and **NAT8B** are N-acetyltransferase family members.  \nSpecifically, **NAT"
+    },
+    {
+      "task_instance_id": 85,
+      "score": 1.0,
+      "extracted": "ACY3",
+      "ground_truth": "ACY3",
+      "raw_preview": "The GWAS phenotype is metabolite levels of **N-acetyltryptophan**, which is a metabolite derived from tryptophan via acetylation.  \nAmong the genes in the locus, **ACY3** encodes **aminoacylase 3**, an enzyme that hydrolyzes N-acetylated amino acids, including N-acetyltryptophan. This makes it the m"
+    },
+    {
+      "task_instance_id": 242,
+      "score": 0.0,
+      "extracted": "CXCL8",
+      "ground_truth": "RASSF6",
+      "raw_preview": "Prostate cancer GWAS loci often implicate genes involved in inflammation, cell cycle regulation, and tumor suppression.  \n\nLooking at the gene list:  \n- **AFM, AFP, ALB** are mainly liver-expressed plasma proteins, not strongly linked to prostate cancer.  \n- **ANKRD17** is an ankyrin repeat protein,"
+    },
+    {
+      "task_instance_id": 159,
+      "score": 1.0,
+      "extracted": "RNF213",
+      "ground_truth": "RNF213",
+      "raw_preview": "Moyamoya disease is a rare cerebrovascular disorder characterized by progressive stenosis of the intracranial internal carotid arteries and their proximal branches, leading to the formation of a compensatory network of small, fragile blood vessels (the \"moyamoya\" appearance).  \n\nGenome-wide associat"
+    },
+    {
+      "task_instance_id": 35,
+      "score": 1.0,
+      "extracted": "LONP1",
+      "ground_truth": "LONP1",
+      "raw_preview": "Mitochondrial DNA copy number (mtDNA-CN) is influenced by nuclear genes involved in mitochondrial biogenesis, maintenance, and turnover. Among the genes in the locus, **LONP1** (Lon peptidase 1, mitochondrial) is a strong candidate because it encodes a mitochondrial protease that degrades misfolded "
+    },
+    {
+      "task_instance_id": 170,
+      "score": 0.0,
+      "extracted": "WNT10B",
+      "ground_truth": "PRKAG1",
+      "raw_preview": "Based on the GWAS phenotype \"Body mass index\" (BMI) and the list of genes in the locus, the most likely causal gene is **WNT10B**.  \n\nWNT10B is a well-established gene involved in adipogenesis, fat cell differentiation, and energy metabolism. Variants in or near WNT10B have been repeatedly associate"
+    },
+    {
+      "task_instance_id": 543,
+      "score": 1.0,
+      "extracted": "LPL",
+      "ground_truth": "LPL",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with a composite measure related to sex differences or sex-related traits. Among the genes listed, **LPL** (Lipoprotein Lipase) is a strong candidate.  \n\nLPL is involved in lipid metabolism and has well-"
+    },
+    {
+      "task_instance_id": 535,
+      "score": 1.0,
+      "extracted": "ACAN",
+      "ground_truth": "ACAN",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to genetic associations with traits that show sex differences or are related to sex-specific biology. Among the genes listed, **ACAN** (Aggrecan) is a strong candidate. ACAN is involved in cartilage structure and skeletal develo"
+    },
+    {
+      "task_instance_id": 601,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Multi-trait sum score\" from the provided list, I need to consider biological relevance and known associations.  \n\nThe locus contains several genes, including multiple metallothionein genes (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2"
+    },
+    {
+      "task_instance_id": 95,
+      "score": 0.0,
+      "extracted": "SLC18A1",
+      "ground_truth": "LPL",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with a composite measure related to sex differences or sexual dimorphism across multiple traits. Among the genes listed in the locus:\n\n- **ATP6V1B2**: Involved in vacuolar ATPase activity, acidification;"
+    },
+    {
+      "task_instance_id": 240,
+      "score": 1.0,
+      "extracted": "TRIM58",
+      "ground_truth": "TRIM58",
+      "raw_preview": "The GWAS phenotype \"platelet side fluorescence distribution width\" relates to platelet characteristics, which are often associated with platelet production, size, and activation. Among the genes listed, **TRIM58** is known to be involved in megakaryocyte differentiation and platelet formation. Varia"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" the locus likely relates to sex-related traits, which could involve hormonal regulation, sexual development, or secondary sexual characteristics. Among the genes listed, **CETP** (Cholesteryl Ester Transfer Protein) is a strong candidate. CETP pla"
+    },
+    {
+      "task_instance_id": 557,
+      "score": 0.0,
+      "extracted": "ZFP69B",
+      "ground_truth": "SLFNL1",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits related to sex differences or sexual development. Among the genes listed, several are plausible candidates based on known biological functions:  \n\n- **FOXO6** is involved in transcriptional r"
+    },
+    {
+      "task_instance_id": 206,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "Based on known genetic associations, **SLC39A8** (solute carrier family 39 member 8) is a strong candidate for influencing central nucleus volume.  \n\nThis gene encodes a zinc/iron transporter, and variants in *SLC39A8* have been linked to multiple traits relevant to brain structure and neurological "
+    },
+    {
+      "task_instance_id": 392,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Multi-trait sex score\" from the provided list, I need to consider biological relevance, known gene functions, and prior associations with sex-related traits or multi-trait analyses.  \n\nThe \"Multi-trait sex score\" likely relates to sexual dim"
+    },
+    {
+      "task_instance_id": 397,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "Looking at the GWAS phenotype \"Multi-trait sex score,\" this likely relates to genetic associations with sex-related traits or sex differences across multiple phenotypes.  \n\nAmong the genes in the locus, the **metallothionein (MT) gene family** (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2A, M"
+    },
+    {
+      "task_instance_id": 536,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sum score\" and the list of genes in the locus, the most likely causal gene is **CETP** (Cholesteryl Ester Transfer Protein).  \n\nCETP is a well-established gene involved in lipid metabolism, particularly in transferring cholesteryl esters between lipoproteins."
+    },
+    {
+      "task_instance_id": 217,
+      "score": 1.0,
+      "extracted": "BDNF",
+      "ground_truth": "BDNF",
+      "raw_preview": "Based on the GWAS phenotype \"Smoking initiation (MTAG)\" and the list of genes in the locus, the most likely causal gene is **BDNF** (Brain-Derived Neurotrophic Factor).  \n\nBDNF is a well-studied neurotrophic factor involved in neuronal survival, growth, and synaptic plasticity, and it has been stron"
+    },
+    {
+      "task_instance_id": 4,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "Based on the GWAS phenotype \"Anterior amygdaloid area volume,\" which relates to the size of a specific subregion of the amygdala involved in emotional processing and linked to various neurological and psychiatric conditions, the most likely causal gene in the provided locus is **SLC39A8**.  \n\nThis g"
+    },
+    {
+      "task_instance_id": 568,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex-related traits or sexual dimorphism. Among the genes listed, several are involved in sex hormone pathways, reproductive biology, or have known sexual dimorphism in expression or function.  \n\n- **CETP** (choleste"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 1.0,
+      "extracted": "SULT1A1",
+      "ground_truth": "SULT1A1",
+      "raw_preview": "Based on the GWAS phenotype \"Metabolite levels (propyl 4-hydroxybenzoate sulfate),\" the key clue is the specific metabolite: **propyl 4-hydroxybenzoate sulfate**.  \n\nThis compound is a sulfate conjugate of propyl 4-hydroxybenzoate (propylparaben). The sulfation reaction is catalyzed by **sulfotransf"
+    },
+    {
+      "task_instance_id": 406,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "CEP164",
+      "raw_preview": "Based on the GWAS phenotype \"Triglyceride to HDL cholesterol ratio,\" which is a lipid metabolism trait, I need to identify the most likely causal gene from the provided list.  \n\nKey biological context:  \n- **PCSK7** (Proprotein Convertase Subtilisin/Kexin Type 7) is involved in protein processing an"
+    },
+    {
+      "task_instance_id": 502,
+      "score": 0.0,
+      "extracted": "WNK1",
+      "ground_truth": "B4GALNT3",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex‑related traits or sexual dimorphism. Among the genes in the locus, **WNK1** (lysine‑deficient protein kinase 1) is known to be involved in pathways that can influence sex‑hormone signaling, renal electrolyte bal"
+    },
+    {
+      "task_instance_id": 47,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Multi-trait sex score\" from the provided list, I need to consider genes known to be involved in sex-related traits, hormone regulation, or sexual dimorphism.  \n\nThe locus includes several **metallothionein (MT)** genes (MT1A, MT1B, MT1E, MT1"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "SIK3",
+      "ground_truth": "APOA4",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that differ between sexes or have sex-specific effects, potentially related to sex hormones, development, or dimorphism.  \n\nThe locus contains genes on chromosome 11q23.3, which is a well-kno"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "Based on the GWAS phenotype \"central nucleus volume,\" which likely refers to a brain imaging trait related to the volume of the central nucleus (a subregion of the amygdala involved in fear and emotional processing), I need to evaluate the biological plausibility of each gene in the locus.  \n\n- **BA"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex-related traits or sexual dimorphism. Looking at the genes in the locus, several are involved in biological processes that could plausibly relate to sex differences or hormone regulation.  \n\nOne notable candidate"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "Based on the GWAS phenotype \"medial nucleus volume,\" which refers to a brain structure (likely the medial nucleus of the thalamus or amygdala, often involved in memory and emotion), I need to consider which gene among BANK1, PPP3CA, and SLC39A8 has the strongest biological plausibility for influenci"
+    },
+    {
+      "task_instance_id": 559,
+      "score": 0.0,
+      "extracted": "GCKR",
+      "ground_truth": "TRIM54",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sum score,\" this is a broad, complex trait often related to metabolic, cardiovascular, or anthropometric measures. Among the genes in the locus, **GCKR** (Glucokinase Regulator) is a well-established gene associated with multiple metabolic traits, including f"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex‑related traits or sexual dimorphism. Among the genes in the locus, several metallothionein genes (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2A, MT3, MT4) are notable because metallothioneins are involved"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 0.0,
+      "extracted": "CATSPER1",
+      "ground_truth": "SART1",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" the trait is strongly associated with sex-related biology, likely involving sexual development, fertility, or sex hormone pathways.  \n\nLooking through the gene list, **CATSPER1** stands out as the most plausible causal gene. CATSPER1 encodes a sub"
+    },
+    {
+      "task_instance_id": 378,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex differences or sex-related traits across multiple phenotypes. Looking at the genes in the locus, several are involved in sex hormone biology, immune function, or metal regulation, but one stands out as having a "
+    },
+    {
+      "task_instance_id": 288,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex‑related traits or sexual dimorphism. Among the genes in the locus, several are involved in sex hormone pathways or have known roles in sex‑specific biology.  \n\n**Key observations:**  \n- **CETP** (cholesteryl est"
+    },
+    {
+      "task_instance_id": 418,
+      "score": 0.0,
+      "extracted": "C4A",
+      "ground_truth": "ZBTB12",
+      "raw_preview": "The GWAS phenotype is neonatal circulating Complement Component 4 (C4) protein concentration.  \nThe locus contains many genes, but the most directly relevant ones are **C4A** and **C4B**, which encode the two forms of complement component 4.  \nC4 protein concentration in circulation is strongly dete"
+    },
+    {
+      "task_instance_id": 391,
+      "score": 1.0,
+      "extracted": "BDNF",
+      "ground_truth": "BDNF",
+      "raw_preview": "Based on the GWAS phenotype \"Body mass index\" and the provided genes in the locus, the most likely causal gene is **BDNF** (Brain-Derived Neurotrophic Factor).  \n\nBDNF is a well-established gene involved in neuronal growth, appetite regulation, and energy homeostasis, with strong genetic and functio"
+    },
+    {
+      "task_instance_id": 498,
+      "score": 0.0,
+      "extracted": "GAK",
+      "ground_truth": "TMEM175",
+      "raw_preview": "Based on the GWAS phenotype of Parkinson's disease and the list of genes in the locus, the most likely causal gene is **GAK** (Cyclin G-Associated Kinase).  \n\nGAK is a well-established risk gene for Parkinson's disease in multiple GWAS studies and is involved in clathrin-mediated membrane traffickin"
+    },
+    {
+      "task_instance_id": 138,
+      "score": 1.0,
+      "extracted": "SLCO1B1",
+      "ground_truth": "SLCO1B1",
+      "raw_preview": "Based on the GWAS phenotype \"Metabolite levels (1-linoleoyl-GPG (18:2))\" and the list of genes in the locus, the most likely causal gene is **SLCO1B1**.  \n\nThis metabolite is a lysophosphatidylglycerol, and SLCO1B1 encodes a hepatic organic anion transporter known to be involved in the uptake of var"
+    },
+    {
+      "task_instance_id": 62,
+      "score": 0.0,
+      "extracted": "APOA5",
+      "ground_truth": "APOA4",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that show sex differences or are related to sex-specific biology. The locus contains several genes, many of which are clustered on chromosome 11q23.3 within the **APOA1/C3/A4/A5 gene cluster*"
+    },
+    {
+      "task_instance_id": 471,
+      "score": 0.0,
+      "extracted": "GLI2",
+      "ground_truth": "INHBB",
+      "raw_preview": "Based on known genetic associations with prostate cancer risk, among the genes listed, **GLI2** is the most plausible candidate.  \n\nGLI2 encodes a transcription factor in the Hedgehog signaling pathway, which is implicated in prostate development and cancer progression. Hedgehog signaling dysregulat"
+    },
+    {
+      "task_instance_id": 128,
+      "score": 0.0,
+      "extracted": "SIK3",
+      "ground_truth": "APOA4",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that differ between sexes or have sex-specific effects, potentially involving hormones, body composition, or metabolic traits.  \n\nThe locus contains genes from the **APOA1/C3/A4/A5 gene clust"
+    },
+    {
+      "task_instance_id": 623,
+      "score": 0.0,
+      "extracted": "SIK3",
+      "ground_truth": "APOA4",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that show sex differences or a composite score related to sex-specific biology. The locus contains several genes, many of which are clustered on chromosome 11q23.3, a well-known region for li"
+    },
+    {
+      "task_instance_id": 520,
+      "score": 0.0,
+      "extracted": "GAS7",
+      "ground_truth": "MYH13",
+      "raw_preview": "Based on the GWAS phenotype \"Primary open angle glaucoma (multi-trait analysis)\" and the list of genes in the locus, the most likely causal gene is **GAS7**.  \n\n**Reasoning:**  \n- **GAS7** (Growth Arrest Specific 7) has been implicated in glaucoma pathogenesis in multiple studies. It is expressed in"
+    },
+    {
+      "task_instance_id": 64,
+      "score": 0.0,
+      "extracted": "ANGPTL4",
+      "ground_truth": "PRAM1",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits related to sex differences or sexual dimorphism, potentially including anthropometric, reproductive, or hormone-related traits.  \n\nAmong the genes in the locus:  \n\n- **ANGPTL4** (Angiopoietin"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 1.0,
+      "extracted": "LPL",
+      "ground_truth": "LPL",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this likely refers to a genetic association with traits that differ between sexes or are influenced by sex chromosomes/hormones. Among the listed genes, **LPL (Lipoprotein Lipase)** is a well-known gene involved in lipid metabolism, and lipid trai"
+    },
+    {
+      "task_instance_id": 156,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "The GWAS phenotype \"Multi-trait sex score\" suggests a genetic association related to sex-related traits or sexual dimorphism. Among the genes in the locus, several **metallothionein (MT) genes** (MT1A, MT1B, MT1E, MT1F, MT1G, MT1H, MT1M, MT1X, MT2A, MT3, MT4) are notable because metallothioneins are"
+    },
+    {
+      "task_instance_id": 40,
+      "score": 0.0,
+      "extracted": "C4A",
+      "ground_truth": "NOTCH4",
+      "raw_preview": "The GWAS phenotype is neonatal circulating Complement Component 4 (C4) protein concentration.  \nThe locus contains many genes in the **major histocompatibility complex (MHC) region** on chromosome 6p21.3, which includes the **C4A** and **C4B** genes encoding the C4 protein isoforms.  \n\nGiven that th"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 1.0,
+      "extracted": "LONP1",
+      "ground_truth": "LONP1",
+      "raw_preview": "Mitochondrial DNA copy number (adjusted) is a quantitative trait related to mitochondrial biogenesis and function. Among the genes in the locus, **LONP1** (Lon peptidase 1, mitochondrial) is a key mitochondrial protease involved in mitochondrial protein quality control, metabolism, and mtDNA mainten"
+    },
+    {
+      "task_instance_id": 379,
+      "score": 0.0,
+      "extracted": "ZFHX3",
+      "ground_truth": "PKD1L3",
+      "raw_preview": "Based on the GWAS phenotype \"Multi-trait sex score,\" this is likely related to a genetic locus associated with sex-related traits or sexual development. Among the genes listed, **ZFHX3** (Zinc Finger Homeobox 3) is a strong candidate.  \n\nZFHX3 is known to be involved in transcriptional regulation an"
+    }
+  ],
+  "gwas_causal_gene_opentargets": [
+    {
+      "task_instance_id": 767,
+      "score": 1.0,
+      "extracted": "HNF1A",
+      "ground_truth": "HNF1A",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with known genetic associations. Among the genes listed, **HNF1A** (Hepatocyte Nuclear Factor 1 Alpha) is a well-established monogenic diabetes gene. Mutations in HNF1A cause MODY (Maturity-Onset Diabetes of the Young) type 3, which presents similarly "
+    },
+    {
+      "task_instance_id": 619,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder, and genome-wide association studies (GWAS) have identified numerous susceptibility loci. Among the genes listed, **PPARG** (peroxisome proliferator-activated receptor gamma) is a well-established candidate.  \n\nPPARG encodes a nuclear receptor that pla"
+    },
+    {
+      "task_instance_id": 760,
+      "score": 1.0,
+      "extracted": "CHEK2",
+      "ground_truth": "CHEK2",
+      "raw_preview": "Based on the GWAS phenotype \"Breast carcinoma\" and the list of genes in the locus, the most likely causal gene is **CHEK2**.  \n\nCHEK2 (Checkpoint Kinase 2) is a well-established tumor suppressor gene involved in DNA damage response and cell cycle control. Germline mutations in CHEK2 are known to con"
+    },
+    {
+      "task_instance_id": 645,
+      "score": 1.0,
+      "extracted": "RREB1",
+      "ground_truth": "RREB1",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder influenced by multiple genetic loci. Among the genes listed in this locus, **RREB1** (Ras Responsive Element Binding Protein 1) is the most plausible candidate.  \n\nRREB1 encodes a zinc finger transcription factor involved in insulin signaling and gluco"
+    },
+    {
+      "task_instance_id": 755,
+      "score": 0.0,
+      "extracted": "FOSL2",
+      "ground_truth": "ALK",
+      "raw_preview": "Based on known genetic associations with breast carcinoma, the gene **FOSL2** (FOS Like 2, AP-1 Transcription Factor Subunit) is the most plausible candidate.  \n\nFOSL2 encodes a component of the AP-1 transcription factor complex, which is involved in cell proliferation, differentiation, and transfor"
+    },
+    {
+      "task_instance_id": 556,
+      "score": 1.0,
+      "extracted": "SLC2A9",
+      "ground_truth": "SLC2A9",
+      "raw_preview": "Urate levels are strongly influenced by renal handling, and the most well-established gene associated with serum urate concentration is **SLC2A9** (solute carrier family 2, member 9). SLC2A9 encodes GLUT9, a urate transporter expressed in the kidney and involved in uric acid reabsorption. GWAS studi"
+    },
+    {
+      "task_instance_id": 812,
+      "score": 1.0,
+      "extracted": "SLC30A8",
+      "ground_truth": "SLC30A8",
+      "raw_preview": "Type 2 diabetes GWAS loci often implicate genes involved in insulin secretion, particularly in pancreatic beta-cell function. Among the genes listed, **SLC30A8** encodes zinc transporter 8 (ZnT8), which is highly expressed in pancreatic islets and plays a key role in zinc transport into insulin secr"
+    },
+    {
+      "task_instance_id": 577,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "Based on the GWAS phenotype **Hypercholesterolemia** (high blood cholesterol), the most likely causal gene in the provided locus is **PCSK9**.  \n\n**Reasoning:**  \n- **PCSK9** (Proprotein Convertase Subtilisin/Kexin Type 9) is a well‑established gene involved in cholesterol metabolism.  \n- It encodes"
+    },
+    {
+      "task_instance_id": 85,
+      "score": 1.0,
+      "extracted": "HNF1A",
+      "ground_truth": "HNF1A",
+      "raw_preview": "Based on the GWAS phenotype \"Type 2 diabetes (adjusted for BMI)\" and the list of genes in the locus, the most likely causal gene is **HNF1A**.  \n\nHNF1A (Hepatocyte Nuclear Factor 1 Alpha) is a well-established monogenic diabetes gene (MODY3) and is also known to be associated with common type 2 diab"
+    },
+    {
+      "task_instance_id": 242,
+      "score": 0.0,
+      "extracted": "OR2A2",
+      "ground_truth": "OR2A7",
+      "raw_preview": "Based on the GWAS phenotype \"fresh fruit intake (diet measurement),\" the most likely causal genes in this locus are olfactory receptors (OR genes), as dietary preferences and food intake behaviors are strongly influenced by smell and taste perception.  \n\nThe locus contains multiple olfactory recepto"
+    },
+    {
+      "task_instance_id": 159,
+      "score": 0.0,
+      "extracted": "IFIH1",
+      "ground_truth": "DPP4",
+      "raw_preview": "Based on the GWAS phenotype of schizophrenia and the provided list of genes in the locus, I need to identify the most likely causal gene.  \n\nSchizophrenia GWAS studies have repeatedly identified significant associations in the region of chromosome 2q24.2, which includes **IFIH1** (interferon induced"
+    },
+    {
+      "task_instance_id": 524,
+      "score": 1.0,
+      "extracted": "PRODH",
+      "ground_truth": "PRODH",
+      "raw_preview": "The GWAS phenotype is blood metabolite levels of L-proline. Proline metabolism involves several enzymes, and among the genes in the locus, **PRODH** (proline dehydrogenase) is directly responsible for the first step in proline catabolism, converting proline to Δ¹-pyrroline-5-carboxylate. Genetic var"
+    },
+    {
+      "task_instance_id": 35,
+      "score": 1.0,
+      "extracted": "ESR1",
+      "ground_truth": "ESR1",
+      "raw_preview": "Based on the GWAS phenotype of breast cancer (breast carcinoma) and the list of genes in the locus, the most likely causal gene is **ESR1** (Estrogen Receptor 1).  \n\nESR1 encodes the estrogen receptor alpha, a key nuclear hormone receptor that mediates the effects of estrogen. Estrogen signaling is "
+    },
+    {
+      "task_instance_id": 540,
+      "score": 1.0,
+      "extracted": "SUCLG2",
+      "ground_truth": "SUCLG2",
+      "raw_preview": "Succinylcarnitine is an acylcarnitine intermediate in mitochondrial metabolism, specifically in the citric acid cycle and related pathways.  \nSuccinyl-CoA is converted to succinate by **succinate-CoA ligase**, an enzyme complex with subunits encoded by **SUCLG1**, **SUCLG2**, and **SUCLA2**.  \n- **S"
+    },
+    {
+      "task_instance_id": 170,
+      "score": 1.0,
+      "extracted": "KCNJ11",
+      "ground_truth": "KCNJ11",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with well-established genetic associations. Among the genes listed in the locus, several are known to be involved in insulin secretion and pancreatic beta-cell function, which are key pathways in type 2 diabetes pathogenesis.\n\n- **ABCC8** encodes the s"
+    },
+    {
+      "task_instance_id": 654,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "Based on the provided list of genes in the locus, the gene most strongly and directly associated with cardiovascular disease, specifically through its well-established role in regulating plasma LDL cholesterol levels, is **PCSK9**.  \n\nGain-of-function mutations in *PCSK9* cause familial hypercholest"
+    },
+    {
+      "task_instance_id": 728,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "Based on the GWAS phenotype of ischemic heart disease (coronary artery disease) and the list of genes in the locus, the most likely causal gene is **PCSK9**.  \n\nPCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9) is well-established in the literature as a key regulator of LDL cholesterol metabolis"
+    },
+    {
+      "task_instance_id": 720,
+      "score": 0.0,
+      "extracted": "IL13",
+      "ground_truth": "IL5",
+      "raw_preview": "Asthma is a complex inflammatory airway disease with a strong genetic component. GWAS studies have consistently identified a locus on chromosome 5q31.1-q33.1 as a major susceptibility region. This locus is known as the \"cytokine gene cluster\" because it contains several key T-helper 2 (Th2) cytokine"
+    },
+    {
+      "task_instance_id": 801,
+      "score": 1.0,
+      "extracted": "ESR1",
+      "ground_truth": "ESR1",
+      "raw_preview": "Based on the GWAS phenotype of breast cancer (breast carcinoma) and the list of genes in the locus, the most likely causal gene is **ESR1** (Estrogen Receptor 1).  \n\nESR1 encodes the estrogen receptor alpha, a key transcription factor in breast tissue and a well-established driver of breast cancer p"
+    },
+    {
+      "task_instance_id": 95,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "Based on the GWAS phenotype \"Disorders of lipoid metabolism (Disorder of lipid metabolism)\" and the list of genes provided, the most likely causal gene is **PCSK9**.  \n\n**Reasoning:**  \n- **PCSK9** (Proprotein Convertase Subtilisin/Kexin Type 9) is a well-established gene involved in lipid metabolis"
+    },
+    {
+      "task_instance_id": 563,
+      "score": 1.0,
+      "extracted": "ACSL1",
+      "ground_truth": "ACSL1",
+      "raw_preview": "Let’s break this down.  \n\nThe GWAS phenotype is **PC ae C44:5 (PC(o-22:2(13Z,16Z)/22:3(10Z,13Z,16Z)))**.  \nThis is a phosphatidylcholine (PC) lipid species with an ether-linked fatty acid at the sn-1 position (the “ae” indicates alkyl-ether) and specific fatty acid chains.  \n\nKey biological insight:"
+    },
+    {
+      "task_instance_id": 240,
+      "score": 1.0,
+      "extracted": "ANPEP",
+      "ground_truth": "ANPEP",
+      "raw_preview": "The GWAS phenotype is \"HWESASXX - M32836 (C3f, complement C3 derived peptide),\" which refers to a peptide derived from complement C3. Complement C3 is a central component of the complement system, involved in immune and inflammatory responses.  \n\nAmong the genes in the locus, **ANPEP** (alanyl amino"
+    },
+    {
+      "task_instance_id": 574,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with well-established genetic associations. Among the genes listed, **PPARG** (peroxisome proliferator-activated receptor gamma) is a key regulator of adipocyte differentiation, glucose homeostasis, and insulin sensitivity. Variants in PPARG, particula"
+    },
+    {
+      "task_instance_id": 690,
+      "score": 1.0,
+      "extracted": "PAOX",
+      "ground_truth": "PAOX",
+      "raw_preview": "The GWAS phenotype is blood metabolite levels of **N-(3-acetamidopropyl)pyrrolidin-2-one**, which is a metabolite related to the catabolism of polyamines (specifically, it is derived from N-acetylspermine via polyamine oxidase and further metabolism).  \n\nLooking at the genes in the locus:  \n\n- **PAO"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "Type 2 diabetes GWAS loci often implicate genes involved in glucose metabolism, insulin secretion, or insulin signaling. Among the listed genes, **GCKR** (glucokinase regulator) is a well-established candidate. GCKR encodes a protein that inhibits glucokinase in the liver, affecting glucose sensing "
+    },
+    {
+      "task_instance_id": 553,
+      "score": 1.0,
+      "extracted": "IL12B",
+      "ground_truth": "IL12B",
+      "raw_preview": "Psoriasis is a chronic inflammatory skin disease with a strong genetic component. GWAS studies have consistently identified a major susceptibility locus in the chromosomal region 5q31.1–q33.1, which contains several genes.  \n\nAmong the genes listed:  \n- **EBF1** (Early B-cell Factor 1) – involved in"
+    },
+    {
+      "task_instance_id": 745,
+      "score": 1.0,
+      "extracted": "F5",
+      "ground_truth": "F5",
+      "raw_preview": "The GWAS phenotype is D-dimer levels, which measure fibrin degradation products and are a marker of coagulation and fibrinolysis. Elevated D-dimer is associated with thrombotic conditions.  \n\nAmong the genes in the locus, **F5** (coagulation factor V) is a well-known coagulation factor. Variants in "
+    },
+    {
+      "task_instance_id": 206,
+      "score": 1.0,
+      "extracted": "GC",
+      "ground_truth": "GC",
+      "raw_preview": "Vitamin D metabolism and transport are strongly linked to the **GC gene**, which encodes the vitamin D-binding protein (also known as group-specific component). This protein binds and transports vitamin D metabolites in the bloodstream. Variants in *GC* are well-established genetic determinants of c"
+    },
+    {
+      "task_instance_id": 392,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with many known genetic associations from GWAS. Among the genes listed in the locus, **GCKR** (glucokinase regulatory protein) is a well-established candidate for type 2 diabetes susceptibility. GCKR regulates glucokinase activity in the liver, influen"
+    },
+    {
+      "task_instance_id": 397,
+      "score": 1.0,
+      "extracted": "RREB1",
+      "ground_truth": "RREB1",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder influenced by multiple genetic loci. Among the genes listed in the locus, **RREB1** (Ras Responsive Element Binding Protein 1) is a strong candidate. RREB1 is a transcription factor involved in insulin signaling and glucose homeostasis. It has been imp"
+    },
+    {
+      "task_instance_id": 721,
+      "score": 1.0,
+      "extracted": "KCNH2",
+      "ground_truth": "KCNH2",
+      "raw_preview": "Based on the GWAS phenotype **atrial fibrillation** and the list of genes in the locus, the most likely causal gene is **KCNH2**.  \n\nKCNH2 encodes the potassium voltage-gated channel subfamily H member 2 (also known as hERG), which is critical for cardiac repolarization. Variants in KCNH2 are well-e"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "VKORC1L1",
+      "ground_truth": "GUSB",
+      "raw_preview": "Based on known biology, **VKORC1L1** (Vitamin K epoxide reductase complex subunit 1-like 1) is the most plausible causal gene for calcium levels in this locus.  \n\nVKORC1L1 is involved in vitamin K metabolism, which is essential for the activation of vitamin K-dependent proteins, including osteocalci"
+    },
+    {
+      "task_instance_id": 4,
+      "score": 1.0,
+      "extracted": "HMGCR",
+      "ground_truth": "HMGCR",
+      "raw_preview": "Based on the GWAS phenotype \"Disorders of lipoid metabolism (Disorder of lipid metabolism)\" and the list of genes in the locus, the most likely causal gene is **HMGCR**.  \n\nHMGCR encodes 3-hydroxy-3-methylglutaryl-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis and the target of "
+    },
+    {
+      "task_instance_id": 642,
+      "score": 1.0,
+      "extracted": "MC1R",
+      "ground_truth": "MC1R",
+      "raw_preview": "Based on the GWAS phenotype \"Skin changes due to chronic exposure to nonionizing radiation,\" the most relevant biological process is likely the skin's response to ultraviolet (UV) radiation, a major form of nonionizing radiation. Chronic UV exposure leads to photoaging, pigmentation changes, and DNA"
+    },
+    {
+      "task_instance_id": 761,
+      "score": 1.0,
+      "extracted": "TNF",
+      "ground_truth": "TNF",
+      "raw_preview": "The GWAS phenotype is hypertension, and the locus contains genes in the **major histocompatibility complex (MHC) region on chromosome 6**, specifically the **HLA class III region** and surrounding genes.  \n\nHypertension has known associations with immune and inflammatory pathways. Among the listed g"
+    },
+    {
+      "task_instance_id": 612,
+      "score": 1.0,
+      "extracted": "PAM",
+      "ground_truth": "PAM",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with many known genetic associations. Among the genes listed in the locus, **PAM** (peptidylglycine alpha-amidating monooxygenase) is the most plausible causal candidate.  \n\nPAM encodes an enzyme involved in peptide hormone amidation, a critical post-t"
+    },
+    {
+      "task_instance_id": 546,
+      "score": 1.0,
+      "extracted": "HNF4A",
+      "ground_truth": "HNF4A",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with known genetic associations. Among the genes listed, **HNF4A** (Hepatocyte Nuclear Factor 4 Alpha) is a well-established causal gene for maturity-onset diabetes of the young (MODY), specifically MODY1, and has also been implicated in common type 2 "
+    },
+    {
+      "task_instance_id": 683,
+      "score": 1.0,
+      "extracted": "RREB1",
+      "ground_truth": "RREB1",
+      "raw_preview": "Type 2 diabetes GWAS loci often implicate genes involved in insulin secretion, beta-cell function, or insulin signaling. Looking at the genes in this locus:  \n\n- **CAGE1** (cancer antigen 1) – not strongly linked to diabetes biology.  \n- **DSP** (desmoplakin) – involved in cell adhesion, mainly in s"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 1.0,
+      "extracted": "GLIS3",
+      "ground_truth": "GLIS3",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with many known genetic associations. Among the genes listed in the locus, **GLIS3** is a well-established candidate for type 2 diabetes susceptibility.  \n\nGLIS3 encodes a transcription factor involved in pancreatic beta-cell development and insulin ge"
+    },
+    {
+      "task_instance_id": 573,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder with many known genetic associations from GWAS. Among the genes listed in the locus, **GCKR** (glucokinase regulator) is a well-established candidate. GCKR encodes a protein that inhibits glucokinase in the liver, playing a key role in glucose sensing "
+    },
+    {
+      "task_instance_id": 406,
+      "score": 0.0,
+      "extracted": "SLC22A12",
+      "ground_truth": "SLC22A11",
+      "raw_preview": "Gout is a common inflammatory arthritis caused by elevated serum urate levels, leading to monosodium urate crystal deposition in joints. Genome-wide association studies (GWAS) have identified multiple loci associated with serum urate concentration and gout risk.  \n\nAmong the genes listed, **SLC22A12"
+    },
+    {
+      "task_instance_id": 502,
+      "score": 0.0,
+      "extracted": "ABHD16A",
+      "ground_truth": "AGPAT1",
+      "raw_preview": "The GWAS phenotype relates to phospholipid levels in plasma, specifically proportions of phosphatidylcholine species (PC 32:0/PC 34:1), which are similar to specific phosphatidylcholine molecular species.  \n\nLooking at the genes in the locus, many are in the **major histocompatibility complex (MHC) "
+    },
+    {
+      "task_instance_id": 47,
+      "score": 0.0,
+      "extracted": "IL13",
+      "ground_truth": "IL5",
+      "raw_preview": "Asthma and allergic diseases are strongly associated with immune dysregulation, particularly involving type 2 inflammation and cytokine signaling. Among the genes listed, several are well-known for their roles in allergic inflammation:  \n\n- **IL13**, **IL4**, and **IL5** are key Th2 cytokines that d"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 1.0,
+      "extracted": "PAX4",
+      "ground_truth": "PAX4",
+      "raw_preview": "Type 2 diabetes is a complex metabolic disorder. Among the genes listed in the locus, **PAX4** (Paired Box 4) is a well-known candidate. PAX4 is a transcription factor crucial for pancreatic beta-cell development and function. Mutations in PAX4 have been associated with maturity-onset diabetes of th"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 0.0,
+      "extracted": "MYC",
+      "ground_truth": "PVT1",
+      "raw_preview": "Based on the GWAS phenotype of prostate carcinoma and the two candidate genes in the locus, **MYC** is the well-established oncogene with strong, direct evidence for involvement in prostate cancer development and progression. In contrast, *POU5F1B* is a pseudogene with less direct evidence for a cau"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "THPO",
+      "ground_truth": "THPO",
+      "raw_preview": "Platelet crit (plateletcrit) is a measure of the proportion of blood volume occupied by platelets, reflecting both platelet count and mean platelet volume.  \n\nFrom the list, **THPO** (thrombopoietin) is a well-known gene involved in platelet production, as it encodes the primary cytokine regulating "
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "TBX2",
+      "ground_truth": "TBX4",
+      "raw_preview": "Based on the GWAS phenotype \"arthrosis of hip (heel bone mineral density),\" the focus is on osteoarthritis of the hip and bone mineral density (BMD), particularly at the heel.  \n\nAmong the genes in the locus:  \n\n- **APPBP2** – involved in cell signaling and apoptosis, but not strongly linked to bone"
+    },
+    {
+      "task_instance_id": 817,
+      "score": 1.0,
+      "extracted": "COL11A1",
+      "ground_truth": "COL11A1",
+      "raw_preview": "Based on the GWAS phenotype \"arthrosis of hip (osteoarthritis, hip)\" and the provided genes in the locus:\n\n- **AMY2B**: This gene encodes a salivary amylase enzyme involved in starch digestion. It has no known direct role in cartilage structure, joint integrity, or osteoarthritis pathogenesis.\n\n- **"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 0.0,
+      "extracted": "SERPINA1",
+      "ground_truth": "GSC",
+      "raw_preview": "Male balding pattern (androgenetic alopecia) has been strongly associated with genetic variation in the **SERPINA** gene cluster on chromosome 14q32.13, particularly involving **SERPINA1** (alpha-1-antitrypsin) and nearby genes.  \nAmong the listed genes, **SERPINA1** is the most frequently reported "
+    },
+    {
+      "task_instance_id": 489,
+      "score": 1.0,
+      "extracted": "F2",
+      "ground_truth": "F2",
+      "raw_preview": "Based on the GWAS phenotype \"Thrombosis (pulmonary embolism),\" the most likely causal gene in the provided locus is **F2**, which encodes **prothrombin** (also known as coagulation factor II).  \n\nProthrombin is a central protein in the blood coagulation cascade, and specific gain-of-function mutatio"
+    }
+  ],
+  "gwas_causal_gene_pharmaprojects": [
+    {
+      "task_instance_id": 1475,
+      "score": 1.0,
+      "extracted": "XPO1",
+      "ground_truth": "XPO1",
+      "raw_preview": "The GWAS phenotype \"Lymphoma, Large B-Cell, Diffuse\" refers to diffuse large B-cell lymphoma (DLBCL), an aggressive non-Hodgkin lymphoma.  \n\nFrom the list of genes in the locus, **XPO1** (Exportin 1) is a well-known gene implicated in DLBCL pathogenesis.  \n- XPO1 encodes a nuclear export protein tha"
+    },
+    {
+      "task_instance_id": 959,
+      "score": 1.0,
+      "extracted": "BTK",
+      "ground_truth": "BTK",
+      "raw_preview": "The GWAS phenotype is Lymphoma, B-Cell.  \nAmong the genes listed, **BTK (Bruton tyrosine kinase)** is a well-known gene involved in B-cell development and signaling. Mutations in BTK cause X-linked agammaglobulinemia, a B-cell deficiency disorder, and BTK inhibitors are used in treating B-cell malig"
+    },
+    {
+      "task_instance_id": 1588,
+      "score": 0.0,
+      "extracted": "NSD2",
+      "ground_truth": "FGFR3",
+      "raw_preview": "Based on the GWAS phenotype \"Myeloproliferative Disorders\" and the list of genes in the locus, the most likely causal gene is **NSD2**.  \n\nNSD2 (also known as WHSC1 or MMSET) is a histone methyltransferase that is recurrently mutated and involved in oncogenesis, particularly in hematological maligna"
+    },
+    {
+      "task_instance_id": 283,
+      "score": 1.0,
+      "extracted": "FOLR1",
+      "ground_truth": "FOLR1",
+      "raw_preview": "Based on the GWAS phenotype \"Ovarian Neoplasms\" (ovarian cancer) and the list of genes in the locus, the most likely causal gene is **FOLR1** (Folate Receptor Alpha).  \n\nFOLR1 encodes a high-affinity folate receptor that is overexpressed in many ovarian cancers, particularly serous epithelial ovaria"
+    },
+    {
+      "task_instance_id": 797,
+      "score": 1.0,
+      "extracted": "CNR1",
+      "ground_truth": "CNR1",
+      "raw_preview": "Nausea as a GWAS phenotype suggests involvement in neurological or gastrointestinal pathways. Among the genes in the locus:  \n\n- **AKIRIN2** – involved in immune response and transcription regulation, not strongly linked to nausea.  \n- **CNR1** – encodes the cannabinoid receptor 1 (CB1), widely expr"
+    },
+    {
+      "task_instance_id": 1378,
+      "score": 0.0,
+      "extracted": "JAK2",
+      "ground_truth": "CD274",
+      "raw_preview": "Based on the GWAS phenotype \"Colorectal Neoplasms\" and the list of genes in the locus, the most likely causal gene is **JAK2**.  \n\nJAK2 (Janus kinase 2) is a well-known oncogene involved in cell proliferation and survival signaling pathways. Germline and somatic variants in JAK2 have been associated"
+    },
+    {
+      "task_instance_id": 225,
+      "score": 1.0,
+      "extracted": "OXTR",
+      "ground_truth": "OXTR",
+      "raw_preview": "Postpartum hemorrhage (PPH) is a major cause of maternal morbidity and mortality, often linked to uterine atony (failure of the uterus to contract adequately after delivery). The key physiological process involved is uterine smooth muscle contraction, which is strongly regulated by the hormone oxyto"
+    },
+    {
+      "task_instance_id": 26,
+      "score": 1.0,
+      "extracted": "SERPINC1",
+      "ground_truth": "SERPINC1",
+      "raw_preview": "The GWAS phenotype is **Pulmonary Embolism**, which is a form of venous thromboembolism often associated with inherited or acquired hypercoagulable states.  \n\nAmong the genes listed, **SERPINC1** encodes antithrombin III, a major natural anticoagulant. Loss-of-function mutations in SERPINC1 cause he"
+    },
+    {
+      "task_instance_id": 1497,
+      "score": 1.0,
+      "extracted": "KDR",
+      "ground_truth": "KDR",
+      "raw_preview": "Based on the GWAS phenotype \"Colorectal Neoplasms\" and the list of genes in the locus, I need to identify the most likely causal gene.  \n\nColorectal cancer susceptibility genes often involve pathways related to cell cycle regulation, DNA repair, growth factor signaling, and metabolism.  \n\nLooking at"
+    },
+    {
+      "task_instance_id": 437,
+      "score": 0.0,
+      "extracted": "PDGFRA",
+      "ground_truth": "KIT",
+      "raw_preview": "Based on the provided GWAS phenotype (sarcoma) and the list of genes in the locus, the most likely causal gene is **PDGFRA** (Platelet-Derived Growth Factor Receptor Alpha).  \n\n**Reasoning:**  \n- PDGFRA is a well-known oncogene involved in the development of several sarcomas, particularly gastrointe"
+    },
+    {
+      "task_instance_id": 1645,
+      "score": 0.0,
+      "extracted": "HLA",
+      "ground_truth": "TUBB",
+      "raw_preview": "The GWAS phenotype \"Head and Neck Neoplasms\" strongly points to the major histocompatibility complex (MHC) region on chromosome 6p21.3, which is known for its association with various immune-related diseases and cancers, including squamous cell carcinomas of the head and neck (HNSCC).  \n\nAmong the g"
+    },
+    {
+      "task_instance_id": 229,
+      "score": 0.0,
+      "extracted": "TICRR",
+      "ground_truth": "ANPEP",
+      "raw_preview": "Hodgkin Disease (Hodgkin lymphoma) GWAS studies have identified susceptibility loci, and one of the key genes implicated in Hodgkin lymphoma pathogenesis is **TICRR** (TOPBP1-interacting checkpoint and replication regulator). TICRR is involved in DNA replication and cell cycle control, and germline "
+    },
+    {
+      "task_instance_id": 37,
+      "score": 1.0,
+      "extracted": "C5",
+      "ground_truth": "C5",
+      "raw_preview": "Paroxysmal nocturnal hemoglobinuria (PNH) is a clonal hematopoietic stem cell disorder characterized by complement-mediated hemolysis, thrombosis, and bone marrow failure. The underlying genetic cause is an acquired somatic mutation in the **PIGA** gene, which is essential for glycosylphosphatidylin"
+    },
+    {
+      "task_instance_id": 749,
+      "score": 1.0,
+      "extracted": "ADRB2",
+      "ground_truth": "ADRB2",
+      "raw_preview": "Asthma is a complex respiratory disease with a strong genetic component. The locus provided contains several genes, but one stands out as having strong prior biological plausibility and known association with asthma: **ADRB2** (beta-2 adrenergic receptor).  \n\nADRB2 is widely studied in asthma becaus"
+    },
+    {
+      "task_instance_id": 1045,
+      "score": 0.0,
+      "extracted": "NSD2",
+      "ground_truth": "FGFR3",
+      "raw_preview": "Based on the GWAS phenotype \"Fallopian Tube Neoplasms,\" the relevant biological context involves genes associated with cancer, particularly those involved in DNA repair, cell cycle regulation, or tumor suppression. Among the genes listed, **FGFR3** (Fibroblast Growth Factor Receptor 3) is a well-kno"
+    },
+    {
+      "task_instance_id": 469,
+      "score": 0.0,
+      "extracted": "ICAM1",
+      "ground_truth": "S1PR5",
+      "raw_preview": "Ulcerative colitis is a chronic inflammatory bowel disease with a strong genetic component. GWAS studies have identified multiple susceptibility loci. Among the genes listed in this locus, several are biologically plausible candidates based on known immune and inflammatory pathways.  \n\nKey considera"
+    },
+    {
+      "task_instance_id": 1435,
+      "score": 1.0,
+      "extracted": "GLP1R",
+      "ground_truth": "GLP1R",
+      "raw_preview": "Obesity GWAS loci often implicate genes involved in appetite regulation, energy homeostasis, or metabolism. Among the genes listed, **GLP1R** (glucagon-like peptide 1 receptor) is strongly associated with obesity-related traits. GLP-1 receptor agonists are well-established pharmaceutical agents for "
+    },
+    {
+      "task_instance_id": 1662,
+      "score": 0.0,
+      "extracted": "SCN2A",
+      "ground_truth": "SCN3A",
+      "raw_preview": "Epilepsies, particularly partial (focal) epilepsies, are often associated with genes involved in neuronal excitability, ion channels, and synaptic function. Among the genes listed:\n\n- **COBLL1**: Involved in cytoskeletal organization and metabolic processes; not strongly linked to epilepsy.\n- **CSRN"
+    },
+    {
+      "task_instance_id": 687,
+      "score": 1.0,
+      "extracted": "HTR4",
+      "ground_truth": "HTR4",
+      "raw_preview": "Gastroparesis is a disorder characterized by delayed gastric emptying without mechanical obstruction, often associated with diabetes, neurological conditions, or idiopathic causes. Genetic studies have pointed to roles for neuronal, muscular, and inflammatory pathways.  \n\nAmong the genes listed:  \n-"
+    },
+    {
+      "task_instance_id": 1554,
+      "score": 0.0,
+      "extracted": "RNASE9",
+      "ground_truth": "PARP2",
+      "raw_preview": "Based on the GWAS phenotype \"Prostatic Neoplasms\" (prostate cancer) and the list of genes in the locus, the most likely causal gene is **RNASE9**.  \n\nRNASE9 (Ribonuclease A Family Member 9) is expressed in the prostate and has been implicated in prostate biology and prostate cancer risk in GWAS stud"
+    },
+    {
+      "task_instance_id": 639,
+      "score": 1.0,
+      "extracted": "DRD2",
+      "ground_truth": "DRD2",
+      "raw_preview": "Restless Legs Syndrome (RLS) is a neurological sensorimotor disorder with a strong genetic component. GWAS studies have consistently identified significant associations in genomic regions containing genes involved in dopaminergic neurotransmission, iron homeostasis, and neuronal development.  \n\nAmon"
+    },
+    {
+      "task_instance_id": 1453,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "The GWAS phenotype is Type 2 Diabetes Mellitus.  \nAmong the genes in the locus, **PPARG** (peroxisome proliferator-activated receptor gamma) is a well-established candidate for type 2 diabetes susceptibility. Variants in PPARG are known to influence insulin sensitivity and risk of type 2 diabetes, a"
+    },
+    {
+      "task_instance_id": 1218,
+      "score": 1.0,
+      "extracted": "MS4A1",
+      "ground_truth": "MS4A1",
+      "raw_preview": "Microscopic polyangiitis (MPA) is a small-vessel necrotizing vasculitis associated with anti-neutrophil cytoplasmic antibodies (ANCA), often with myeloperoxidase (MPO)-ANCA specificity.  \n\nThe locus provided includes many genes from the **MS4A (membrane-spanning 4-domains subfamily A) family**, whic"
+    },
+    {
+      "task_instance_id": 1158,
+      "score": 1.0,
+      "extracted": "NR1H4",
+      "ground_truth": "NR1H4",
+      "raw_preview": "Non-alcoholic fatty liver disease (NAFLD) is a complex metabolic disorder characterized by excessive fat accumulation in the liver. When identifying a likely causal gene from a GWAS locus, we consider biological plausibility, known gene function, and prior associations with NAFLD or related metaboli"
+    },
+    {
+      "task_instance_id": 1403,
+      "score": 1.0,
+      "extracted": "PPARA",
+      "ground_truth": "PPARA",
+      "raw_preview": "Based on the GWAS phenotype \"Dyslipidemias\" and the list of genes in the locus, the most likely causal gene is **PPARA** (Peroxisome Proliferator Activated Receptor Alpha).  \n\nPPARA is a well-known nuclear receptor transcription factor that plays a central role in lipid metabolism, regulating genes "
+    },
+    {
+      "task_instance_id": 1300,
+      "score": 1.0,
+      "extracted": "DRD2",
+      "ground_truth": "DRD2",
+      "raw_preview": "Nausea can be influenced by various biological pathways, including neurotransmitter signaling involved in the chemoreceptor trigger zone and vomiting center. Key receptors implicated in nausea and vomiting include dopamine receptors (especially D2) and serotonin receptors (particularly 5-HT3).  \n\nAm"
+    },
+    {
+      "task_instance_id": 1538,
+      "score": 1.0,
+      "extracted": "KCNJ11",
+      "ground_truth": "KCNJ11",
+      "raw_preview": "The GWAS phenotype is Type 2 Diabetes Mellitus (T2D).  \nAmong the listed genes in the locus, several are known to be associated with T2D or related metabolic pathways:  \n\n- **ABCC8** encodes sulfonylurea receptor 1 (SUR1), a subunit of the ATP-sensitive potassium channel in pancreatic beta cells. Va"
+    },
+    {
+      "task_instance_id": 800,
+      "score": 0.0,
+      "extracted": "ADA2",
+      "ground_truth": "IL17RA",
+      "raw_preview": "Scleroderma, limited (also known as limited cutaneous systemic sclerosis) is an autoimmune connective tissue disease. GWAS studies have identified several susceptibility loci. Among the genes listed, **ADA2** (also known as **CECR1**, cat eye syndrome chromosome region, candidate 1) is notable becau"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 1.0,
+      "extracted": "IRAK1",
+      "ground_truth": "IRAK1",
+      "raw_preview": "Primary myelofibrosis is a myeloproliferative neoplasm often associated with mutations in genes such as *JAK2*, *CALR*, and *MPL*. However, the provided locus gene list appears to be from the X chromosome (specifically Xq28 region, based on genes like *ABCD1*, *G6PD*, *MECP2*, *FLNA*, *TAFAZZIN*, et"
+    },
+    {
+      "task_instance_id": 956,
+      "score": 0.0,
+      "extracted": "CYP2A6",
+      "ground_truth": "AXL",
+      "raw_preview": "Liver neoplasms (liver tumors) are strongly associated with environmental exposures, particularly those involving carcinogen metabolism. Among the genes listed, several cytochrome P450 (CYP) enzymes are critical for metabolizing exogenous compounds, including procarcinogens.  \n\n**Key observations:**"
+    },
+    {
+      "task_instance_id": 1186,
+      "score": 1.0,
+      "extracted": "CXCL8",
+      "ground_truth": "CXCL8",
+      "raw_preview": "Based on the GWAS phenotype of psoriasis and the list of genes in the locus, the most likely causal gene is **CXCL8**.  \n\nPsoriasis is an inflammatory skin disease characterized by immune dysregulation and neutrophil infiltration. The CXCL8 gene encodes interleukin-8 (IL-8), a potent chemokine that "
+    },
+    {
+      "task_instance_id": 821,
+      "score": 1.0,
+      "extracted": "HTR7",
+      "ground_truth": "HTR7",
+      "raw_preview": "Based on the GWAS phenotype of schizophrenia and the provided genes in the locus (ANKRD1, HTR7, PCGF5, RPP30), I need to identify the most likely causal gene.  \n\n- **ANKRD1**: Ankyrin repeat domain 1, primarily involved in cardiac development and stress response. No strong known association with sch"
+    },
+    {
+      "task_instance_id": 1463,
+      "score": 0.0,
+      "extracted": "CCR7",
+      "ground_truth": "TOP2A",
+      "raw_preview": "Peripheral T-cell lymphoma (PTCL) is a heterogeneous group of aggressive non-Hodgkin lymphomas derived from mature T-cells. Among the genes listed, **CCR7** (C-C chemokine receptor type 7) is strongly implicated in T-cell biology and lymphoma pathogenesis.  \n\nCCR7 is a chemokine receptor crucial for"
+    },
+    {
+      "task_instance_id": 877,
+      "score": 0.0,
+      "extracted": "CD74",
+      "ground_truth": "PDGFRB",
+      "raw_preview": "Based on the GWAS phenotype \"Ovarian Neoplasms\" (ovarian tumors/cancer), I need to identify the most likely causal gene from the provided list.  \n\nKey considerations:  \n- Ovarian cancer susceptibility genes often involve DNA repair pathways (e.g., *BRCA1/2* not in list), tumor suppressors, or oncoge"
+    },
+    {
+      "task_instance_id": 913,
+      "score": 1.0,
+      "extracted": "CD274",
+      "ground_truth": "CD274",
+      "raw_preview": "Based on the GWAS phenotype \"Urinary Bladder Neoplasms\" (bladder cancer) and the list of genes in the locus, the most likely causal gene is **CD274**.  \n\nCD274 encodes PD-L1, an immune checkpoint protein that is highly relevant in cancer biology. PD-L1 interacts with PD-1 on T cells to suppress immu"
+    },
+    {
+      "task_instance_id": 152,
+      "score": 1.0,
+      "extracted": "RET",
+      "ground_truth": "RET",
+      "raw_preview": "Based on the GWAS phenotype \"Liver Neoplasms\" (liver tumors, which include hepatocellular carcinoma) and the list of genes in the locus, the most likely causal gene is **RET**.  \n\n**RET** is a well-known proto-oncogene encoding a receptor tyrosine kinase. Germline gain-of-function mutations in *RET*"
+    },
+    {
+      "task_instance_id": 1549,
+      "score": 1.0,
+      "extracted": "PLAU",
+      "ground_truth": "PLAU",
+      "raw_preview": "Let’s reason through this step by step.  \n\nThe GWAS phenotype is **Arthritis** — a broad term, but in GWAS contexts it often refers to **rheumatoid arthritis (RA)**, **osteoarthritis (OA)**, or sometimes juvenile idiopathic arthritis.  \nWe need to pick the most likely causal gene from the given list"
+    },
+    {
+      "task_instance_id": 509,
+      "score": 1.0,
+      "extracted": "VEGFA",
+      "ground_truth": "VEGFA",
+      "raw_preview": "Based on the GWAS phenotype \"Liver Neoplasms\" (liver tumors, including hepatocellular carcinoma), the most likely causal gene in the provided locus is **VEGFA** (Vascular Endothelial Growth Factor A).  \n\nVEGFA is a well-established key regulator of angiogenesis (formation of new blood vessels), whic"
+    },
+    {
+      "task_instance_id": 1135,
+      "score": 1.0,
+      "extracted": "BRAF",
+      "ground_truth": "BRAF",
+      "raw_preview": "Liver neoplasms (liver tumors) are associated with various genetic factors, including oncogenes and tumor suppressors. Among the genes listed, **BRAF** is a well-known oncogene that encodes a serine/threonine-protein kinase involved in the MAPK/ERK signaling pathway. Activating mutations in BRAF (pa"
+    },
+    {
+      "task_instance_id": 1250,
+      "score": 1.0,
+      "extracted": "IL6R",
+      "ground_truth": "IL6R",
+      "raw_preview": "Based on the GWAS phenotype \"Arthritis, Rheumatoid\" (rheumatoid arthritis), the most biologically plausible candidate gene in the provided locus list is **IL6R**, which encodes the interleukin-6 receptor.  \n\nRheumatoid arthritis pathogenesis is strongly linked to IL-6 signaling, and IL6R is a well-e"
+    },
+    {
+      "task_instance_id": 1612,
+      "score": 1.0,
+      "extracted": "CCR4",
+      "ground_truth": "CCR4",
+      "raw_preview": "Based on the GWAS phenotype \"Lymphoma, T-Cell, Cutaneous\" (cutaneous T-cell lymphoma, CTCL), the most likely causal gene in the provided locus is **CCR4**.  \n\nCCR4 (C-C chemokine receptor type 4) is well-established in the literature as being highly relevant to cutaneous T-cell lymphoma. It is expre"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 1.0,
+      "extracted": "ADRA1A",
+      "ground_truth": "ADRA1A",
+      "raw_preview": "Based on the GWAS phenotype \"Depressive Disorder, Major\" and the list of genes in the locus, I need to identify the most likely causal gene. Major depressive disorder (MDD) is a complex psychiatric condition with known genetic associations involving neurotransmitter systems, neuroplasticity, and str"
+    },
+    {
+      "task_instance_id": 586,
+      "score": 0.0,
+      "extracted": "GSDMB",
+      "ground_truth": "TOP2A",
+      "raw_preview": "Based on the GWAS phenotype \"Ovarian Neoplasms\" and the list of genes provided, I need to identify the most likely causal gene within the locus.  \n\nOvarian cancer GWAS studies have repeatedly identified a locus on chromosome 17q12-q21 that contains several genes, with **GSDMB** (gasdermin B) often h"
+    },
+    {
+      "task_instance_id": 1572,
+      "score": 1.0,
+      "extracted": "SERPINA1",
+      "ground_truth": "SERPINA1",
+      "raw_preview": "Alpha 1-antitrypsin deficiency is a genetic disorder caused by mutations in the **SERPINA1** gene, which encodes the alpha-1 antitrypsin protein. This protein is a serine protease inhibitor produced mainly in the liver, and its deficiency leads to lung and liver disease.  \n\nAmong the genes listed in"
+    },
+    {
+      "task_instance_id": 1143,
+      "score": 1.0,
+      "extracted": "HTR2C",
+      "ground_truth": "HTR2C",
+      "raw_preview": "Premenstrual syndrome (PMS) is a complex condition influenced by hormonal fluctuations and neurotransmitter activity, particularly involving serotonin. Among the genes listed in the locus:  \n\n- **HTR2C** encodes the serotonin 2C receptor, which is involved in mood regulation, appetite, and anxiety—a"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 1.0,
+      "extracted": "FLT1",
+      "ground_truth": "FLT1",
+      "raw_preview": "Based on the GWAS phenotype \"Carcinoma, Non-Small-Cell Lung\" and the list of genes provided, I need to identify the most likely causal gene associated with non-small-cell lung cancer (NSCLC) susceptibility.\n\nLet's evaluate the genes:\n\n- **CDX2**: A homeobox gene involved in intestinal development an"
+    },
+    {
+      "task_instance_id": 151,
+      "score": 1.0,
+      "extracted": "CCR4",
+      "ground_truth": "CCR4",
+      "raw_preview": "Based on the GWAS phenotype \"Lymphoma, T-Cell\" and the list of genes in the locus, the most likely causal gene is **CCR4**.  \n\nCCR4 (C-C chemokine receptor type 4) is known to be expressed on certain T-cell subsets, including regulatory T cells and T-helper 2 cells, and has been implicated in T-cell"
+    },
+    {
+      "task_instance_id": 403,
+      "score": 1.0,
+      "extracted": "F2",
+      "ground_truth": "F2",
+      "raw_preview": "Based on the GWAS phenotype \"Hemorrhage\" and the list of genes in the locus, the most likely causal gene is **F2**.  \n\n**F2** encodes coagulation factor II, also known as prothrombin, which is a central protein in the blood coagulation cascade. Variants in the F2 gene are well-established genetic de"
+    },
+    {
+      "task_instance_id": 1640,
+      "score": 1.0,
+      "extracted": "IL4R",
+      "ground_truth": "IL4R",
+      "raw_preview": "Based on the GWAS phenotype \"sinusitis\" and the list of genes in the locus, the most likely causal gene is **IL4R**.  \n\nSinusitis, particularly chronic rhinosinusitis, is an inflammatory condition of the sinuses. The interleukin-4 receptor (IL-4R) is a key component in Th2-mediated immune responses,"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 1.0,
+      "extracted": "IL2RA",
+      "ground_truth": "IL2RA",
+      "raw_preview": "Lymphoma GWAS signals often implicate genes involved in immune regulation, lymphocyte activation, and apoptosis. Looking at the genes in the locus:\n\n- **ANKRD16**: Ankyrin repeat domain protein; not strongly linked to lymphoma.\n- **ASB13**: Ankyrin repeat and SOCS box protein; not a prominent lympho"
+    }
+  ],
+  "gwas_variant_prioritization": [
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "rs4253311",
+      "ground_truth": "rs4253311",
+      "raw_preview": "Bradykinin is a peptide involved in inflammation, blood pressure regulation, and pain. Genetic associations with bradykinin-related phenotypes (like angiotensin-converting enzyme activity, hereditary angioedema, or blood pressure) have been studied in GWAS.  \n\nAmong the listed variants:  \n\n- **rs425"
+    },
+    {
+      "task_instance_id": 178,
+      "score": 1.0,
+      "extracted": "rs9369898",
+      "ground_truth": "rs9369898",
+      "raw_preview": "To identify the most promising variant associated with homocysteine levels from the given list, I need to consider known genetic associations with homocysteine metabolism.  \n\nHomocysteine levels are strongly influenced by genes involved in folate metabolism, particularly **MTHFR** (methylenetetrahyd"
+    },
+    {
+      "task_instance_id": 197,
+      "score": 0.0,
+      "extracted": "rs2000999",
+      "ground_truth": "rs7542172",
+      "raw_preview": "To identify the most promising variant associated with erythritol from the given list, I need to consider which variant has the strongest known genetic association with erythritol levels or metabolism based on existing GWAS studies.  \n\nErythritol is a sugar alcohol, and its blood levels have been st"
+    },
+    {
+      "task_instance_id": 63,
+      "score": 1.0,
+      "extracted": "rs1801725",
+      "ground_truth": "rs1801725",
+      "raw_preview": "To identify the most promising variant associated with calcium levels from the given list, I need to consider known genetic associations with serum calcium concentration from genome-wide association studies (GWAS).  \n\nCalcium GWAS have consistently identified a strong association near the *CASR* gen"
+    },
+    {
+      "task_instance_id": 54,
+      "score": 0.0,
+      "extracted": "rs2282679",
+      "ground_truth": "rs4343",
+      "raw_preview": "Aspartylphenylalanine is a dipeptide (Asp-Phe) that can be measured in metabolomic studies. A GWAS on aspartylphenylalanine levels was conducted as part of metabolomics studies, and one of the most significant associations reported in the literature is with the **rs2282679** variant. This variant is"
+    },
+    {
+      "task_instance_id": 107,
+      "score": 0.0,
+      "extracted": "rs10882272",
+      "ground_truth": "rs6048216",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"D-Glucose,\" I need to consider which variant has the strongest known genetic association with glucose-related traits (such as fasting glucose, glucose levels, or type 2 diabetes).  \n\nFrom the list:  \n- **rs10882272** is in th"
+    },
+    {
+      "task_instance_id": 50,
+      "score": 1.0,
+      "extracted": "rs603424",
+      "ground_truth": "rs603424",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Myristic acid / Myristoleic acid,\" I need to consider which variant has the strongest known association with these fatty acid levels in published genome-wide association studies (GWAS).  \n\nMyristic acid (14:0) and myristoleic"
+    },
+    {
+      "task_instance_id": 174,
+      "score": 0.0,
+      "extracted": "rs174548",
+      "ground_truth": "rs750472",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"L-Alanine / L-Asparagine,\" I need to consider which variant shows the strongest statistical association with these metabolite levels in published genome-wide association studies (GWAS).  \n\nThe phenotype refers to blood or ser"
+    },
+    {
+      "task_instance_id": 211,
+      "score": 0.0,
+      "extracted": "rs646776",
+      "ground_truth": "rs6687813",
+      "raw_preview": "To identify the most promising variant associated with D-dimer measurement from the given list, I need to consider which variant has the strongest known genetic association with D-dimer levels based on published genome-wide association studies (GWAS).  \n\nD-dimer is a fibrin degradation product and a"
+    },
+    {
+      "task_instance_id": 169,
+      "score": 0.0,
+      "extracted": "rs8101881",
+      "ground_truth": "rs532545",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Uridine,\" I need to consider which variant has the strongest known association with uridine levels or related metabolism in published genome-wide association studies (GWAS).  \n\nUridine is a nucleoside, and its circulating lev"
+    },
+    {
+      "task_instance_id": 58,
+      "score": 0.0,
+      "extracted": "rs17145738",
+      "ground_truth": "rs116843064",
+      "raw_preview": "To identify the most promising variant associated with triglyceride measurement from the given list, I need to consider known genome-wide association study (GWAS) findings for triglyceride levels.  \n\nTriglyceride-associated loci are well studied, and several of these variants are known from large-sc"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "rs10455872",
+      "ground_truth": "rs3757354",
+      "raw_preview": "To identify the most promising variant associated with low-density lipoprotein cholesterol (LDL-C) measurement from the given list, I need to consider known genome-wide association study (GWAS) findings for LDL cholesterol levels.  \n\nAmong the listed variants:  \n\n- **rs10455872** is a well-known SNP"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "rs12498742",
+      "ground_truth": "rs2160860",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"5-Hydroxy-L-tryptophan,\" I need to consider which variant has the strongest known genetic association with this metabolite.  \n\n5-Hydroxy-L-tryptophan is an intermediate in serotonin synthesis from tryptophan. GWAS studies on "
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "rs558971",
+      "ground_truth": "rs4949874",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype **L-Acetylcarnitine|Hexanoylcarnitine**, I need to prioritize the variant with the strongest reported association from GWAS studies on these metabolites.  \n\nL-Acetylcarnitine (C2) and Hexanoylcarnitine (C6) are acylcarnitines "
+    },
+    {
+      "task_instance_id": 57,
+      "score": 0.0,
+      "extracted": "rs1532085",
+      "ground_truth": "rs3847502",
+      "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genetic associations from GWAS studies. HDL-C is a well-studied lipid trait with many established loci.  \n\nAmong the listed variants:  \n\n- **r"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "rs3780181",
+      "ground_truth": "rs17279437",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Dimethylglycine / L-Alanine,\" I need to consider which variant has the strongest reported association with these metabolites in published genome-wide association studies (GWAS).  \n\nDimethylglycine and L-alanine are involved i"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 1.0,
+      "extracted": "rs12150660",
+      "ground_truth": "rs12150660",
+      "raw_preview": "To identify the most promising variant associated with testosterone levels from the given list, I need to recall known genome-wide association study (GWAS) findings for testosterone.  \n\nTestosterone GWAS have identified several loci, including genes like **SHBG** (sex hormone-binding globulin), **CY"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 0.0,
+      "extracted": "rs2235544",
+      "ground_truth": "rs4687717",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Phosphate / Erythronic acid,\" I need to consider which variant has the strongest reported association with phosphate metabolism or related traits.  \n\nFrom the list:  \n- **rs2235544** is in the *SLC34A1* gene, which encodes a "
+    },
+    {
+      "task_instance_id": 129,
+      "score": 0.0,
+      "extracted": "rs17711722",
+      "ground_truth": "rs4814176",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Hydroxysphingomyelin C24:1,\" I need to consider which variant has the strongest known genetic association with this or closely related lipid traits.  \n\nHydroxysphingomyelins are a subclass of sphingomyelins, and their blood l"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "rs1153858",
+      "ground_truth": "rs2270968",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"hydroxyisovaleroyl carnitine,\" I need to consider which variant has the strongest known association with this metabolite based on existing literature or GWAS catalog data.  \n\nHydroxyisovaleroyl carnitine (or 3-hydroxyisovaler"
+    },
+    {
+      "task_instance_id": 157,
+      "score": 0.0,
+      "extracted": "rs4983559",
+      "ground_truth": "rs748196",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"2-Arachidonoylglycerophosphocholine,\" I need to consider which variant has the strongest reported association with this specific metabolite in published genome-wide association studies (GWAS).  \n\n2-Arachidonoylglycerophosphoc"
+    },
+    {
+      "task_instance_id": 203,
+      "score": 0.0,
+      "extracted": "rs2108622",
+      "ground_truth": "rs2040771",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Citric acid,\" I need to consider known genetic associations with citric acid levels in human metabolism.  \n\nCitric acid is a key intermediate in the citric acid cycle (Krebs cycle), and its blood or urine levels can be influe"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "rs4983559",
+      "ground_truth": "rs9637599",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype **L-Valine**, I need to consider which variant has the strongest known genetic association with valine levels in human blood or metabolism.  \n\nValine is a branched-chain amino acid (BCAA), and GWAS studies have identified gene"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "rs1061808",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 149,
+      "score": 0.0,
+      "extracted": "rs2287623",
+      "ground_truth": "rs13375749",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Glutarylcarnitine,\" I need to consider which variant is most strongly linked to this metabolite trait based on known genetic associations.  \n\nGlutarylcarnitine is an acylcarnitine involved in mitochondrial fatty acid and amin"
+    },
+    {
+      "task_instance_id": 130,
+      "score": 0.0,
+      "extracted": "rs5030062",
+      "ground_truth": "rs4253772",
+      "raw_preview": "To identify the most promising variant associated with cholesterol from the given list, I need to consider known genetic associations with cholesterol levels (total cholesterol, LDL, HDL, or triglycerides) from genome-wide association studies (GWAS).  \n\nLooking at the variants:  \n\n- **rs5030062** – "
+    },
+    {
+      "task_instance_id": 151,
+      "score": 0.0,
+      "extracted": "rs2769264",
+      "ground_truth": "rs2686796",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Uridine,\" I need to consider which variant has the strongest known genetic association with uridine levels or related metabolism in human genome-wide association studies (GWAS).  \n\nUridine is a nucleoside, and its circulating"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "rs7883218",
+      "ground_truth": "rs2576452",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Arachidonate|1-Arachidonoylglycerophosphoinositol,\" I need to consider which variant has the strongest known association with lipid-related traits, particularly arachidonate metabolism.  \n\nArachidonate is a polyunsaturated fa"
+    },
+    {
+      "task_instance_id": 99,
+      "score": 1.0,
+      "extracted": "rs5030062",
+      "ground_truth": "rs5030062",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Bradykinin,\" I need to consider known genetic associations related to bradykinin pathways, such as those involved in hereditary angioedema (HAE), ACE inhibitor-induced angioedema, or bradykinin metabolism.  \n\nKey genes in bra"
+    },
+    {
+      "task_instance_id": 116,
+      "score": 0.0,
+      "extracted": "rs1801222",
+      "ground_truth": "rs3738934",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Nonanoylcarnitine,\" I need to consider which variant has the strongest known statistical association with this metabolite in published genome-wide association studies (GWAS).  \n\nNonanoylcarnitine (C9) is an acylcarnitine, and"
+    },
+    {
+      "task_instance_id": 87,
+      "score": 0.0,
+      "extracted": "rs6748734",
+      "ground_truth": "rs3017098",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"L-Asparagine,\" I need to consider which variant has the strongest known association with asparagine levels or related metabolic traits based on existing genome-wide association studies (GWAS).  \n\nL-Asparagine is an amino acid"
+    },
+    {
+      "task_instance_id": 202,
+      "score": 1.0,
+      "extracted": "rs2073547",
+      "ground_truth": "rs2073547",
+      "raw_preview": "To identify the most promising variant associated with low-density lipoprotein cholesterol (LDL-C) measurement from the given list, I need to consider known genetic associations from GWAS studies. LDL-C is a well-studied trait with many established loci.  \n\nAmong the provided variants:  \n\n- **rs2073"
+    },
+    {
+      "task_instance_id": 74,
+      "score": 0.0,
+      "extracted": "rs4788815",
+      "ground_truth": "rs2366858",
+      "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genetic associations from GWAS studies. HDL-C is a well-studied lipid trait, and several loci have been identified.  \n\nAmong the listed varian"
+    },
+    {
+      "task_instance_id": 121,
+      "score": 1.0,
+      "extracted": "rs10455872",
+      "ground_truth": "rs10455872",
+      "raw_preview": "To identify the most promising variant associated with cholesterol from the given list, I need to consider known genome-wide association studies (GWAS) findings for cholesterol traits (total cholesterol, LDL, HDL, triglycerides).  \n\nLooking at the variants:  \n\n- **rs10455872** is a well-known SNP in"
+    },
+    {
+      "task_instance_id": 214,
+      "score": 0.0,
+      "extracted": "rs11591147",
+      "ground_truth": "rs12288023",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"N-Acetyl-L-phenylalanine,\" I need to consider which variant has the strongest known association with this metabolite based on existing genome-wide association studies (GWAS).  \n\nN-Acetyl-L-phenylalanine is an acetylated form "
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "rs1776029",
+      "ground_truth": "rs7529794",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype **LysoPC(16:0)**, I need to consider which variant has the strongest known association with this metabolite in published genome-wide association studies (GWAS).  \n\nLysoPC(16:0) is a lysophosphatidylcholine species often studie"
+    },
+    {
+      "task_instance_id": 188,
+      "score": 0.0,
+      "extracted": "rs1532085",
+      "ground_truth": "rs6073958",
+      "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genetic associations from prior GWAS studies. HDL-C is a well-studied lipid trait with many established loci.\n\nLooking at the variants:\n\n- **r"
+    },
+    {
+      "task_instance_id": 71,
+      "score": 0.0,
+      "extracted": "rs10882272",
+      "ground_truth": "rs7159888",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"N-glycan measurement,\" I need to consider which variant has the strongest known association with N-glycan levels in published genome-wide association studies (GWAS).  \n\nN-glycans are complex sugar structures attached to prote"
+    },
+    {
+      "task_instance_id": 106,
+      "score": 0.0,
+      "extracted": "rs941206",
+      "ground_truth": "rs7954638",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"L-Histidine,\" I need to consider which variant has the strongest known genetic association with histidine levels in human metabolism.  \n\nAmong the listed variants:  \n\n- **rs1801133** is the well-known MTHFR C677T variant, whi"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "rs17711722",
+      "ground_truth": "rs10087900",
+      "raw_preview": "To identify the most promising variant associated with high-density lipoprotein cholesterol (HDL-C) measurement from the given list, I need to consider known genome-wide association study (GWAS) findings for HDL cholesterol levels.  \n\nFrom established knowledge:  \n- **rs2231142** in the *ABCG2* gene"
+    },
+    {
+      "task_instance_id": 92,
+      "score": 0.0,
+      "extracted": "rs10934753",
+      "ground_truth": "rs7883218",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Thyroxine,\" I need to consider which variant has the strongest reported association with thyroxine levels in published genome-wide association studies (GWAS).  \n\nThyroxine (T4) GWAS have identified several loci, including gen"
+    },
+    {
+      "task_instance_id": 179,
+      "score": 1.0,
+      "extracted": "rs1800562",
+      "ground_truth": "rs1800562",
+      "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Iron,\" I need to consider known genetic associations with iron-related traits (e.g., serum iron levels, iron deficiency, iron overload).  \n\nAmong the listed variants:  \n\n- **rs1800562** is a well-known missense variant (C282Y"
+    },
+    {
+      "task_instance_id": 102,
+      "score": 0.0,
+      "extracted": "rs12550729",
+      "ground_truth": "rs4941615",
+      "raw_preview": "Ketoleucine is a metabolite derived from the branched-chain amino acid leucine, and its levels in blood or urine can be influenced by genetic variants, often identified through metabolomics GWAS.  \n\nLooking at the provided list of variants, **rs4680** is a well-known functional polymorphism in the *"
+    }
+  ],
+  "lab_bench_dbqa": [
+    {
+      "task_instance_id": 207,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "The CAHOY_NEURONAL gene set is defined by genes upregulated in neurons compared to other brain cells (like astrocytes and oligodendrocytes), and it is part of the MSigDB C6 collection of oncogenic signatures derived from microarray data.  \n\nLooking at the options:  \n- **RASL10A** is a Ras-like GTPas"
+    },
+    {
+      "task_instance_id": 212,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "The question asks which gene is most likely contained in a gene set that is **down-regulated during early differentiation** of embryoid bodies from J1 embryonic stem cells.  \nThe gene set is part of the **C6 collection: oncogenic signature gene sets**, meaning it’s derived from perturbations of know"
+    },
+    {
+      "task_instance_id": 295,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "D",
+      "raw_preview": "Let’s break this down.  \n\nThe sequence given is human serum albumin (UniProt P02768). ClinVar classifies variants based on clinical significance, and “benign” means the variant is not disease-causing.  \n\nWe can check known ClinVar entries for albumin variants:  \n\n- **S77F** (Serine to Phenylalanine "
+    },
+    {
+      "task_instance_id": 476,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "D",
+      "raw_preview": "The gene set name indicates it contains genes down-regulated in PBMCs 7 days after influenza vaccination in young adult responders.  \nThe C7 collection (immunologic signatures) in MSigDB includes many such vaccine response sets, and they are typically derived from expression profiling studies. Witho"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "The question asks which gene has a DYRK1A binding site in its promoter region according to the Gene Transcription Regulation Database (GTRD). Without direct access to the GTRD in real-time, I must rely on biological knowledge and typical database content.  \n\nDYRK1A is a kinase involved in transcript"
+    },
+    {
+      "task_instance_id": 511,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "The P-HIPSter database predicts host-pathogen protein-protein interactions. For Variola virus (smallpox), the hypothetical protein N1L is known to interact with human proteins involved in apoptosis and immune signaling. Among the options, **BAG3** (BCL2-associated athanogene 3) is a co-chaperone inv"
+    },
+    {
+      "task_instance_id": 477,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "The question asks for a gene most likely contained in a specific gene set from the C7 immunologic signatures collection (VAX: vaccine response gene sets) in MSigDB. The set is \"THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_VS_70PLS_0DY_UP,\" which represents genes up-regulated in PBMCs from young adu"
+    },
+    {
+      "task_instance_id": 303,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "The sequence provided is a long amino acid sequence (single-letter codes). The question asks which variant, according to ClinVar, is most likely to be benign. The variants are given as amino acid substitutions using the format like L1256P (Leucine to Proline at position 1256).  \n\nTo answer, I’d need"
+    },
+    {
+      "task_instance_id": 350,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "The sequence provided is the amino acid sequence of the human protein PTEN (Phosphatase and tensin homolog). ClinVar is a database of clinically relevant variants and their pathogenicity classifications.  \n\nLooking at the sequence and the variant options:  \n- **G418V**: Glycine at position 418 chang"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "The question asks which gene has a ZNF134 binding site in its promoter region according to the Gene Transcription Regulation Database (GTRD). Without direct access to query the GTRD in real time, I must rely on known data or inference.  \n\nFrom biological databases and literature, ZNF134 is a zinc fi"
+    },
+    {
+      "task_instance_id": 201,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "D",
+      "raw_preview": "The question asks which gene is most likely in a gene set that contains genes down-regulated in HEK293 cells after ATM knockdown. ATM is a key DNA damage response kinase, and its knockdown typically impairs DNA repair signaling, which can affect cell cycle regulation and apoptosis.  \n\nThe gene set i"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "The Mouse Genome Informatics (MGI) database and the Mammalian Phenotype (MP) ontology term MP:0009320 (\"increased lymphoblastic lymphoma incidence\") are used to annotate mouse genes where mutations lead to that phenotype.  \n\nFrom known literature and MGI queries:  \n- **Tal1** (T-cell acute lymphocyt"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "To determine which human gene is located at chr11q23 according to Ensembl Release 110, I need to recall or infer the cytogenetic band locations of the given genes.  \n\n- **VPS11-DT** is a divergent transcript associated with VPS11, which is on chromosome 11, but its exact cytoband is 11q23.3 accordin"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "The gene set GLI1_UP.V1_DN contains genes that are down-regulated when GLI1 is overexpressed in RK3E kidney epithelial cells. GLI1 is a transcription factor and a key effector of the Hedgehog signaling pathway, which is often involved in oncogenesis. When GLI1 is overexpressed, it typically activate"
+    },
+    {
+      "task_instance_id": 401,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 190,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "E",
+      "raw_preview": "The Mouse Genome Informatics (MGI) database and the Mammalian Phenotype (MP) ontology are used to annotate mouse genes with specific phenotypic outcomes. The phenotype \"increased small intestine adenocarcinoma incidence\" (MP:0009309) is a specific annotation.  \n\nFrom known MGI data, the gene **Rnf8*"
+    },
+    {
+      "task_instance_id": 309,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "The sequence provided is the amino acid sequence of the human protein **ATRX** (UniProt entry P46100). ATRX is a chromatin remodeler, and mutations in it cause X-linked alpha-thalassemia intellectual disability syndrome (ATR-X syndrome).  \n\nLooking at the ClinVar database for known pathogenic varian"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "To answer this question, I need to recall or infer which of the listed genes has a documented NFKBIA binding site in its promoter region according to a specific database (Gene Transcription Regulation Database).  \n\nNFKBIA is IκBα, an inhibitor of NF-κB, but it can also enter the nucleus and bind DNA"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "miRDB is a database for microRNA target prediction and functional annotations. The question asks for a computationally predicted human gene target of the specific miRNA **MIR4795_5P** according to **miRDB v6.0**. Without directly querying the miRDB v6.0 database, I cannot definitively know which of "
+    },
+    {
+      "task_instance_id": 53,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "To determine which human gene is located at chr17p13 according to Ensembl Release 110, I need to recall or infer the chromosomal locations of the listed genes.  \n\n- **CSHL1** (chorionic somatomammotropin hormone-like 1) is on chromosome 17 at 17q24.2, not 17p13.  \n- **SMG6** (nonsense mediated mRNA "
+    },
+    {
+      "task_instance_id": 389,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "Currarino syndrome (also known as Currarino triad) is typically associated with mutations in the **MNX1** gene (formerly known as **HLXB9**). Both OMIM and DisGeNet list MNX1 as associated.  \n\nHowever, the question asks for a gene that is associated according to DisGeNet but **not** according to OMI"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "The gene set name indicates genes down-regulated in neutrophils at 1 day post-vaccination with an H5N1 influenza vaccine in adults. The C7 collection (immunologic signatures) in MSigDB includes many such vaccine response sets. Without direct access to the specific gene set contents, I must rely on b"
+    },
+    {
+      "task_instance_id": 505,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "B",
+      "raw_preview": "The P-HIPSter database predicts protein-protein interactions between viral and human proteins based on computational methods. For Monkeypox virus Zaire-96-I-16, the viral protein D10L is a putative host-range protein. According to the P-HIPSter database (as referenced in some virology studies and in"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "To determine which human gene is located at chr14q21 according to Ensembl Release 110, I need to recall or infer the chromosomal locations of the listed genes.  \n\n- **ACTN1** is on chromosome 14, but at 14q24.1, not 14q21.  \n- **FKBP1BP1** (also known as FKBP1B pseudogene 1) is on chromosome 14 at 1"
+    },
+    {
+      "task_instance_id": 419,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "The question asks which sequence is most likely to contain a pathogenic variant according to ClinVar. ClinVar is a database that aggregates information about genomic variants and their relationship to human health. Pathogenic variants are those known or strongly suspected to cause disease.\n\nLooking "
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "miRDB v6.0 is a database for microRNA target prediction and functional annotations. To answer this question accurately, one would need to query the miRDB v6.0 database for predicted targets of the specific miRNA \"LET_7G_5P\" (which corresponds to the mature sequence of let-7g-5p). Without direct acce"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "The gene set BRCA1_DN.V1_DN contains genes that are down-regulated when BRCA1 is knocked down. Since BRCA1 is a tumor suppressor gene involved in DNA repair and transcriptional regulation, its loss typically disrupts normal cellular functions, including the expression of genes it helps activate. The"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "Let’s break this down.  \n\nOtofaciocervical syndrome (OTFCS) is a rare genetic disorder. According to OMIM (Online Mendelian Inheritance in Man), the gene associated with OTFCS is **EYA1** (OMIM entry #166780, OTFCS2) and **PAX1** (OMIM entry #615560, OTFCS1).  \n\nDisGeNet is a database integrating ge"
+    },
+    {
+      "task_instance_id": 430,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "The question asks which gene has a SETD7 binding site in its promoter region according to the Gene Transcription Regulation Database (GTRD). Without direct access to query the GTRD in real time, I cannot definitively check the promoter regions of BFAR, OR8A1, ASCL5, and NOP56 for SETD7 binding sites"
+    },
+    {
+      "task_instance_id": 427,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 493,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "The P-HIPSter database predicts host-pathogen protein-protein interactions based on computational methods, including homology and domain interaction modeling. Hepatitis C virus genotype 5 E2 protein is an envelope glycoprotein involved in viral entry. Among the options:  \n\n- **TRGV3** encodes a T-ce"
+    },
+    {
+      "task_instance_id": 366,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "The sequences are very long and differ at only a few positions. The question asks which is most likely to be benign according to ClinVar, implying we need to identify which variant is a known benign polymorphism or which change is least likely to be pathogenic.  \n\nLooking closely:  \n- **Sequence A**"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 1.0,
+      "extracted": "C",
+      "ground_truth": "C",
+      "raw_preview": "miRDB is a database for microRNA target prediction and functional annotations. The question asks for a computationally predicted human gene target of the specific miRNA **MIR3190_3P** according to **miRDB v6.0**. Without direct access to the miRDB v6.0 database at this moment, I must rely on biologi"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 495,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "D",
+      "raw_preview": "The P-HIPSter database predicts host-pathogen protein-protein interactions. According to that database, Human adenovirus 12 endoprotease (Late protein 3) is predicted to interact with the human protein encoded by the **AKIRIN2** gene.  \n\n[ANSWER]B[/ANSWER]  \n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "To determine which human gene is located at chr16q22 according to Ensembl Release 110, I need to recall or infer the cytogenetic band locations of the given genes.  \n\n- **chr16q22** refers to the long arm (q) of chromosome 16 at band 22.  \n- **NUTF2** (Nuclear Transport Factor 2) is known to be loca"
+    },
+    {
+      "task_instance_id": 345,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "Let’s break this down.  \n\nThe sequence given is a protein sequence (single-letter amino acid code).  \nThe question asks which variant (given as a standard protein variant notation like S5L, D417G, etc.) is most likely to be pathogenic **according to ClinVar**.  \n\nWe don’t have direct ClinVar access "
+    },
+    {
+      "task_instance_id": 264,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "I don’t have real-time access to the Gene Transcription Regulation Database (GTRD) to check promoter binding sites for specific genes.  \nGiven the question asks about a TBX3 binding site in the promoter region (-1000,+100 bp around TSS) according to that database, and since I cannot query it now, th"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "The question asks which gene has an AHRR binding site in its promoter region according to a specific database (Gene Transcription Regulation Database). Without direct access to that database to query the data, I must rely on biological knowledge.  \n\nAHRR (Aryl Hydrocarbon Receptor Repressor) is a tr"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "Meesmann corneal dystrophy is a rare autosomal dominant disorder caused by mutations in keratin genes expressed in the corneal epithelium. According to OMIM (Online Mendelian Inheritance in Man), the established causal genes are **KRT12** (keratin 12) and **KRT3** (keratin 3).  \n\nDisGeNet is a datab"
+    },
+    {
+      "task_instance_id": 315,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "The sequence provided is the human protein sequence for **KCNH2** (also known as hERG), a potassium channel encoded by the *KCNH2* gene. Mutations in *KCNH2* are associated with Long QT syndrome type 2 (LQT2).  \n\nLooking at the variants:  \n- **A1326S**: This position is within the cytoplasmic C-term"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "miRDB v6.0 is a database for microRNA target prediction and functional annotations. To answer this question accurately, one would need to query the miRDB database specifically for predicted targets of the human miRNA \"MIR29B_1_5P\". Without direct access to the database at this moment, I cannot defin"
+    },
+    {
+      "task_instance_id": 387,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "The sequences provided are nearly identical, differing by only one or two amino acids. The question asks which is most likely to be benign according to ClinVar, implying we need to identify the variant least likely to be pathogenic based on known mutation patterns.  \n\nComparing the sequences:  \n- **"
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "C",
+      "raw_preview": "The Gene Transcription Regulation Database (GTRD) is a resource that compiles transcription factor binding sites from ChIP-seq data. To answer this question accurately, one would need to query the GTRD specifically for ZNF282 binding sites within the defined promoter region (-1000 to +100 bp around "
+    },
+    {
+      "task_instance_id": 166,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "The Mouse Genome Informatics database (MGI) and the Mammalian Phenotype (MP) ontology term MP:0010275 (\"increased melanoma incidence\") are used to annotate mouse genes where mutations or alterations lead to a higher frequency of melanoma.  \n\nFrom known biology, the gene **BRAF** is strongly associat"
+    },
+    {
+      "task_instance_id": 328,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "A",
+      "raw_preview": "The sequence provided is the human protein **p53** (UniProt ID P04637). The bracketed sequence corresponds to the canonical p53 isoform, and the positions in the variants (V56, Q34, A46, V380) refer to amino acid positions in the full-length protein.  \n\nLooking at ClinVar data for *TP53* (the gene e"
+    },
+    {
+      "task_instance_id": 514,
+      "score": 1.0,
+      "extracted": "D",
+      "ground_truth": "D",
+      "raw_preview": "The P-HIPSter database predicts protein-protein interactions between human and viral proteins. The question asks specifically for the human gene encoding a protein predicted to interact with the Yaba-like disease virus 14L protein.  \n\nFrom the P-HIPSter database, the predicted human interactor for Y"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "The Mouse Genome Informatics database (MGI) and the Mammalian Phenotype (MP) ontology term MP:0002038 (\"increased carcinoma incidence\") annotate mouse genes where mutations or alterations lead to a higher frequency of carcinomas.  \n\n- **Cdkn2a** (p16INK4a/p19ARF) is a well-known tumor suppressor gen"
+    }
+  ],
+  "lab_bench_seqqa": [
+    {
+      "task_instance_id": 256,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 563,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 533,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 430,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 100,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "B",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 226,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 448,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 547,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 571,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 213,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 359,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 171,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 98,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 292,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 215,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 61,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 406,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "B",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 47,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 417,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "B",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 267,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 327,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 200,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "E",
+      "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, I need to look for key features that influence translation initiation, especially the sequence context around the start codon (AUG).  \n\nIn humans, the **Kozak consensus sequence** plays a major role: "
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "A",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 524,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "E",
+      "raw_preview": "Let’s break this down.  \n\nThe question asks for fragment lengths after digesting a given DNA sequence with **BstSFI** and **SthSt3II**.  \n\nFirst, I need to recall or look up the recognition sites for these enzymes:  \n\n- **BstSFI** is a type IIs restriction enzyme with recognition site:  \n`CCTGCA(11/"
+    },
+    {
+      "task_instance_id": 505,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 230,
+      "score": 0.0,
+      "extracted": "Y",
+      "ground_truth": "C",
+      "raw_preview": "To answer this, we need to consider Gibson assembly requirements and the specifics of the question.  \n\nGibson assembly requires that the PCR product have ends homologous to the ends of the linearized vector.  \nThe plasmid is pUC19, linearized with HindII. HindII cuts at the sequence **GTYRAC** (wher"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 260,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 378,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 288,
+      "score": 0.0,
+      "extracted": "S",
+      "ground_truth": "C",
+      "raw_preview": "Let's analyze the primers and the plasmid.  \n\nThe forward primer sequence is: **GGTACCATGGCGACACAATCCAGTCCTG**  \nThe reverse primer sequence is: **GGATCCTCAATGACGGCCGAAAACGGGAC**  \n\n- **GGTACC** is the recognition site for **KpnI** (and also for **Acc65I**, which is an isoschizomer that produces the"
+    },
+    {
+      "task_instance_id": 418,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 391,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 498,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 138,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "B",
+      "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, we need to look for key features that influence translation initiation and elongation.  \n\nThe main differences among the sequences are near the start codon region (the first AUG in each). Translation "
+    },
+    {
+      "task_instance_id": 62,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 471,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 128,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 583,
+      "score": 0.0,
+      "extracted": "I",
+      "ground_truth": "B",
+      "raw_preview": "First, I need to understand the enzymes involved.  \n\n**BcgI** is a Type IIs restriction enzyme with the recognition sequence:  \n`(10/12)CGANNNNNNTGC(12/10)` — meaning it cuts downstream of its recognition site.  \nSpecifically, it recognizes an asymmetric sequence:  \nOne strand: 5′-CGANNNNNNTGC-3′  \n"
+    },
+    {
+      "task_instance_id": 520,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 64,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "C",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "B",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 156,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "The question asks which RNA sequence contains an open reading frame (ORF) most likely to have high translation efficiency in a human cell.  \n\nKey factors for translation efficiency in humans include:  \n- A strong **Kozak sequence** around the start codon (AUG), ideally GCCRCCAUGG (where R is purine)"
+    },
+    {
+      "task_instance_id": 40,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "F",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 492,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 379,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 187,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 216,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "E",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "B",
+      "raw_preview": ""
+    }
+  ],
+  "patient_gene_detection": [
+    {
+      "task_instance_id": 212,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000161011",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 295,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000168291",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 457,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000137700",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000179142",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 488,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000039650",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 486,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000075624",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 303,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000158352",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 350,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000130812",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000196924",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 201,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000185624",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000133703",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 43,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000197746",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000170540",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 401,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000168769",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 190,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000171094",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 309,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000111262",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 259,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000081087",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000165280",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000152700",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 389,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000143669",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000173801",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 441,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000102030",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 482,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000125779",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000171302",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 419,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000054983",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000105983",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000139219",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000171714",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000148384",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 427,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000055609",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 366,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000104381",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 91,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000162551",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000130707",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 473,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000125378",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000125459",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 345,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000012504",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 264,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"FLNA\"]}",
+      "ground_truth": "ENSG00000102081",
+      "raw_preview": "Let's break this down step by step.  \n\nFirst, I'll map the given HPO terms to their phenotypic descriptions:  \n\n- HP:0000276 → Long face  \n- HP:0001252 → Muscular hypotonia  \n- HP:0001388 → Joint laxity  \n- HP:0002167 → Neurological speech impairment  \n- HP:0007018 → Attention deficit hyperactivity "
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000010404",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000203908",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 315,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000104774",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000163702",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 387,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000213380",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 273,
+      "score": 1.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000142192\"]}",
+      "ground_truth": "ENSG00000142192",
+      "raw_preview": "Let's break this down.  \n\nFirst, I'll map the given HPO terms to their phenotypic descriptions to understand the clinical presentation:  \n\n- **HP:0001288** → Gait disturbance  \n- **HP:0001297** → Stroke-like episode  \n- **HP:0001336** → Myoclonus  \n- **HP:0100659** → Cerebral aneurysm  \n- **HP:00012"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000204386",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 328,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000176884",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 492,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000060237",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000068078",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 306,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000165671",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 480,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000101384",
+      "raw_preview": ""
+    },
+    {
+      "task_instance_id": 319,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "ENSG00000102580",
+      "raw_preview": ""
+    }
+  ],
+  "rare_disease_diagnosis": [
+    {
+      "task_instance_id": 90,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"156550\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0002650: Scoliosis  \n- HP:0000175: Cleft palate  \n- HP:0007099: Metaphyseal dysplasia  \n- HP:0004322: Short stature  \n- HP:0001263: Global developmental delay  \n- HP:0009473: Joint laxity  \n\nThese features together suggest a skeletal dysplasia with developmental "
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"151623\"}",
+      "ground_truth": "{\"disease_name\": \"Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT\", \"OMIM_ID\": \"617193\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0001250: Seizures (repeated)  \n- HP:0002169: Intellectual disability, severe  \n- HP:0002312: Cerebellar ataxia  \n- HP:0002069: Generalized tonic-clonic seizures  \n\nThe candidate gene ENSG00000141556 corresponds to **TP53** (tumor protein p53), which is associated"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"154700\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- HP:0000508 → Ptosis (drooping of the upper eyelid)  \n- HP:0000193 → Bifid uvula  \n- HP:0009473 → Long fingers  \n- HP:0000347 → Micrognathia (small jaw)  \n\nThe candidate gene ENSG00000154864 corresponds to **FBN1** (fibrillin-1).  \n\nMutations in **FBN1** cause **Mar"
+    },
+    {
+      "task_instance_id": 107,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"121050\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "Let's break this down.  \n\n**Step 1: Interpret the HPO terms**  \n- HP:0009473 → \"Joint hypermobility\"  \n- HP:0001371 → \"Flexion contracture\" (joint contractures)  \n- HP:0000602 → \"Optic atrophy\"  \n- HP:0002650 → \"Scoliosis\"  \n- HP:0000508 → \"Ptosis\"  \n\nThese together suggest a connective tissue disor"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 1.0,
+      "extracted": "{\"OMIM_ID\": \"193700\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0000028: Prostatitis  \n- HP:0000160: Narrow mouth  \n- HP:0002650: Scoliosis  \n- HP:0012385: Bronchomalacia  \n\nCandidate gene ENSG00000109063 corresponds to **MYH3** (myosin heavy chain 3).  \n\nMutations in **MYH3** are associated with **Arthrogryposis, distal, typ"
+    },
+    {
+      "task_instance_id": 57,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"101400\"}",
+      "ground_truth": "{\"disease_name\": \"Schwartz-Jampel syndrome\", \"OMIM_ID\": \"255800\"}",
+      "raw_preview": "The patient's phenotypes (HPO terms) correspond to:  \n- HP:0002098 → Respiratory distress  \n- HP:0001252 → Muscular hypotonia  \n- HP:0000160 → Narrow mouth  \n- HP:0001357 → Plagiocephaly  \n- HP:0001363 → Craniosynostosis  \n- HP:0000274 → Retrognathia  \n- HP:0045025 → Microretrognathia  \n- HP:0012745"
+    },
+    {
+      "task_instance_id": 75,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"118450\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "The patient phenotypes are:  \n- HP:0002561: **Biliary atresia**  \n- HP:0000598: **Abnormality of the outer ear**  \n- HP:0001057: **Cutis laxa**  \n\nThese features strongly suggest **Alagille syndrome**, which is characterized by bile duct paucity (leading to biliary atresia-like presentation), distin"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"154500\"}",
+      "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- **HP:0007646** = Short columella  \n- **HP:0000347** = Micrognathia  \n- **HP:0000175** = Cleft palate  \n- **HP:0000365** = Hearing impairment  \n- **HP:0001172** = Digital clubbing  \n\nThese features are consistent with **Treacher Collins syndrome** (mandibulofacial d"
+    },
+    {
+      "task_instance_id": 140,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"108145\"}",
+      "ground_truth": "{\"disease_name\": \"DA2B\", \"OMIM_ID\": \"601680\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- HP:0012385: Camptodactyly  \n- HP:0001371: Flexion contracture  \n- HP:0001836: Broad toe  \n- HP:0100490: Camptodactyly of toe  \n- HP:0000494: Downslanted palpebral fissures  \n- HP:0001883: Leukonychia  \n- HP:0001762: Pes planus  \n\nThe candidate gene ENSG00000198467 "
+    },
+    {
+      "task_instance_id": 59,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"163950\"}",
+      "ground_truth": "{\"disease_name\": \"DA8\", \"OMIM_ID\": \"178110\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- **HP:0000470** → Short neck  \n- **HP:0004322** → Short stature  \n- **HP:0005281** → Depressed nasal bridge  \n- **HP:0000508** → Ptosis  \n- **HP:0000369** → Low-set ears  \n- **HP:0001629** → Ventricular septal defect  \n- **HP:0012385** → Brushfield spots  \n- **HP:00"
+    },
+    {
+      "task_instance_id": 63,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"307800\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 1A\", \"OMIM_ID\": \"108120\"}",
+      "raw_preview": "The patient's phenotype HP:000001281 corresponds to \"Hypophosphatemia\" in the Human Phenotype Ontology. Hypophosphatemia is a hallmark feature of several rare genetic disorders, most notably X-linked hypophosphatemia (XLH), which is caused by mutations in the **PHEX** gene (phosphate-regulating endo"
+    },
+    {
+      "task_instance_id": 132,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"312750\"}",
+      "ground_truth": "{\"disease_name\": \"Syndromic X-linked mental retardation, Cabezas type,Mental Retardation, X-Linked, Syndromic, Cabezas Type,X-linked intellectual disability, Cabezas type\", \"OMIM_ID\": \"300354\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0001276: Hypertonia  \n- HP:0001270: Motor delay  \n- HP:0002378: Developmental regression  \n- HP:0000750: Delayed speech and language development  \n- HP:0001263: Global developmental delay  \n\nThe candidate gene ENSG00000158290 corresponds to **MECP2** (methyl-CpG-"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"614701\"}",
+      "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+      "raw_preview": "Let's break this down.  \n\nThe phenotypes (HPO terms) are:  \n\n- HP:0200006 – Sloping forehead  \n- HP:0007646 – Progressive microcephaly  \n- HP:0011800 – Midface retrusion  \n- HP:0000347 – Micrognathia  \n- HP:0012478 – Brachydactyly  \n- HP:0000185 – Oligodontia  \n- HP:0000365 – Hearing impairment  \n- "
+    },
+    {
+      "task_instance_id": 136,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"611093\"}",
+      "ground_truth": "{\"disease_name\": \"autism (disease)\", \"OMIM_ID\": \"209850\"}",
+      "raw_preview": "The patient's phenotype is HP:0001249, which corresponds to \"Intellectual disability.\"  \n\nThe candidate gene is ENSG00000101825. Looking up this Ensembl ID, it maps to the gene **TUSC3** (Tumor Suppressor Candidate 3).  \n\nMutations in **TUSC3** are associated with **Autosomal recessive intellectual "
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"193700\"}",
+      "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+      "raw_preview": "Let's break this down step by step.  \n\nFirst, I'll map the provided HPO terms to their phenotypic descriptions to understand the patient's clinical picture.  \n\n**Key HPO terms and their meanings:**  \n- HP:0002000: Facial asymmetry  \n- HP:0000205: Cleft palate  \n- HP:0002987: Elbow flexion contractur"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"214800\"}",
+      "ground_truth": "{\"disease_name\": \"Postaxial acrofacial dysostosis\", \"OMIM_ID\": \"263750\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- HP:0000347 (Micrognathia)  \n- HP:0000411 (Protruding ear)  \n- HP:0000378 (Low-set ears)  \n- HP:0002558 (Highly arched eyebrow)  \n- HP:0000625 (Iris coloboma)  \n- HP:0000202 (Oral cleft)  \n- HP:0000448 (Prominent forehead)  \n\nThese features strongly suggest a cranio"
+    },
+    {
+      "task_instance_id": 130,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"614255\"}",
+      "ground_truth": "{\"disease_name\": \"lethal arthrogryposis-anterior horn cell disease syndrome\", \"OMIM_ID\": \"611890\"}",
+      "raw_preview": "The patient phenotypes are:  \n- HP:0001263: Global developmental delay  \n- HP:0001270: Motor delay  \n- HP:0001270: Motor delay (duplicate entry, so effectively just motor delay and global developmental delay)  \n\nThe candidate gene is ENSG00000119392, which corresponds to **KIF1A** (HGNC symbol).  \n\n"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"154700\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0000508: Ptosis (drooping of the upper eyelid)  \n- HP:0009473: Joint hypermobility  \n- HP:0001371: Flexion contracture (joint contractures)  \n\nThe candidate gene ENSG00000154864 corresponds to **FBN1** (fibrillin-1).  \n\nMutations in **FBN1** cause **Marfan syndro"
+    },
+    {
+      "task_instance_id": 99,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"125250\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "The patient phenotypes are:  \n- HP:0004322: Short stature  \n- HP:0009473: Poor appetite  \n- HP:0000508: Ptosis  \n- HP:0000602: Optic atrophy  \n\nThe candidate gene ENSG00000154864 corresponds to **OPA1** (HGNC symbol), which encodes a mitochondrial dynamin-related GTPase involved in mitochondrial fus"
+    },
+    {
+      "task_instance_id": 116,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"608644\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "Let's analyze the patient's phenotypes and candidate gene.\n\n**Step 1: Decode the HPO terms**  \n- HP:0009473 → \"Short stature\"  \n- HP:0001488 → \"Bilateral single transverse palmar creases\"  \n- HP:0002091 → \"Bronchiectasis\"  \n- HP:0002650 → \"Scoliosis\"  \n- HP:0005745 → \"Ciliary dyskinesia\"  \n\n**Step 2"
+    },
+    {
+      "task_instance_id": 87,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"114290\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "The patient phenotypes are:  \n\n- HP:0000602: **Orofacial cleft**  \n- HP:0000175: **Cleft palate**  \n- HP:0009473: **Pierre-Robin sequence** (micrognathia/retrognathia, glossoptosis, cleft palate)  \n- HP:0000347: **Micrognathia**  \n\nThese are strongly suggestive of **Pierre Robin sequence**, which ca"
+    },
+    {
+      "task_instance_id": 74,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"614814\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0002561: **Intestinal malrotation**  \n- HP:0001057: **Cutis marmorata**  \n- HP:0000598: **Abnormality of the outer ear**  \n\nThese three features are highly characteristic of **Adams–Oliver syndrome**, a rare genetic disorder involving scalp defects (aplasia cutis"
+    },
+    {
+      "task_instance_id": 121,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"212350\"}",
+      "ground_truth": "{\"disease_name\": \"Opsismodysplasia\", \"OMIM_ID\": \"258480\"}",
+      "raw_preview": "Let's break this down.  \n\nFirst, I’ll map the provided HPO terms to their descriptions to understand the patient’s phenotype profile:  \n\n- **HP:0011220** → Increased CSF lactate  \n- **HP:0000348** → High forehead  \n- **HP:0000316** → Hypertelorism  \n- **HP:0000637** → Nystagmus  \n- **HP:0000520** → "
+    },
+    {
+      "task_instance_id": 145,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"300215\"}",
+      "ground_truth": "{\"disease_name\": \"Opitz Gbbb Syndrome, Type 1\", \"OMIM_ID\": \"300000\"}",
+      "raw_preview": "The patient's phenotypes correspond to the following Human Phenotype Ontology (HPO) terms:  \n\n- HP:0001250: Seizure  \n- HP:0001263: Global developmental delay  \n- HP:0000047: Hypospadias  \n- HP:0000639: Nystagmus  \n- HP:0000821: Hypertension  \n- HP:0000238: Hydrocephalus  \n- HP:0001513: Obesity  \n\nT"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"135900\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- **HP:0012385** (Broad nasal tip)  \n- **HP:0000365** (Hearing impairment)  \n- **HP:0000160** (Narrow mouth)  \n- **HP:0000028** (Cryptorchidism)  \n- **HP:0000750** (Delayed speech and language development)  \n- **HP:0000343** (Long face)  \n- **HP:0002650** (Scoliosis)"
+    },
+    {
+      "task_instance_id": 71,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"123700\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "The patient phenotypes are:  \n\n- **HP:0001057** = Cutis laxa (loose, sagging, inelastic skin)  \n- **HP:0002561** = Abnormal aortic morphology  \n- **HP:0000598** = Abnormality of the ear  \n\nThe candidate gene **ENSG00000134504** corresponds to **ELN** (elastin), which is located on chromosome 7q11.23"
+    },
+    {
+      "task_instance_id": 106,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"614557\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- HP:0009473: Joint hypermobility  \n- HP:0001371: Flexion contracture  \n- HP:0000602: Osteopenia  \n- HP:0002650: Scoliosis  \n- HP:0001488: Bilateral talipes equinovarus  \n\nThese features collectively suggest a connective tissue disorder with skeletal involvement, joi"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"612650\"}",
+      "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+      "raw_preview": "The patient's phenotypes correspond to:  \n\n- HP:0001762 – Talipes equinovarus  \n- HP:0002793 – Abnormal pattern of respiration  \n- HP:0002093 – Respiratory insufficiency  \n- HP:0000969 – Edema  \n- HP:0002791 – Asthma  \n- HP:0001270 – Motor delay  \n- HP:0000750 – Delayed speech and language developme"
+    },
+    {
+      "task_instance_id": 92,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"182212\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "The patient's phenotypes are:  \n\n- HP:0000602 → Optic atrophy  \n- HP:0000175 → Cleft palate  \n- HP:0004322 → Short stature  \n- HP:0002650 → Scoliosis  \n- HP:0000508 → Ptosis  \n- HP:0009473 → Joint hypermobility  \n\nThese features strongly suggest a connective tissue disorder with craniofacial, ocular"
+    },
+    {
+      "task_instance_id": 102,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"121050\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "The patient's phenotypes are:  \n- HP:0000508: Ptosis (drooping eyelid)  \n- HP:0001371: Flexion contracture  \n- HP:0000602: Orbital ridge hypoplasia  \n- HP:0009473: Joint stiffness  \n\nThese suggest a connective tissue or musculoskeletal disorder with craniofacial involvement.  \n\nThe candidate gene EN"
+    }
+  ],
+  "screen_gene_retrieval": [
+    {
+      "task_instance_id": 302,
+      "score": 0.0,
+      "extracted": "ITGB6",
+      "ground_truth": "ZNF561-AS1",
+      "raw_preview": "In this experimental context, HeLa cells (cervical adenocarcinoma origin) are being exposed to Vaccinia virus (Western Reserve strain) at 0.8 MOI over two weeks to select for viral resistance. The goal is to identify which candidate gene, when perturbed, would most strongly affect the development of"
+    },
+    {
+      "task_instance_id": 236,
+      "score": 0.0,
+      "extracted": "C19ORF44",
+      "ground_truth": "VMP1",
+      "raw_preview": "To determine which gene would have the strongest perturbation effect in enhancing resistance to HCoV-OC43 in HEK293T/ACE2 cells, I need to consider genes involved in viral entry, replication, immune response, or cellular pathways that modulate coronavirus infection.  \n\n- **HEK293T/ACE2 cells** expre"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 0.0,
+      "extracted": "GPR55",
+      "ground_truth": "FAM83H",
+      "raw_preview": "The experimental context involves long-term (10-day) exposure of HT-29 colon cancer cells to DMSO, which is a polar solvent often used as a vehicle control but known to induce differentiation and alter gene expression at higher concentrations or over extended periods. The goal is to see how this exp"
+    },
+    {
+      "task_instance_id": 212,
+      "score": 1.0,
+      "extracted": "STAT1",
+      "ground_truth": "STAT1",
+      "raw_preview": "In this experimental context, HeLa cells (cervical adenocarcinoma) are exposed to *Salmonella enterica* Typhimurium and IFN‑gamma, with the goal of understanding susceptibility to bacterial infection over 48 hours.  \n\nKey factors to consider:  \n- **IFN‑gamma** is a major cytokine that activates anti"
+    },
+    {
+      "task_instance_id": 317,
+      "score": 1.0,
+      "extracted": "NAA10",
+      "ground_truth": "NAA10",
+      "raw_preview": "In this experimental context, the goal is to study SARS-CoV-2 infection in HCT116 colorectal cancer cells, focusing on increased viral programmed ribosomal frameshifting (PRF). Viral PRF is a mechanism where the ribosome shifts reading frame during translation of viral polyproteins, which is critica"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "SLFN11",
+      "ground_truth": "MTHFD1",
+      "raw_preview": "In this experimental context, THP-1 monocytic leukemia cells are being exposed to a CDK9 inhibitor (AZD5576) over 21 days to induce resistance. CDK9 is a key regulator of transcription elongation, and its inhibition suppresses the expression of short-lived oncoproteins and survival genes (e.g., MCL1"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "ITGB1",
+      "ground_truth": "CAB39",
+      "raw_preview": "To determine the gene with the strongest perturbation effect in KMS-28BM cells (a multiple myeloma cell line, which is a type of hematologic malignancy) treated with selinexor (a selective inhibitor of nuclear export, specifically targeting XPO1) over 28 days, I need to consider the biological conte"
+    },
+    {
+      "task_instance_id": 318,
+      "score": 0.0,
+      "extracted": "PDCD4",
+      "ground_truth": "DOHH",
+      "raw_preview": "In this experimental context, the goal is to study how SARS-CoV-2 exposure affects programmed ribosomal frameshifting (PRF) in HCT116 colorectal cancer cells.  \nPRF is a translational regulation mechanism often exploited by viruses to control the expression of viral proteins, and host factors involv"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "PIAS3",
+      "ground_truth": "chr3:195713389-195713475",
+      "raw_preview": "The research context involves treating OCI-AML-1 (acute myeloid leukemia) cells with 800 nM UM171 for 8 days to assess effects on drug resistance. UM171 is a potent agonist of hematopoietic stem cell self-renewal, often used in ex vivo expansion of cord blood stem cells, and has been studied in AML "
+    },
+    {
+      "task_instance_id": 201,
+      "score": 1.0,
+      "extracted": "GABARAP",
+      "ground_truth": "GABARAP",
+      "raw_preview": "In this experimental context, you are studying negative regulators of autophagy and their effect on protein/peptide accumulation over time in HEK293T cells.  \n\n- **MIR3142**: A microRNA, not a protein-coding gene; possible regulatory role but less direct.  \n- **OR10P1**: Olfactory receptor, unlikely"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "CHRND",
+      "ground_truth": "SCAP",
+      "raw_preview": "The research context involves chronic myelogenous leukemia (CML) cells (HAP-1 line) developing resistance to a venom toxin (CfTX-1) over a 14-day exposure. This suggests a selection for adaptive changes, possibly involving stress response, apoptosis evasion, membrane/channel adaptations, or signalin"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 1.0,
+      "extracted": "UBE2J1",
+      "ground_truth": "UBE2J1",
+      "raw_preview": "The research context focuses on ERAD-L genes (ERAD: Endoplasmic Reticulum-Associated Degradation, specifically the luminal pathway) and their role in protein/peptide accumulation over time in K-562 chronic myeloid leukemia cells. ERAD-L targets misfolded proteins in the endoplasmic reticulum lumen f"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "DUSP6",
+      "ground_truth": "EIF4A3",
+      "raw_preview": "The PC-9 lung adenocarcinoma cell line is known to harbor the EGFR exon 19 deletion (E746_A750del), not the L858R mutation, but the question specifies EGFR-T790M/L858R mutations, suggesting a double-mutant EGFR context. Erlotinib is a first-generation EGFR tyrosine kinase inhibitor (TKI), and the T7"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 1.0,
+      "extracted": "KEAP1",
+      "ground_truth": "KEAP1",
+      "raw_preview": "In this experimental context, HUH-7 SR cells (a sorafenib-resistant variant of Huh-7 hepatocellular carcinoma cells) are being studied for increased resistance after prolonged exposure to 5 µM sorafenib over 12 doublings. The goal is to identify a gene whose perturbation (e.g., knockout or overexpre"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 1.0,
+      "extracted": "DHODH",
+      "ground_truth": "DHODH",
+      "raw_preview": "In this experimental context, THP-1 monocytic leukemia cells are being exposed to a prolonged low dose (10 nM) of Dinaciclib, a cyclin-dependent kinase (CDK) inhibitor (primarily targeting CDK2, CDK5, CDK1, CDK9), over 21 days to induce acquired resistance. The goal is to identify which candidate ge"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 1.0,
+      "extracted": "NF2",
+      "ground_truth": "NF2",
+      "raw_preview": "In this experimental context, Dexrazoxane (ICRF‑187) is a cardioprotective agent that inhibits topoisomerase IIβ and is also known to chelate iron, potentially leading to iron depletion and oxidative stress modulation. The study involves prolonged exposure (18 days) at 25.0 µM on hTERT‑RPE1 cells (r"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "HRASLS5",
+      "ground_truth": "NHLRC2",
+      "raw_preview": "The experiment focuses on phagocytosis in U‑937 cells, a human monocytic lymphoma cell line that can differentiate into macrophage-like cells capable of phagocytosis.  \nKey genes for phagocytosis typically involve signaling, cytoskeletal rearrangement, and membrane remodeling.  \n\nAmong the candidate"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 1.0,
+      "extracted": "KEAP1",
+      "ground_truth": "KEAP1",
+      "raw_preview": "In this experimental context, the goal is to understand acquired resistance to Trametinib, a MEK inhibitor, in the HCC364 lung cancer cell line after prolonged exposure. Trametinib targets the MAPK pathway (RAS-RAF-MEK-ERK). Resistance mechanisms often involve reactivation of the MAPK pathway or act"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "CIITA",
+      "ground_truth": "SLC35B2",
+      "raw_preview": "To determine the gene with the strongest perturbation effect in this context, I need to consider the experimental setup: HAP-1 chronic myelogenous leukemia cells, resistance to Dengue virus 2 (DENV-2), 5 MOI over 2 weeks. The goal is to understand mechanisms of viral resistance, which likely involve"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "GANAB",
+      "ground_truth": "MED19",
+      "raw_preview": "To determine which candidate gene would most strongly perturb SQSTM1 protein/peptide accumulation in H4 glioma cells over a 7-day timecourse, I need to consider genes with known functional connections to SQSTM1 regulation, particularly in pathways like autophagy, proteostasis, or glioma biology.\n\nSQ"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "ATG5",
+      "ground_truth": "IRS4",
+      "raw_preview": "In this experimental context, the goal is to study mTORC1 activation effects on protein/peptide accumulation over 10 days in HEK293T cells, focusing on protein synthesis and cell growth. mTORC1 is a central regulator of anabolic processes, promoting protein synthesis and inhibiting autophagy.  \n\nAmo"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "TAPBP",
+      "ground_truth": "NCKAP1L",
+      "raw_preview": "The experimental context involves U-937 lymphoma cells (a human monocyte/macrophage-like cell line) exposed to *Legionella pneumophila* over a long-term (18-day) infection model, aiming to identify factors affecting resistance or sensitivity. *Legionella* is an intracellular bacterium that replicate"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "FGFR1",
+      "ground_truth": "XPR1",
+      "raw_preview": "In this research context, the goal is to understand acquired resistance to Dinaciclib, a CDK inhibitor, in the MV4-11 AML cell line over a 21-day period. Dinaciclib primarily inhibits CDK2, CDK5, CDK9, etc., and resistance mechanisms could involve bypass signaling pathways, survival adaptations, or "
+    },
+    {
+      "task_instance_id": 91,
+      "score": 1.0,
+      "extracted": "ACSL4",
+      "ground_truth": "ACSL4",
+      "raw_preview": "The experimental context involves treating 786-O renal cell carcinoma cells with ML-210, a ferroptosis-inducing compound, for 8 days. Ferroptosis is an iron-dependent form of regulated cell death driven by lipid peroxidation.  \n\nAmong the candidate genes, **ACSL4** (acyl-CoA synthetase long-chain fa"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "MAPK1",
+      "ground_truth": "MAPK1",
+      "raw_preview": "To determine which gene would have the strongest perturbation effect on phagocytosis in U‑937 lymphoma cells over a 5‑day timecourse, I need to consider genes with known roles in phagocytosis, immune signaling, or cellular processes directly relevant to macrophage‑like differentiation and function. "
+    },
+    {
+      "task_instance_id": 264,
+      "score": 1.0,
+      "extracted": "ARF1",
+      "ground_truth": "ARF1",
+      "raw_preview": "Golgicide A (GCA) is a specific inhibitor of GBF1 (Golgi-specific BFA resistance factor 1), a guanine nucleotide exchange factor for ADP-ribosylation factors (ARFs) involved in Golgi trafficking and maintenance. Inhibiting GBF1 disrupts Golgi structure and function, leading to cellular stress and po"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "MAD2L2",
+      "ground_truth": "KCNJ15",
+      "raw_preview": "To determine the gene with the strongest perturbation effect in the context of chronic polymyxin B exposure leading to drug resistance in HK-2 kidney cells, I need to consider the biological roles of the candidate genes in relation to kidney cell function, drug resistance mechanisms, and cellular st"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "ZNF451",
+      "ground_truth": "SMCHD1",
+      "raw_preview": "The research context focuses on identifying negative regulators of parkin protein abundance in HEK-293 cells over time. Parkin (encoded by *PARK2*) is an E3 ubiquitin ligase involved in mitophagy and protein degradation pathways. Negative regulators would likely be genes that, when perturbed (e.g., "
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "SF3A1",
+      "ground_truth": "TLE3",
+      "raw_preview": "Apalutamide is a second-generation antiandrogen used in prostate cancer treatment, targeting the androgen receptor (AR) signaling pathway. Prolonged exposure can lead to resistance mechanisms, often involving AR mutations, AR splice variants (e.g., AR-V7), or bypass pathways.  \n\nAmong the candidate "
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "CYP3A7",
+      "ground_truth": "C16orf72",
+      "raw_preview": "The experimental context involves treating NALM-6 (a Pre-B Acute Lymphoblastic Leukemia cell line) with 20 µM BIBR 1532, a telomerase inhibitor, over 20 days. This long-term treatment likely aims to induce replicative senescence or crisis by telomere shortening, which could alter drug resistance pro"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 1.0,
+      "extracted": "COX17",
+      "ground_truth": "COX17",
+      "raw_preview": "The experimental context involves a **BRCA2 knockout in HeLa cells** and testing resistance to **Olaparib**, a PARP inhibitor.  \nOlaparib induces synthetic lethality in BRCA-deficient cells by blocking PARP-mediated DNA repair, leading to accumulation of DNA damage and cell death.  \nIf resistance em"
+    },
+    {
+      "task_instance_id": 342,
+      "score": 0.0,
+      "extracted": "NFKB2",
+      "ground_truth": "BAZ2A",
+      "raw_preview": "In this experimental context, the goal is to study changes in drug resistance in a lymphoma/leukemia cell line (KMS-28BM) after long-term exposure to selinexor, which is a selective inhibitor of nuclear export (SINE) that blocks exportin 1 (XPO1/CRM1).  \n\nKey mechanistic considerations:  \n- Selinexo"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "ANPEP",
+      "ground_truth": "ANPEP",
+      "raw_preview": "The experimental context involves Huh-7.5 cells (a human hepatoma cell line) exposed to HCoV-229E (a human coronavirus) at low multiplicity of infection over 5 days, aiming to study changes in viral resistance. HCoV-229E uses **human aminopeptidase N (ANPEP)** as its cellular receptor for entry. ANP"
+    },
+    {
+      "task_instance_id": 306,
+      "score": 0.0,
+      "extracted": "DDX21",
+      "ground_truth": "FLCN",
+      "raw_preview": "In this experimental context, HeLa cells (cervical adenocarcinoma) are infected with Vaccinia virus (Western Reserve strain) at a low multiplicity of infection (0.3 MOI) over a long period (two weeks). The goal is to identify genes whose perturbation would most strongly affect the cells’ resistance "
+    },
+    {
+      "task_instance_id": 334,
+      "score": 0.0,
+      "extracted": "PRKAR1A",
+      "ground_truth": "INPPL1",
+      "raw_preview": "SHP099 is a specific inhibitor of SHP2 (encoded by the PTPN11 gene), a non-receptor protein tyrosine phosphatase that promotes RAS/MAPK pathway signaling. In acute myeloid leukemia (AML), SHP2 inhibition can suppress proliferation and induce differentiation, particularly in cells with certain oncoge"
+    },
+    {
+      "task_instance_id": 243,
+      "score": 0.0,
+      "extracted": "KCNN2",
+      "ground_truth": "MAU2",
+      "raw_preview": "To determine the gene with the strongest perturbation effect in this context, I need to consider the experimental setup:  \n\n- **Drug**: Atamparib (RBN‑2397) — a PARP7 inhibitor known to affect the mono‑ADP‑ribosylation pathway, often studied in the context of cancer cell viability, interferon signal"
+    },
+    {
+      "task_instance_id": 54,
+      "score": 1.0,
+      "extracted": "PYCARD",
+      "ground_truth": "PYCARD",
+      "raw_preview": "The experimental context involves studying inflammasome activation and pyroptosis in THP-1 cells treated with a compound (BAA473). Inflammasome activation typically involves sensor proteins (like NLRP3), adaptor proteins, and effector proteins such as caspase-1. Pyroptosis is a pro-inflammatory form"
+    },
+    {
+      "task_instance_id": 50,
+      "score": 1.0,
+      "extracted": "PRKCD",
+      "ground_truth": "PRKCD",
+      "raw_preview": "In this experimental context, studying phagocytosis in the U‑937 lymphoma cell line over a 5‑day period, the gene with the strongest perturbation effect would likely be **PRKCD** (Protein Kinase C Delta).  \n\nU‑937 cells are monocyte‑like and can be differentiated into macrophage‑like cells, which ar"
+    },
+    {
+      "task_instance_id": 174,
+      "score": 0.0,
+      "extracted": "PPAT",
+      "ground_truth": "BEND3",
+      "raw_preview": "In this experimental context, the goal is to understand how prolonged exposure to TAK‑243 (a small‑molecule inhibitor of the ubiquitin‑activating enzyme UBA1) influences the development of drug resistance in OCI‑AML‑2 cells.  \n\nTAK‑243 inhibits the ubiquitin‑proteasome system, disrupting protein deg"
+    },
+    {
+      "task_instance_id": 189,
+      "score": 0.0,
+      "extracted": "FOXO1",
+      "ground_truth": "SPATA5L1",
+      "raw_preview": "Berzosertib (VE822) is an ATR inhibitor that disrupts DNA damage repair, particularly in cells with replication stress. In HeLa cells (cervical adenocarcinoma, HPV-positive), resistance mechanisms over 14 days likely involve adaptive changes in DNA damage response, cell cycle checkpoints, apoptosis,"
+    },
+    {
+      "task_instance_id": 346,
+      "score": 1.0,
+      "extracted": "IRF8",
+      "ground_truth": "IRF8",
+      "raw_preview": "Selinexor is a selective inhibitor of nuclear export (SINE) that blocks exportin 1 (XPO1/CRM1), leading to nuclear retention of tumor suppressor proteins and inhibition of oncoprotein translation.  \nIn diffuse large B-cell lymphoma (DLBCL), prolonged exposure to selinexor can lead to acquired resist"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 1.0,
+      "extracted": "ACE2",
+      "ground_truth": "ACE2",
+      "raw_preview": "The experimental context involves A549-ACE2 cells (lung cancer cells engineered to express ACE2, the primary SARS-CoV-2 entry receptor) infected with a SARS-CoV-2 spike deletion mutant (Sdel, likely in the S1/S2 cleavage site) at a relatively high MOI (3.0) over a long time course (7 days). The goal"
+    },
+    {
+      "task_instance_id": 169,
+      "score": 1.0,
+      "extracted": "IFNAR2",
+      "ground_truth": "IFNAR2",
+      "raw_preview": "The experimental context involves HT-29 colon adenocarcinoma cells repeatedly exposed to *Salmonella* Typhimurium at high multiplicity of infection over multiple passages, aiming to study adaptive mechanisms and potential resistance development. This implies selection for changes in pathways related"
+    },
+    {
+      "task_instance_id": 58,
+      "score": 1.0,
+      "extracted": "ZCCHC14",
+      "ground_truth": "ZCCHC14",
+      "raw_preview": "The experimental context involves studying dynamic changes in gene expression affecting hepatitis B virus surface antigen (Pro-HBsAg) production in a HepG2-NTCP1 HBV Cas9 cell line over 10 days, aiming to understand HBV infection response and identify therapeutic targets.  \n\nAmong the candidate gene"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 1.0,
+      "extracted": "MAPK1",
+      "ground_truth": "MAPK1",
+      "raw_preview": "In this experimental context, the goal is to study dynamic changes in gene expression related to phagocytosis in U‑937 cells (a human monocytic cell line often used to model macrophage‑like functions, including phagocytosis) over a 5‑day period.  \n\nAmong the candidate genes, **MAPK1** (Mitogen‑Activ"
+    },
+    {
+      "task_instance_id": 235,
+      "score": 1.0,
+      "extracted": "VMP1",
+      "ground_truth": "VMP1",
+      "raw_preview": "To determine the gene with the strongest perturbation effect in the context of long-term HCoV-OC43 resistance in HEK293T/ACE2 cells, I need to consider which gene is most likely to directly influence viral entry, replication, host antiviral response, or cellular adaptation over 23 days.  \n\nHEK293T/A"
+    },
+    {
+      "task_instance_id": 252,
+      "score": 0.0,
+      "extracted": "REL",
+      "ground_truth": "PFKP",
+      "raw_preview": "Dinaciclib is a cyclin-dependent kinase (CDK) inhibitor, particularly targeting CDK1, CDK2, CDK5, and CDK9, leading to cell cycle arrest and apoptosis in cancer cells like leukemia. Resistance mechanisms often involve upregulation of anti-apoptotic pathways, changes in drug efflux, metabolic adaptat"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 1.0,
+      "extracted": "RNF7",
+      "ground_truth": "RNF7",
+      "raw_preview": "To determine which gene’s inhibition would most strongly affect sensitivity of LK‑2 lung squamous cell carcinoma cells to the MCL1 inhibitor AZD5991, I need to consider the biological context.  \n\nAZD5991 is a BH3‑mimetic that selectively inhibits MCL1, a pro‑survival BCL2 family protein. Cancer cell"
+    },
+    {
+      "task_instance_id": 313,
+      "score": 1.0,
+      "extracted": "ACE2",
+      "ground_truth": "ACE2",
+      "raw_preview": "The experimental context involves studying increased resistance to SARS-CoV-2 in a HEK293 cell line engineered to express ACE2 and TMPRSS2, which are key host factors for viral entry. Over a 12-day period at 2.0 MOI, the goal is to identify genetic factors that enhance viral resistance. Among the ca"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "BCL2L11",
+      "ground_truth": "TADA2B",
+      "raw_preview": "The experimental context involves treating the drug-resistant breast cancer cell line SUM159R with 20 µM JQ1 over 5 passages to assess changes in drug resistance. JQ1 is a well-characterized BET bromodomain inhibitor that primarily targets BRD4, leading to transcriptional downregulation of key oncog"
+    }
+  ]
+}

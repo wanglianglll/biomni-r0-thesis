@@ -1,0 +1,56 @@
+(biomni_e1) root@autodl-container-0a774196a2-fda5005e:~/autodl-tmp/Biomni-main/scripts# python test_single_eval.py 
+Base URL: https://api.deepseek.com/v1
+API Key: sk-b675c...
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+LLM test: Hi
+'(ReadTimeoutError("HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 0d2a9556-6e6f-4a41-b71e-c684f87910ed)')' thrown while requesting GET https://hf-mirror.com/datasets/biomni/Eval1/resolve/main/biomni_eval1_dataset.parquet
+Retrying in 1s [Retry 1/5].
+Downloaded and saved to: ../data/biomni_eval1_dataset.parquet
+Dataset: 433 instances, 10 tasks
+  crispr_delivery: train=0, val=10
+  gwas_causal_gene_gwas_catalog: train=0, val=50
+  gwas_causal_gene_opentargets: train=0, val=50
+  gwas_causal_gene_pharmaprojects: train=0, val=50
+  gwas_variant_prioritization: train=0, val=43
+  lab_bench_dbqa: train=0, val=50
+  lab_bench_seqqa: train=0, val=50
+  patient_gene_detection: train=0, val=50
+  rare_disease_diagnosis: train=0, val=30
+  screen_gene_retrieval: train=0, val=50
+
+============================================================
+Task: crispr_delivery
+Instance ID: 10
+Ground truth: a
+Prompt preview:
+Given the case description, identify the MOST relevant CRISPR delivery method from the options below:
+
+a. Plasmid Transfection
+b. Lentivirus/Retrovirus
+c. RNP/mRNA electroporation
+d. RNP/mRNA microinjection
+e. mRNA LNP
+f. AAV
+
+Category: Cell line
+Case Description: I hope to edit HEK293T cell line
+
+Please provide your response as follows:
+- Most relevant method (select one letter a-f): 
+...
+============================================================
+
+>>> Calling DeepSeek-V3...
+>>> Raw response:
+For editing the HEK293T cell line, the most relevant CRISPR delivery method is **Plasmid Transfection**.  
+
+HEK293T cells are a highly transferable, immortalized human embryonic kidney cell line that expresses the SV40 large T antigen, making them exceptionally efficient at taking up and expressing plasmid DNA. Transfection is straightforward, cost-effective, and suitable for routine genome editing in such cell lines without the need for viral vectors or more complex delivery methods like electroporation or microinjection.  
+
+FINAL ANSWER: a
+
+>>> Extracted answer: a
+>>> Score: 1.0
+>>> Ground truth: a
+>>> Our answer:   a
+
+✅ CORRECT! Pipeline works!

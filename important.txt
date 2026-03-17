@@ -1,0 +1,5 @@
+1.vim使用
+按i插入，按shift+；打出来一个：后，在输入wq保存并退出
+
+2.开局启动环境
+source /root/miniconda3/bin/activate biomni
