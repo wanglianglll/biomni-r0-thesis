@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 1475,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "XPO1",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 959,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "BTK",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1588,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "FGFR3",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 283,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "FOLR1",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 797,
+    "score": 0.0,
+    "extracted": "AKIRIN2",
+    "ground_truth": "CNR1",
+    "raw_preview": "Given genes: {AKIRIN2"
+  },
+  {
+    "task_instance_id": 1378,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "CD274",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 225,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "OXTR",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 26,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "SERPINC1",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1497,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "KDR",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 437,
+    "score": 0.0,
+    "extracted": "BASED ON AVAILABLE LITERATURE",
+    "ground_truth": "KIT",
+    "raw_preview": "Based on available literature"
+  },
+  {
+    "task_instance_id": 1645,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "TUBB",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 229,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ANPEP",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "BASED ON AVAILABLE EVIDENCE",
+    "ground_truth": "C5",
+    "raw_preview": "Based on available evidence"
+  },
+  {
+    "task_instance_id": 749,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "ADRB2",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1045,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "FGFR3",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 469,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "S1PR5",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1435,
+    "score": 0.0,
+    "extracted": "BASED ON AVAILABLE LITERATURE",
+    "ground_truth": "GLP1R",
+    "raw_preview": "Based on available literature"
+  },
+  {
+    "task_instance_id": 1662,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "SCN3A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 687,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "HTR4",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1554,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "PARP2",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 639,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "DRD2",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1453,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "PPARG",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1218,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "MS4A1",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1158,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "NR1H4",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1403,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "PPARA",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1300,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "DRD2",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1538,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "KCNJ11",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 800,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "IL17RA",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "IRAK1",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 956,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "AXL",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1186,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "CXCL8",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 821,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "HTR7",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1463,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "TOP2A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 877,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "PDGFRB",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 913,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "CD274",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 152,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "RET",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1549,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "PLAU",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 509,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "VEGFA",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1135,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "BRAF",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1250,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "IL6R",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1612,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "CCR4",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "GIVEN",
+    "ground_truth": "ADRA1A",
+    "raw_preview": "Given"
+  },
+  {
+    "task_instance_id": 586,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "TOP2A",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1572,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "SERPINA1",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1143,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "HTR2C",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "BASED ON AVAILABLE EVIDENCE",
+    "ground_truth": "FLT1",
+    "raw_preview": "Based on available evidence"
+  },
+  {
+    "task_instance_id": 151,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "CCR4",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 403,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "F2",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1640,
+    "score": 0.0,
+    "extracted": "BASED ON AVAILABLE LITERATURE",
+    "ground_truth": "IL4R",
+    "raw_preview": "Based on available literature"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "IL2RA",
+    "raw_preview": ""
+  }
+]

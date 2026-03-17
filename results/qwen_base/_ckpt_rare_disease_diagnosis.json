@@ -1,0 +1,212 @@
+[
+  {
+    "task_instance_id": 90,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT\", \"OMIM_ID\": \"617193\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 107,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Schwartz-Jampel syndrome\", \"OMIM_ID\": \"255800\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 75,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 140,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"DA2B\", \"OMIM_ID\": \"601680\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 59,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"DA8\", \"OMIM_ID\": \"178110\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 63,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 1A\", \"OMIM_ID\": \"108120\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 132,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Syndromic X-linked mental retardation, Cabezas type,Mental Retardation, X-Linked, Syndromic, Cabezas Type,X-linked intellectual disability, Cabezas type\", \"OMIM_ID\": \"300354\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 136,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"autism (disease)\", \"OMIM_ID\": \"209850\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Postaxial acrofacial dysostosis\", \"OMIM_ID\": \"263750\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"lethal arthrogryposis-anterior horn cell disease syndrome\", \"OMIM_ID\": \"611890\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 99,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 116,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 74,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 121,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Opsismodysplasia\", \"OMIM_ID\": \"258480\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 145,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Opitz Gbbb Syndrome, Type 1\", \"OMIM_ID\": \"300000\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 71,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 92,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": ""
+  },
+  {
+    "task_instance_id": 102,
+    "score": 0.0,
+    "extracted": "",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": ""
+  }
+]

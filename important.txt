@@ -6,3 +6,9 @@ source /root/miniconda3/bin/activate biomni
 
 3.清除部分内存
 rm -rf output/sft_qwen2_7b/
+
+4.保存日志
+cd /path/to/biomni-r0-thesis
+git add .
+git commit -m "本次更新说明"
+git push origin main
