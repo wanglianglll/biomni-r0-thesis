@@ -2,351 +2,351 @@
   {
     "task_instance_id": 256,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nI want to clone the hslO gene from E. coli into plasmid pUC19 using Gibson assembly after linearizing the plasmid with SmaI. Which primer pair can I use to do the amplification?\nOptions:\nA.GATTACGCCAAGCTTGCATGCCTGCAGGTCATGCCGCAACATGACCAATTACAT, GAGCTCGGTACCCGGGGATCCTCTAGAGTCTTAATGAACTTGCGGA"
   },
   {
     "task_instance_id": 563,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nHow many fragments should I expect when I digest the sequence AGCATATGGAAGACCAATACATGAGGGGGCATACGCTAGAACGCCCCGTATACCCTTACGATCCCTGCCGGCAGAACTGGTGCAGTACAGGACCGAGGAGCTGGACCCCAATCAGTGTACCCGAAGCCTCAAAACAAATAATTCCCAACGGGGCCGCCCTCGTCAATCCAAGGTCTAGTCAGCGTAACTCCTCTATAGTCACACCATGTGAATAAATCTTCGGCGGCTC"
   },
   {
     "task_instance_id": 533,
-    "score": 0.0,
-    "extracted": "",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nYour task is to identify the most promising variant associated wtih a given GWAS phenotype for futher examination. \nFrom the list, prioritize the top associated variant (matching one of the given variant). \nGWAS phenotype: NheI\nVariants: rs71, rs225, rs704, rs91, rs701, rs2366858, rs6748734"
   },
   {
     "task_instance_id": 430,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 100,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": ""
+    "raw_preview": "TGCGCTAACCCGTATTCGCATGCCGGTTTAGCAGGCCGAGGCTCGAGTAGATAAAAGGCCAACCTAAGCTAAAGGGGTAAAGCGTAGTATTTGCTATGCACCTCTTCCGCCGCTATCGCGTCGCGTGGAAAACTCGGGGCTGTCGGGCTTACCGCGGGTAGTATAATCCAGATAGAGGCTTAATGTGCAGTTATTGTTTGTGTCTATGCAGCTCACGATTACTACCCACATAGGAATAGGGGACCCCTAAGATGATCCAATCGCGGGTGTCCAACAGGTTCTAGAGGTACCTGGGATCTG"
   },
   {
     "task_instance_id": 226,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nI want to clone the rsxD gene from E. coli into plasmid pUC19 using Gibson assembly after linearizing the plasmid with HindII. Which primer pair can I use to do the amplification?\nOptions:\nA. Insufficient information to answer the question.\nB. GATTACGCCAAGCTTGCATGCCTGCAGGTCATGTCGCTGCCGCACCT"
   },
   {
     "task_instance_id": 448,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 547,
-    "score": 0.0,
-    "extracted": "",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "- The question asks for fragment lengths after digesting a given DNA sequence with two enzymes: BsmI and AoxI.\n             - We need to know the recognition sequences and cut sites of these enzymes.\n             - BsmI is known to be a type II restriction enzyme with a complex recognition site: GTY"
   },
   {
     "task_instance_id": 571,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nHow many fragments should I expect when I digest the sequence CATATGTTTGGGTTTTTAGGATAGATCCAATCACAGCGGCCCCTCGTACGGTCGCCGGATCGTGTTTCAACCGGCGTACGAATGCTAAGTGGCCAAAATCAGACGGCGAACGACGATGTCACGACACCTCGATGTCACAATTATGGGAGCACGCTGTTAATACAGCGCAGTGACCGGGCGCCGATAAGCAAGCACAGCACCGACAACTGGCAATAGCTGGACAGTATTG"
   },
   {
     "task_instance_id": 213,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nI want to clone the mlaE gene from E. coli into plasmid pUC19 using Gibson assembly after linearizing the plasmid with HindII. Which primer pair can I use to do the amplification?\nOptions:\nA. Insufficient information to answer the question.\nB. GATTACGCCAAGCTTGCATGCCTGCAGGTCATGCTGGAAAATTTGAA"
   },
   {
     "task_instance_id": 359,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and pathways that contribute to the increased or decreased resistance of Huh-7.5 cells to HCoV-229E virus exposure over a period of 5 days at"
   },
   {
     "task_instance_id": 171,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nI want to clone the gpp gene from E. coli into the plasmid pUC19 using restriction-ligation cloning. Which of the following primer pairs should I use to do the cloning with the enzymes EcoRI and SphI?\n\nOptions:\nA. Insufficient information to answer the question.\nB. GAATTCATGCTCGACACAAATATGA"
   },
   {
     "task_instance_id": 98,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nHow many open reading frames that encode proteins greater than 23 AAs in length are in the DNA sequence ...\"\n\nWe need to find open reading frames (ORFs) in the given DNA sequence that could encode proteins >23 amino acids. An ORF is a stretch of DNA that starts with a start codon (ATG, or s"
   },
   {
     "task_instance_id": 292,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nI want to clone the intE gene from E. coli into plasmid pUC19 using PCR and restriction enzyme digestion. I have the following primers:\n\nForward primer: CCCGGGATGGCAGCCAGACCGCGTAAGAATA\nReverse primer: GAGCTCTCACAACGCTACTTTGCTCCATCCT\n\nWhich enzymes should I use to digest the PCR product and "
   },
   {
     "task_instance_id": 215,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nI want to clone the napF gene from E. coli into plasmid pUC19 using Gibson assembly after linearizing the plasmid with HindII. Which primer pair can I use to do the amplification?\nOptions:\nA.GATTACGCCAAGCTTGCATGCCTGCAGGTCATGGAAGATTGATGCATCCCG, GAGCTCGGTACCCGGGGATCCTCTAGAGTCAGTGTGCATGGAGATA\n"
   },
   {
     "task_instance_id": 61,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 406,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": ""
+    "raw_preview": "Note: The question asks for primers that should be used with restriction-ligation cloning with enzymes SalI and SacI. SalI is a type II restriction enzyme that cuts outside its recognition sequence. SacI is a type I restriction enzyme that cuts within its recognition sequence. The recognition sequen"
   },
   {
     "task_instance_id": 47,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 32,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 417,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": ""
+    "raw_preview": "Note: The question asks for a specific primer pair. Without looking up the sequences, we need to rely on biological knowledge or recall. The sequences are given as options, so we can compare them to our candidates.\n\nLet's examine the sequences:\n\nOption A: AAGCTTATGAGTAAAAGCCGCTTAACGGTG - This sequen"
   },
   {
     "task_instance_id": 267,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "Note: The question says \"linearize the plasmid with SmaI\", but SmaI is not a common enzyme for linearizing pUC19. Usually, SmaI is used for cutting out small fragments, not for linearizing the entire plasmid. Possibly the question intends to use SmaI to cut out a fragment that would linearize the pl"
   },
   {
     "task_instance_id": 327,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and pathways that contribute to the increased or decreased resistance of Huh-7.5 cells to HCoV-229E virus exposure over a period of 5 days at"
   },
   {
     "task_instance_id": 200,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "Note: The question says \"linearize the plasmid with HindII\", which means using HindII restriction enzyme to cut the plasmid. HindII is a blunt-end cutter: GGATC. So after cutting, the plasmid will have blunt ends with the sequence ends: ...GGATC... and ...GGATC... (but note: pUC19 has a multiple clo"
   },
   {
     "task_instance_id": 134,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "<",
     "ground_truth": "E",
-    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, I need to look for key features that influence translation initiation, especially the sequence context around the start codon (AUG).  \n\nIn humans, the **Kozak consensus sequence** plays a major role: "
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 27,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 524,
     "score": 0.0,
-    "extracted": "C",
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": "Let’s break this down.  \n\nThe question asks for fragment lengths after digesting a given DNA sequence with **BstSFI** and **SthSt3II**.  \n\nFirst, I need to recall or look up the recognition sites for these enzymes:  \n\n- **BstSFI** is a type IIs restriction enzyme with recognition site:  \n`CCTGCA(11/"
+    "raw_preview": "<|user|>\nThe question asks for fragment lengths after digesting a given DNA sequence with two enzymes: BstSFI and SthSt3II. We need to determine the recognition sites for these enzymes and count how many fragments would be produced by a complete digestion.\n\nFirst, recall that restriction enzymes cut"
   },
   {
     "task_instance_id": 505,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nThe question asks for the percent GC content of a given DNA sequence. Percent GC is calculated as (number of G's + number of C's) / total number of bases * 100%. We need to count the total number of bases and the number of G and C bases in the provided sequence.\n\nThe sequence is:\nGGGTCATATA"
   },
   {
     "task_instance_id": 230,
     "score": 0.0,
-    "extracted": "Y",
+    "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": "To answer this, we need to consider Gibson assembly requirements and the specifics of the question.  \n\nGibson assembly requires that the PCR product have ends homologous to the ends of the linearized vector.  \nThe plasmid is pUC19, linearized with HindII. HindII cuts at the sequence **GTYRAC** (wher"
+    "raw_preview": "Note: The question says \"linearize the plasmid with HindII\", which means using HindII restriction enzyme to cut the plasmid. HindII is a blunt-end cutter: GGATC. So after cutting, the plasmid will have blunt ends with the sequence ends: ...GGATC... and ...GGATC... (but note: pUC19 has a multiple clo"
   },
   {
     "task_instance_id": 489,
-    "score": 0.0,
-    "extracted": "",
+    "score": 1.0,
+    "extracted": "C",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "Percent GC\n             ===========\n             CCGCTGCTACCAGGTATTTTCACAATGTGTCTGTCTTGCTCCCGGAGCATTGGGTCCGTCCACGAACCCCTGATTTGCCCCAGCTTGGTTGCGCTATGGTCTGCAGACCGGTGCATAAACAGA?\n Round to the nearest integer.\n\nWe need to compute the percent GC content of the given DNA sequence. The sequence is:\nCCGCTGCT"
   },
   {
     "task_instance_id": 260,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "Note: The question says \"linearize the plasmid with SmaI\", but SmaI is not a common enzyme for linearizing pUC19. Usually, SmaI is used for cutting upstream of pUC19? Actually, the question likely means using SmaI to cut the plasmid, producing linearized ends. So linearizing with SmaI means cutting "
   },
   {
     "task_instance_id": 378,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and pathways that contribute to the increased or decreased resistance of Huh-7.5 cells to HCoV-229E virus exposure over a period of 5 days at"
   },
   {
     "task_instance_id": 288,
     "score": 0.0,
-    "extracted": "S",
+    "extracted": "I",
     "ground_truth": "C",
-    "raw_preview": "Let's analyze the primers and the plasmid.  \n\nThe forward primer sequence is: **GGTACCATGGCGACACAATCCAGTCCTG**  \nThe reverse primer sequence is: **GGATCCTCAATGACGGCCGAAAACGGGAC**  \n\n- **GGTACC** is the recognition site for **KpnI** (and also for **Acc65I**, which is an isoschizomer that produces the"
+    "raw_preview": "<|user|>\nI want to clone the gudX gene from E. coli into plasmid pUC19 using PCR and restriction enzyme digestion. I have two primers given. Which enzymes should I use to digest the PCR product and plasmid for this cloning?\nOptions: A. SbfI, TspMI; B. Acc65I, TspMI; C. Acc65I, BamHI; D. Insufficient"
   },
   {
     "task_instance_id": 418,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "Note: The question asks for help with cloning using restriction-ligation cloning with enzymes XmaI and EcoRI. XmaI is a type II restriction enzyme that cuts at the sequence GTYRAC (where Y = C or T, R = A or G). EcoRI is a type I restriction enzyme that cuts at GTYRAC as well? Actually, EcoRI cuts a"
   },
   {
     "task_instance_id": 391,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and pathways that contribute to the increased or decreased resistance of Huh-7.5 cells to HCoV-229E virus exposure over a period of 5 days at"
   },
   {
     "task_instance_id": 498,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 138,
     "score": 0.0,
-    "extracted": "C",
+    "extracted": "<",
     "ground_truth": "B",
-    "raw_preview": "To determine which RNA sequence is most likely to have high translation efficiency in a human cell, we need to look for key features that influence translation initiation and elongation.  \n\nThe main differences among the sequences are near the start codon region (the first AUG in each). Translation "
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 62,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 471,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 128,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 583,
     "score": 0.0,
     "extracted": "I",
     "ground_truth": "B",
-    "raw_preview": "First, I need to understand the enzymes involved.  \n\n**BcgI** is a Type IIs restriction enzyme with the recognition sequence:  \n`(10/12)CGANNNNNNTGC(12/10)` — meaning it cuts downstream of its recognition site.  \nSpecifically, it recognizes an asymmetric sequence:  \nOne strand: 5′-CGANNNNNNTGC-3′  \n"
+    "raw_preview": "<|user|>\nHow many fragments should I expect when I digest the given DNA sequence with the enzymes BcgI and Pme10899I? \nOptions: A.5, B.4, C.6, D.3, E.2, F. Insufficient information to answer the question.\n\nYou MUST include the letter of the correct answer within the following tags:\n[ANSWER] and [/AN"
   },
   {
     "task_instance_id": 520,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "- The question asks for fragment lengths after digesting a given DNA sequence with Eco31I.\n             - Eco31I is a restriction enzyme that recognizes a specific DNA sequence and cuts at that site.\n             - The sequence is provided as a long string of nucleotides.\n             - We need to f"
   },
   {
     "task_instance_id": 64,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 14,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nThe question asks: \"What is the AA encoded at position 27 in the longest ORF contained within the sequence ...\" We are given a long amino acid sequence (single-letter code) and need to find the amino acid at position 27 in the longest open reading frame (ORF) contained within the sequence. "
   },
   {
     "task_instance_id": 156,
-    "score": 1.0,
-    "extracted": "E",
+    "score": 0.0,
+    "extracted": "<",
     "ground_truth": "E",
-    "raw_preview": "The question asks which RNA sequence contains an open reading frame (ORF) most likely to have high translation efficiency in a human cell.  \n\nKey factors for translation efficiency in humans include:  \n- A strong **Kozak sequence** around the start codon (AUG), ideally GCCRCCAUGG (where R is purine)"
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 40,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "F",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 492,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "%GC\n            CGCGATGCGCGCGAGGCTCTTCACATGTGAGAACTCAGAAGCATTGCCAGCGTCCATGCGTTGGGTACTCCACACAGTCGCTTTAGGTATAAGTCCTCTTCCGATTTAAACGAGCTGGAGGAAAAGAAGCTAAAGTGAGTAAACCTCTATTACCGTTGAACAACGTGCATTTATTGTCCTTGATTCTGTGATGGAAACCCCGCGCAGCTTTCAACCCCTGCTCAGAGAGCGTACGACTGGTCTATGGGA?\n Round to the nearest integer.\n\nO"
   },
   {
     "task_instance_id": 379,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "I",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and pathways that contribute to the increased or decreased resistance of Huh-7.5 cells to HCoV-229E virus exposure over a period of 5 days at"
   },
   {
     "task_instance_id": 187,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": ""
+    "raw_preview": "Note: The question asks for primers with SmaI and XmaI. SmaI is a blunt-end cutter that cuts within the sequence CCGGGG. XmaI is also a blunt-end cutter that cuts within the sequence CCGGGG, but it's possible that XmaI is actually an enzyme that cuts outside of CCGGGG? Actually, XmaI recognizes CCGG"
   },
   {
     "task_instance_id": 216,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "Note: The question says \"linearize the plasmid with HindII\", which means using HindII restriction enzyme to cut the plasmid. HindII is a blunt-end cutter: GGATC. So after cutting pUC19 with HindII, the linearized plasmid will have blunt ends with overhang G? Actually, pUC19 has a multiple cloning si"
   },
   {
     "task_instance_id": 52,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "B",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   }
 ]

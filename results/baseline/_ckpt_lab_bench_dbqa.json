@@ -1,352 +1,352 @@
 [
   {
     "task_instance_id": 207,
-    "score": 0.0,
-    "extracted": "C",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The CAHOY_NEURONAL gene set is defined by genes upregulated in neurons compared to other brain cells (like astrocytes and oligodendrocytes), and it is part of the MSigDB C6 collection of oncogenic signatures derived from microarray data.  \n\nLooking at the options:  \n- **RASL10A** is a Ras-like GTPas"
+    "raw_preview": "Note: The C6 collection contains oncogenic signature gene sets from perturbations of known oncogenes and tumor suppressors. The name of the gene set CAHOY_NEURONAL comes from a study by Cahoy et al. (2008) on neuronal gene expression. \n\nWe need to determine which gene is most likely contained in tha"
   },
   {
     "task_instance_id": 212,
-    "score": 0.0,
-    "extracted": "D",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The question asks which gene is most likely contained in a gene set that is **down-regulated during early differentiation** of embryoid bodies from J1 embryonic stem cells.  \nThe gene set is part of the **C6 collection: oncogenic signature gene sets**, meaning it’s derived from perturbations of know"
+    "raw_preview": "Note: The C6 collection contains oncogenic signature gene sets that represent signatures of cellular pathways often dysregulated in cancer. They are derived from microarray data of genetic perturbations (like overexpression of oncogenes or knockdown of tumor suppressors). The name of each gene set u"
   },
   {
     "task_instance_id": 295,
     "score": 0.0,
-    "extracted": "B",
+    "extracted": "I",
     "ground_truth": "D",
-    "raw_preview": "Let’s break this down.  \n\nThe sequence given is human serum albumin (UniProt P02768). ClinVar classifies variants based on clinical significance, and “benign” means the variant is not disease-causing.  \n\nWe can check known ClinVar entries for albumin variants:  \n\n- **S77F** (Serine to Phenylalanine "
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following variants to the following sequence is most likely to be benign? The sequence is given, and options are specific amino acid substitutions: S77F, E366K, D280V, E400D, or \"Insufficient information.\"\n\nTo answer, I need to understand what ClinVar is. "
   },
   {
     "task_instance_id": 476,
     "score": 0.0,
-    "extracted": "C",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": "The gene set name indicates it contains genes down-regulated in PBMCs 7 days after influenza vaccination in young adult responders.  \nThe C7 collection (immunologic signatures) in MSigDB includes many such vaccine response sets, and they are typically derived from expression profiling studies. Witho"
+    "raw_preview": "<|user|>\nWhich of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_RESPONDERS_7DY_DN, which contains genes down-regulated in peripheral blood mononuclear cells 7d vs 0d in young adults (21-30) (responders) after exposure to Inactivated influe"
   },
   {
     "task_instance_id": 251,
     "score": 0.0,
     "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "The question asks which gene has a DYRK1A binding site in its promoter region according to the Gene Transcription Regulation Database (GTRD). Without direct access to the GTRD in real-time, I must rely on biological knowledge and typical database content.  \n\nDYRK1A is a kinase involved in transcript"
+    "raw_preview": "<|user|>\nWhich of the following genes has a DYRK1A binding site located within its promoter region (-1000,+100 bp around its TSS) according to the Gene Transcription Regulation Database? \n\nI need to recall what DYRK1A is and what the Gene Transcription Regulation Database (GTRD) is. DYRK1A is a kina"
   },
   {
     "task_instance_id": 511,
-    "score": 1.0,
-    "extracted": "E",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": "The P-HIPSter database predicts host-pathogen protein-protein interactions. For Variola virus (smallpox), the hypothetical protein N1L is known to interact with human proteins involved in apoptosis and immune signaling. Among the options, **BAG3** (BCL2-associated athanogene 3) is a co-chaperone inv"
+    "raw_preview": "<|user|>\nThe question asks which human gene encodes a protein predicted to interact with the Variola virus hypothetical protein (gene: N1L) according to the P-HIPSter database. P-HIPSter is a database of predicted host-pathogen protein-protein interactions. I need to recall or deduce which of the li"
   },
   {
     "task_instance_id": 477,
-    "score": 0.0,
-    "extracted": "B",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The question asks for a gene most likely contained in a specific gene set from the C7 immunologic signatures collection (VAX: vaccine response gene sets) in MSigDB. The set is \"THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_VS_70PLS_0DY_UP,\" which represents genes up-regulated in PBMCs from young adu"
+    "raw_preview": "<|user|>\nThe question asks which gene is most likely contained in a specific gene set from the C7 subcollection VAX (vaccine response gene sets) in MSigDB. The gene set is named \"THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_VS_70PLS_0DY_UP\", which indicates genes up-regulated in peripheral blood mo"
   },
   {
     "task_instance_id": 303,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "<",
     "ground_truth": "B",
-    "raw_preview": "The sequence provided is a long amino acid sequence (single-letter codes). The question asks which variant, according to ClinVar, is most likely to be benign. The variants are given as amino acid substitutions using the format like L1256P (Leucine to Proline at position 1256).  \n\nTo answer, I’d need"
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 350,
-    "score": 1.0,
-    "extracted": "B",
+    "score": 0.0,
+    "extracted": "I",
     "ground_truth": "B",
-    "raw_preview": "The sequence provided is the amino acid sequence of the human protein PTEN (Phosphatase and tensin homolog). ClinVar is a database of clinically relevant variants and their pathogenicity classifications.  \n\nLooking at the sequence and the variant options:  \n- **G418V**: Glycine at position 418 chang"
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following variants to the following sequence is most likely to be pathogenic? The sequence is given, and options are specific amino acid substitutions: G418V, P335A, Y755C, P777R, or \"Insufficient information.\"\n\nFirst, I need to identify what protein this "
   },
   {
     "task_instance_id": 269,
     "score": 0.0,
-    "extracted": "E",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "The question asks which gene has a ZNF134 binding site in its promoter region according to the Gene Transcription Regulation Database (GTRD). Without direct access to query the GTRD in real time, I must rely on known data or inference.  \n\nFrom biological databases and literature, ZNF134 is a zinc fi"
+    "raw_preview": "You MUST include the letter of the correct answer within the following tags:\n[ANSWER] and [/ANSWER]. For example, '[ANSWER]<answer>[/ANSWER]',\nwhere <answer> is the correct letter. Always answer in exactly this format\nof a single letter between the two tags, even if you are unsure.\nWe require this b"
   },
   {
     "task_instance_id": 201,
     "score": 0.0,
-    "extracted": "C",
+    "extracted": "I",
     "ground_truth": "D",
-    "raw_preview": "The question asks which gene is most likely in a gene set that contains genes down-regulated in HEK293 cells after ATM knockdown. ATM is a key DNA damage response kinase, and its knockdown typically impairs DNA repair signaling, which can affect cell cycle regulation and apoptosis.  \n\nThe gene set i"
+    "raw_preview": "I. Down-regulated genes upon knockdown of ATM\nII. HEK293 cells (kidney fibroblasts)\nIII. Upon RNAi\nIV. Most likely contained\n\nWe need to determine which gene among the options is most likely in that gene set. The gene set is defined as genes down-regulated when ATM is knocked down by RNAi in HEK293 "
   },
   {
     "task_instance_id": 161,
-    "score": 1.0,
-    "extracted": "A",
+    "score": 0.0,
+    "extracted": "S",
     "ground_truth": "A",
-    "raw_preview": "The Mouse Genome Informatics (MGI) database and the Mammalian Phenotype (MP) ontology term MP:0009320 (\"increased lymphoblastic lymphoma incidence\") are used to annotate mouse genes where mutations lead to that phenotype.  \n\nFrom known literature and MGI queries:  \n- **Tal1** (T-cell acute lymphocyt"
+    "raw_preview": "Note: The question asks \"most likely contained,\" implying we should use knowledge about these genes. TheMP term MP:0009320 is \"increased lymphoblastic lymphoma incidence.\" So the gene set likely includes genes where lymphoblastic lymphoma is incidence. \n\nLet's evaluate each option:\n\nA. Tal1 - This g"
   },
   {
     "task_instance_id": 43,
-    "score": 1.0,
-    "extracted": "A",
+    "score": 0.0,
+    "extracted": "B",
     "ground_truth": "A",
-    "raw_preview": "To determine which human gene is located at chr11q23 according to Ensembl Release 110, I need to recall or infer the cytogenetic band locations of the given genes.  \n\n- **VPS11-DT** is a divergent transcript associated with VPS11, which is on chromosome 11, but its exact cytoband is 11q23.3 accordin"
+    "raw_preview": "- OR5B1P: Olfactory receptor family 5, subfamily B, member 1 pseudogene. Located on chromosome 11, but I need to check the exact band. Possibly 11q13 or 11q23? Not sure.\n             - VPS11-DT: VPS11 domain containing, pseudogene. Also on chromosome 11, but maybe at 11p15 or 11q? Possibly 11q23.\n  "
   },
   {
     "task_instance_id": 217,
     "score": 0.0,
     "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": "The gene set GLI1_UP.V1_DN contains genes that are down-regulated when GLI1 is overexpressed in RK3E kidney epithelial cells. GLI1 is a transcription factor and a key effector of the Hedgehog signaling pathway, which is often involved in oncogenesis. When GLI1 is overexpressed, it typically activate"
+    "raw_preview": "<|user|>\nWhich of the following genes is most likely contained in the gene set GLI1_UP.V1_DN, which contains genes down-regulated in RK3E cells (kidney epithelium) over-expressing GLI1 [GeneID=2735]. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nOptions: A. FGF16, B. "
   },
   {
     "task_instance_id": 401,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 190,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": "The Mouse Genome Informatics (MGI) database and the Mammalian Phenotype (MP) ontology are used to annotate mouse genes with specific phenotypic outcomes. The phenotype \"increased small intestine adenocarcinoma incidence\" (MP:0009309) is a specific annotation.  \n\nFrom known MGI data, the gene **Rnf8*"
+    "raw_preview": "<|user|>\nThe question asks which gene is most likely contained in a specific gene set from Mouse Genome Informatics: \"MP_INCREASED_SMALL_INTESTINE_ADENOCARCINOMA_INCIDENCE\", which contains mouse genes annotated to increased small intestine adenocarcinoma incidence (MP:0009309). The options are speci"
   },
   {
     "task_instance_id": 309,
     "score": 0.0,
     "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": "The sequence provided is the amino acid sequence of the human protein **ATRX** (UniProt entry P46100). ATRX is a chromatin remodeler, and mutations in it cause X-linked alpha-thalassemia intellectual disability syndrome (ATR-X syndrome).  \n\nLooking at the ClinVar database for known pathogenic varian"
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following variants to the following sequence is most likely to be pathogenic? The sequence is given, and options are A.D224G, B.I264V, C.A93E, D.Insufficient information, E.S496L.\n\nTo answer this, I need to recall what ClinVar is. ClinVar is a public datab"
   },
   {
     "task_instance_id": 259,
-    "score": 0.0,
-    "extracted": "D",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "To answer this question, I need to recall or infer which of the listed genes has a documented NFKBIA binding site in its promoter region according to a specific database (Gene Transcription Regulation Database).  \n\nNFKBIA is IκBα, an inhibitor of NF-κB, but it can also enter the nucleus and bind DNA"
+    "raw_preview": "-1000   +100     -500   +500     0   1000\nSECTM1  |  SECTM2  |  SECTM3  |  SECTM4  |  SECTM5  |  SECTM6\n TOMM40L |  TOMM50L |  TOMM60L |  TOMM70L |  TOMM80L |  TOMM90L\nFAAP20  |  FAAP21  |  FAAP22  |  FAAP23  |  FAAP24  |  FAAP25\nBICD1  |  BICD2  |  BICD3  |  BICD4  |  BICD5  |  BICD6\n\nNote: The que"
   },
   {
     "task_instance_id": 105,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "miRDB is a database for microRNA target prediction and functional annotations. The question asks for a computationally predicted human gene target of the specific miRNA **MIR4795_5P** according to **miRDB v6.0**. Without directly querying the miRDB v6.0 database, I cannot definitively know which of "
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following genes is a computationally predicted human gene target of the miRNA MIR4795_5P according to miRDB v6.0?\" \n\nOptions: A.ATP5MGL, B.UNC5C, C.NTN3, D.Insufficient information to answer the question, EITPA.\n\nI need to recall what miRDB is. miRDB is an o"
   },
   {
     "task_instance_id": 53,
-    "score": 1.0,
-    "extracted": "B",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "To determine which human gene is located at chr17p13 according to Ensembl Release 110, I need to recall or infer the chromosomal locations of the listed genes.  \n\n- **CSHL1** (chorionic somatomammotropin hormone-like 1) is on chromosome 17 at 17q24.2, not 17p13.  \n- **SMG6** (nonsense mediated mRNA "
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following human genes is located at chr17p13 according to Ensembl Release 110?\" The options are: A. CSHL1, B. SMG6, C. Insufficient information to answer the question, D. AATK, E. GAA.\n\nI need to recall or deduce which gene is located at chromosome 17, p13 r"
   },
   {
     "task_instance_id": 389,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 1,
-    "score": 0.0,
-    "extracted": "B",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "Currarino syndrome (also known as Currarino triad) is typically associated with mutations in the **MNX1** gene (formerly known as **HLXB9**). Both OMIM and DisGeNet list MNX1 as associated.  \n\nHowever, the question asks for a gene that is associated according to DisGeNet but **not** according to OMI"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following genes is associated with Currarino syndrome (Currarino triad) according to DisGeNet but not according to OMIM?\" Options: A. HPGD, B. MCTP1, C. DECR1, D. MNX1, E. Insufficient information.\n\nFirst, I need to recall what Currarino syndrome is. Currari"
   },
   {
     "task_instance_id": 460,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "The gene set name indicates genes down-regulated in neutrophils at 1 day post-vaccination with an H5N1 influenza vaccine in adults. The C7 collection (immunologic signatures) in MSigDB includes many such vaccine response sets. Without direct access to the specific gene set contents, I must rely on b"
+    "raw_preview": "<|user|>\nWhich of the following genes is most likely contained in the gene set HOWARD_NEUTROPHIL_INACT_MONOV_INFLUENZA_A_INDONESIA_05_2005_H5N1_AGE_18_49YO_1DY_DN, which contains genes down-regulated in neutrophil 1d vs 0d in adults (18-49) after exposure to inactivated monovalent influenza A/Indone"
   },
   {
     "task_instance_id": 505,
     "score": 0.0,
-    "extracted": "C",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "The P-HIPSter database predicts protein-protein interactions between viral and human proteins based on computational methods. For Monkeypox virus Zaire-96-I-16, the viral protein D10L is a putative host-range protein. According to the P-HIPSter database (as referenced in some virology studies and in"
+    "raw_preview": "<|user|>\nThe question asks which human gene encodes a protein predicted to interact with a specific viral protein according to the P-HIPSter database. P-HIPSter is a database of predicted host-pathogen protein-protein interactions. I need to recall or infer which of these genes is known or predicted"
   },
   {
     "task_instance_id": 49,
-    "score": 1.0,
-    "extracted": "B",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "To determine which human gene is located at chr14q21 according to Ensembl Release 110, I need to recall or infer the chromosomal locations of the listed genes.  \n\n- **ACTN1** is on chromosome 14, but at 14q24.1, not 14q21.  \n- **FKBP1BP1** (also known as FKBP1B pseudogene 1) is on chromosome 14 at 1"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following human genes is located at chr14q21 according to Ensembl Release 110?\" Options: A. ACTN1, B. FKBP1BP1, C. SLC22A17, D. Insufficient information, E. OR11H4.\n\nI need to recall or reason about the chromosomal locations of these genes. I know that Ensem"
   },
   {
     "task_instance_id": 419,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "<",
     "ground_truth": "B",
-    "raw_preview": "The question asks which sequence is most likely to contain a pathogenic variant according to ClinVar. ClinVar is a database that aggregates information about genomic variants and their relationship to human health. Pathogenic variants are those known or strongly suspected to cause disease.\n\nLooking "
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 80,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "miRDB v6.0 is a database for microRNA target prediction and functional annotations. To answer this question accurately, one would need to query the miRDB v6.0 database for predicted targets of the specific miRNA \"LET_7G_5P\" (which corresponds to the mature sequence of let-7g-5p). Without direct acce"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following genes is a computationally predicted human gene target of the miRNA LET_7G_5P according to miRDB v6.0?\" \n\nI need to recall what miRDB is. miRDB is an online database for microRNA target prediction and functional annotations. It contains predicted m"
   },
   {
     "task_instance_id": 205,
     "score": 0.0,
     "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": "The gene set BRCA1_DN.V1_DN contains genes that are down-regulated when BRCA1 is knocked down. Since BRCA1 is a tumor suppressor gene involved in DNA repair and transcriptional regulation, its loss typically disrupts normal cellular functions, including the expression of genes it helps activate. The"
+    "raw_preview": "Question: Which of the following genes is most likely contained in the gene set BRCA1_DN.V1_DN, which contains genes down-regulated in MCF10A cells (breast cancer) upon knockdown of BRCA1 [GeneID=672] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets. \nOptions"
   },
   {
     "task_instance_id": 34,
-    "score": 1.0,
-    "extracted": "B",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "Let’s break this down.  \n\nOtofaciocervical syndrome (OTFCS) is a rare genetic disorder. According to OMIM (Online Mendelian Inheritance in Man), the gene associated with OTFCS is **EYA1** (OMIM entry #166780, OTFCS2) and **PAX1** (OMIM entry #615560, OTFCS1).  \n\nDisGeNet is a database integrating ge"
+    "raw_preview": "<|user|>\nYour task is to identify the gene associated with otofaciocervical syndrome according to DisGeNet but not OMIM. DisGeNet is a database that integrates information on gene-disease associations from various sources, including GWAS, animal models, and scientific literature. OMIM is a comprehen"
   },
   {
     "task_instance_id": 430,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nThe question asks: \"According to ClinVar, which of the following sequences is most likely to contain a"
   },
   {
     "task_instance_id": 263,
     "score": 0.0,
-    "extracted": "E",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": "The question asks which gene has a SETD7 binding site in its promoter region according to the Gene Transcription Regulation Database (GTRD). Without direct access to query the GTRD in real time, I cannot definitively check the promoter regions of BFAR, OR8A1, ASCL5, and NOP56 for SETD7 binding sites"
+    "raw_preview": "BFAR          OR8A1        ASCL5        NOP56\n\nYou can find the correct answer by looking up the database entry for this question. The question asks which gene has a SETD7 binding site in its promoter region according to a specific database (Gene Transcription Regulation Database). I recall that SET"
   },
   {
     "task_instance_id": 427,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "C",
-    "raw_preview": ""
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 493,
-    "score": 0.0,
-    "extracted": "D",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The P-HIPSter database predicts host-pathogen protein-protein interactions based on computational methods, including homology and domain interaction modeling. Hepatitis C virus genotype 5 E2 protein is an envelope glycoprotein involved in viral entry. Among the options:  \n\n- **TRGV3** encodes a T-ce"
+    "raw_preview": "<|user|>\nWhich of the following human genes encodes a protein that is predicted to interact with the viral protein Hepatitis C virus genotype 5 E2 protein according to the P-HIPSter database?\n\nOptions:\nA. TRGV3\nB. SLAIN1\nC. FOXK2\nD. Insufficient information to answer the question.\nE. GYS2\n\nYou MUST "
   },
   {
     "task_instance_id": 366,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": "The sequences are very long and differ at only a few positions. The question asks which is most likely to be benign according to ClinVar, implying we need to identify which variant is a known benign polymorphism or which change is least likely to be pathogenic.  \n\nLooking closely:  \n- **Sequence A**"
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 91,
-    "score": 1.0,
-    "extracted": "C",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": "miRDB is a database for microRNA target prediction and functional annotations. The question asks for a computationally predicted human gene target of the specific miRNA **MIR3190_3P** according to **miRDB v6.0**. Without direct access to the miRDB v6.0 database at this moment, I must rely on biologi"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following genes is a computationally predicted human gene target of the miRNA MIR3190_3P according to miRDB v6.0?\" \n\nOptions: A. ZFPL1, B. AMMECR1, C. SERTAD3, D. Insufficient information to answer the question, E. CIMAP1B.\n\nI need to recall what miRDB is. m"
   },
   {
     "task_instance_id": 339,
     "score": 0.0,
-    "extracted": "",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": ""
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following variants to the following sequence is most likely to be pathogenic? The sequence is given in MPVRRGHVAPQNTFLDTIIRKFEGQSRKFIIANARVENCAVIYCNDGFCELCGYSRAEVMQRPCTCDFLHGPRTQRRAAAQIAQALLGAEERKVEIAFYRKDGSCFLCLVDVVPVKNEDGAVIMFILNFEVVMEKDMVGSPAHDTNHRGPPTS"
   },
   {
     "task_instance_id": 495,
     "score": 0.0,
-    "extracted": "B",
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": "The P-HIPSter database predicts host-pathogen protein-protein interactions. According to that database, Human adenovirus 12 endoprotease (Late protein 3) is predicted to interact with the human protein encoded by the **AKIRIN2** gene.  \n\n[ANSWER]B[/ANSWER]  \n\nFINAL ANSWER: B"
+    "raw_preview": "A. MS4A2\nB. AKIRIN2\nC. TECR\nD. SUMO2\nE. Insufficient information to answer the question.\n\nYou MUST include the letter of the correct answer within the following tags:\n[ANSWER] and [/ANSWER]. For example, '[ANSWER]<answer>[/ANSWER]',\nwhere <answer> is the correct letter. Always answer in exactly this"
   },
   {
     "task_instance_id": 52,
-    "score": 1.0,
-    "extracted": "B",
+    "score": 0.0,
+    "extracted": "S",
     "ground_truth": "B",
-    "raw_preview": "To determine which human gene is located at chr16q22 according to Ensembl Release 110, I need to recall or infer the cytogenetic band locations of the given genes.  \n\n- **chr16q22** refers to the long arm (q) of chromosome 16 at band 22.  \n- **NUTF2** (Nuclear Transport Factor 2) is known to be loca"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following human genes is located at chr16q22 according to Ensembl Release 110?\" \n\nWe need to recall or deduce which gene among the options is located at chromosome 16, region q22. \n\nLet's evaluate each option:\n\nA. Insufficient information to answer the quest"
   },
   {
     "task_instance_id": 345,
     "score": 0.0,
-    "extracted": "E",
+    "extracted": "I",
     "ground_truth": "D",
-    "raw_preview": "Let’s break this down.  \n\nThe sequence given is a protein sequence (single-letter amino acid code).  \nThe question asks which variant (given as a standard protein variant notation like S5L, D417G, etc.) is most likely to be pathogenic **according to ClinVar**.  \n\nWe don’t have direct ClinVar access "
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following variants to the following sequence is most likely to be pathogenic? The sequence is given, and options are specific amino acid substitutions: S5L, D417G, A326V, E187G, or \"Insufficient information.\"\n\nFirst, I need to identify what protein this se"
   },
   {
     "task_instance_id": 264,
     "score": 0.0,
     "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "I don’t have real-time access to the Gene Transcription Regulation Database (GTRD) to check promoter binding sites for specific genes.  \nGiven the question asks about a TBX3 binding site in the promoter region (-1000,+100 bp around TSS) according to that database, and since I cannot query it now, th"
+    "raw_preview": "You MUST include the letter of the correct answer within the following tags:\n[ANSWER] and [/ANSWER]. For example, '[ANSWER]<answer>[/ANSWER]',\nwhere <answer> is the correct letter. Always answer in exactly this format\nof a single letter between the two tags, even if you are unsure.\nWe require this b"
   },
   {
     "task_instance_id": 241,
-    "score": 0.0,
-    "extracted": "B",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The question asks which gene has an AHRR binding site in its promoter region according to a specific database (Gene Transcription Regulation Database). Without direct access to that database to query the data, I must rely on biological knowledge.  \n\nAHRR (Aryl Hydrocarbon Receptor Repressor) is a tr"
+    "raw_preview": "<|user|>\nThe question asks which gene has an AHRR binding site in its promoter region according to a specific database (Gene Transcription Regulation Database). I need to recall or infer which gene among the options is known to have such a binding site. \n\nI am not directly accessing the database, bu"
   },
   {
     "task_instance_id": 13,
     "score": 0.0,
     "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": "Meesmann corneal dystrophy is a rare autosomal dominant disorder caused by mutations in keratin genes expressed in the corneal epithelium. According to OMIM (Online Mendelian Inheritance in Man), the established causal genes are **KRT12** (keratin 12) and **KRT3** (keratin 3).  \n\nDisGeNet is a datab"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following genes is associated with Meesmann corneal dystrophy according to DisGeNet but not according to OMIM?\" We need to recall what Meesmann corneal dystrophy is and which genes are associated with it according to two different databases: DisGeNet and OMI"
   },
   {
     "task_instance_id": 315,
     "score": 0.0,
-    "extracted": "B",
+    "extracted": "<",
     "ground_truth": "A",
-    "raw_preview": "The sequence provided is the human protein sequence for **KCNH2** (also known as hERG), a potassium channel encoded by the *KCNH2* gene. Mutations in *KCNH2* are associated with Long QT syndrome type 2 (LQT2).  \n\nLooking at the variants:  \n- **A1326S**: This position is within the cytoplasmic C-term"
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   },
   {
     "task_instance_id": 88,
     "score": 0.0,
-    "extracted": "E",
+    "extracted": "A",
     "ground_truth": "B",
-    "raw_preview": "miRDB v6.0 is a database for microRNA target prediction and functional annotations. To answer this question accurately, one would need to query the miRDB database specifically for predicted targets of the human miRNA \"MIR29B_1_5P\". Without direct access to the database at this moment, I cannot defin"
+    "raw_preview": "<|user|>\nThe question asks: \"Which of the following genes is a computationally predicted human gene target of the miRNA MIR29B_1_5P according to miRDB v6.0?\" \n\nOptions: A. ZNF280A, B. PNISR, C. ZNF571, D. B4GALT7, E. Insufficient information to answer the question.\n\nI need to recall what miRDB is. m"
   },
   {
     "task_instance_id": 387,
-    "score": 0.0,
-    "extracted": "D",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The sequences provided are nearly identical, differing by only one or two amino acids. The question asks which is most likely to be benign according to ClinVar, implying we need to identify the variant least likely to be pathogenic based on known mutation patterns.  \n\nComparing the sequences:  \n- **"
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following sequences is most likely to be benign? \n\nOptions:\nA.MADEKTFRIGFIVLGLFLLALGTFLMSHDRPQVYGTFYAMGSVMVIGGIIWSMCQCYPKITFVPADSDFQGILSPKAMGLLENGLAAEMKSPSPQPPYVRLWEEAAYDQSLPDFSHIQMKVMSYSEDHRSLLAPEMGQPKLGTSDGGEGGPGDVQAWMEAAVVIHKGSDESEGERRLTQSWPGPLACPQGPAPL"
   },
   {
     "task_instance_id": 273,
     "score": 0.0,
-    "extracted": "D",
+    "extracted": "A",
     "ground_truth": "C",
-    "raw_preview": "The Gene Transcription Regulation Database (GTRD) is a resource that compiles transcription factor binding sites from ChIP-seq data. To answer this question accurately, one would need to query the GTRD specifically for ZNF282 binding sites within the defined promoter region (-1000 to +100 bp around "
+    "raw_preview": "You MUST include the letter of the correct answer within the following tags:\n[ANSWER] and [/ANSWER]. For example, '[ANSWER]<answer>[/ANSWER]',\nwhere <answer> is the correct letter. Always answer in exactly this format\nof a single letter between the two tags, even if you are unsure.\nWe require this b"
   },
   {
     "task_instance_id": 166,
-    "score": 1.0,
-    "extracted": "E",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "E",
-    "raw_preview": "The Mouse Genome Informatics database (MGI) and the Mammalian Phenotype (MP) ontology term MP:0010275 (\"increased melanoma incidence\") are used to annotate mouse genes where mutations or alterations lead to a higher frequency of melanoma.  \n\nFrom known biology, the gene **BRAF** is strongly associat"
+    "raw_preview": "<|user|>\nWhich of the following genes is most likely contained in the gene set MP_INCREASED_MELANOMA_INCIDENCE, which contains mouse genes annotated to increased melanoma incidence (MP:0010275) retrieved from the Mouse Genome Informatics database via MouseMine \n\nOptions:\nA. Pgr\nB. Insufficient infor"
   },
   {
     "task_instance_id": 328,
-    "score": 0.0,
-    "extracted": "E",
+    "score": 1.0,
+    "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The sequence provided is the human protein **p53** (UniProt ID P04637). The bracketed sequence corresponds to the canonical p53 isoform, and the positions in the variants (V56, Q34, A46, V380) refer to amino acid positions in the full-length protein.  \n\nLooking at ClinVar data for *TP53* (the gene e"
+    "raw_preview": "<|user|>\nAccording to ClinVar, which of the following variants to the following sequence is most likely to be pathogenic? The sequence is provided in one-letter amino acid code.\n\nMIVFVRFNSSHGFPVEVDSDTSIFQLKEVVAKRQGVPADQLRVIFAGKELRNDWTVQNCDLDQQSIVHIVQRPWRKGQEMNATGGDDPRNAAGGCEREPQSLTRVDLSSSVLPGDSVGLAV"
   },
   {
     "task_instance_id": 514,
-    "score": 1.0,
-    "extracted": "D",
+    "score": 0.0,
+    "extracted": "A",
     "ground_truth": "D",
-    "raw_preview": "The P-HIPSter database predicts protein-protein interactions between human and viral proteins. The question asks specifically for the human gene encoding a protein predicted to interact with the Yaba-like disease virus 14L protein.  \n\nFrom the P-HIPSter database, the predicted human interactor for Y"
+    "raw_preview": "<|user|>\nThe question asks which human gene encodes a protein predicted to interact with the Yaba-like disease virus 14L protein according to the P-HIPSter database. P-HIPSter is a database of predicted host-pathogen protein-protein interactions. I need to recall or infer which of these genes is kno"
   },
   {
     "task_instance_id": 134,
     "score": 1.0,
     "extracted": "A",
     "ground_truth": "A",
-    "raw_preview": "The Mouse Genome Informatics database (MGI) and the Mammalian Phenotype (MP) ontology term MP:0002038 (\"increased carcinoma incidence\") annotate mouse genes where mutations or alterations lead to a higher frequency of carcinomas.  \n\n- **Cdkn2a** (p16INK4a/p19ARF) is a well-known tumor suppressor gen"
+    "raw_preview": "Note: The options are gene symbols. Make sure you know their meanings before answering.\nCdkn2a: Cyclin-dependent kinase inhibitor II alpha, a CDK inhibitor used in cancer therapy.\nPlg: Phospholipase gamma, involved in lipid metabolism.\nTnfrsf14: TNF receptor superfamily member 14, involved in apopto"
   }
 ]

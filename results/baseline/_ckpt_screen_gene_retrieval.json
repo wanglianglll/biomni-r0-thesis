@@ -2,351 +2,351 @@
   {
     "task_instance_id": 302,
     "score": 0.0,
-    "extracted": "ITGB6",
+    "extracted": "MOI",
     "ground_truth": "ZNF561-AS1",
-    "raw_preview": "In this experimental context, HeLa cells (cervical adenocarcinoma origin) are being exposed to Vaccinia virus (Western Reserve strain) at 0.8 MOI over two weeks to select for viral resistance. The goal is to identify which candidate gene, when perturbed, would most strongly affect the development of"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the mechanisms by which HeLa cells, a cervical adenocarcinoma cell line, develop increased resistance to the Vaccinia virus Western Reserve strain over a two-week ex"
   },
   {
     "task_instance_id": 236,
     "score": 0.0,
-    "extracted": "C19ORF44",
+    "extracted": "ZNF282",
     "ground_truth": "VMP1",
-    "raw_preview": "To determine which gene would have the strongest perturbation effect in enhancing resistance to HCoV-OC43 in HEK293T/ACE2 cells, I need to consider genes involved in viral entry, replication, immune response, or cellular pathways that modulate coronavirus infection.  \n\n- **HEK293T/ACE2 cells** expre"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\n\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes has a ZNF282 binding site located within its promoter region (-1000,+100 bp around its TSS) according to the Gene Transcript"
   },
   {
     "task_instance_id": 207,
     "score": 0.0,
-    "extracted": "GPR55",
+    "extracted": "DMSO",
     "ground_truth": "FAM83H",
-    "raw_preview": "The experimental context involves long-term (10-day) exposure of HT-29 colon cancer cells to DMSO, which is a polar solvent often used as a vehicle control but known to induce differentiation and alter gene expression at higher concentrations or over extended periods. The goal is to see how this exp"
+    "raw_preview": "<|user|>\nExposure to Dimethyl sulfoxide (DMSO) over 10 days affects resistance to drugs in HT-29 cells.观察 DMSO对HT-29细胞抵抗药物的能力的影响，通过对比实验确定是增加还是减少抵抗力。\n\n候选 genes: TMED5, GPR55, CALML6, TARSL2, FAM83H, DPY30, MTNR1B, SPZ1, TMEM160, DNAJB14, NSMF\n\nOutput only the gene symbol of your choice, e.g., BRCA1\n<"
   },
   {
     "task_instance_id": 212,
-    "score": 1.0,
-    "extracted": "STAT1",
+    "score": 0.0,
+    "extracted": "ONE",
     "ground_truth": "STAT1",
-    "raw_preview": "In this experimental context, HeLa cells (cervical adenocarcinoma) are exposed to *Salmonella enterica* Typhimurium and IFN‑gamma, with the goal of understanding susceptibility to bacterial infection over 48 hours.  \n\nKey factors to consider:  \n- **IFN‑gamma** is a major cytokine that activates anti"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study how the exposure of HeLa cells to Salmonella enterica serovar Typhimurium and IFNgamma influences their susceptibility to bacterial infection over a 48-hour period. "
   },
   {
     "task_instance_id": 317,
-    "score": 1.0,
-    "extracted": "NAA10",
+    "score": 0.0,
+    "extracted": "C7",
     "ground_truth": "NAA10",
-    "raw_preview": "In this experimental context, the goal is to study SARS-CoV-2 infection in HCT116 colorectal cancer cells, focusing on increased viral programmed ribosomal frameshifting (PRF). Viral PRF is a mechanism where the ribosome shifts reading frame during translation of viral polyproteins, which is critica"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_VS_70PLS_0DY_UP, which contains genes "
   },
   {
     "task_instance_id": 251,
     "score": 0.0,
-    "extracted": "SLFN11",
+    "extracted": "TRAF2",
     "ground_truth": "MTHFD1",
-    "raw_preview": "In this experimental context, THP-1 monocytic leukemia cells are being exposed to a CDK9 inhibitor (AZD5576) over 21 days to induce resistance. CDK9 is a key regulator of transcription elongation, and its inhibition suppresses the expression of short-lived oncoproteins and survival genes (e.g., MCL1"
+    "raw_preview": "<|user|>\nTHP-1 cells developed increased resistance to AZD5576 over a prolonged exposure of 21 days at 150 nM. I need to identify the gene with the strongest perturbation effect to understand how these cells adapted to the drug, which could provide insights into potential therapeutic strategies.\n\nTh"
   },
   {
     "task_instance_id": 339,
     "score": 0.0,
-    "extracted": "ITGB1",
+    "extracted": "MP",
     "ground_truth": "CAB39",
-    "raw_preview": "To determine the gene with the strongest perturbation effect in KMS-28BM cells (a multiple myeloma cell line, which is a type of hematologic malignancy) treated with selinexor (a selective inhibitor of nuclear export, specifically targeting XPO1) over 28 days, I need to consider the biological conte"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 318,
     "score": 0.0,
-    "extracted": "PDCD4",
+    "extracted": "SARS",
     "ground_truth": "DOHH",
-    "raw_preview": "In this experimental context, the goal is to study how SARS-CoV-2 exposure affects programmed ribosomal frameshifting (PRF) in HCT116 colorectal cancer cells.  \nPRF is a translational regulation mechanism often exploited by viruses to control the expression of viral proteins, and host factors involv"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the impact of SARS-CoV-2 exposure on programmed ribosomal frameshifting (PRF) in the HCT 116 colorectal cancer cell line over a 10-day period at a dosage of 0.3 MOI."
   },
   {
     "task_instance_id": 269,
     "score": 0.0,
-    "extracted": "PIAS3",
+    "extracted": "UM171",
     "ground_truth": "chr3:195713389-195713475",
-    "raw_preview": "The research context involves treating OCI-AML-1 (acute myeloid leukemia) cells with 800 nM UM171 for 8 days to assess effects on drug resistance. UM171 is a potent agonist of hematopoietic stem cell self-renewal, often used in ex vivo expansion of cord blood stem cells, and has been studied in AML "
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: I hope to study the effects of 800 nM UM171 on the OCI-AML-1 acute myeloid leukemia cell line over 8 days to determine whether the drug leads to increased"
   },
   {
     "task_instance_id": 201,
-    "score": 1.0,
-    "extracted": "GABARAP",
+    "score": 0.0,
+    "extracted": "HEK293T",
     "ground_truth": "GABARAP",
-    "raw_preview": "In this experimental context, you are studying negative regulators of autophagy and their effect on protein/peptide accumulation over time in HEK293T cells.  \n\n- **MIR3142**: A microRNA, not a protein-coding gene; possible regulatory role but less direct.  \n- **OR10P1**: Olfactory receptor, unlikely"
+    "raw_preview": "<|user|>\nHow negative regulators of autophagy affect protein/peptide accumulation over a 2-week timecourse in HEK293T embryonic kidney cells. This will help in identifying key factors that inhibit autophagy, contributing to our understanding of cellular mechanisms related to protein/peptide homeosta"
   },
   {
     "task_instance_id": 161,
     "score": 0.0,
-    "extracted": "CHRND",
+    "extracted": "HAP",
     "ground_truth": "SCAP",
-    "raw_preview": "The research context involves chronic myelogenous leukemia (CML) cells (HAP-1 line) developing resistance to a venom toxin (CfTX-1) over a 14-day exposure. This suggests a selection for adaptive changes, possibly involving stress response, apoptosis evasion, membrane/channel adaptations, or signalin"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: I hope to study the mechanisms by which HAP-1 cells, a chronic myelogenous leukemia cell line, develop increased resistance to CfTX-1 (Chironex fleckeri t"
   },
   {
     "task_instance_id": 43,
-    "score": 1.0,
-    "extracted": "UBE2J1",
+    "score": 0.0,
+    "extracted": "ERAD",
     "ground_truth": "UBE2J1",
-    "raw_preview": "The research context focuses on ERAD-L genes (ERAD: Endoplasmic Reticulum-Associated Degradation, specifically the luminal pathway) and their role in protein/peptide accumulation over time in K-562 chronic myeloid leukemia cells. ERAD-L targets misfolded proteins in the endoplasmic reticulum lumen f"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the role of ERAD-L genes in the accumulation of proteins and peptides over a 20-hour timecourse in K-562 chronic myeloid leukemia cells. By understanding how these g"
   },
   {
     "task_instance_id": 217,
     "score": 0.0,
-    "extracted": "DUSP6",
+    "extracted": "EGFR",
     "ground_truth": "EIF4A3",
-    "raw_preview": "The PC-9 lung adenocarcinoma cell line is known to harbor the EGFR exon 19 deletion (E746_A750del), not the L858R mutation, but the question specifies EGFR-T790M/L858R mutations, suggesting a double-mutant EGFR context. Erlotinib is a first-generation EGFR tyrosine kinase inhibitor (TKI), and the T7"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: I hope to study how the EGFR-T790M/L858R mutations in the PC-9 lung adenocarcinoma cell line affect the sensitivity to erlotinib at a dosage of 40.0 nM ov"
   },
   {
     "task_instance_id": 190,
-    "score": 1.0,
-    "extracted": "KEAP1",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "KEAP1",
-    "raw_preview": "In this experimental context, HUH-7 SR cells (a sorafenib-resistant variant of Huh-7 hepatocellular carcinoma cells) are being studied for increased resistance after prolonged exposure to 5 µM sorafenib over 12 doublings. The goal is to identify a gene whose perturbation (e.g., knockout or overexpre"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 259,
-    "score": 1.0,
-    "extracted": "DHODH",
+    "score": 0.0,
+    "extracted": "THP",
     "ground_truth": "DHODH",
-    "raw_preview": "In this experimental context, THP-1 monocytic leukemia cells are being exposed to a prolonged low dose (10 nM) of Dinaciclib, a cyclin-dependent kinase (CDK) inhibitor (primarily targeting CDK2, CDK5, CDK1, CDK9), over 21 days to induce acquired resistance. The goal is to identify which candidate ge"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the mechanisms by which THP-1 monocytic leukemia cells develop increased resistance to Dinaciclib when exposed to a dosage of 10.0 nM over a 21-day period, thereby i"
   },
   {
     "task_instance_id": 105,
-    "score": 1.0,
-    "extracted": "NF2",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "NF2",
-    "raw_preview": "In this experimental context, Dexrazoxane (ICRF‑187) is a cardioprotective agent that inhibits topoisomerase IIβ and is also known to chelate iron, potentially leading to iron depletion and oxidative stress modulation. The study involves prolonged exposure (18 days) at 25.0 µM on hTERT‑RPE1 cells (r"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 53,
     "score": 0.0,
-    "extracted": "HRASLS5",
+    "extracted": "MP",
     "ground_truth": "NHLRC2",
-    "raw_preview": "The experiment focuses on phagocytosis in U‑937 cells, a human monocytic lymphoma cell line that can differentiate into macrophage-like cells capable of phagocytosis.  \nKey genes for phagocytosis typically involve signaling, cytoskeletal rearrangement, and membrane remodeling.  \n\nAmong the candidate"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about phagocytosis.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annot"
   },
   {
     "task_instance_id": 1,
-    "score": 1.0,
-    "extracted": "KEAP1",
+    "score": 0.0,
+    "extracted": "HCC364",
     "ground_truth": "KEAP1",
-    "raw_preview": "In this experimental context, the goal is to understand acquired resistance to Trametinib, a MEK inhibitor, in the HCC364 lung cancer cell line after prolonged exposure. Trametinib targets the MAPK pathway (RAS-RAF-MEK-ERK). Resistance mechanisms often involve reactivation of the MAPK pathway or act"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the mechanisms by which the HCC364 lung cancer cell line develops resistance to Trametinib over a prolonged exposure period of 21 days at a dosage of 24 nM, to bette"
   },
   {
     "task_instance_id": 49,
     "score": 0.0,
-    "extracted": "CIITA",
+    "extracted": "MP",
     "ground_truth": "SLC35B2",
-    "raw_preview": "To determine the gene with the strongest perturbation effect in this context, I need to consider the experimental setup: HAP-1 chronic myelogenous leukemia cells, resistance to Dengue virus 2 (DENV-2), 5 MOI over 2 weeks. The goal is to understand mechanisms of viral resistance, which likely involve"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 80,
     "score": 0.0,
-    "extracted": "GANAB",
+    "extracted": "RK3E",
     "ground_truth": "MED19",
-    "raw_preview": "To determine which candidate gene would most strongly perturb SQSTM1 protein/peptide accumulation in H4 glioma cells over a 7-day timecourse, I need to consider genes with known functional connections to SQSTM1 regulation, particularly in pathways like autophagy, proteostasis, or glioma biology.\n\nSQ"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set GLI1_UP.V1_DN, which contains genes down-regulated in RK3E cells (kidney epithelium)"
   },
   {
     "task_instance_id": 205,
     "score": 0.0,
-    "extracted": "ATG5",
+    "extracted": "<|USER|>\nTHE FOLLOWING IS A MULTIPLE CHOICE QUESTION ABOUT BIOLOGY.\nPLEASE ANSWER BY RESPONDING WITH THE LETTER OF THE CORRECT ANSWER.\n\nQUESTION: ACCORDING TO CLINVAR, WHICH OF THE FOLLOWING VARIANTS TO THE FOLLOWING SEQUENCE (BRACKETED BY XML TAGS) IS MOST LIKELY TO BE PATHOGENIC? <SEQUENCE>MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYSSQTQTYGASRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSKGSPCRGPLCGCCPGRSSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFS",
     "ground_truth": "IRS4",
-    "raw_preview": "In this experimental context, the goal is to study mTORC1 activation effects on protein/peptide accumulation over 10 days in HEK293T cells, focusing on protein synthesis and cell growth. mTORC1 is a central regulator of anabolic processes, promoting protein synthesis and inhibiting autophagy.  \n\nAmo"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: According to ClinVar, which of the following variants to the following sequence (bracketed by xml tags) is most likely to be pathogenic? <sequence>MVQKSRN"
   },
   {
     "task_instance_id": 34,
     "score": 0.0,
-    "extracted": "TAPBP",
+    "extracted": "ONE",
     "ground_truth": "NCKAP1L",
-    "raw_preview": "The experimental context involves U-937 lymphoma cells (a human monocyte/macrophage-like cell line) exposed to *Legionella pneumophila* over a long-term (18-day) infection model, aiming to identify factors affecting resistance or sensitivity. *Legionella* is an intracellular bacterium that replicate"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms underlying the response of U-937 lymphoma cells to Legionella pneumophila exposure over 18 days, with the aim of identifying factors that con"
   },
   {
     "task_instance_id": 263,
     "score": 0.0,
-    "extracted": "FGFR1",
+    "extracted": "MV4",
     "ground_truth": "XPR1",
-    "raw_preview": "In this research context, the goal is to understand acquired resistance to Dinaciclib, a CDK inhibitor, in the MV4-11 AML cell line over a 21-day period. Dinaciclib primarily inhibits CDK2, CDK5, CDK9, etc., and resistance mechanisms could involve bypass signaling pathways, survival adaptations, or "
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: I hope to study the mechanisms behind the increased resistance to Dinaciclib in the MV4-11 acute myeloid leukemia cell line over a 21-day period, aiming t"
   },
   {
     "task_instance_id": 91,
-    "score": 1.0,
-    "extracted": "ACSL4",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "ACSL4",
-    "raw_preview": "The experimental context involves treating 786-O renal cell carcinoma cells with ML-210, a ferroptosis-inducing compound, for 8 days. Ferroptosis is an iron-dependent form of regulated cell death driven by lipid peroxidation.  \n\nAmong the candidate genes, **ACSL4** (acyl-CoA synthetase long-chain fa"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_MELANOMA_INCIDENCE, which contains mouse genes annotated to increased m"
   },
   {
     "task_instance_id": 52,
-    "score": 1.0,
-    "extracted": "MAPK1",
+    "score": 0.0,
+    "extracted": "ONE",
     "ground_truth": "MAPK1",
-    "raw_preview": "To determine which gene would have the strongest perturbation effect on phagocytosis in U‑937 lymphoma cells over a 5‑day timecourse, I need to consider genes with known roles in phagocytosis, immune signaling, or cellular processes directly relevant to macrophage‑like differentiation and function. "
+    "raw_preview": "<|user|>\nI hope to study the role of specific genes involved in phagocytosis in the U-937 lymphoma cell line over a 5-day timecourse. By tracking gene expression and phenotypic changes over time, I aim to identify key genetic regulators of phagocytosis, which could provide insights into immune respo"
   },
   {
     "task_instance_id": 264,
-    "score": 1.0,
-    "extracted": "ARF1",
+    "score": 0.0,
+    "extracted": "GBF1",
     "ground_truth": "ARF1",
-    "raw_preview": "Golgicide A (GCA) is a specific inhibitor of GBF1 (Golgi-specific BFA resistance factor 1), a guanine nucleotide exchange factor for ADP-ribosylation factors (ARFs) involved in Golgi trafficking and maintenance. Inhibiting GBF1 disrupts Golgi structure and function, leading to cellular stress and po"
+    "raw_preview": "<|user|>\nThe question asks: \"Identify the gene with the strongest perturbation effect...\" We are given a list of candidate genes and asked to pick the one that would have the strongest effect if perturbed (likely knocked down or knocked out) in a specific experimental context: using golgicide A to i"
   },
   {
     "task_instance_id": 241,
     "score": 0.0,
-    "extracted": "MAD2L2",
+    "extracted": "MP",
     "ground_truth": "KCNJ15",
-    "raw_preview": "To determine the gene with the strongest perturbation effect in the context of chronic polymyxin B exposure leading to drug resistance in HK-2 kidney cells, I need to consider the biological roles of the candidate genes in relation to kidney cell function, drug resistance mechanisms, and cellular st"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 13,
     "score": 0.0,
-    "extracted": "ZNF451",
+    "extracted": "MP",
     "ground_truth": "SMCHD1",
-    "raw_preview": "The research context focuses on identifying negative regulators of parkin protein abundance in HEK-293 cells over time. Parkin (encoded by *PARK2*) is an E3 ubiquitin ligase involved in mitophagy and protein degradation pathways. Negative regulators would likely be genes that, when perturbed (e.g., "
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_MELANOMA_INCIDENCE, which contains mouse genes annotated to increased m"
   },
   {
     "task_instance_id": 88,
     "score": 0.0,
-    "extracted": "SF3A1",
+    "extracted": "ONE",
     "ground_truth": "TLE3",
-    "raw_preview": "Apalutamide is a second-generation antiandrogen used in prostate cancer treatment, targeting the androgen receptor (AR) signaling pathway. Prolonged exposure can lead to resistance mechanisms, often involving AR mutations, AR splice variants (e.g., AR-V7), or bypass pathways.  \n\nAmong the candidate "
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study how prolonged exposure to 2.0 µM Apalutamide over a 6-week period affects the development of drug resistance mechanisms in LNCaP prostate cancer cells. By examining "
   },
   {
     "task_instance_id": 273,
     "score": 0.0,
-    "extracted": "CYP3A7",
+    "extracted": "MP",
     "ground_truth": "C16orf72",
-    "raw_preview": "The experimental context involves treating NALM-6 (a Pre-B Acute Lymphoblastic Leukemia cell line) with 20 µM BIBR 1532, a telomerase inhibitor, over 20 days. This long-term treatment likely aims to induce replicative senescence or crisis by telomere shortening, which could alter drug resistance pro"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 166,
-    "score": 1.0,
-    "extracted": "COX17",
+    "score": 0.0,
+    "extracted": "MCF10A",
     "ground_truth": "COX17",
-    "raw_preview": "The experimental context involves a **BRCA2 knockout in HeLa cells** and testing resistance to **Olaparib**, a PARP inhibitor.  \nOlaparib induces synthetic lethality in BRCA-deficient cells by blocking PARP-mediated DNA repair, leading to accumulation of DNA damage and cell death.  \nIf resistance em"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set BRCA1_DN.V1_DN, which contains genes down-regulated in MCF10A cells (breast cancer) "
   },
   {
     "task_instance_id": 342,
     "score": 0.0,
-    "extracted": "NFKB2",
+    "extracted": "MP",
     "ground_truth": "BAZ2A",
-    "raw_preview": "In this experimental context, the goal is to study changes in drug resistance in a lymphoma/leukemia cell line (KMS-28BM) after long-term exposure to selinexor, which is a selective inhibitor of nuclear export (SINE) that blocks exportin 1 (XPO1/CRM1).  \n\nKey mechanistic considerations:  \n- Selinexo"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 134,
-    "score": 1.0,
-    "extracted": "ANPEP",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "ANPEP",
-    "raw_preview": "The experimental context involves Huh-7.5 cells (a human hepatoma cell line) exposed to HCoV-229E (a human coronavirus) at low multiplicity of infection over 5 days, aiming to study changes in viral resistance. HCoV-229E uses **human aminopeptidase N (ANPEP)** as its cellular receptor for entry. ANP"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\n\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated"
   },
   {
     "task_instance_id": 306,
     "score": 0.0,
-    "extracted": "DDX21",
+    "extracted": "MOI",
     "ground_truth": "FLCN",
-    "raw_preview": "In this experimental context, HeLa cells (cervical adenocarcinoma) are infected with Vaccinia virus (Western Reserve strain) at a low multiplicity of infection (0.3 MOI) over a long period (two weeks). The goal is to identify genes whose perturbation would most strongly affect the cells’ resistance "
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the response of HeLa cells, a cervical adenocarcinoma cell line, to the Vaccinia virus Western Reserve strain over a period of two weeks at a dosage of 0.3 MOI. This"
   },
   {
     "task_instance_id": 334,
     "score": 0.0,
-    "extracted": "PRKAR1A",
+    "extracted": "MP",
     "ground_truth": "INPPL1",
-    "raw_preview": "SHP099 is a specific inhibitor of SHP2 (encoded by the PTPN11 gene), a non-receptor protein tyrosine phosphatase that promotes RAS/MAPK pathway signaling. In acute myeloid leukemia (AML), SHP2 inhibition can suppress proliferation and induce differentiation, particularly in cells with certain oncoge"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 243,
     "score": 0.0,
-    "extracted": "KCNN2",
+    "extracted": "NCI",
     "ground_truth": "MAU2",
-    "raw_preview": "To determine the gene with the strongest perturbation effect in this context, I need to consider the experimental setup:  \n\n- **Drug**: Atamparib (RBN‑2397) — a PARP7 inhibitor known to affect the mono‑ADP‑ribosylation pathway, often studied in the context of cancer cell viability, interferon signal"
+    "raw_preview": "<|user|>\n7-day exposure to Atamparib at 20 nM on NCI-H1373 lung cancer cells. Goal: understand how drug influences response to chemicals, focusing on changes in drug resistance. Perturbation effect: strongest increase in resistance or sensitivity to Atamparib.\n\nMAU2: Maestro heat-like repeat family "
   },
   {
     "task_instance_id": 54,
-    "score": 1.0,
-    "extracted": "PYCARD",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "PYCARD",
-    "raw_preview": "The experimental context involves studying inflammasome activation and pyroptosis in THP-1 cells treated with a compound (BAA473). Inflammasome activation typically involves sensor proteins (like NLRP3), adaptor proteins, and effector proteins such as caspase-1. Pyroptosis is a pro-inflammatory form"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 50,
-    "score": 1.0,
-    "extracted": "PRKCD",
+    "score": 0.0,
+    "extracted": "SEC11C",
     "ground_truth": "PRKCD",
-    "raw_preview": "In this experimental context, studying phagocytosis in the U‑937 lymphoma cell line over a 5‑day period, the gene with the strongest perturbation effect would likely be **PRKCD** (Protein Kinase C Delta).  \n\nU‑937 cells are monocyte‑like and can be differentiated into macrophage‑like cells, which ar"
+    "raw_preview": "<|user|>\nStudy temporal dynamics of gene expression/activity involved in phagocytosis in U-937 cells over 5 days to elucidate roles and regulatory mechanisms.\n\nCandidate genes: SEC11C, RGR, PPIF, PNKD, MAATS1, ACSM4, FAM71E2, LIPF, SCN1B, CYB5R3\n\nOutput only the gene symbol of your choice, e.g., BRC"
   },
   {
     "task_instance_id": 174,
     "score": 0.0,
-    "extracted": "PPAT",
+    "extracted": "TAK",
     "ground_truth": "BEND3",
-    "raw_preview": "In this experimental context, the goal is to understand how prolonged exposure to TAK‑243 (a small‑molecule inhibitor of the ubiquitin‑activating enzyme UBA1) influences the development of drug resistance in OCI‑AML‑2 cells.  \n\nTAK‑243 inhibits the ubiquitin‑proteasome system, disrupting protein deg"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the effects of 32-day exposure to TAK-243 at a dosage of 25 nM on the OCI-AML-2 cell line, an acute myeloid leukemia cell line, to understand how prolonged treatment"
   },
   {
     "task_instance_id": 189,
     "score": 0.0,
-    "extracted": "FOXO1",
+    "extracted": "VE822",
     "ground_truth": "SPATA5L1",
-    "raw_preview": "Berzosertib (VE822) is an ATR inhibitor that disrupts DNA damage repair, particularly in cells with replication stress. In HeLa cells (cervical adenocarcinoma, HPV-positive), resistance mechanisms over 14 days likely involve adaptive changes in DNA damage response, cell cycle checkpoints, apoptosis,"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: I hope to study the molecular and cellular mechanisms underlying increased resistance to Berzosertib (VE822) in HeLa cells over a 14-day period. Which of "
   },
   {
     "task_instance_id": 346,
-    "score": 1.0,
-    "extracted": "IRF8",
+    "score": 0.0,
+    "extracted": "RL",
     "ground_truth": "IRF8",
-    "raw_preview": "Selinexor is a selective inhibitor of nuclear export (SINE) that blocks exportin 1 (XPO1/CRM1), leading to nuclear retention of tumor suppressor proteins and inhibition of oncoprotein translation.  \nIn diffuse large B-cell lymphoma (DLBCL), prolonged exposure to selinexor can lead to acquired resist"
+    "raw_preview": "<|user|>\nProlonged exposure to selinexor at 40 nM on RL Diffuse Large B-cell Lymphoma cells over 25 days.\n\nExperimental goal: Determine how cells' resistance to selinexor changes, either increased or decreased, based on prolonged exposure.\n\nCandidate genes: BDH2, OSTF1, GATAD1, IL26, ETS1, PHOSPHO2,"
   },
   {
     "task_instance_id": 187,
-    "score": 1.0,
-    "extracted": "ACE2",
+    "score": 0.0,
+    "extracted": "C7",
     "ground_truth": "ACE2",
-    "raw_preview": "The experimental context involves A549-ACE2 cells (lung cancer cells engineered to express ACE2, the primary SARS-CoV-2 entry receptor) infected with a SARS-CoV-2 spike deletion mutant (Sdel, likely in the S1/S2 cleavage site) at a relatively high MOI (3.0) over a long time course (7 days). The goal"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_VS_70PLS_0DY_UP, which contains genes "
   },
   {
     "task_instance_id": 169,
-    "score": 1.0,
-    "extracted": "IFNAR2",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "IFNAR2",
-    "raw_preview": "The experimental context involves HT-29 colon adenocarcinoma cells repeatedly exposed to *Salmonella* Typhimurium at high multiplicity of infection over multiple passages, aiming to study adaptive mechanisms and potential resistance development. This implies selection for changes in pathways related"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 58,
-    "score": 1.0,
-    "extracted": "ZCCHC14",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "ZCCHC14",
-    "raw_preview": "The experimental context involves studying dynamic changes in gene expression affecting hepatitis B virus surface antigen (Pro-HBsAg) production in a HepG2-NTCP1 HBV Cas9 cell line over 10 days, aiming to understand HBV infection response and identify therapeutic targets.  \n\nAmong the candidate gene"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_SMALL_INTESTINE_ADENOCARCINOMA_INCIDENCE, which contains mouse genes an"
   },
   {
     "task_instance_id": 48,
-    "score": 1.0,
-    "extracted": "MAPK1",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "MAPK1",
-    "raw_preview": "In this experimental context, the goal is to study dynamic changes in gene expression related to phagocytosis in U‑937 cells (a human monocytic cell line often used to model macrophage‑like functions, including phagocytosis) over a 5‑day period.  \n\nAmong the candidate genes, **MAPK1** (Mitogen‑Activ"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 235,
-    "score": 1.0,
-    "extracted": "VMP1",
+    "score": 0.0,
+    "extracted": "OC43",
     "ground_truth": "VMP1",
-    "raw_preview": "To determine the gene with the strongest perturbation effect in the context of long-term HCoV-OC43 resistance in HEK293T/ACE2 cells, I need to consider which gene is most likely to directly influence viral entry, replication, host antiviral response, or cellular adaptation over 23 days.  \n\nHEK293T/A"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and pathways that contribute to increased resistance to the Human coronavirus OC43 (HCoV-OC43) in HEK293T/ACE2 cells over a period of 23 days"
   },
   {
     "task_instance_id": 252,
     "score": 0.0,
-    "extracted": "REL",
+    "extracted": "THP",
     "ground_truth": "PFKP",
-    "raw_preview": "Dinaciclib is a cyclin-dependent kinase (CDK) inhibitor, particularly targeting CDK1, CDK2, CDK5, and CDK9, leading to cell cycle arrest and apoptosis in cancer cells like leukemia. Resistance mechanisms often involve upregulation of anti-apoptotic pathways, changes in drug efflux, metabolic adaptat"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the mechanisms underlying increased resistance to Dinaciclib in the THP-1 monocytic leukemia cell line over a 21-day exposure period. Understanding how these cells d"
   },
   {
     "task_instance_id": 21,
-    "score": 1.0,
-    "extracted": "RNF7",
+    "score": 0.0,
+    "extracted": "MP",
     "ground_truth": "RNF7",
-    "raw_preview": "To determine which gene’s inhibition would most strongly affect sensitivity of LK‑2 lung squamous cell carcinoma cells to the MCL1 inhibitor AZD5991, I need to consider the biological context.  \n\nAZD5991 is a BH3‑mimetic that selectively inhibits MCL1, a pro‑survival BCL2 family protein. Cancer cell"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: Which of the following genes is most likely contained in the gene set MP_INCREASED_LYMPHOBLASTIC_LYMPHOMA_INCIDENCE, which contains mouse genes annotated "
   },
   {
     "task_instance_id": 313,
-    "score": 1.0,
-    "extracted": "ACE2",
+    "score": 0.0,
+    "extracted": "SARS",
     "ground_truth": "ACE2",
-    "raw_preview": "The experimental context involves studying increased resistance to SARS-CoV-2 in a HEK293 cell line engineered to express ACE2 and TMPRSS2, which are key host factors for viral entry. Over a 12-day period at 2.0 MOI, the goal is to identify genetic factors that enhance viral resistance. Among the ca"
+    "raw_preview": "<|user|>\nYour task is to identify the gene with the strongest perturbation effect for the following research context:\n\nI hope to study the cellular mechanisms and genetic factors that contribute to increased resistance to SARS-CoV-2 in the HEK293-ACE2-TMPRSS2 cell line over a 12-day period at a dosa"
   },
   {
     "task_instance_id": 160,
     "score": 0.0,
-    "extracted": "BCL2L11",
+    "extracted": "JQ1",
     "ground_truth": "TADA2B",
-    "raw_preview": "The experimental context involves treating the drug-resistant breast cancer cell line SUM159R with 20 µM JQ1 over 5 passages to assess changes in drug resistance. JQ1 is a well-characterized BET bromodomain inhibitor that primarily targets BRD4, leading to transcriptional downregulation of key oncog"
+    "raw_preview": "<|user|>\nThe following is a multiple choice question about biology.\nPlease answer by responding with the letter of the correct answer.\n\nQuestion: I hope to study the impact of 20 µM JQ1 on the drug resistance of the breast cancer cell line SUM159R over 5 passages to understand the dynamic changes in"
   }
 ]

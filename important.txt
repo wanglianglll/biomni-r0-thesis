@@ -1,5 +1,8 @@
 1.vim使用
 按i插入，按shift+；打出来一个：后，在输入wq保存并退出
+API：
+export CUSTOM_MODEL_BASE_URL=https://api.deepseek.com/v1
+export CUSTOM_MODEL_API_KEY=sk-b675c5ef1d5f4bfe811c8e677d42b650
 
 2.开局启动环境
 source /root/miniconda3/bin/activate biomni
@@ -12,3 +15,48 @@ cd /path/to/biomni-r0-thesis
 git add .
 git commit -m "本次更新说明"
 git push origin main
+
+5.前端启动流程
+①启动虚拟环境：conda activate biomni
+②source一下环境：source ./4_set_env.sh
+③用 conda 环境里的 python 启动：
+CONDA_BASE=$(conda info --base)
+ENV_PYTHON="$CONDA_BASE/envs/biomni/bin/python"
+echo $ENV_PYTHON
+
+④启动 FastAPI：
+CONDA_BASE=$(conda info --base)
+ENV_PYTHON="$CONDA_BASE/envs/biomni/bin/python"
+setsid /bin/bash -lc "cd ~/autodl-tmp/Biomni-main && $ENV_PYTHON -m uvicorn scripts.fastapi_server:app --host 127.0.0.1 --port 6006 --workers 1" > ~/autodl-tmp/Biomni-main/logs/fastapi.log 2>&1 &
+ps：检查之查看近期日志
+tail -n 200 ~/autodl-tmp/Biomni-main/logs/fastapi.log
+
+⑤启动 Gradio前端：
+setsid /bin/bash -lc "cd ~/autodl-tmp/Biomni-main && $ENV_PYTHON app.py" > ~/autodl-tmp/Biomni-main/logs/gradio.log 2>&1 &
+ps：检查之查看近期日志
+tail -n 200 ~/autodl-tmp/Biomni-main/logs/gradio.log
+
+⑥本机测试FastAPI接口：
+curl -i -X POST http://127.0.0.1:8000/generate \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"Hello, how are you?","max_new_tokens":64,"temperature":0.7}'
+
+⑦测试接口
+curl -I http://127.0.0.1:8000/docs || echo "curl not found or connection failed"
+curl -I http://127.0.0.1:7860 || echo "curl not found or connection failed"
+
+curl -s -X POST http://127.0.0.1:8000/generate \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"Hello, how are you?","max_new_tokens":16}' 
+ps：查找相关进程：
+pgrep -a -f 'gradio|app.py|python.*app' || true
+清除缓存：
+find scripts -name "*.pyc" -delete
+find scripts -name "__pycache__" -type d -exec rm -rf {} +
+
+⑧确定端口开放
+ss -ntl | grep 6006
+ss -ntl | grep 6008
+
+⑨本地浏览器测试：
+https://uu313803-99g5-2c27b7f0.bjb1.seetacloud.com:8443
