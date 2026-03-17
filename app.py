@@ -67,7 +67,7 @@ def call_deepseek_api(prompt: str, temperature: float, top_p: float, max_tokens:
     """
     import json
     DEEPSEEK_API_KEY = os.environ.get("CUSTOM_MODEL_API_KEY") or os.environ.get("DEEPSEEK_API_KEY", "")
-    ENDPOINT = os.environ.get("CUSTOM_MODEL_BASE_URL") or os.environ.get("DEEPSEEK_ENDPOINT", "https://api.deepseek.com/v1/chat/completions")
+    ENDPOINT = "https://api.deepseek.com/v1/chat/completions"
     headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
     payload = {
         "model": "deepseek-chat",  # 或 deepseek-coder
