@@ -61,10 +61,9 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=BATCH_SIZE,
     learning_rate=LR,
     logging_steps=50,
-    save_steps=500,
+    save_strategy="no",  # 可加此行消除自动checkpoint保存
     # bf16=False,   # 禁用BFloat16
     # fp16=True,
-    save_total_limit=2,
     remove_unused_columns=False,
     gradient_accumulation_steps=1,
 )
@@ -84,3 +83,6 @@ print("训练完成，正在保存权重和tokenizer ...")
 trainer.save_model(OUTPUT_DIR)
 tokenizer.save_pretrained(OUTPUT_DIR)
 print("全部任务结束。")
+
+print("训练完成，准备关机")
+os.system("shutdown -h now")

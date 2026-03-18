@@ -11,6 +11,7 @@ snapshot_download(
     local_dir=target_dir,
     local_dir_use_symlinks=False,
     max_workers=12,
+    resume_download=True,
     # endpoint参数一般只用于公开模型，如国内网络可选如"https://hf-mirror.com"
     # endpoint="https://hf-mirror.com"  # 如需镜像可加上（但Instruct模型一般可直接拉）
 )
