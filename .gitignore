@@ -83,3 +83,4 @@ biomni_env/biomni_tools/plink_2_0/
 __MACOSX/
 .DS_Store
 ._*
+models/
