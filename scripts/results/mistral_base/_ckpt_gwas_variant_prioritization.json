@@ -1,0 +1,303 @@
+[
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "rs7700133",
+    "ground_truth": "rs4253311",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, Bradykinin, we need to analyze the p-values or effect sizes (beta values) of each variant from the GWAS study.\n\nUnfortunately, I don't have access to the actual GWAS data or results. However, I can provide a general approach to "
+  },
+  {
+    "task_instance_id": 178,
+    "score": 1.0,
+    "extracted": "rs9369898",
+    "ground_truth": "rs9369898",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will look for the variant with the lowest p-value. This indicates a stronger association with the phenotype.\n\nLet's analyze the data:\n\n1. rs9369898: p-value = 1.14e-15\n2. rs1395: p-value = 1.00e-07\n3. rs662138: p-value = 1.00"
+  },
+  {
+    "task_instance_id": 197,
+    "score": 0.0,
+    "extracted": "<Cannot provide a definitive answer without the p-values or effect sizes>",
+    "ground_truth": "rs7542172",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants in relation to erythritol. However, I can suggest that you should priori"
+  },
+  {
+    "task_instance_id": 63,
+    "score": 0.0,
+    "extracted": "rs4941615",
+    "ground_truth": "rs1801725",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs4941615: 1.66e-16\n- rs8012: 1.19e-08\n- rs1280: 1.19e-08\n- rs2970818: 1.19e-08\n- rs4690522: 1.19e-08\n- rs12"
+  },
+  {
+    "task_instance_id": 54,
+    "score": 0.0,
+    "extracted": "rs13122250",
+    "ground_truth": "rs4343",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs494562: 1.00e-08\n- rs13122250: 5.00e-09\n- rs1800961: 1.00e"
+  },
+  {
+    "task_instance_id": 107,
+    "score": 0.0,
+    "extracted": "rs7582179",
+    "ground_truth": "rs6048216",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs7582179: 1.66e-11\n- rs6748734: 1.18e-08\n- rs6687813: 1.18e-08\n- rs10882272: 1.66e-08\n- rs3780181: 5.00e-08"
+  },
+  {
+    "task_instance_id": 50,
+    "score": 0.0,
+    "extracted": "<Cannot provide a definitive answer without additional information>",
+    "ground_truth": "rs603424",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant in the given GWAS study. However, the information about the p-value or effect size is not provided in the question.\n\nSince we don't have enough information to priori"
+  },
+  {
+    "task_instance_id": 174,
+    "score": 0.0,
+    "extracted": "Not provided, as the information about the p-value or effect size is not given in the question. A literature search is recommended to find the most significant variant(s)",
+    "ground_truth": "rs750472",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant in the given GWAS study. However, the information about the p-value or effect size is not provided in the question.\n\nSince we don't have enough information to priori"
+  },
+  {
+    "task_instance_id": 211,
+    "score": 0.0,
+    "extracted": "rs646776",
+    "ground_truth": "rs6687813",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs646776: 1.00e-08\n- rs34100980: 5.00e-09\n- rs6687813: 1.00e-07\n- rs8012: 1.00e-06\n- rs7535263: 1.00e-07\n- r"
+  },
+  {
+    "task_instance_id": 169,
+    "score": 0.0,
+    "extracted": "rs3132440",
+    "ground_truth": "rs532545",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs3132440: 1.23e-08\n- rs11119805: 5.00e-07\n- rs14"
+  },
+  {
+    "task_instance_id": 58,
+    "score": 0.0,
+    "extracted": "rs17145738",
+    "ground_truth": "rs116843064",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs17145738: p-value = 1.1 x 10^-11, effect size = 0.08, replication = yes\n2. rs4921914: p-value = 1.6 x 10^-8, effect size = 0.07, replication = yes\n3. rs29"
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "rs4343",
+    "ground_truth": "rs3757354",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value of each variant in the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs4343: 0.000000000000000000000000000"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "Not applicable without p-values or effect sizes",
+    "ground_truth": "rs2160860",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant in the given GWAS study. However, the information about the p-value or effect size is not provided in the question.\n\nSince we don't have enough information to priori"
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "rs10903129",
+    "ground_truth": "rs4949874",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant in the given GWAS study. A lower p-value indicates a stronger association with the phenotype.\n\nHere are the p-values for each variant:\n- rs4587594: 1.00e-08\n- rs558971: 5.00e-07\n- rs10903129: 1.00e-07\n- rs4503368: 2"
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "rs2547231",
+    "ground_truth": "rs3847502",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs2547231: p-value = 1.00e-08, effect size = -0.067, replication = yes\n2. rs4846914: p-value = 5.00e-09, effect size = -0.072, replication = yes\n3. rs963532"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "rs3846710",
+    "ground_truth": "rs17279437",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value and effect size of each variant.\n\n1. rs3780181: p-value = 1.00e-08, effect size = 0.12\n2. rs3846710: p-value = 5.00e-09, effect size = 0.13\n3. rs8177240: p-value = 1.00e-07, effect size = 0.11\n4. rs6459467: p-value = 1.00e-06, effe"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "rs6564851",
+    "ground_truth": "rs12150660",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n\n* rs6564851: 1.00e-08\n* rs7809"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 0.0,
+    "extracted": "rs2235544",
+    "ground_truth": "rs4687717",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will analyze the p-value of each variant in the given GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs2970818: 1.23e-08\n- rs3410098"
+  },
+  {
+    "task_instance_id": 129,
+    "score": 0.0,
+    "extracted": "rs8012",
+    "ground_truth": "rs4814176",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association with the given phenotype.\n\nHere are the p-values for each variant:\n- rs8012: 1.23e-08\n- rs12141041: 5.00e-07\n- rs7582179: 2.00e-06\n- rs5030062"
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "<This is not a final answer as I don't have the required data to prioritize the variants.>",
+    "ground_truth": "rs2270968",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should look for the variant with the lo"
+  },
+  {
+    "task_instance_id": 157,
+    "score": 0.0,
+    "extracted": "rs1805313",
+    "ground_truth": "rs748196",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs1805313: 0.00000000000000000000000000000000000000000000000"
+  },
+  {
+    "task_instance_id": 203,
+    "score": 0.0,
+    "extracted": "<This is not a final answer as I don't have the required data to prioritize the variants.>",
+    "ground_truth": "rs2040771",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should look for the variant with the lo"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "<Cannot provide a definitive answer without p-values or effect sizes>",
+    "ground_truth": "rs9637599",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should prioritize the variants with the"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "rs7529794",
+    "ground_truth": "rs1061808",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value and effect size of each variant in the given GWAS study.\n\n1. rs7529794: p-value = 5.0e-08, effect size = -0.24\n2. rs11591147: p-value = 1.0e-07, effect size = -0.22\n3. rs1697421: p-value = 2.0e-07, effect size = -0.21\n4. rs11119805"
+  },
+  {
+    "task_instance_id": 149,
+    "score": 0.0,
+    "extracted": "<This is not a final answer as I don't have the required data to prioritize the variants.>",
+    "ground_truth": "rs13375749",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should look for the variant with the lo"
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "rs17711722",
+    "ground_truth": "rs4253772",
+    "raw_preview": "To prioritize the top associated variant with cholesterol, I will analyze the p-values and effect sizes of each variant from the GWAS study.\n\n1. rs5030062: p-value = 5.0 x 10^-8, effect size = -0.06\n2. rs17711722: p-value = 1.0 x 10^-10, effect size = -0.12\n3. rs1801725: p-value = 1.0 x 10^-7, effec"
+  },
+  {
+    "task_instance_id": 151,
+    "score": 0.0,
+    "extracted": "rs10741657",
+    "ground_truth": "rs2686796",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs10741657: 1.00e-08\n- rs2769"
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "rs7883218",
+    "ground_truth": "rs2576452",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association with the given phenotype.\n\nHere are the p-values for each variant:\n- rs7883218: 1.00e-08\n- rs646776: 1.00e-07\n- rs2576452: 1.00e-06\n- rs478881"
+  },
+  {
+    "task_instance_id": 99,
+    "score": 0.0,
+    "extracted": "rs507080",
+    "ground_truth": "rs5030062",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, Bradykinin, we need to analyze the p-values or effect sizes (beta coefficients) from the GWAS study. However, since the necessary data is not provided, I will rank the variants based on their association with Bradykinin accordin"
+  },
+  {
+    "task_instance_id": 116,
+    "score": 0.0,
+    "extracted": "rs113612868",
+    "ground_truth": "rs3738934",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant with the given GWAS phenotype. Unfortunately, the information about the p-value or effect size is not provided in the question.\n\nHowever, we can still make an educat"
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "<This is not a final answer as I don't have the p-value or effect size data. You should sort the variants based on the p-value or effect size data you have to find the most promising variant.>",
+    "ground_truth": "rs3017098",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant with the given GWAS phenotype.\n\nUnfortunately, I don't have the p-value or effect size data for these variants. However, I can suggest that you should look for the v"
+  },
+  {
+    "task_instance_id": 202,
+    "score": 0.0,
+    "extracted": "rs1570669",
+    "ground_truth": "rs2073547",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will analyze the p-value of each variant from the given GWAS study. A lower p-value indicates a stronger association with the given phenotype.\n\nHere are the p-values for each variant:\n- rs6073958: 5.0e-08\n- rs1570669: 1.6e-08\n- rs7"
+  },
+  {
+    "task_instance_id": 74,
+    "score": 1.0,
+    "extracted": "rs2366858",
+    "ground_truth": "rs2366858",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs2366858: 1.23e-08\n- rs1471633: 1."
+  },
+  {
+    "task_instance_id": 121,
+    "score": 1.0,
+    "extracted": "rs10455872",
+    "ground_truth": "rs10455872",
+    "raw_preview": "To prioritize the top associated variant with cholesterol, I will analyze the p-values from the GWAS study for each variant. A lower p-value indicates a stronger association with the phenotype.\n\nHere are the p-values for each variant:\n- rs16942887: 1.00e-08\n- rs10903129: 5.00e-08\n- rs10455872: 1.00e"
+  },
+  {
+    "task_instance_id": 214,
+    "score": 0.0,
+    "extracted": "rs2066938",
+    "ground_truth": "rs12288023",
+    "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs2066938: 1.23e-08\n- rs2686796: 5.00e-07\n- rs1801222: 2.00e"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "rs247616",
+    "ground_truth": "rs7529794",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, the information about the p-values or effect sizes for each variant is not provided in the question.\n\nHowever, based on the conventio"
+  },
+  {
+    "task_instance_id": 188,
+    "score": 0.0,
+    "extracted": "rs2229738",
+    "ground_truth": "rs6073958",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs2229738: This variant is associated with high-density lipoprotein cholesterol (HDL-C) levels in a genome-wide association study (GWAS) with a p-value of 1"
+  },
+  {
+    "task_instance_id": 71,
+    "score": 0.0,
+    "extracted": "rs6804368",
+    "ground_truth": "rs7159888",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs6804368: 1.66e-08\n- rs1395: 1.19e-07\n- rs10882272: 5.00e-07\n- rs2241210: 1.00e-06\n- rs1571700: 1.00e-06\n- "
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "rs941206",
+    "ground_truth": "rs7954638",
+    "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs941206: 1.34e-08\n- rs7954638: 1.60e-08\n- rs1801133: 5.00e-07\n- rs2270968: 2.00e-07\n- rs14399: 4.00e-07\n- r"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "rs1030420",
+    "ground_truth": "rs10087900",
+    "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs1030420: This variant is associated with HDL-C levels in a genome-wide significant study (p-value < 5e-8) and has a positive effect on HDL-C levels. Howev"
+  },
+  {
+    "task_instance_id": 92,
+    "score": 0.0,
+    "extracted": "<This is not a final answer as I don't have the p-values or effect sizes for these variants. You should examine each variant's p-value or effect size to determine the most promising one.>",
+    "ground_truth": "rs7883218",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta coefficients) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should prioritize the variants wi"
+  },
+  {
+    "task_instance_id": 179,
+    "score": 0.0,
+    "extracted": "rs12498742",
+    "ground_truth": "rs1800562",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs12498742: 1.23e-08\n- rs6511"
+  },
+  {
+    "task_instance_id": 102,
+    "score": 1.0,
+    "extracted": "rs4941615",
+    "ground_truth": "rs4941615",
+    "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta coefficients) from the GWAS study. However, since the necessary data is not provided, I will rank the variants based on their association with ketoleucine metabolism or trans"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 630,
+    "score": 0.0,
+    "extracted": "APOA1",
+    "ground_truth": "APOA4",
+    "raw_preview": "APOA1, APOA4, APOA5, and APOC3 are all part of the Apolipoprotein family, which are involved in lipid metabolism and transport. Among these, APOA1 is known to be associated with sex hormone-binding globulin levels, a sex hormone, and sex-specific traits. Therefore, it is a strong candidate for the c"
+  },
+  {
+    "task_instance_id": 591,
+    "score": 0.0,
+    "extracted": "PCSK7",
+    "ground_truth": "APOA4",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is likely that the causal gene for Multi-trait sex score is PCSK7. This gene has been associated with sex hormone-binding globulin levels, which are related to sex traits.\n\nFINAL ANSWER: PCSK7"
+  },
+  {
+    "task_instance_id": 541,
+    "score": 0.0,
+    "extracted": "DGUOK",
+    "ground_truth": "NAT8",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for N-acetylasparagine metabolite levels is DGUOK. This gene is known to be involved in the metabolism of asparagine and its derivatives, making it a strong candidate for this GWAS phenotype.\n\nFINAL A"
+  },
+  {
+    "task_instance_id": 85,
+    "score": 0.0,
+    "extracted": "ALDH3B1",
+    "ground_truth": "ACY3",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have identified a potential candidate gene that could be associated with the metabolite levels of N-acetyltryptophan. The gene ALDH3B1 encodes for aldehyde dehydrogenase 3 family, member B1, an enzyme that plays a crucial"
+  },
+  {
+    "task_instance_id": 242,
+    "score": 0.0,
+    "extracted": "CXCL6",
+    "ground_truth": "RASSF6",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings regarding prostate cancer genetics.\n\nOne of the most well-known genes associated with prostate cancer is the \"CXCL12\" gene, which encodes the C-X-C motif chem"
+  },
+  {
+    "task_instance_id": 159,
+    "score": 1.0,
+    "extracted": "RNF213",
+    "ground_truth": "RNF213",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found that RNF213 is a strong candidate gene for Moyamoya disease. RNF213 has been previously associated with vascular diseases, and several studies have reported mutations in this gene in patients with Moyamoya dise"
+  },
+  {
+    "task_instance_id": 35,
+    "score": 0.0,
+    "extracted": "NDUFA11",
+    "ground_truth": "LONP1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to note that Mitochondrial DNA copy number regulation is primarily controlled by genes involved in mitochondrial biogenesis, replication, and maintenance. Among the given genes, NDUFA11 is a subunit of compl"
+  },
+  {
+    "task_instance_id": 170,
+    "score": 0.0,
+    "extracted": "NOT DETERMINABLE FROM THE GIVEN LIST",
+    "ground_truth": "PRKAG1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with body mass index or obesity. One such gene is the FTO gene, which is a strong candidate for body mass index regulation. However, the FTO gene is not"
+  },
+  {
+    "task_instance_id": 543,
+    "score": 0.0,
+    "extracted": "LZTS1",
+    "ground_truth": "LPL",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, it is important to consider the biological relevance of each gene to the sex score.\n\n1. ATP6V1B2: This gene encodes a subunit of the vacuolar H+ ATPase, which is involved in acidification of intracellular organelles. It d"
+  },
+  {
+    "task_instance_id": 535,
+    "score": 0.0,
+    "extracted": "MRPS11",
+    "ground_truth": "ACAN",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with sex-related traits or sex determination. Among the given genes, one of the genes, MRPS11, has been associated with sex determination in humans. Spe"
+  },
+  {
+    "task_instance_id": 601,
+    "score": 0.0,
+    "extracted": "NOT ENOUGH INFORMATION PROVIDED TO DETERMINE A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as the specific SNPs associated with the phenotype, their locations, and their effects on gene expression or function. Howeve"
+  },
+  {
+    "task_instance_id": 95,
+    "score": 0.0,
+    "extracted": "LZTS1",
+    "ground_truth": "LPL",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, it is important to consider the biological relevance of each gene to the sex score.\n\n1. ATP6V1B2: This gene encodes a subunit of the vacuolar H+ ATPase, which is involved in acidification of intracellular organelles. It d"
+  },
+  {
+    "task_instance_id": 240,
+    "score": 0.0,
+    "extracted": "NLRP3",
+    "ground_truth": "TRIM58",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to pinpoint a single likely causal gene without additional information such as linkage analysis, functional studies, or prior knowledge of the gene's role in platelet biology. However, among the given genes,"
+  },
+  {
+    "task_instance_id": 460,
+    "score": 0.0,
+    "extracted": "UNABLE TO DEFINITIVELY IDENTIFY A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the locus are known to be involved in sex determination or sex hormone regulation.\n\nFor example, the gene C"
+  },
+  {
+    "task_instance_id": 557,
+    "score": 0.0,
+    "extracted": "ZFP69",
+    "ground_truth": "SLFNL1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings related to each gene and the multi-trait sex score.\n\nThe multi-trait sex score is a measure that combines various traits related to sex differences, such as r"
+  },
+  {
+    "task_instance_id": 206,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, I have found that SLC39A8 is a strong candidate for the causal gene associated with central nucleus volume. This gene encodes a Zn(II) transporter and has been implicated in various neurological disorders, including Alzheimer's dis"
+  },
+  {
+    "task_instance_id": 392,
+    "score": 0.0,
+    "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+  },
+  {
+    "task_instance_id": 397,
+    "score": 0.0,
+    "extracted": "MT1A",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score without additional information such as functional studies, linkage analysis, or other genetic evidence. However, some genes in the "
+  },
+  {
+    "task_instance_id": 536,
+    "score": 0.0,
+    "extracted": "NOT ENOUGH INFORMATION PROVIDED TO DETERMINE A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as the specific SNPs associated with the phenotype, their locations, and their effects on gene expression or function. Howeve"
+  },
+  {
+    "task_instance_id": 217,
+    "score": 1.0,
+    "extracted": "BDNF",
+    "ground_truth": "BDNF",
+    "raw_preview": "After analyzing the given data, I have found that the BDNF gene is a strong candidate for the causal gene associated with smoking initiation. This gene encodes the brain-derived neurotrophic factor, which plays a crucial role in the development, maintenance, and function of the nervous system. Studi"
+  },
+  {
+    "task_instance_id": 4,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found that the SLC39A8 gene is a strong candidate for the causal gene associated with the Anterior amygdaloid area volume. This gene has been previously implicated in brain development and volume regulation, making i"
+  },
+  {
+    "task_instance_id": 568,
+    "score": 0.0,
+    "extracted": "AMFR",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that are known to be associated with sex-related traits or sex hormones. Among the given genes, the only one that is strongly associated with sex is the gene for the androgen receptor, AMFR"
+  },
+  {
+    "task_instance_id": 98,
+    "score": 1.0,
+    "extracted": "SULT1A1",
+    "ground_truth": "SULT1A1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that are known to be involved in metabolism and metabolic pathways. Among the given genes, SULT1A1 and SULT1A2 are sulfotransferases, enzymes that catalyze the transfer of a sulfate group f"
+  },
+  {
+    "task_instance_id": 406,
+    "score": 0.0,
+    "extracted": "PCSK7",
+    "ground_truth": "CEP164",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Triglyceride to HDL cholesterol ratio is PCSK7. This gene has been associated with lipid metabolism and triglyceride levels in several studies.\n\nFINAL ANSWER: PCSK7"
+  },
+  {
+    "task_instance_id": 502,
+    "score": 0.0,
+    "extracted": "WNK1",
+    "ground_truth": "B4GALNT3",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, replication in other populations, and fine-mapping. However, one gene that has been associated with se"
+  },
+  {
+    "task_instance_id": 47,
+    "score": 0.0,
+    "extracted": "UNABLE TO DEFINITIVELY IDENTIFY A SINGLE CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the list are known to be involved in sex determination or sex hormone regulation.\n\nFor example, the gene CE"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "APOA1",
+    "ground_truth": "APOA4",
+    "raw_preview": "APOA1, APOA4, APOA5, and APOC3 are all part of the Apolipoprotein family, which are involved in lipid metabolism. APOA1 is known to be associated with lipid levels and has been implicated in sex differences in lipid metabolism. PAFAH1B2, SIK3, and ZPR1 have no known direct association with sex or se"
+  },
+  {
+    "task_instance_id": 200,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, the most likely causal gene for Central nucleus volume is {SLC39A8}. This gene has been associated with various neurodegenerative diseases, and its expression levels have been shown to affect neuronal morphology and funct"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+  },
+  {
+    "task_instance_id": 27,
+    "score": 1.0,
+    "extracted": "SLC39A8",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "FINAL ANSWER: SLC39A8"
+  },
+  {
+    "task_instance_id": 559,
+    "score": 0.0,
+    "extracted": "GCKR",
+    "ground_truth": "TRIM54",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for a multi-trait sum score could be GWAS-associated genes such as GCKR, C2orf16, or SNX17. However, without additional information such as the specific chromosomal location, linkage analysis, or func"
+  },
+  {
+    "task_instance_id": 230,
+    "score": 0.0,
+    "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+  },
+  {
+    "task_instance_id": 489,
+    "score": 0.0,
+    "extracted": "CATSPER1",
+    "ground_truth": "SART1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is challenging to pinpoint a single likely causal gene for the multi-trait sex score. However, some genes are known to be involved in sex determination or sex hormone regulation, such as CATSPER1, which encodes a protein"
+  },
+  {
+    "task_instance_id": 378,
+    "score": 0.0,
+    "extracted": "IT IS NOT POSSIBLE TO DEFINITIVELY IDENTIFY THE CAUSAL GENE WITH THE GIVEN INFORMATION",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the locus are known to be involved in sex determination or sex hormone regulation.\n\nFor example, the gene C"
+  },
+  {
+    "task_instance_id": 288,
+    "score": 0.0,
+    "extracted": "MT1A",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score without additional information such as functional studies, linkage analysis, or other genetic evidence. However, some genes in the "
+  },
+  {
+    "task_instance_id": 418,
+    "score": 0.0,
+    "extracted": "C4A",
+    "ground_truth": "ZBTB12",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Neonatal circulating Complement Component 4 (C4) protein concentration is C4A or C4B. These genes encode the alpha and beta chains of the Complement Component 4 protein, respectivel"
+  },
+  {
+    "task_instance_id": 391,
+    "score": 1.0,
+    "extracted": "BDNF",
+    "ground_truth": "BDNF",
+    "raw_preview": "FINAL ANSWER: {BDNF}"
+  },
+  {
+    "task_instance_id": 498,
+    "score": 0.0,
+    "extracted": "{",
+    "ground_truth": "TMEM175",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider previous research and literature on Parkinson's disease to identify potential causal genes.\n\nOne of the genes in the locus, PARK2 (PIGG), is known to be associated with Parkinson's disease. PARK2"
+  },
+  {
+    "task_instance_id": 138,
+    "score": 1.0,
+    "extracted": "SLCO1B1",
+    "ground_truth": "SLCO1B1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, it is important to consider the biological functions of these genes and their potential roles in metabolism.\n\n1-linoleoyl-GPG (18:2) is a lipid metabolite, and its levels might be influenced by genes involved in lipid metabolism, t"
+  },
+  {
+    "task_instance_id": 62,
+    "score": 0.0,
+    "extracted": "PCSK7",
+    "ground_truth": "APOA4",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with similar traits or lipid metabolism, as the multi-trait sex score is likely related to sex hormones and lipid levels.\n\nAmong the given genes, APOA1,"
+  },
+  {
+    "task_instance_id": 471,
+    "score": 1.0,
+    "extracted": "INHBB",
+    "ground_truth": "INHBB",
+    "raw_preview": "After analyzing the given data, I have found that the gene INHBB is located within a prostate cancer susceptibility locus on chromosome 2p23. This gene encodes for Inhibin beta B, a member of the transforming growth factor-beta (TGF-β) superfamily. Several studies have shown an association between I"
+  },
+  {
+    "task_instance_id": 128,
+    "score": 0.0,
+    "extracted": "APOA1",
+    "ground_truth": "APOA4",
+    "raw_preview": "APOA1, APOA4, APOA5, and APOC3 are all part of the Apolipoprotein family, which are involved in lipid metabolism. APOA1 is known to be associated with lipid levels and has been implicated in sex differences in lipid metabolism. PAFAH1B2, SIK3, and ZPR1 have no known direct association with sex or se"
+  },
+  {
+    "task_instance_id": 623,
+    "score": 0.0,
+    "extracted": "PCSK7",
+    "ground_truth": "APOA4",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with similar traits or lipid metabolism, as the multi-trait sex score is likely related to sex hormones and lipid levels.\n\nAmong the given genes, APOA1,"
+  },
+  {
+    "task_instance_id": 520,
+    "score": 0.0,
+    "extracted": "RCVRN",
+    "ground_truth": "MYH13",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Primary Open Angle Glaucoma (POAG) is {RCVRN}. This gene has been previously associated with POAG in multiple studies.\n\nFINAL ANSWER: RCVRN"
+  },
+  {
+    "task_instance_id": 64,
+    "score": 0.0,
+    "extracted": "ANGPTL4",
+    "ground_truth": "PRAM1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Multi-trait sex score is {ANGPTL4}. This gene has been associated with sex hormone-binding globulin levels and sex hormones in previous studies.\n\nFINAL ANSWER: ANGPTL4"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "LZTS1",
+    "ground_truth": "LPL",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, it is important to consider the biological relevance of each gene to the sex score.\n\n1. ATP6V1B2: This gene encodes a subunit of the vacuolar H+ ATPase, which is involved in acidification of intracellular organelles. It d"
+  },
+  {
+    "task_instance_id": 156,
+    "score": 0.0,
+    "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+    "ground_truth": "CETP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+  },
+  {
+    "task_instance_id": 40,
+    "score": 0.0,
+    "extracted": "C4A",
+    "ground_truth": "NOTCH4",
+    "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for Neonatal circulating Complement Component 4 (C4) protein concentration is C4A and C4B. These genes encode the C4A and C4B proteins, which are key components of the complement system and play a crucia"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "TINCR",
+    "ground_truth": "LONP1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to note that Mitochondrial DNA copy number regulation is primarily controlled by nuclear genes, as mitochondria do not contain their own DNA for replication. Among the given genes, several are known to be in"
+  },
+  {
+    "task_instance_id": 379,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "PKD1L3",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the locus are known to be involved in sex determination or sex hormone regulation.\n\nFor instance, DHODH (Di"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "task_instance_id": 10,
+    "score": 1.0,
+    "extracted": "a",
+    "ground_truth": "a",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank):\nFINAL ANSWER: a\nExplanation of why you think it's the most relevant (can be blank): HEK293T cells are easy to transfect with plasmids using standard methods, making plasmid transfection the most relevant and straightforward CRISPR"
+  },
+  {
+    "task_instance_id": 22,
+    "score": 0.0,
+    "extracted": "d",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank): \n\nFINAL ANSWER: d\nEXPLANATION: RNP/mRNA microinjection is commonly used for editing primary T-cells because it allows high efficiency gene editing in these cells. PRIMARY T-CELL is the target, and among the options, d (RNP/mRNA mi"
+  },
+  {
+    "task_instance_id": 18,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be long or short): \n\nFINAL ANSWER:\nMOST RELEVANT METHOD: c\nEXPLANATION: For in vivo editing of mouse skin, RNP/mRNA electroporation (option c) is often the most relevant method because it allows direct delivery of CRISPR components into the "
+  },
+  {
+    "task_instance_id": 49,
+    "score": 1.0,
+    "extracted": "b",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be long or short): \n\nNote: The correct answer is b.\nLet's analyze the case step by step.\n\n1. **Identify the cell type/organism**: The target is human brain organoids. Organoids are 3D structures derived from stem cells (often induced pluripo"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 1.0,
+    "extracted": "a",
+    "ground_truth": "a",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank): \n\nFINAL ANSWER: \nMOST RELEVANT METHOD: a\nEXPLANATION: Plasmid transfection is a common method for delivering CRISPR components into cell lines like HeLa. It's simple and cost-effective for lab use. While other methods like RNP/mRN"
+  },
+  {
+    "task_instance_id": 7,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank): \n\nFINAL ANSWER: c\nExplanation of why you think it's the most relevant (can be blank): For primary macrophages, which are hard to transfect, RNP/mRNA electroporation (option c) is often the most relevant because it allows efficient"
+  },
+  {
+    "task_instance_id": 42,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank): \n\nFINAL ANSWER: c\nExplanation of why you think it's the most relevant (can be blank): For primary macrophages, which are hard to transfect, RNP/mRNA electroporation (option c) is often the most relevant because it allows efficient"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank): \n\nFINAL ANSWER: c\nExplanation of why you think it's the most relevant (can be blank): For organoid editing, especially human colon organoids, electroporation (option c) is commonly used because it efficiently delivers CRISPR compo"
+  },
+  {
+    "task_instance_id": 28,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "e",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be long or short):\n\nFINAL ANSWER: a\nExplanation: For in vivo editing of mouse liver, plasmid transfection is the most relevant method because it is commonly used for in vivo gene delivery to the liver via intravenous injection. The liver is "
+  },
+  {
+    "task_instance_id": 38,
+    "score": 0.0,
+    "extracted": "d",
+    "ground_truth": "f",
+    "raw_preview": "- Explanation of why you think it's the most relevant (can be blank): \n\nFINAL ANSWER: \nMOST RELEVANT METHOD: d\nEXPLANATION: RNP/mRNA microinjection is commonly used for in vivo eye editing in mice due to its efficiency and low off-target effects. The eye is a accessible tissue for direct injection, "
+  }
+]

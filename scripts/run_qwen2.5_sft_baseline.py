@@ -1,13 +1,12 @@
 """
-Mistral-7B-Instruct (未微调) — BiomniEval1 本地基线评测
-用途：使用未微调的 Mistral-7B-Instruct 权重，逐条评测并保存结果。
-结果输出目录：results/mistral_base
+Qwen2.5-7B-Instruct 微调模型基准评测脚本
+本脚本仿照 run_qwen_sft_baseline.py，读取经过SFT训练后的 Qwen2.5 模型。
 """
 
+import json
 import os
 import re
 import time
-import json
 import traceback
 from datetime import datetime
 
@@ -15,22 +14,59 @@ import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-# 配置（本地模型和数据路径，需确保模型已下载到本地models目录）
-LOCAL_MODEL_DIR = "/root/autodl-tmp/Biomni-main/models/Mistral-7B-Instruct-v0.3"
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", "results/mistral_base")
-LOCAL_PARQUET = os.getenv("LOCAL_PARQUET", "/root/autodl-tmp/Biomni-main/data/biomni_eval1_dataset.parquet")
-SUBSET = int(os.getenv("SUBSET", "0"))
+# 配置
+OUTPUT_DIR = "../results/qwen2.5_sft"
+LOCAL_PARQUET = "../data/biomni_eval1_dataset.parquet"
 MAX_RETRIES = 3
-
-GEN_MAX_NEW_TOKENS = int(os.getenv("GEN_MAX_NEW_TOKENS", "512"))
-GEN_TEMPERATURE = float(os.getenv("GEN_TEMPERATURE", "0.0"))
-GEN_TOP_P = float(os.getenv("GEN_TOP_P", "0.95"))
-GEN_TOP_K = int(os.getenv("GEN_TOP_K", "50"))
-GEN_DO_SAMPLE = os.getenv("GEN_DO_SAMPLE", "false").lower() in ("1", "true", "yes")
-SLEEP_BETWEEN = float(os.getenv("SLEEP_BETWEEN", "0.1"))
-
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# 本地训练后的模型目录，需与run_qwen2.5_sft_train.py输出一致
+LOCAL_MODEL_DIR = "/root/autodl-tmp/Biomni-main/scripts/output/qwen2.5_sft"
+
+# 推理生成参数
+GEN_MAX_NEW_TOKENS = 512
+GEN_TEMPERATURE = 0.0
+GEN_DO_SAMPLE = False
+GEN_TOP_P = 0.95
+GEN_TOP_K = 50
+SLEEP_BETWEEN = 0.1
+
+print(f"Using local finetuned model dir: {LOCAL_MODEL_DIR}")
+print("Loading tokenizer and model (this may take a while)...")
+
+# 加载 tokenizer 和 model（建议 device_map="auto" 配合 float16）
+try:
+    tokenizer = AutoTokenizer.from_pretrained(LOCAL_MODEL_DIR, trust_remote_code=True)
+except Exception as e:
+    print("Failed to load tokenizer:", e)
+    raise
+
+model = None
+try:
+    model = AutoModelForCausalLM.from_pretrained(
+        LOCAL_MODEL_DIR,
+        trust_remote_code=True,
+        device_map="auto",
+        torch_dtype=torch.float16,
+    )
+    print("Model loaded with device_map='auto' and torch_dtype=float16.")
+except Exception as e:
+    print("device_map auto load failed:", e)
+    print("Fallback to low_cpu_mem_usage=True...")
+    try:
+        model = AutoModelForCausalLM.from_pretrained(
+            LOCAL_MODEL_DIR,
+            trust_remote_code=True,
+            low_cpu_mem_usage=True,
+        )
+        if torch.cuda.is_available():
+            model.to("cuda")
+        print("Fallback model load succeeded.")
+    except Exception as e2:
+        print("Fallback load failed:", e2)
+        raise
+
+# System Prompt和答案抽取、评分与run_qwen_sft_baseline.py保持一致
 SYSTEM_PROMPT = """You are a helpful biologist and expert geneticist.
 You are given a biomedical question. Analyze it carefully and provide your answer.
 
@@ -113,28 +149,7 @@ def compute_score(task_name: str, user_answer: str, ground_truth: str) -> float:
     except Exception:
         return 0.0
 
-print("Loading Mistral-7B-Instruct tokenizer and model (this may take a while)...")
-tokenizer = AutoTokenizer.from_pretrained(LOCAL_MODEL_DIR)
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
-
-model = None
-try:
-    model = AutoModelForCausalLM.from_pretrained(
-        LOCAL_MODEL_DIR,
-        device_map="auto",
-        torch_dtype=torch.float16,
-    )
-except Exception as e:
-    print("float16/device_map load failed:", e)
-    model = AutoModelForCausalLM.from_pretrained(
-        LOCAL_MODEL_DIR,
-        low_cpu_mem_usage=True,
-    )
-    if torch.cuda.is_available():
-        model.to("cuda")
-
-def run_single_local(prompt: str) -> str:
+def run_single_local(task_name: str, prompt: str) -> str:
     full_prompt = SYSTEM_PROMPT + "\n" + prompt
     try:
         inputs = tokenizer(full_prompt, return_tensors="pt", truncation=True, max_length=1024)
@@ -165,16 +180,22 @@ def run_single_local(prompt: str) -> str:
         traceback.print_exc()
         return ""
 
+def _save_checkpoint(task_name, results):
+    path = f"{OUTPUT_DIR}/_ckpt_{task_name}.json"
+    with open(path, "w") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+
 def main():
     print("=" * 60)
-    print("Mistral-7B-Instruct Base Model Local Baseline Evaluation")
+    print("Finetuned Qwen2.5-7B-Instruct Baseline Evaluation")
     print("Time:", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     print("=" * 60)
 
+    # 加载数据
     df = pd.read_parquet(LOCAL_PARQUET)
     tasks = sorted(df["task_name"].unique())
     print("Tasks:", tasks)
-    print("Total instances in dataset:", len(df))
+    print("Total instances:", len(df))
 
     all_results = {}
     summary = {}
@@ -187,8 +208,6 @@ def main():
         print(f"{'='*60}")
 
         task_df = df[(df["task_name"] == task_name) & (df["split"] == "val")]
-        if SUBSET and SUBSET > 0:
-            task_df = task_df.head(SUBSET)
         n = len(task_df)
         print("Instances:", n)
         if n == 0:
@@ -199,7 +218,7 @@ def main():
 
         for i, (_, row) in enumerate(task_df.iterrows()):
             print(f"  [{i+1}/{n}] ID={row['task_instance_id']}...", end=" ", flush=True)
-            raw_answer = run_single_local(row["prompt"])
+            raw_answer = run_single_local(task_name, row["prompt"])
             extracted = extract_answer(raw_answer, task_name) if raw_answer else ""
             score = compute_score(task_name, extracted, row["answer"])
             task_correct += int(score >= 1.0)
@@ -212,20 +231,24 @@ def main():
                 "ground_truth": row["answer"],
                 "raw_preview": raw_answer[:300] if raw_answer else "",
             })
-            ckpt_path = os.path.join(OUTPUT_DIR, f"_ckpt_{task_name}.json")
-            with open(ckpt_path, "w") as f:
-                json.dump(task_results, f, indent=2, ensure_ascii=False)
+            _save_checkpoint(task_name, task_results)
             time.sleep(SLEEP_BETWEEN)
 
         acc = task_correct / n
-        summary[task_name] = {"accuracy": round(acc, 4), "correct": task_correct, "total": n}
+        summary[task_name] = {
+            "accuracy": round(acc, 4),
+            "correct": task_correct,
+            "total": n,
+        }
         all_results[task_name] = task_results
         total_correct += task_correct
         total_count += n
         print(f"\n  >>> {task_name}: {acc:.3f} ({task_correct}/{n})")
 
+    # 保存结果
     overall_acc = total_correct / total_count if total_count else 0
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
     summary["_overall"] = {
         "accuracy": round(overall_acc, 4),
         "correct": total_correct,
@@ -234,13 +257,14 @@ def main():
         "timestamp": timestamp,
     }
 
-    with open(os.path.join(OUTPUT_DIR, f"detail_{timestamp}.json"), "w") as f:
+    with open(f"{OUTPUT_DIR}/detail_{timestamp}.json", "w") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
-    with open(os.path.join(OUTPUT_DIR, f"summary_{timestamp}.json"), "w") as f:
+    with open(f"{OUTPUT_DIR}/summary_{timestamp}.json", "w") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
+    # 打印终表格
     print("\n\n" + "=" * 60)
-    print("FINAL RESULTS — Mistral Base Local")
+    print("FINAL RESULTS — Finetuned Qwen2.5 Local Model")
     print("=" * 60)
     print(f"{'Task':<42} {'Acc':>7} {'Correct':>8} {'Total':>6}")
     print("-" * 65)

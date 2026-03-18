@@ -1,0 +1,107 @@
+[
+  {
+    "task_instance_id": 256,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]A[/ANSWER]\n\nThe hslO gene is 1,500 base pairs long and the SmaI restriction site is located at the beginning of the gene. Therefore, the primer pair that can be used to amplify the gene for Gibson assembly into the linearized vector should have a primer that binds downstream of the SmaI site"
+  },
+  {
+    "task_instance_id": 563,
+    "score": 0.0,
+    "extracted": "D",
+    "ground_truth": "A",
+    "raw_preview": "[ANSWER]D[/ANSWER]"
+  },
+  {
+    "task_instance_id": 533,
+    "score": 1.0,
+    "extracted": "A",
+    "ground_truth": "A",
+    "raw_preview": "[ANSWER]a[/ANSWER]\n\nFINAL ANSWER: [ANSWER]a[/ANSWER]"
+  },
+  {
+    "task_instance_id": 430,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 100,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "B",
+    "raw_preview": "[ANSWER]C[/ANSWER]"
+  },
+  {
+    "task_instance_id": 226,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]B[/ANSWER]"
+  },
+  {
+    "task_instance_id": 448,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "A",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 547,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "A",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 571,
+    "score": 0.0,
+    "extracted": "D",
+    "ground_truth": "A",
+    "raw_preview": "[ANSWER]D[/ANSWER]"
+  },
+  {
+    "task_instance_id": 213,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]B[/ANSWER]\n\nThe mlaE gene is approximately 1.5 kb in length. The HindIII restriction site is located at the 5' end of the gene. Therefore, the primer pair that can be used to amplify the gene for Gibson assembly into the linearized vector should have a HindIII site at the 5' end of the forwa"
+  },
+  {
+    "task_instance_id": 359,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 171,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]B[/ANSWER]"
+  },
+  {
+    "task_instance_id": 98,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 292,
+    "score": 1.0,
+    "extracted": "D",
+    "ground_truth": "D",
+    "raw_preview": "[ANSWER]D[/ANSWER]"
+  },
+  {
+    "task_instance_id": 215,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+  }
+]

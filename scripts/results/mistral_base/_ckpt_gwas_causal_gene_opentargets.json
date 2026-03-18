@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 767,
+    "score": 1.0,
+    "extracted": "HNF1A",
+    "ground_truth": "HNF1A",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is HNF1A. This gene has been strongly associated with an increased risk of Type 2 diabetes due to its role in pancreatic beta-cell function and ins"
+  },
+  {
+    "task_instance_id": 619,
+    "score": 1.0,
+    "extracted": "PPARG",
+    "ground_truth": "PPARG",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is PPARG. This gene has been consistently associated with an increased risk of Type 2 diabetes in multiple GWAS studies.\n\nFINAL ANSWER: PPARG"
+  },
+  {
+    "task_instance_id": 760,
+    "score": 1.0,
+    "extracted": "CHEK2",
+    "ground_truth": "CHEK2",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Breast carcinoma is CHEK2. This gene has been previously associated with an increased risk of breast cancer in multiple studies.\n\nFINAL ANSWER: CHEK2"
+  },
+  {
+    "task_instance_id": 645,
+    "score": 0.0,
+    "extracted": "RIOK1",
+    "ground_truth": "RREB1",
+    "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the gene RIOK1 is the causal gene for Type 2 diabetes (type II diabetes mellitus).\n\nRIOK1 (Ras-like protein-specific kinase 1) has been implicated in insulin secretion and glucose metabolism. Studies h"
+  },
+  {
+    "task_instance_id": 755,
+    "score": 0.0,
+    "extracted": "BRCA1",
+    "ground_truth": "ALK",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Breast carcinoma is {BRCA1}.\n\nFINAL ANSWER: BRCA1"
+  },
+  {
+    "task_instance_id": 556,
+    "score": 1.0,
+    "extracted": "SLC2A9",
+    "ground_truth": "SLC2A9",
+    "raw_preview": "After analyzing the data, I have found that the gene SLC2A9 is most likely to be the causal gene for urate levels (uric acid) based on multiple studies and replications.\n\nFINAL ANSWER: SLC2A9"
+  },
+  {
+    "task_instance_id": 812,
+    "score": 1.0,
+    "extracted": "SLC30A8",
+    "ground_truth": "SLC30A8",
+    "raw_preview": "After careful analysis of the given genes in the locus and their known associations with Type 2 diabetes, the most likely causal gene is SLC30A8. This gene has been consistently associated with an increased risk of Type 2 diabetes in multiple GWAS studies.\n\nFINAL ANSWER: SLC30A8"
+  },
+  {
+    "task_instance_id": 577,
+    "score": 1.0,
+    "extracted": "PCSK9",
+    "ground_truth": "PCSK9",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Hypercholesterolemia is PCSK9. This gene is well-known for its role in regulating cholesterol levels by degrading the LDL receptor, which is crucial for cholesterol homeostasis. Multiple stud"
+  },
+  {
+    "task_instance_id": 85,
+    "score": 1.0,
+    "extracted": "HNF1A",
+    "ground_truth": "HNF1A",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Type 2 diabetes (adjusted for BMI) is HNF1A. This gene has been strongly associated with an increased risk of Type 2 diabetes.\n\nFINAL ANSWER: HNF1A"
+  },
+  {
+    "task_instance_id": 242,
+    "score": 0.0,
+    "extracted": "NOBOX",
+    "ground_truth": "OR2A7",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is challenging to identify a likely causal gene for fresh fruit intake (diet measurement) as most of the genes in the list are olfactory receptor genes (OR genes) which are primarily involved in the sense of smell rather"
+  },
+  {
+    "task_instance_id": 159,
+    "score": 0.0,
+    "extracted": "IFIH1",
+    "ground_truth": "DPP4",
+    "raw_preview": "FINAL ANSWER: {IFIH1}"
+  },
+  {
+    "task_instance_id": 524,
+    "score": 1.0,
+    "extracted": "PRODH",
+    "ground_truth": "PRODH",
+    "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for blood metabolite levels (proline) is PRODH (Proline dehydrogenase). This enzyme plays a crucial role in the metabolism of proline, making it a strong candidate for a causal gene in this locus.\n\nFINAL"
+  },
+  {
+    "task_instance_id": 35,
+    "score": 1.0,
+    "extracted": "ESR1",
+    "ground_truth": "ESR1",
+    "raw_preview": "After analyzing the given data, I have found that the ESR1 gene is a strong candidate for being the causal gene for breast cancer (breast carcinoma) within the given locus. This gene encodes the estrogen receptor alpha, which plays a crucial role in the development and progression of breast cancer.\n"
+  },
+  {
+    "task_instance_id": 540,
+    "score": 1.0,
+    "extracted": "SUCLG2",
+    "ground_truth": "SUCLG2",
+    "raw_preview": "FINAL ANSWER: SUCLG2"
+  },
+  {
+    "task_instance_id": 170,
+    "score": 0.0,
+    "extracted": "TCF7L2",
+    "ground_truth": "KCNJ11",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is {TCF7L2}.\n\nFINAL ANSWER: TCF7L2"
+  },
+  {
+    "task_instance_id": 654,
+    "score": 1.0,
+    "extracted": "PCSK9",
+    "ground_truth": "PCSK9",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for cardiovascular disease is PCSK9. This gene has been extensively studied and is known to play a significant role in the regulation of cholesterol levels, which are closely associated with card"
+  },
+  {
+    "task_instance_id": 728,
+    "score": 1.0,
+    "extracted": "PCSK9",
+    "ground_truth": "PCSK9",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Ischemic heart disease (coronary artery disease) is PCSK9. This gene has been extensively studied and is known to play a significant role in the development of coronary artery disease due to "
+  },
+  {
+    "task_instance_id": 720,
+    "score": 0.0,
+    "extracted": "IL13",
+    "ground_truth": "IL5",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for asthma is IL13. This gene has been strongly associated with asthma in numerous studies, and it plays a crucial role in the pathogenesis of asthma by promoting airway inflammation and remodeli"
+  },
+  {
+    "task_instance_id": 801,
+    "score": 1.0,
+    "extracted": "ESR1",
+    "ground_truth": "ESR1",
+    "raw_preview": "After analyzing the given data, I have found that the ESR1 gene is a strong candidate for being the causal gene for breast cancer (breast carcinoma) within the given locus. This gene encodes the estrogen receptor alpha, which plays a crucial role in the development and progression of breast cancer.\n"
+  },
+  {
+    "task_instance_id": 95,
+    "score": 1.0,
+    "extracted": "PCSK9",
+    "ground_truth": "PCSK9",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the gene most likely to be causal for Disorders of lipoid metabolism is PCSK9. This gene is known to play a crucial role in lipid metabolism, particularly in the regulation of cholesterol levels. Variants in PCSK9"
+  },
+  {
+    "task_instance_id": 563,
+    "score": 0.0,
+    "extracted": "HELT",
+    "ground_truth": "ACSL1",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is likely that the causal gene for PC ae C44:5 is HELT. This gene encodes hecto-domain and lipid-binding protein, which is involved in lipid metabolism and is closely related to the phospholipids (PC) metabolism.\n\nFINAL "
+  },
+  {
+    "task_instance_id": 240,
+    "score": 1.0,
+    "extracted": "ANPEP",
+    "ground_truth": "ANPEP",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is likely that the causal gene for HWESASXX - M32836 (C3f, complement C3 derived peptide) is ANPEP (CD13). This gene is known to be involved in the regulation of the complement system, which is relevant to the function o"
+  },
+  {
+    "task_instance_id": 574,
+    "score": 1.0,
+    "extracted": "PPARG",
+    "ground_truth": "PPARG",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is PPARG. This gene has been consistently associated with an increased risk of Type 2 diabetes in multiple GWAS studies.\n\nFINAL ANSWER: PPARG"
+  },
+  {
+    "task_instance_id": 690,
+    "score": 0.0,
+    "extracted": "CYP2E1",
+    "ground_truth": "PAOX",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for the blood metabolite levels (X-03056--N-[3-(2-Oxopyrrolidin-1-yl)propyl]acetamide) (N-(3-acetamidopropyl)pyrrolidin-2-one) is CYP2E1. This gene encodes a cytochrome P450 enzyme that plays a crucia"
+  },
+  {
+    "task_instance_id": 460,
+    "score": 1.0,
+    "extracted": "GCKR",
+    "ground_truth": "GCKR",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is GCKR (Glucokinase Regulator). This gene has been previously associated with an increased risk of developing Type 2 diabetes in multiple studies."
+  },
+  {
+    "task_instance_id": 553,
+    "score": 1.0,
+    "extracted": "IL12B",
+    "ground_truth": "IL12B",
+    "raw_preview": "FINAL ANSWER: IL12B"
+  },
+  {
+    "task_instance_id": 745,
+    "score": 1.0,
+    "extracted": "F5",
+    "ground_truth": "F5",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is known that F5 encodes for the coagulation factor 5, which plays a crucial role in the coagulation cascade and is directly related to D-dimer levels. Therefore, it is likely that F5 is the causal gene for the given GWA"
+  },
+  {
+    "task_instance_id": 206,
+    "score": 0.0,
+    "extracted": "SLC4A4",
+    "ground_truth": "GC",
+    "raw_preview": "FINAL ANSWER: SLC4A4"
+  },
+  {
+    "task_instance_id": 392,
+    "score": 1.0,
+    "extracted": "GCKR",
+    "ground_truth": "GCKR",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is GCKR (Glucokinase Regulator). This gene has been previously associated with an increased risk of developing Type 2 diabetes in multiple studies."
+  },
+  {
+    "task_instance_id": 397,
+    "score": 0.0,
+    "extracted": "RIOK1",
+    "ground_truth": "RREB1",
+    "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the gene RIOK1 is the causal gene for Type 2 diabetes (type II diabetes mellitus).\n\nRIOK1 (Ras-like protein-specific kinase 1) has been implicated in insulin secretion and glucose metabolism. Studies h"
+  },
+  {
+    "task_instance_id": 721,
+    "score": 1.0,
+    "extracted": "KCNH2",
+    "ground_truth": "KCNH2",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Atrial fibrillation is KCNH2. This gene encodes the potassium voltage-gated channel subfamily H member 2, which plays a crucial role in cardiac electrophysiology and is associated with atrial fibr"
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "VKORC1",
+    "ground_truth": "GUSB",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider which genes are known to be associated with calcium levels. Among the given genes, only one gene, VKORC1, is known to be associated with calcium levels. This gene encodes the vitamin K epoxide re"
+  },
+  {
+    "task_instance_id": 4,
+    "score": 1.0,
+    "extracted": "HMGCR",
+    "ground_truth": "HMGCR",
+    "raw_preview": "FINAL ANSWER: HMGCR (3-hydroxy-3-methylglutaryl-coenzyme A reductase) is a key enzyme in the mevalonate pathway, which is essential for the synthesis of cholesterol, sterols, and isoprenoids. Mutations in HMGCR have been associated with disorders of lipid metabolism, such as hypercholesterolemia and"
+  },
+  {
+    "task_instance_id": 642,
+    "score": 1.0,
+    "extracted": "MC1R",
+    "ground_truth": "MC1R",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for skin changes due to chronic exposure to nonionizing radiation is MC1R. This gene encodes melanocortin 1 receptor, which plays a crucial role in skin pigmentation and is known to be sensitive "
+  },
+  {
+    "task_instance_id": 761,
+    "score": 0.0,
+    "extracted": "ATP6V1G2",
+    "ground_truth": "TNF",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the gene that has been consistently associated with hypertension is the ATP6V1G2 gene. This gene encodes the beta subunit of the vacuolar H+ ATPase, which is involved in regulating blood pressure by controlling re"
+  },
+  {
+    "task_instance_id": 612,
+    "score": 1.0,
+    "extracted": "PAM",
+    "ground_truth": "PAM",
+    "raw_preview": "FINAL ANSWER: {PAM} (PPARG)\n\nExplanation:\nThe PPARG gene, also known as peroxisome proliferator-activated receptor gamma, is a well-established gene associated with Type 2 diabetes. It encodes a nuclear receptor that plays a crucial role in regulating glucose and lipid metabolism. Among the given ge"
+  },
+  {
+    "task_instance_id": 546,
+    "score": 1.0,
+    "extracted": "HNF4A",
+    "ground_truth": "HNF4A",
+    "raw_preview": "After analyzing the given genes in the locus for Type 2 diabetes (Type II diabetes mellitus), the most likely causal gene is HNF4A. This gene is strongly associated with Type 2 diabetes due to its role in pancreatic beta-cell function and insulin secretion.\n\nFINAL ANSWER: HNF4A"
+  },
+  {
+    "task_instance_id": 683,
+    "score": 0.0,
+    "extracted": "RIOK1",
+    "ground_truth": "RREB1",
+    "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the gene RIOK1 is the causal gene for Type 2 diabetes. RIOK1 encodes a serine/threonine protein kinase that has been implicated in insulin signaling and glucose metabolism. Several studies have shown a"
+  },
+  {
+    "task_instance_id": 98,
+    "score": 1.0,
+    "extracted": "GLIS3",
+    "ground_truth": "GLIS3",
+    "raw_preview": "After careful analysis of the given genes in the locus and their known associations with Type 2 diabetes, the most likely causal gene is GLIS3. This gene has been consistently implicated in the development of Type 2 diabetes through various studies.\n\nFINAL ANSWER: GLIS3"
+  },
+  {
+    "task_instance_id": 573,
+    "score": 1.0,
+    "extracted": "GCKR",
+    "ground_truth": "GCKR",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is GCKR (Glucokinase Regulator). This gene has been previously associated with an increased risk of developing Type 2 diabetes in multiple studies."
+  },
+  {
+    "task_instance_id": 406,
+    "score": 1.0,
+    "extracted": "SLC22A11",
+    "ground_truth": "SLC22A11",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for gout is:\n\nFINAL ANSWER: {SLC22A11} or {SLC22A12}\n\nThese two genes, SLC22A11 and SLC22A12, are urate transporters and have been associated with gout in multiple studies. They are good candidates fo"
+  },
+  {
+    "task_instance_id": 502,
+    "score": 0.0,
+    "extracted": "DDAH2",
+    "ground_truth": "AGPAT1",
+    "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the gene that is most likely to be causal for the phospholipid levels (plasma) (proportions (PC 32∶0/PC 34∶1)) is DDAH2 (Nitric oxide synthase, dimethylarginine dimethylaminohydrolase 2). This gene is involved in "
+  },
+  {
+    "task_instance_id": 47,
+    "score": 0.0,
+    "extracted": "IL13",
+    "ground_truth": "IL5",
+    "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for asthma or allergic disease is IL13. This gene has been strongly associated with asthma and allergic diseases in numerous studies.\n\nFINAL ANSWER: IL13"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 1.0,
+    "extracted": "PAX4",
+    "ground_truth": "PAX4",
+    "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the PAX4 gene is the causal gene for Type 2 diabetes. The PAX4 gene encodes a transcription factor that plays a crucial role in the development and function of pancreatic beta cells, which are responsi"
+  },
+  {
+    "task_instance_id": 200,
+    "score": 0.0,
+    "extracted": "MYC",
+    "ground_truth": "PVT1",
+    "raw_preview": "FINAL ANSWER: MYC"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "EPHB3",
+    "ground_truth": "THPO",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I found that the gene EPHB3 is a strong candidate for platelet crit (plateletcrit) as it has been previously associated with platelet function and thrombosis.\n\nFINAL ANSWER: EPHB3"
+  },
+  {
+    "task_instance_id": 27,
+    "score": 0.0,
+    "extracted": "TBX2",
+    "ground_truth": "TBX4",
+    "raw_preview": "FINAL ANSWER: {TBX2}\n\nExplanation:\nThe given GWAS phenotype is arthrosis of hip (heel bone mineral density). Among the genes in the locus, TBX2 has been associated with osteoarthritis, a type of arthrosis that affects the hip joint. Therefore, TBX2 is the likely causal gene for this GWAS phenotype.\n"
+  },
+  {
+    "task_instance_id": 817,
+    "score": 1.0,
+    "extracted": "COL11A1",
+    "ground_truth": "COL11A1",
+    "raw_preview": "FINAL ANSWER: COL11A1"
+  },
+  {
+    "task_instance_id": 230,
+    "score": 0.0,
+    "extracted": "CLMN",
+    "ground_truth": "GSC",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for male balding pattern (balding measurement) is {CLMN}. This gene is known to be associated with androgenetic alopecia, a common form of male pattern baldness.\n\nFINAL ANSWER: CLMN"
+  },
+  {
+    "task_instance_id": 489,
+    "score": 1.0,
+    "extracted": "F2",
+    "ground_truth": "F2",
+    "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Thrombosis (pulmonary embolism) is F2. This gene encodes for Factor II (thrombin), a key player in the coagulation cascade and a well-established risk factor for thrombosis.\n\nFINAL ANSWER: F2"
+  }
+]
