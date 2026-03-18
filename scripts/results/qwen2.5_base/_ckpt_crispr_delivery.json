@@ -1,0 +1,72 @@
+[
+  {
+    "task_instance_id": 10,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "a",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n- FINAL ANSWER: \n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for transient gene editing in HEK293T cells due to its high efficiency and ability to deliver both guide RNA and Cas9 protein or mRNA"
+  },
+  {
+    "task_instance_id": 22,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation for selection: \n\nFINAL ANSWER: c\nMOST RELEVANT METHOD: c. RNP/mRNA electroporation\n\nEXPLANATION FOR SELECTION:\nPrimary T-cells are often used in gene editing applications due to their importance in the immune system. For these cells, RNP/mRNA electroporation is a highly effective and e"
+  },
+  {
+    "task_instance_id": 18,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation for selection: \n\nFINAL ANSWER: c\nMOST RELEVANT METHOD: c. RNP/mRNA electroporation\n\nEXPLANATION FOR SELECTION:\nRNP/mRNA electroporation is the most relevant CRISPR delivery method for in vivo applications such as editing mouse skin. This method allows for efficient delivery of Cas9 rib"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation for selection: \n\nFINAL ANSWER: c\nMOST RELEVANT METHOD: c. RNP/mRNA electroporation\n\nEXPLANATION FOR SELECTION:\nRNP/mRNA electroporation is the most relevant method for editing human brain organoids due to its high efficiency and specificity in delivering CRISPR components into cells. E"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "a",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n- FINAL ANSWER: \n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for editing HeLa cells because it allows for efficient delivery of CRISPR components into the cells while maintaining cell viability "
+  },
+  {
+    "task_instance_id": 7,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for delivering CRISPR components into primary cells like macrophages because it allows for efficient and transient delivery without integrating into t"
+  },
+  {
+    "task_instance_id": 42,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for delivering CRISPR components into primary cells like macrophages because it allows for efficient and transient delivery without integrating into t"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "b",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for editing human colon organoids because it allows for efficient delivery of CRISPR components into cells while maintaining cell viability and functi"
+  },
+  {
+    "task_instance_id": 28,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "e",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n- FINAL ANSWER: \n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for in vivo liver editing because it allows for efficient delivery of CRISPR components directly into target cells while minimizing o"
+  },
+  {
+    "task_instance_id": 38,
+    "score": 0.0,
+    "extracted": "c",
+    "ground_truth": "f",
+    "raw_preview": "- Explanation for selection (2-3 sentences):\n- FINAL ANSWER: \n\nMost relevant method: c\nExplanation for selection: RNP/mRNA electroporation is the most suitable method for in vivo delivery to the eye because it allows for precise control over the timing and location of gene editing, which is crucial "
+  }
+]

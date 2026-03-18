@@ -1,0 +1,72 @@
+[
+  {
+    "task_instance_id": 10,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "a",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 22,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "b",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 18,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "b",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "b",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "a",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 7,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "b",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 42,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "b",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "b",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 28,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "e",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  },
+  {
+    "task_instance_id": 38,
+    "score": 0.0,
+    "extracted": "-",
+    "ground_truth": "f",
+    "raw_preview": "- Reasoning:\n\nFINAL ANSWER:"
+  }
+]
