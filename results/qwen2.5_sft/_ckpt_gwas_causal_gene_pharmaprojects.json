@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 1475,
+    "score": 1.0,
+    "extracted": "XPO1",
+    "ground_truth": "XPO1",
+    "raw_preview": "To identify the likely causal gene, I need to consider the biological context of the GWAS phenotype. The phenotype is \"Lymphoma, Large B-Cell, Diffuse\" which refers to Diffuse Large B-Cell Lymphoma (DLBCL), a common and aggressive type of non-Hodgkin lymphoma. DLBCL is a cancer of B cells, and genet"
+  },
+  {
+    "task_instance_id": 959,
+    "score": 1.0,
+    "extracted": "BTK",
+    "ground_truth": "BTK",
+    "raw_preview": "FINAL ANSWER: BTK\nStep 1: Analyze the disease indication\nThe GWAS phenotype is \"Lymphoma, B-Cell,\" which refers to cancers of B cells, a type of white blood cell. B-cell lymphomas involve malignant transformations of B lymphocytes.\n\nStep 2: Consider known drug targets for this indication\nIn B-cell m"
+  },
+  {
+    "task_instance_id": 1588,
+    "score": 1.0,
+    "extracted": "FGFR3",
+    "ground_truth": "FGFR3",
+    "raw_preview": "FINAL ANSWER: FGFR3\nStep 1: Analyze the disease indication\nThe GWAS phenotype is \"Myeloproliferative Disorders\" (MPD). MPD refers to a group of disorders characterized by excessive proliferation of one or more cell lines in the myeloid series, including erythroblasts, myelocytes, and macrophages. Th"
+  },
+  {
+    "task_instance_id": 283,
+    "score": 1.0,
+    "extracted": "FOLR1",
+    "ground_truth": "FOLR1",
+    "raw_preview": "FINAL ANSWER: FOLR1\nOvarian neoplasms, particularly ovarian cancer, are known to be associated with folate receptor genes. Among the listed genes, FOLR1 (Folate Receptor Alpha) is a well-established target in ovarian cancer. FOLR1 is overexpressed in a significant portion of ovarian cancers and is u"
+  },
+  {
+    "task_instance_id": 797,
+    "score": 1.0,
+    "extracted": "CNR1",
+    "ground_truth": "CNR1",
+    "raw_preview": "FINAL ANSWER: CNR1\nI reason as follows:\n1. Analyze the disease indication: Nausea is a symptom that can be caused by many conditions, including gastrointestinal issues, motion sickness, pregnancy, medications, or treatments like chemotherapy. It involves complex neural pathways, including the brains"
+  },
+  {
+    "task_instance_id": 1378,
+    "score": 0.0,
+    "extracted": "PDCD1LG2",
+    "ground_truth": "CD274",
+    "raw_preview": "FINAL ANSWER: PDCD1LG2\nStep 1: Analyze the disease indication\nThe GWAS phenotype is \"Colorectal Neoplasms,\" which refers to abnormal growths in the colon or rectum, including benign tumors and cancers like colorectal cancer. This is a common and serious malignancy with known genetic and environmenta"
+  },
+  {
+    "task_instance_id": 225,
+    "score": 1.0,
+    "extracted": "OXTR",
+    "ground_truth": "OXTR",
+    "raw_preview": "FINAL ANSWER: OXTR\n\nPostpartum hemorrhage (PPH) is a major cause of maternal mortality, often characterized by uterine atony (failure of the uterus to contract properly after childbirth). Key physiological processes involved include uterine smooth muscle contraction, hemostasis, and vascular functio"
+  },
+  {
+    "task_instance_id": 26,
+    "score": 1.0,
+    "extracted": "SERPINC1",
+    "ground_truth": "SERPINC1",
+    "raw_preview": "FINAL ANSWER: SERPINC1\nI recall that SERPINC1 encodes alpha-1-antitrypsin, a protease inhibitor. It is well-known for its role in lung defense against elastase, but it also has roles in immune regulation and possibly in thrombosis. Pulmonary embolism involves blood clot obstruction in the lung, and "
+  },
+  {
+    "task_instance_id": 1497,
+    "score": 1.0,
+    "extracted": "KDR",
+    "ground_truth": "KDR",
+    "raw_preview": "FINAL ANSWER: KDR\nI chose KDR because:\n1. VEGF signaling pathway (of which KDR is a part) is well-established in colorectal cancer progression and neoplasms.\n2. KDR (Kinase Insert Domain Receptor) is a receptor for VEGF, involved in angiogenesis - critical for tumor growth and metastasis in colorect"
+  },
+  {
+    "task_instance_id": 437,
+    "score": 0.0,
+    "extracted": "PDGFRA",
+    "ground_truth": "KIT",
+    "raw_preview": "FINAL ANSWER: PDGFRA\nStep 1: Analyze the disease indication\nThe GWAS phenotype is \"Sarcoma,\" which is a type of cancer that arises from transformed cells of mesenchymal origin (e.g., bone, cartilage, fat, muscle, vascular, or hematopoietic tissues). Sarcomas include a wide variety of subtypes, such "
+  },
+  {
+    "task_instance_id": 1645,
+    "score": 0.0,
+    "extracted": "HLA",
+    "ground_truth": "TUBB",
+    "raw_preview": "FINAL ANSWER: HLA-E\nThe GWAS phenotype is \"Head and Neck Neoplasms,\" which refers to tumors of the head and neck region, including cancers like squamous cell carcinoma of the head and neck (SCCHN). This type of cancer is often associated with viral infections, immune response, and genetic factors.\n\n"
+  },
+  {
+    "task_instance_id": 229,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "ANPEP",
+    "raw_preview": "To identify the likely causal gene for Hodgkin Disease from the given list, I need to consider the following steps:\n\n1. **Analyze the disease indication**: Hodgkin Disease, also known as Hodgkin lymphoma, is a type of cancer that originates in lymphocytes. It is characterized by the presence of Reed"
+  },
+  {
+    "task_instance_id": 37,
+    "score": 1.0,
+    "extracted": "C5",
+    "ground_truth": "C5",
+    "raw_preview": "FINAL ANSWER: C5\nThe GWAS phenotype is \"Hemoglobinuria, Paroxysmal.\" This is a clinical feature associated with disorders of red blood cell membrane or contents, often involving hemolytic anemia where red blood cells lyse prematurely. Among the genes listed, C5 is particularly relevant because it en"
+  },
+  {
+    "task_instance_id": 749,
+    "score": 1.0,
+    "extracted": "ADRB2",
+    "ground_truth": "ADRB2",
+    "raw_preview": "FINAL ANSWER: ADRB2\nI believe there was a mistake in the provided answer. Let me analyze the question step by step.\n\n1. **GWAS phenotype**: Asthma\n2. **Genes in locus**: ADRB2, FBXO38, HTR4, MARCOL, SPINK13, SPINK14, SPINK5, SPINK6, SPINK7, SPINK9\n\nI need to recall known associations between these g"
+  },
+  {
+    "task_instance_id": 1045,
+    "score": 0.0,
+    "extracted": "NKX1",
+    "ground_truth": "FGFR3",
+    "raw_preview": "FINAL ANSWER: NKX1-1\nI recall that fallopian tube neoplasms, also known as ovarian cancer when reaching the abdomen, are often associated with mutations in genes like BRCA1 and BRCA2. However, among the listed genes, NKX1-1 is a known tumor suppressor gene in the ovary. NKX1-1 (also known as SCID) i"
+  },
+  {
+    "task_instance_id": 469,
+    "score": 0.0,
+    "extracted": "UC",
+    "ground_truth": "S1PR5",
+    "raw_preview": "To identify the likely causal gene for ulcerative colitis (UC) from the given list, I need to consider known associations and biological relevance.\n\nStep 1: Recall known associations\nUlcerative colitis is a chronic inflammatory bowel disease (IBD) affecting the colon. Key pathways involved include i"
+  },
+  {
+    "task_instance_id": 1435,
+    "score": 1.0,
+    "extracted": "GLP1R",
+    "ground_truth": "GLP1R",
+    "raw_preview": "FINAL ANSWER: GLP1R\nI reasoning that GLP1R (Glucagon-like Peptide-1 Receptor) is strongly implicated in obesity and metabolism. It's a well-known target for diabetes and weight loss medications (e.g., liraglutide, semaglutide). The other genes are not prominently associated with obesity pathogenesis"
+  },
+  {
+    "task_instance_id": 1662,
+    "score": 0.0,
+    "extracted": "SCN2A",
+    "ground_truth": "SCN3A",
+    "raw_preview": "To identify the likely causal gene for the GWAS phenotype \"Epilepsies, Partial\" from the given genes in the locus, I need to consider the known drug targets for this indication.\n\n1. **COBLL1**: This gene encodes a transcription factor involved in metabolism and insulin secretion. It is not typically"
+  },
+  {
+    "task_instance_id": 687,
+    "score": 1.0,
+    "extracted": "HTR4",
+    "ground_truth": "HTR4",
+    "raw_preview": "To identify the likely causal gene for gastroparesis from the given list, I need to consider biological relevance and known associations.\n\n1. **Analyze the disease indication**: Gastroparesis is a disorder of gastric emptying, often associated with damage to the vagus nerve or dysregulation of vagal"
+  },
+  {
+    "task_instance_id": 1554,
+    "score": 0.0,
+    "extracted": "APEX1",
+    "ground_truth": "PARP2",
+    "raw_preview": "FINAL ANSWER: APEX1\nI apologize, but upon re-examining the list of genes in the locus, I notice that APEX1 is not actually present. However, CCNB1IP1 is listed. I recall that CCNB1IP1 is located in the 8q24 region, which is a well-known cancer susceptibility locus, including for prostate cancer. In "
+  },
+  {
+    "task_instance_id": 639,
+    "score": 1.0,
+    "extracted": "DRD2",
+    "ground_truth": "DRD2",
+    "raw_preview": "Listed genes: DRD2, ANKK1, TTC12, ZW10, HTR3B, NCAM1, TMPRSS5, USP28, CLDN25\n\nFINAL ANSWER: DRD2\nRationale: Restless Legs Syndrome (RLS) is strongly associated with dopamine pathways in the brain. The D2 receptor (DRD2) is a key component of these pathways and has been implicated in RLS pathogenesis"
+  },
+  {
+    "task_instance_id": 1453,
+    "score": 0.0,
+    "extracted": "LET'S GO STEP BY STEP",
+    "ground_truth": "PPARG",
+    "raw_preview": "FINAL ANSWER:\n\nLet's go step by step.\n\n1. **Analyze the disease indication**: Type 2 diabetes mellitus (T2D) is a complex metabolic disorder characterized by insulin resistance and impaired insulin secretion. It has a strong genetic component, and many susceptibility loci have been identified throug"
+  },
+  {
+    "task_instance_id": 1218,
+    "score": 1.0,
+    "extracted": "MS4A1",
+    "ground_truth": "MS4A1",
+    "raw_preview": "FINAL ANSWER: MS4A1\nMICROSCOPIC POLYANGIITIS IS AN AUTOIMMUNE DISEASE CHARACTERIZED BY INFLAMMATORY ATTACKS ON SMALL BLOOD VESSELS. THE Disease IS Often Associated WITH HIGHER LEVELS OF IMMUNOGLOBULIN G (IGG) AND IMMUNOGLOBULIN M (IGM) ANTIBODIES. AFTER ANALYZING THE LOCUS, THE CAUSAL GENE APPEARS T"
+  },
+  {
+    "task_instance_id": 1158,
+    "score": 0.0,
+    "extracted": "LET'S GO STEP BY STEP",
+    "ground_truth": "NR1H4",
+    "raw_preview": "FINAL ANSWER:\n\nLet's go step by step.\n\n1. **Analyze the disease indication**: Non-alcoholic fatty liver disease (NAFLD) is a common metabolic disorder characterized by excessive fat accumulation in liver cells. It often coexists with insulin resistance, dyslipidemia, and obesity. The pathogenesis in"
+  },
+  {
+    "task_instance_id": 1403,
+    "score": 1.0,
+    "extracted": "PPARA",
+    "ground_truth": "PPARA",
+    "raw_preview": "FINAL ANSWER: PPARA\nI recall that GWAS studies on dyslipidemias, particularly lipid metabolism and cholesterol levels, have identified several loci. The gene PPARA (peroxisome proliferator-activated receptor alpha) is a well-known target in lipid metabolism and has been associated with dyslipidemias"
+  },
+  {
+    "task_instance_id": 1300,
+    "score": 1.0,
+    "extracted": "DRD2",
+    "ground_truth": "DRD2",
+    "raw_preview": "Options: DRD2, HTR3A, ANKK1, ZBTB16, TTC12, USP28, CLDN25, TMPRSS5, NNMT, GAK, ZW10\n\nFINAL ANSWER: DRD2\nREASONING:\nNausea is a complex symptom that can be caused by many conditions, but it often involves the gastrointestinal system and the central nervous system. Key neurotransmitters like dopamine "
+  },
+  {
+    "task_instance_id": 1538,
+    "score": 1.0,
+    "extracted": "KCNJ11",
+    "ground_truth": "KCNJ11",
+    "raw_preview": "FINAL ANSWER: KCNJ11\nI recall that Type 2 diabetes mellitus (T2D) has well-known genetic risk loci. Among the genes listed, KCNJ11 is a known T2D susceptibility gene. Specifically, variants in KCNJ11, particularly the E23K (rs9844948) variant, are strongly associated with T2D risk in multiple popula"
+  },
+  {
+    "task_instance_id": 800,
+    "score": 0.0,
+    "extracted": "CECR2",
+    "ground_truth": "IL17RA",
+    "raw_preview": "To identify the likely causal gene for scleroderma, limited, I need to recall known associations with this disease. Scleroderma, limited, also known as limited cutaneous systemic sclerosis, is an autoimmune disease characterized by fibrosis of the skin and internal organs. Key pathways involved incl"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "MPL",
+    "ground_truth": "IRAK1",
+    "raw_preview": "To identify the likely causal gene for primary myelofibrosis in this locus, I need to consider the biological relevance and known genetics of the disease. Primary myelofibrosis is a myeloproliferative neoplasm characterized by fibrosis of the bone marrow, often associated with mutations in genes lik"
+  },
+  {
+    "task_instance_id": 956,
+    "score": 0.0,
+    "extracted": "TGFB1",
+    "ground_truth": "AXL",
+    "raw_preview": "To identify the likely causal gene for liver neoplasms (liver tumors) from the given list, I need to consider biological relevance and known associations.\n\n1. **Analyze the disease indication**: Liver neoplasms include hepatocellular carcinoma (HCC), which is a common primary liver cancer. Key risk "
+  },
+  {
+    "task_instance_id": 1186,
+    "score": 1.0,
+    "extracted": "CXCL8",
+    "ground_truth": "CXCL8",
+    "raw_preview": "To identify the likely causal gene for psoriasis in this locus, I need to consider the biological relevance and typical GWAS findings for psoriasis.\n\n1. **Analyze the disease indication**: Psoriasis is a chronic inflammatory skin disease characterized by red, scaly plaques. It involves immune system"
+  },
+  {
+    "task_instance_id": 821,
+    "score": 1.0,
+    "extracted": "HTR7",
+    "ground_truth": "HTR7",
+    "raw_preview": "Output format: {'causal_gene': ['gene1']}\nTo identify the likely causal gene for schizophrenia from the given genes in the locus, I need to consider known biological mechanisms and prior evidence for each gene.\n\n1. **ANKRD1** (Ankyrin Repeat Domain 1):\n   - Function: Involved in cardiac development "
+  },
+  {
+    "task_instance_id": 1463,
+    "score": 0.0,
+    "extracted": "PTCL",
+    "ground_truth": "TOP2A",
+    "raw_preview": "To identify the likely causal gene for peripheral T-cell lymphoma from the given list, I need to consider biological relevance and known associations.\n\n1. **Analyze the disease indication**: Peripheral T-cell lymphoma (PTCL) is a rare and aggressive type of non-Hodgkin lymphoma that develops from ma"
+  },
+  {
+    "task_instance_id": 877,
+    "score": 1.0,
+    "extracted": "PDGFRB",
+    "ground_truth": "PDGFRB",
+    "raw_preview": "FINAL ANSWER: PDGFRB\nStep 1: Analyze the disease indication\nThe GWAS phenotype is \"Ovarian Neoplasms,\" which refers to tumors of the ovary. This could include various types of ovarian cancers or neoplasms. Understanding the specific subtype might point toward known susceptibility genes.\n\nStep 2: Con"
+  },
+  {
+    "task_instance_id": 913,
+    "score": 0.0,
+    "extracted": "PDCD1LG2",
+    "ground_truth": "CD274",
+    "raw_preview": "FINAL ANSWER: PDCD1LG2\nStep 1: Analyze the disease indication\nThe GWAS phenotype is \"Urinary Bladder Neoplasms,\" which refers to tumors of the urinary bladder, most commonly urothelial carcinoma (bladder cancer). This is a malignancy with known involvement of immune responses and checkpoint pathways"
+  },
+  {
+    "task_instance_id": 152,
+    "score": 1.0,
+    "extracted": "RET",
+    "ground_truth": "RET",
+    "raw_preview": "FINAL ANSWER: RET\n\nI'll go through my reasoning step by step:\n\n1. **Analyze the disease indication**: Liver neoplasms refer to tumors in the liver, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Known risk factors include chronic liver diseases (e.g., hepatitis B/C"
+  },
+  {
+    "task_instance_id": 1549,
+    "score": 0.0,
+    "extracted": "VCL",
+    "ground_truth": "PLAU",
+    "raw_preview": "FINAL ANSWER: VCL\nI chose VCL because:\n1. VCL (Vitronectin Receptor-like protein) is known to be associated with arthritis, particularly psoriatic arthritis and rheumatoid arthritis.\n2. It plays a role in cell adhesion and inflammation, which are relevant to arthritis pathogenesis.\n3. Among the list"
+  },
+  {
+    "task_instance_id": 509,
+    "score": 1.0,
+    "extracted": "VEGFA",
+    "ground_truth": "VEGFA",
+    "raw_preview": "FINAL ANSWER: VEGFA\nThe GWAS phenotype is \"Liver Neoplasms,\" which refers to tumors in the liver, including hepatocellular carcinoma (HCC), the most common type of primary liver cancer. Key pathways involved in liver neoplasms include angiogenesis, cell proliferation, apoptosis, and inflammation.\n\nV"
+  },
+  {
+    "task_instance_id": 1135,
+    "score": 0.0,
+    "extracted": "LET'S GO STEP BY STEP",
+    "ground_truth": "BRAF",
+    "raw_preview": "FINAL ANSWER:\n\nLet's go step by step.\n\n1. **Analyze the disease indication**: Liver neoplasms refer to tumors in the liver, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Known risk factors include chronic liver diseases (e.g., hepatitis B/C, cirrhosis), metabolic "
+  },
+  {
+    "task_instance_id": 1250,
+    "score": 1.0,
+    "extracted": "IL6R",
+    "ground_truth": "IL6R",
+    "raw_preview": "FINAL ANSWER: IL6R\nYou are correct. The likely causal gene for Rheumatoid Arthritis in this locus is IL6R. I'll provide the reasoning:\n\n1. Analyze the disease indication: Rheumatoid Arthritis (RA) is a chronic autoimmune disease characterized by inflammation of the joints. It involves dysregulation "
+  },
+  {
+    "task_instance_id": 1612,
+    "score": 1.0,
+    "extracted": "CCR4",
+    "ground_truth": "CCR4",
+    "raw_preview": "Listed genes: CCR4, CLASP2, CNOT10, CRTAP, FBXL2, GLB1, SUSD5, TMPPE, TRIM71, UBP1\n\nTo identify the likely causal gene, I need to consider the biological function of each gene in the locus and relate it to the disease indication: Lymphoma, T-Cell, Cutaneous.\n\n1. **CCR4**: Chemokine receptor type 4. "
+  },
+  {
+    "task_instance_id": 103,
+    "score": 1.0,
+    "extracted": "ADRA1A",
+    "ground_truth": "ADRA1A",
+    "raw_preview": "FINAL ANSWER: ADRA1A\nI chose ADRA1A because:\n1. Major Depressive Disorder (MDD) has well-established neurobiological bases involving monoamine neurotransmitters, particularly norepinephrine.\n2. ADRA1A encodes the alpha-1 adrenergic receptor, a key receptor in norepinephrine signaling. It is involved"
+  },
+  {
+    "task_instance_id": 586,
+    "score": 1.0,
+    "extracted": "TOP2A",
+    "ground_truth": "TOP2A",
+    "raw_preview": "FINAL ANSWER: TOP2A\n\nI used reasoning: Ovarian neoplasms refer to tumors of the ovary, which are often epithelial in origin. In epithelial ovarian cancer, a key pathway involved is DNA repair and proliferation. I recall that TOP2A (topoisomerase II alpha) is crucial for DNA replication and is a targ"
+  },
+  {
+    "task_instance_id": 1572,
+    "score": 1.0,
+    "extracted": "SERPINA1",
+    "ground_truth": "SERPINA1",
+    "raw_preview": "Causal gene: SERPINA1\n\nLet's go step by step.\n\n1. **Analyze the disease indication**: Alpha 1-antitrypsin (AAT) deficiency is a genetic disorder characterized by low levels of the serum protein alpha 1-antitrypsin (encoded by the SERPINA1 gene). This leads to accumulation of misfolded protein in liv"
+  },
+  {
+    "task_instance_id": 1143,
+    "score": 1.0,
+    "extracted": "HTR2C",
+    "ground_truth": "HTR2C",
+    "raw_preview": "Previous disease-gene associations: {\"OMIM_ID\": \"384700\"}, {\"gene\": \"HTR2C\", \"disease\": \"Premenstrual Syndrome\"}\nFINAL ANSWER: HTR2C\nThe previous disease-gene association for Premenstrual Syndrome includes HTR2C (5-HT2C receptor), which is known to be involved in mood regulation and may play a role "
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "LET'S ANALYZE STEP BY STEP",
+    "ground_truth": "FLT1",
+    "raw_preview": "FINAL ANSWER:\n\nLet's analyze step by step.\n\n1. **Analyze the disease indication**: Non-small-cell lung carcinoma (NSCLC) is the most common type of lung cancer, accounting for about 85% of cases. It includes adenocarcinoma, squamous cell carcinoma, and large cell carcinoma. Known risk factors includ"
+  },
+  {
+    "task_instance_id": 151,
+    "score": 1.0,
+    "extracted": "CCR4",
+    "ground_truth": "CCR4",
+    "raw_preview": "Listed genes: CCR4, CMTM6, CMTM7, CNOT10, CRTAP, DYNC1LI1, FBXL2, GLB1, SUSD5, TMPPE, TRIM71, UBP1\n\nAnalyzing the phenotype and genes:\nLymphoma, T-Cell: This is a type of non-Hodgkin lymphoma that originates from T-cells. T-cell lymphomas involve malignant transformations of T-lymphocytes. Key biolo"
+  },
+  {
+    "task_instance_id": 403,
+    "score": 0.0,
+    "extracted": "LET'S GO STEP BY STEP",
+    "ground_truth": "F2",
+    "raw_preview": "FINAL ANSWER:\n\nLet's go step by step.\n\n1. **Analyze the disease indication**: The GWAS phenotype is \"Hemorrhage.\" This refers to bleeding, which can occur inside the body (internal hemorrhage) or outside the body (external hemorrhage). It may relate to disorders of hemostasis, such as coagulation fa"
+  },
+  {
+    "task_instance_id": 1640,
+    "score": 0.0,
+    "extracted": "LET'S ANALYZE STEP BY STEP",
+    "ground_truth": "IL4R",
+    "raw_preview": "FINAL ANSWER:\n\nLet's analyze step by step.\n\n1. **Disease/Trait and associated locus**: The GWAS phenotype is sinusitis. The genes in the locus are C16orf82, GSG1L, GTF3C1, IL21R, IL4R, KATNIP, KDM8, NSMCE1.\n\n2. **Type of trait**: Sinusitis is inflammation of the sinuses, often related to allergic or"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 1.0,
+    "extracted": "IL2RA",
+    "ground_truth": "IL2RA",
+    "raw_preview": "FINAL ANSWER: IL2RA\nThe GWAS phenotype is \"Lymphoma,\" which is a type of cancer that originates from lymphocytes. Lymphomas can be broadly classified into two categories: Hodgkin lymphoma and non-Hodgkin lymphoma. Both categories involve immune dysregulation and often have genetic components.\n\nLooki"
+  }
+]

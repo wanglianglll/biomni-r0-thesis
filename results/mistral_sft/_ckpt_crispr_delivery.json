@@ -1,0 +1,72 @@
+[
+  {
+    "task_instance_id": 10,
+    "score": 1.0,
+    "extracted": "a",
+    "ground_truth": "a",
+    "raw_preview": "<|assistant|>\n<think>\n1. Identify the cell type/organism: The target is the HEK293T cell line. HEK293T cells are a widely used human embryonic kidney cell line that is highly transferable and easy to culture in vitro. They are commonly used in research for gene expression and editing studies.\n\n2. Co"
+  },
+  {
+    "task_instance_id": 22,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "b",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Identify the cell type/organism**: The target is primary T-cells. These are human immune cells (lymphocytes) that are non-dividing or slowly dividing in culture, and they are sensitive to manipulation.\n\n2. **Consider the delivery constraints**: \n   "
+  },
+  {
+    "task_instance_id": 18,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "b",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Identify the cell type/organism**: The target is mouse skin. Skin is composed of multiple cell types, including keratinocytes, fibroblasts, immune cells, etc. The goal is in vivo editing, meaning we need to deliver CRISPR components directly into th"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "b",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Identify the cell type/organism**: The target is human brain organoids. Organoids are 3D structures derived from stem cells (often adult stem cells or induced pluripotent stem cells) that mimic the architecture and function of real organs. They are "
+  },
+  {
+    "task_instance_id": 20,
+    "score": 1.0,
+    "extracted": "a",
+    "ground_truth": "a",
+    "raw_preview": "<|assistant|>\n<think>\n1. Identify the cell type/organism: The target is the Hula cell line. Hula cells are a cervical adenocarcinoma cell line, often used to model adenocarcinoma behavior.\n\n2. Consider the delivery constraints: The delivery is in vivo (directly into the living mouse), targeting the "
+  },
+  {
+    "task_instance_id": 7,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "b",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Identify the cell type/organism**: The target is primary macrophages. Macrophages are immune cells derived from monocytes, and primary macrophages are taken directly from a donor/patient and not an immortalized cell line. They are typically hard to "
+  },
+  {
+    "task_instance_id": 42,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "b",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Identify the cell type/organism**: The target is primary macrophages. Macrophages are immune cells derived from monocytes, and primary macrophages are taken directly from a donor/patient and not an immortalized cell line. They are typically hard to "
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "b",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Identify the cell type/organism**: The target is human colon organoids. Organoids are 3D structures derived from stem cells (often adult stem cells or induced pluripotent stem cells) that mimic the architecture and function of real organs. They are "
+  },
+  {
+    "task_instance_id": 28,
+    "score": 0.0,
+    "extracted": "a",
+    "ground_truth": "e",
+    "raw_preview": "<|assistant|>\n<think>\n1. Identify the cell type/organism: The target is mouse liver, so we are dealing with in vivo editing of hepatocytes (liver cells) in a mouse model.\n\n2. Consider the delivery constraints: The delivery is in vivo (directly into the living mouse), targeting the liver. Key conside"
+  },
+  {
+    "task_instance_id": 38,
+    "score": 0.0,
+    "extracted": "e",
+    "ground_truth": "f",
+    "raw_preview": "<|assistant|>\n<think>\n1. Identify the cell type/organism: The target is the mouse eye. The eye contains various cell types (e.g., retinal cells, corneal cells) and is a relatively accessible organ for in vivo delivery.\n2. Consider the delivery constraints: This is an in vivo application (direct deli"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 302,
+    "score": 0.0,
+    "extracted": "TMEM37",
+    "ground_truth": "ZNF561-AS1",
+    "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that play a crucial role in the cellular defense mechanisms against viral infections, particularly against the Vaccinia virus.\n\nAmong the candidate genes, TMEM37 (Transmembrane prot"
+  },
+  {
+    "task_instance_id": 236,
+    "score": 0.0,
+    "extracted": "TRIM16",
+    "ground_truth": "VMP1",
+    "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that are involved in the cellular response to viral infections, particularly HCoV-OC43. Among the candidate genes listed, ACE2 is the primary receptor for HCoV-OC43, and it is not i"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "DPY30",
+    "ground_truth": "FAM83H",
+    "raw_preview": ".\n\nFINAL ANSWER: DPY30"
+  },
+  {
+    "task_instance_id": 212,
+    "score": 1.0,
+    "extracted": "STAT1",
+    "ground_truth": "STAT1",
+    "raw_preview": ".\n\nFINAL ANSWER: STAT1"
+  },
+  {
+    "task_instance_id": 317,
+    "score": 0.0,
+    "extracted": "HCT116",
+    "ground_truth": "NAA10",
+    "raw_preview": ".\n\nFINAL ANSWER: HCT116 (cell line)"
+  },
+  {
+    "task_instance_id": 251,
+    "score": 0.0,
+    "extracted": "SLFN11",
+    "ground_truth": "MTHFD1",
+    "raw_preview": ".\n\nFINAL ANSWER: SLFN11"
+  },
+  {
+    "task_instance_id": 339,
+    "score": 0.0,
+    "extracted": "RAP1B",
+    "ground_truth": "CAB39",
+    "raw_preview": ".\n\nFINAL ANSWER: RAP1B"
+  },
+  {
+    "task_instance_id": 318,
+    "score": 0.0,
+    "extracted": "TRIT1",
+    "ground_truth": "DOHH",
+    "raw_preview": ".\n\nFINAL ANSWER: TRIT1"
+  },
+  {
+    "task_instance_id": 269,
+    "score": 0.0,
+    "extracted": "OCI",
+    "ground_truth": "chr3:195713389-195713475",
+    "raw_preview": ".\n\nFINAL ANSWER: OCI-AML-1 (leukemia cell line, not a gene) is the gene of interest in this experimental context, as the effects of UM171 on this cell line will be studied. The other genes listed are not the gene of interest."
+  },
+  {
+    "task_instance_id": 201,
+    "score": 1.0,
+    "extracted": "GABARAP",
+    "ground_truth": "GABARAP",
+    "raw_preview": ".\n\nFINAL ANSWER: GABARAP"
+  },
+  {
+    "task_instance_id": 161,
+    "score": 0.0,
+    "extracted": "CHRND",
+    "ground_truth": "SCAP",
+    "raw_preview": ".\n\nTo answer this question, we need to consider genes that are likely to play a role in cellular resistance mechanisms, particularly those related to drug resistance or toxin resistance. Among the candidate genes listed, CHRND (Cholinergic receptor, nicotinic, delta subunit) is a good candidate as i"
+  },
+  {
+    "task_instance_id": 43,
+    "score": 1.0,
+    "extracted": "UBE2J1",
+    "ground_truth": "UBE2J1",
+    "raw_preview": "FINAL ANSWER: UBE2J1\n\nExplanation:\n\nERAD-L (Endoplasmic Reticulum-Associated Degradation of Long-lived proteins) is a cellular pathway that targets long-lived proteins for degradation. UBE2J1 is an E3 ubiquitin-protein ligase that plays a crucial role in the ERAD-L pathway by catalyzing the transfer"
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "EGFR",
+    "ground_truth": "EIF4A3",
+    "raw_preview": ".\n\nFINAL ANSWER: EGFR"
+  },
+  {
+    "task_instance_id": 190,
+    "score": 1.0,
+    "extracted": "KEAP1",
+    "ground_truth": "KEAP1",
+    "raw_preview": ".\n\nTo answer this question, we need to consider genes that are likely to be involved in drug resistance mechanisms, particularly in response to sorafenib. Sorafenib is a multi-kinase inhibitor that targets several proteins, including Raf kinases, platelet-derived growth factor receptor (PDGFR), vasc"
+  },
+  {
+    "task_instance_id": 259,
+    "score": 1.0,
+    "extracted": "DHODH",
+    "ground_truth": "DHODH",
+    "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that are involved in the cell cycle regulation, apoptosis, or drug resistance pathways. Dinaciclib is a cell cycle inhibitor that targets cyclin-dependent kinases (CDKs), so genes i"
+  },
+  {
+    "task_instance_id": 105,
+    "score": 0.0,
+    "extracted": "RPE",
+    "ground_truth": "NF2",
+    "raw_preview": ".\n\nTo answer this question, we need to consider the potential role of each gene in the retinal pigment epithelium (RPE) and the drug resistance mechanisms.\n\n1. NF2: Neurofibromin 2, a tumor suppressor gene, is not directly related to drug resistance or RPE function.\n2. FAM133A: FAM133A is involved i"
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "PSMB3",
+    "ground_truth": "NHLRC2",
+    "raw_preview": ".\n\nFINAL ANSWER: PSMB3"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "BRAF",
+    "ground_truth": "KEAP1",
+    "raw_preview": ".\n\nFINAL ANSWER: BRAF (since Trametinib is a MEK inhibitor and BRAF is a downstream target of the RAS/RAF/MEK/ERK pathway, which is often mutated in lung cancer and plays a key role in cell proliferation and survival, making it a strong candidate for perturbation in this context)"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "HAP",
+    "ground_truth": "SLC35B2",
+    "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect, we need to consider the role of each gene in the cellular pathways involved in the resistance of HAP-1 chronic myelogenous leukemia cells to Dengue virus 2 Jamaica/1409/1983.\n\n1. ZNF18: This gene encodes a zinc finger protein that may p"
+  },
+  {
+    "task_instance_id": 80,
+    "score": 0.0,
+    "extracted": "SQSTM1",
+    "ground_truth": "MED19",
+    "raw_preview": ".\n\nFINAL ANSWER: SQSTM1 (assuming it is not already in the list)"
+  },
+  {
+    "task_instance_id": 205,
+    "score": 0.0,
+    "extracted": "MTOR (NOT IN THE PROVIDED LIST, BUT THE GENE ENCODING MTORC1)",
+    "ground_truth": "IRS4",
+    "raw_preview": ".\n\nFINAL ANSWER: mTOR (not in the provided list, but the gene encoding mTORC1)"
+  },
+  {
+    "task_instance_id": 34,
+    "score": 0.0,
+    "extracted": "POGZ",
+    "ground_truth": "NCKAP1L",
+    "raw_preview": ".\n\nFINAL ANSWER: The strongest perturbation effect in this experimental context is likely to be observed in the gene POGZ, as it is a transcription factor that plays a crucial role in regulating gene expression and chromatin organization, and its dysregulation has been implicated in various cellular"
+  },
+  {
+    "task_instance_id": 263,
+    "score": 0.0,
+    "extracted": "AML",
+    "ground_truth": "XPR1",
+    "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that are known to be involved in the pathway of Dinaciclib resistance in acute myeloid leukemia (AML) cells.\n\nFGFR1 (Fibroblast Growth Factor Receptor 1) is a receptor tyrosine kina"
+  },
+  {
+    "task_instance_id": 91,
+    "score": 1.0,
+    "extracted": "ACSL4",
+    "ground_truth": "ACSL4",
+    "raw_preview": ".\n\nFINAL ANSWER: ACSL4"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 1.0,
+    "extracted": "MAPK1",
+    "ground_truth": "MAPK1",
+    "raw_preview": ".\n\nFINAL ANSWER: MAPK1"
+  },
+  {
+    "task_instance_id": 264,
+    "score": 1.0,
+    "extracted": "ARF1",
+    "ground_truth": "ARF1",
+    "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect, we need to consider genes that are either directly or indirectly involved in the same pathway as GBF1 or have a known interaction with GBF1.\n\nGBF1 (Guanylate-binding protein 1) is a guanine nucleotide exchange factor (GEF) that activate"
+  },
+  {
+    "task_instance_id": 241,
+    "score": 0.0,
+    "extracted": "SLC16A14",
+    "ground_truth": "KCNJ15",
+    "raw_preview": ".\n\nFINAL ANSWER: SLC16A14\n\nExplanation:\nSLC16A14 is a solute carrier family 16 member 14, which is a transporter protein that plays a crucial role in the transport of various substances, including drugs, across cell membranes. Chronic exposure to polymyxin B at a dosage of 25.0 ŒºM may lead to incre"
+  },
+  {
+    "task_instance_id": 13,
+    "score": 0.0,
+    "extracted": "PRKN",
+    "ground_truth": "SMCHD1",
+    "raw_preview": ".\n\nFINAL ANSWER: Parkin (PRKN) is the gene of interest in this experimental context, as it encodes the protein being studied. However, since the question asks for a gene that would have the strongest perturbation effect, it is important to note that the genes listed are not negative regulators of pa"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "ACACA",
+    "ground_truth": "TLE3",
+    "raw_preview": "FINAL ANSWER: ACACA (Acyl-CoA carboxylase alpha)\n\nExplanation:\nApalutamide is an androgen receptor inhibitor, and it is known to inhibit the growth of prostate cancer cells by blocking the androgen receptor. However, prolonged exposure to Apalutamide can lead to drug resistance.\n\nACACA (Acyl-CoA car"
+  },
+  {
+    "task_instance_id": 273,
+    "score": 0.0,
+    "extracted": "TBC1D25",
+    "ground_truth": "C16orf72",
+    "raw_preview": ".\n\nFINAL ANSWER: TBC1D25\n\nExplanation:\nTBC1D25 is a member of the TBC1 domain family, which are known to regulate the Ras superfamily of small GTPases. These proteins are involved in various cellular processes, including cell growth, proliferation, and survival. In the context of Pre-B Acute Lymphob"
+  },
+  {
+    "task_instance_id": 166,
+    "score": 0.0,
+    "extracted": "BRCA2",
+    "ground_truth": "COX17",
+    "raw_preview": "FINAL ANSWER: BRCA2"
+  },
+  {
+    "task_instance_id": 342,
+    "score": 0.0,
+    "extracted": "NFKB2",
+    "ground_truth": "BAZ2A",
+    "raw_preview": ".\n\nFINAL ANSWER: NFKB2"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "NR1D2",
+    "ground_truth": "ANPEP",
+    "raw_preview": "FINAL ANSWER: It is difficult to predict the gene with the strongest perturbation effect without further information about the specific cellular mechanisms and pathways involved in the resistance of Huh-7.5 cells to HCoV-229E virus exposure. However, among the given candidate genes, NR1D2 (Nuclear R"
+  },
+  {
+    "task_instance_id": 306,
+    "score": 1.0,
+    "extracted": "FLCN",
+    "ground_truth": "FLCN",
+    "raw_preview": ".\n\nFINAL ANSWER: FLCN"
+  },
+  {
+    "task_instance_id": 334,
+    "score": 0.0,
+    "extracted": "PRKAR1A",
+    "ground_truth": "INPPL1",
+    "raw_preview": ".\n\nFINAL ANSWER: PRKAR1A"
+  },
+  {
+    "task_instance_id": 243,
+    "score": 0.0,
+    "extracted": "GNAQ",
+    "ground_truth": "MAU2",
+    "raw_preview": ".\n\nFINAL ANSWER: GNAQ"
+  },
+  {
+    "task_instance_id": 54,
+    "score": 1.0,
+    "extracted": "PYCARD",
+    "ground_truth": "PYCARD",
+    "raw_preview": ".\n\nFINAL ANSWER: PYCARD"
+  },
+  {
+    "task_instance_id": 50,
+    "score": 0.0,
+    "extracted": "PNKD",
+    "ground_truth": "PRKCD",
+    "raw_preview": ".\n\nFINAL ANSWER: PNKD (Phosphatidate N-acetylneuraminyltransferase) is a key enzyme in the synthesis of sialic acid, a crucial component of glycans on the surface of cells. Phagocytosis involves the recognition and binding of pathogens to specific receptors on the surface of phagocytes, which are of"
+  },
+  {
+    "task_instance_id": 174,
+    "score": 0.0,
+    "extracted": "AML",
+    "ground_truth": "BEND3",
+    "raw_preview": ".\n\nTo answer this question, we need to consider the potential role of each gene in the cellular pathways related to drug resistance in acute myeloid leukemia (AML) cells.\n\n1. PPAT (Phosphate-activated protein kinase alpha) is involved in glycogen metabolism and energy production, but its direct role"
+  },
+  {
+    "task_instance_id": 189,
+    "score": 0.0,
+    "extracted": "HSPB3",
+    "ground_truth": "SPATA5L1",
+    "raw_preview": ".\n\nFINAL ANSWER: HSPB3"
+  },
+  {
+    "task_instance_id": 346,
+    "score": 0.0,
+    "extracted": "CLCN1",
+    "ground_truth": "IRF8",
+    "raw_preview": ".\n\nFINAL ANSWER: CLCN1"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 1.0,
+    "extracted": "ACE2",
+    "ground_truth": "ACE2",
+    "raw_preview": ".\n\nFINAL ANSWER: ACE2"
+  },
+  {
+    "task_instance_id": 169,
+    "score": 0.0,
+    "extracted": "KIT",
+    "ground_truth": "IFNAR2",
+    "raw_preview": ".\n\nFINAL ANSWER: KIT"
+  },
+  {
+    "task_instance_id": 58,
+    "score": 0.0,
+    "extracted": "DNAJA1",
+    "ground_truth": "ZCCHC14",
+    "raw_preview": ".\n\nFINAL ANSWER: It is difficult to predict the gene with the strongest perturbation effect without further information about the experimental design, the specific techniques used, and the expected outcomes. However, genes involved in the regulation of viral replication, such as DNAJA1, PRDX2, or TA"
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "MYRIP",
+    "ground_truth": "MAPK1",
+    "raw_preview": ".\n\nFINAL ANSWER: MYRIP"
+  },
+  {
+    "task_instance_id": 235,
+    "score": 0.0,
+    "extracted": "HABP4",
+    "ground_truth": "VMP1",
+    "raw_preview": ".\n\nTo answer this question, we need to consider the role of each gene in the context of viral resistance and long-term effects on cell lines.\n\n1. HABP4 (Human Alpha-B-Crystallin B Chain) - This gene encodes a heat shock protein that helps protect cells from stress, but its direct role in viral resis"
+  },
+  {
+    "task_instance_id": 252,
+    "score": 0.0,
+    "extracted": "REL",
+    "ground_truth": "PFKP",
+    "raw_preview": ".\n\nFINAL ANSWER: REL"
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "MCL1",
+    "ground_truth": "RNF7",
+    "raw_preview": ".\n\nFINAL ANSWER: MCL1"
+  },
+  {
+    "task_instance_id": 313,
+    "score": 1.0,
+    "extracted": "ACE2",
+    "ground_truth": "ACE2",
+    "raw_preview": ".\n\nFINAL ANSWER: ACE2"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "BCL2L11",
+    "ground_truth": "TADA2B",
+    "raw_preview": ".\n\nFINAL ANSWER: BCL2L11\n\nExplanation:\nBCL2L11 (BCL2-like 11) is a gene that encodes a protein called BIM, which is a key regulator of apoptosis (programmed cell death). JQ1 is a BET inhibitor, and it has been shown to induce apoptosis in various cancer cell lines, including breast cancer, by inhibi"
+  }
+]

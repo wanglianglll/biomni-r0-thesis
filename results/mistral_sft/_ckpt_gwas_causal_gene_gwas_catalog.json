@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 630,
+    "score": 0.0,
+    "extracted": "APOA",
+    "ground_truth": "APOA4",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the phenotype/trait described: \"Multi-trait sex score\" likely refers to a composite score that captures sex-related differences across multiple traits. This could involve hormonal, metabolic, or physiological differences between sexes. Given the multi-trait nature, i"
+  },
+  {
+    "task_instance_id": 591,
+    "score": 0.0,
+    "extracted": "APOA1",
+    "ground_truth": "APOA4",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the phenotype/trait described: \"Multi-trait sex score\" likely refers to a composite measure related to sex differences or sex-specific effects across multiple traits. This could involve hormonal, metabolic, or physiological differences between sexes.\n\n2. Consider kno"
+  },
+  {
+    "task_instance_id": 541,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "NAT8",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: The GWAS phenotype is \"Metabolite levels (N-acetylasparagine)\". N-acetylasparagine is a metabolite derived from tryptophan. It is formed by acetylation of tryptophan. This suggests the trait is related to the"
+  },
+  {
+    "task_instance_id": 85,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "ACY3",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: The GWAS phenotype is \"Metabolite levels (N-acetyltryptophan)\". N-acetyltryptophan is a metabolite derived from tryptophan. It is formed by acetylation of tryptophan. This suggests the trait is related to the"
+  },
+  {
+    "task_instance_id": 242,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "RASSF6",
+    "raw_preview": "<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is prostate cancer. This is a common malignancy in men, with known genetic risk factors including loci on multiple chromosomes. GWAS studies have identified numerous susceptibility loci for prostate cancer.\n\nStep 2: Consider k"
+  },
+  {
+    "task_instance_id": 159,
+    "score": 1.0,
+    "extracted": "RNF213",
+    "ground_truth": "RNF213",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nMoyamoya disease is a rare, progressive cerebrovascular disorder characterized by the narrowing of the internal carotid arteries and their major branches, leading to reduced blood flow to the brain. The body compensates by developi"
+  },
+  {
+    "task_instance_id": 35,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "LONP1",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Mitochondrial DNA copy number (adjusted)\". Mitochondrial DNA copy number (mtDNA-CN) refers to the number of mitochondrial genomes per cell. It is a measure of mitochondrial content and is associa"
+  },
+  {
+    "task_instance_id": 170,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "PRKAG1",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is Body Mass Index (BMI). BMI is a measure of body fat based on height and weight, widely used as an indicator of obesity and overall body composition. Genetic studies have identified numerous loci associated wit"
+  },
+  {
+    "task_instance_id": 543,
+    "score": 0.0,
+    "extracted": "ATP6V1B2",
+    "ground_truth": "LPL",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: \"Multi-trait sex score\" likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex traits (like anthropometric, metabolic, or hormonal traits"
+  },
+  {
+    "task_instance_id": 535,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "ACAN",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite measure or score derived from multiple traits related to sex differences, possibly including anthropometric, hormonal, or d"
+  },
+  {
+    "task_instance_id": 601,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sum score\". This likely refers to a composite score derived from multiple traits, possibly related to metabolic, cardiovascular, or anthropometric measures. Multi-trait sum scores are often used i"
+  },
+  {
+    "task_instance_id": 95,
+    "score": 0.0,
+    "extracted": "ATP6V1B2",
+    "ground_truth": "LPL",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: \"Multi-trait sex score\" likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex traits (like anthropometric, metabolic, or hormonal traits"
+  },
+  {
+    "task_instance_id": 240,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "TRIM58",
+    "raw_preview": "<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Platelet side fluorescence distribution width.\" This is a specific platelet parameter likely measured by flow cytometry, reflecting platelet activation state, granule content, or size heterogeneity. It relates to platelet "
+  },
+  {
+    "task_instance_id": 460,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits related to sex differences or sexual characteristics. It could involve traits influenced by sex hormones, such as b"
+  },
+  {
+    "task_instance_id": 557,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SLFNL1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex"
+  },
+  {
+    "task_instance_id": 206,
+    "score": 0.0,
+    "extracted": "MRI",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   \"Central nucleus volume\" likely refers to the volume of the central nucleus of the amygdala or another brain nucleus. The central nucleus of the amygdala is involved in fear, anxiety, and stress responses. Volume measu"
+  },
+  {
+    "task_instance_id": 392,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism, hormone-related traits, or sex-biased characteris"
+  },
+  {
+    "task_instance_id": 397,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits related to biological sex differences, possibly including hormone levels, anthropometric"
+  },
+  {
+    "task_instance_id": 536,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sum score\". This likely refers to a composite score derived from multiple traits, possibly related to metabolic, cardiovascular, or anthropometric measures. Multi-trait "
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "MTAG",
+    "ground_truth": "BDNF",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: Smoking initiation refers to the transition from never smoking to ever smoking, a behavioral trait with strong genetic components. MTAG stands for Multi-Trait Analysis of GWAS, which integrates multiple trait"
+  },
+  {
+    "task_instance_id": 4,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Anterior amygdala volume\" (AAV). This is a common degenerative joint disease affecting the anterior amygdala, characterized by cartilage breakdown. It involves immune dysregulation, inflammation,"
+  },
+  {
+    "task_instance_id": 568,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex"
+  },
+  {
+    "task_instance_id": 98,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SULT1A1",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: The GWAS phenotype is \"Metabolite levels (propyl 4-hydroxybenzoate sulfate)\". This indicates that the genetic association is with circulating levels of the amino acid proline.\n\n2. **Consider known gene-trait associations**"
+  },
+  {
+    "task_instance_id": 406,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CEP164",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease/trait and associated locus:\n   - The GWAS phenotype is \"Triglyceride to HDL cholesterol ratio.\" This is a common metabolic disorder characterized by triglycerides and HDL cholesterol. The locus contains genes: BACE1, CEP164, DSCAML1, FXYD2, FXYD6, FXYD6-F"
+  },
+  {
+    "task_instance_id": 502,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "B4GALNT3",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score or index derived from multiple traits that differ between sexes, possibly capturing overall sex-differentiated characteristics. It could relate "
+  },
+  {
+    "task_instance_id": 47,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite measure or score derived from multiple traits related to sex differences or sexual dimorphism. Such a score could encompass various biological, physio"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "APOA4",
+    "raw_preview": "<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sex differences in complex traits (like ca"
+  },
+  {
+    "task_instance_id": 200,
+    "score": 0.0,
+    "extracted": "MRI",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   \"Central nucleus volume\" likely refers to the volume of the central nucleus of the amygdala or another brain nucleus. The central nucleus of the amygdala is involved in fear, anxiety, and stress responses. Volume measu"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism, hormone-related traits, or sex-biased characteris"
+  },
+  {
+    "task_instance_id": 27,
+    "score": 0.0,
+    "extracted": "MRI",
+    "ground_truth": "SLC39A8",
+    "raw_preview": "<think>\nLet's analyze step by step.\n\n1. **Analyze the phenotype/trait described**: Medial nucleus volume likely refers to a subregion of the brain, possibly the medial nucleus of the thalamus, amygdala, or other medial structures. In neuroscience, \"medial nucleus\" often refers to the medial nucleus "
+  },
+  {
+    "task_instance_id": 559,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "TRIM54",
+    "raw_preview": "<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**: The GWAS phenotype is \"Multi-trait sum score\". This likely refers to a composite score derived from multiple traits, possibly related to metabolic, cardiovascular, or anthropometric measures. Multi-trait sum s"
+  },
+  {
+    "task_instance_id": 230,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism, hormone-related traits, or sex-biased characteris"
+  },
+  {
+    "task_instance_id": 489,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SART1",
+    "raw_preview": "<|system|>\n<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits related to sex differences or sexual dimorphism. It could involve traits like "
+  },
+  {
+    "task_instance_id": 378,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits related to sex differences or sexual dimorphism. Such a score could encompass various biological, physiological, or"
+  },
+  {
+    "task_instance_id": 288,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits related to biological sex differences, possibly including hormone levels, anthropometric"
+  },
+  {
+    "task_instance_id": 418,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "ZBTB12",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the disease/trait and associated locus**: The GWAS phenotype is \"Neonatal circulating Complement Component 4 (C4) protein concentration.\" This is a circulating level of C4, which is known to be associated with immune and inflammatory traits. Complement C4"
+  },
+  {
+    "task_instance_id": 391,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "BDNF",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is Body Mass Index (BMI). BMI is a measure of body fat based on height and weight, widely used as an indicator of obesity and overall body composition. Genetic studies have identified numerous loci associated wit"
+  },
+  {
+    "task_instance_id": 498,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "TMEM175",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the phenotype/trait described: Parkinson's disease is a neurodegenerative disorder characterized by motor symptoms like tremors, rigidity, and bradykinesia, primarily due to loss of dopaminergic neurons in the substantia nigra. GWAS studies have identified multiple g"
+  },
+  {
+    "task_instance_id": 138,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SLCO1B1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: The GWAS phenotype is \"Metabolite levels (1-linoleucine)\". This indicates that the genetic association is with circulating levels of the amino acid proline-rich (Phe).\n\n2. **Consider known gene-trait associat"
+  },
+  {
+    "task_instance_id": 62,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "APOA4",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex traits (e.g."
+  },
+  {
+    "task_instance_id": 471,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "INHBB",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease/trait and associated locus**: The GWAS phenotype is \"Prostate cancer.\" The genes in the locus are: EBF41L5, GLI2, INHBB, RALB, TMEM185B. This suggests we are looking at a specific genomic region associated with prostate cancer ri"
+  },
+  {
+    "task_instance_id": 128,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "APOA4",
+    "raw_preview": "<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sex differences in complex traits (like ca"
+  },
+  {
+    "task_instance_id": 623,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "APOA4",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex traits (e.g."
+  },
+  {
+    "task_instance_id": 520,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "MYH13",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease/trait and associated locus**: The GWAS phenotype is \"Primary open angle glaucoma (multi-trait analysis)\". This is a common degenerative joint disease affecting the primary open angle of the amygdala or other genes. GWAS studies h"
+  },
+  {
+    "task_instance_id": 64,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "PRAM1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite measure or score derived from multiple traits related to sex differences or sexual dimorphism. It could involv"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "ATP6V1B2",
+    "ground_truth": "LPL",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**: \"Multi-trait sex score\" likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex traits (like anthropometric, metabolic, or hormonal traits"
+  },
+  {
+    "task_instance_id": 156,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CETP",
+    "raw_preview": "<|assistant|>\n<think>\nStep 1: Analyze the phenotype/trait described.\nThe GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism, hormone-related traits, or sex-biased characteris"
+  },
+  {
+    "task_instance_id": 40,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "NOTCH4",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease/trait and associated locus**  \n   The GWAS phenotype is \"Neonatal circulating Complement Component 4 (C4) protein concentration.\" This is a very specific circulating product related to complement C4. Complement C4 is a central pr"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "LONP1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Mitochondrial DNA copy number (adjusted)\". This refers to the number of copies of mitochondrial DNA per cell, which is an important biomarker for mitochondrial function, cellular en"
+  },
+  {
+    "task_instance_id": 379,
+    "score": 0.0,
+    "extracted": "\"A\" FOR LIPID TRAITS)",
+    "ground_truth": "PKD1L3",
+    "raw_preview": "<|assistant|>\n<think>\nLet's break this down step by step.\n\n1. **Analyze the phenotype/trait described**  \n   The GWAS phenotype is \"Multi-trait sex score.\" This likely refers to a composite score derived from multiple traits that differ between sexes, possibly related to sexual dimorphism in complex"
+  }
+]

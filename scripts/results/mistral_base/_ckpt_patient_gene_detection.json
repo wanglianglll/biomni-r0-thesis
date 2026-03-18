@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 212,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000131446\"]}",
+    "ground_truth": "ENSG00000161011",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000131446\"]}\n\nTo answer this question, we need to find the gene that is associated with the given phenotypes. We can use a database like OMIM (Online Mendelian Inheritance in Man) to find the genes associated with each phenotype. Then, we can find the intersecti"
+  },
+  {
+    "task_instance_id": 295,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000183072\"]}",
+    "ground_truth": "ENSG00000168291",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000183072\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\n1. ENSG00000070367 (OMIM: 600168) - Phenotypes: HP:0000343, HP:0000582, HP:0001251, HP:0001254, HP:0001510, HP:0001"
+  },
+  {
+    "task_instance_id": 457,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000138738\"]}",
+    "ground_truth": "ENSG00000137700",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000138738\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes' associated phenotypes.\n\nFirst, let's create a mapping of candidate genes to their associated phenotypes:\n\n{\n    \"ENSG00000183337\": [\"HP:0001250\", \"HP:0002719\", \"HP:00"
+  },
+  {
+    "task_instance_id": 251,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000179142\"]}",
+    "ground_truth": "ENSG00000179142",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000179142\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes' associated phenotypes.\n\n1. ENSG00000268221:\n   - Associated phenotypes: HP:0001508, HP:0001945, HP:0011739, HP:0031864, HP:0004749, HP:0012531, HP:0004447\n   - Overla"
+  },
+  {
+    "task_instance_id": 488,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000129167\"]}",
+    "ground_truth": "ENSG00000039650",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000129167\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Online Mendelian Inheritance in Man (OMIM) database to find the genes associated with the given phenotypes.\n\n1. HP:0001761 (Hypo"
+  },
+  {
+    "task_instance_id": 486,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000141524\"]}",
+    "ground_truth": "ENSG00000075624",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000141524\"]}\n\nTo answer this question, we will first need to map the phenotypes to their corresponding genes. This can be done by using a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping table that directly links the phe"
+  },
+  {
+    "task_instance_id": 303,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000181544\"]}",
+    "ground_truth": "ENSG00000158352",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000181544\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use Online Mendelian Inheritance in Man (OMIM) to find the genes associated with each phenotype.\n\n1. HP:0001007 (Congenital cataract)\n  "
+  },
+  {
+    "task_instance_id": 350,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000164309\"]}",
+    "ground_truth": "ENSG00000130812",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000164309\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in the literature.\n\n1. First, we will look for genes associated with each phenotype in the Human Phenotype Ontology (HPO) d"
+  },
+  {
+    "task_instance_id": 269,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000164946\"]}",
+    "ground_truth": "ENSG00000196924",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000164946\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Human Phenotype Ontology (HPO) to map the phenotypes to their corresponding genes.\n\nFirst, we will map the patient's phenotypes "
+  },
+  {
+    "task_instance_id": 201,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000169862\"]}",
+    "ground_truth": "ENSG00000185624",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000169862\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs in the candidate gene list.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\nFor this, we"
+  },
+  {
+    "task_instance_id": 161,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000133703\"]}",
+    "ground_truth": "ENSG00000133703",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000133703\"]}\n\nTo answer this question, we will first convert the phenotype codes to their corresponding gene symbols using a database such as OMIM or Orphanet. Then, we will check if any of the candidate genes are associated with these phenotypes.\n\nHere's a simp"
+  },
+  {
+    "task_instance_id": 43,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000197746\"]}",
+    "ground_truth": "ENSG00000197746",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000197746\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume that we have a mapping of each gene to its as"
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000170927\"]}",
+    "ground_truth": "ENSG00000170540",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000170927\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for this task, we will use a hypothetical database that contains the associ"
+  },
+  {
+    "task_instance_id": 401,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000168769\"]}",
+    "ground_truth": "ENSG00000168769",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000168769\"]}\n\nTo find the causal gene, we will use a step-by-step approach:\n\n1. Map the patient's phenotypes to their corresponding OMIM IDs.\n   We can use online resources like OMIM (Online Mendelian Inheritance in Man) or Orphanet to find the OMIM IDs for each"
+  },
+  {
+    "task_instance_id": 190,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000171094\"]}",
+    "ground_truth": "ENSG00000171094",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000171094\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet.\n\nLet's assume we have a database that maps the following phenotypes to the followin"
+  },
+  {
+    "task_instance_id": 309,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000111262\"]}",
+    "ground_truth": "ENSG00000111262",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000111262\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\n1. ENSG00000127249:\n   - Phenotypes: HP:0001717, HP:0031218, HP:0100764\n   - No match with the patient's phenotypes"
+  },
+  {
+    "task_instance_id": 259,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000138759\"]}",
+    "ground_truth": "ENSG00000081087",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000138759\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\n1. ENSG00000196811 (OMIM: 600185) - Phenotypes: HP:0000001, HP:0000002, HP:0000003, HP:0000004, HP:0000005, HP:0000006"
+  },
+  {
+    "task_instance_id": 105,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"FMR3\"]}",
+    "ground_truth": "ENSG00000165280",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"FMR3\"]}\n\nTo identify the causal gene, we will compare the patient's phenotypes with the genes associated with each candidate gene.\n\n1. ENSG00000177239 (Gene1)\n   - Associated phenotypes: HP:0001324, HP:0000708, HP:0002355, HP:0002354, HP:0031284, HP:0012531, HP:003100"
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000185344\"]}",
+    "ground_truth": "ENSG00000152700",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000185344\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nHe"
+  },
+  {
+    "task_instance_id": 389,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000123384\"]}",
+    "ground_truth": "ENSG00000143669",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000123384\"]}\n\nTo answer this question, we need to find the gene(s) that are associated with the given phenotypes. However, it's important to note that this task requires access to a database or knowledgebase that links genes to their associated phenotypes.\n\nFor "
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000168000\"]}",
+    "ground_truth": "ENSG00000173801",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000168000\"]}\n\nTo answer this question, we need to find the gene that is associated with the given phenotypes. We can use a database like OMIM (Online Mendelian Inheritance in Man) to find the genes associated with each phenotype. Then, we can find the intersecti"
+  },
+  {
+    "task_instance_id": 441,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000156345\"]}",
+    "ground_truth": "ENSG00000102030",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000156345\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nFi"
+  },
+  {
+    "task_instance_id": 482,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000125779\"]}",
+    "ground_truth": "ENSG00000125779",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000125779\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\n| Phenotype | OMIM ID |\n|-----------|--"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000187554\"]}",
+    "ground_truth": "ENSG00000171302",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000187554\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Online Mendelian Inheritance in Man (OMIM) database to find the genes associated with each phenotype.\n\n1. HP:0000470 (Hypopigmen"
+  },
+  {
+    "task_instance_id": 419,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000129757\"]}",
+    "ground_truth": "ENSG00000054983",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000129757\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\nMapping the phenotypes to OMIM IDs:\n\nHP:0000505 (Hypopigmentation of the skin) - OMIM ID: 11450"
+  },
+  {
+    "task_instance_id": 80,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000105983\"]}",
+    "ground_truth": "ENSG00000105983",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000105983\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume that we have a mapping of each phenotype to a"
+  },
+  {
+    "task_instance_id": 205,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000178209\"]}",
+    "ground_truth": "ENSG00000139219",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000178209\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs in the candidate gene list.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\nFor this, we"
+  },
+  {
+    "task_instance_id": 34,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000171714\"]}",
+    "ground_truth": "ENSG00000171714",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000171714\"]}\n\nTo find the causal gene, we need to match the patient's phenotypes with the genes associated with those phenotypes in the literature.\n\n1. HP:0009053 (Hearing loss, congenital, autosomal recessive, non-syndromic, sensorineural, moderate)\n   - Associ"
+  },
+  {
+    "task_instance_id": 263,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000182054\"]}",
+    "ground_truth": "ENSG00000148384",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000182054\"]}\n\nTo find the causal gene, we will use a gene-disease association database such as OMIM (Online Mendelian Inheritance in Man) or ClinVar. However, for simplicity, let's assume that we have a pre-computed association table that maps each phenotype to "
+  },
+  {
+    "task_instance_id": 427,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000169169\"]}",
+    "ground_truth": "ENSG00000055609",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000169169\"]}\n\nTo answer this question, we need to find the gene(s) that are associated with the given phenotypes. We can use a database like OMIM (Online Mendelian Inheritance in Man) to find the genes associated with each phenotype.\n\nFirst, we need to convert t"
+  },
+  {
+    "task_instance_id": 366,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000198668\"]}",
+    "ground_truth": "ENSG00000104381",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000198668\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to OMIM IDs:\n\nHP:0000762 (Hypopigmentation of the skin) - OMIM ID: 114500"
+  },
+  {
+    "task_instance_id": 91,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000167286\"]}",
+    "ground_truth": "ENSG00000162551",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000167286\"]}\n\nTo find the causal gene, we will use a combination of bioinformatics tools and databases.\n\n1. First, we will map the patient's phenotypes to OMIM IDs using the Human Phenotype Ontology (HPO) to OMIM mapping tool (https://omim.org/hpo/).\n\n2. Next, w"
+  },
+  {
+    "task_instance_id": 339,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000130707\"]}",
+    "ground_truth": "ENSG00000130707",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000130707\"]}\n\nTo find the causal gene, we need to match the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for simplicity, let's assume we have a local database with the following associations"
+  },
+  {
+    "task_instance_id": 473,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000170289\"]}",
+    "ground_truth": "ENSG00000125378",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000170289\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the genes associated with those phenotypes in the literature.\n\n1. HP:0000518 (Hearing loss, sensorineural) is associated with genes such as GJB2, MYO7A, and SLC26A4.\n2. HP:00"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000153922\"]}",
+    "ground_truth": "ENSG00000125459",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000153922\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nFi"
+  },
+  {
+    "task_instance_id": 345,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000197785\"]}",
+    "ground_truth": "ENSG00000012504",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000197785\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use a database of gene-disease associations to find the genes associated with the patient's phenotypes.\n\nFirst, let's convert the patien"
+  },
+  {
+    "task_instance_id": 264,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000102081\"]}",
+    "ground_truth": "ENSG00000102081",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000102081\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the genes' associated phenotypes.\n\n1. ENSG00000170689:\n   - Phenotypes: HP:0000276, HP:0001252, HP:0001388, HP:0002167, HP:0007018, HP:0011218, HP:0025270, HP:0001250, HP:003"
+  },
+  {
+    "task_instance_id": 241,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000135341\"]}",
+    "ground_truth": "ENSG00000010404",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000135341\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs in the candidate gene list.\n\n1. Map phenotypes to OMIM IDs:\n\n| Phenotype | OMIM ID |\n|-----------"
+  },
+  {
+    "task_instance_id": 13,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000198886\"]}",
+    "ground_truth": "ENSG00000203908",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000198886\"]}\n\nTo find the causal gene, we need to match the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nFirst, we'll "
+  },
+  {
+    "task_instance_id": 315,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000179148\"]}",
+    "ground_truth": "ENSG00000104774",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000179148\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use a database like OMIM to find the associated phenotypes for each gene.\n\n1. ENSG00000179148 (BRCA1)\n   - OMIM ID: 113705\n   - Associat"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000187736\"]}",
+    "ground_truth": "ENSG00000163702",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000187736\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a local database with the following a"
+  },
+  {
+    "task_instance_id": 387,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000134014\"]}",
+    "ground_truth": "ENSG00000213380",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000134014\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for this task, we will use a simplified approach by assuming that each gene in the "
+  },
+  {
+    "task_instance_id": 273,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000142192\"]}",
+    "ground_truth": "ENSG00000142192",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000142192\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\nHP:0001288 -> OMIM: 113700\nHP:0001297 -"
+  },
+  {
+    "task_instance_id": 166,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000117601\"]}",
+    "ground_truth": "ENSG00000204386",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000117601\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for this task, we will use a hypothetical database that contains the assoc"
+  },
+  {
+    "task_instance_id": 328,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000177465\"]}",
+    "ground_truth": "ENSG00000176884",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000177465\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes associated with each candidate gene.\n\n1. ENSG00000113924 (Gene1)\n   - Associated phenotypes: HP:0001250, HP:0001268, HP:0002463, HP:0007362, HP:0000369, HP:0011968, HP"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000116747\"]}",
+    "ground_truth": "ENSG00000060237",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000116747\"]}\n\nTo answer this question, we need to compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\nLet's assume we have a database that contains the phenotypes associated with each gene.\n\nWe can then check if the p"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000160882\"]}",
+    "ground_truth": "ENSG00000068078",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000160882\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for this task, we will use a hypothetical database that contains the assoc"
+  },
+  {
+    "task_instance_id": 306,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000171456\"]}",
+    "ground_truth": "ENSG00000165671",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000171456\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Online Mendelian Inheritance in Man (OMIM) database to find the associated phenotypes for each gene.\n\n1. ENSG00000131711 (OMIM: "
+  },
+  {
+    "task_instance_id": 480,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000167674\"]}",
+    "ground_truth": "ENSG00000101384",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000167674\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\n- HP:0000268: OMIM ID not found\n- HP:00"
+  },
+  {
+    "task_instance_id": 319,
+    "score": 0.0,
+    "extracted": "{'causal_gene': [\"ENSG00000164818\"]}",
+    "ground_truth": "ENSG00000102580",
+    "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000164818\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\nMapping the phenotypes to OMIM IDs:\n\nHP:0000819: OMIM ID not found\nHP:0002066: OMIM ID not foun"
+  }
+]

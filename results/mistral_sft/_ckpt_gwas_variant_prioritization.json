@@ -1,0 +1,303 @@
+[
+  {
+    "task_instance_id": 134,
+    "score": 1.0,
+    "extracted": "rs4253311",
+    "ground_truth": "rs4253311",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Bradykinin.\" Bradykinin is a peptide involved in inflammation and blood pressure regulation. Key genes related to bradykinin metabolism include the kininogen gene (KNG1), bradykin"
+  },
+  {
+    "task_instance_id": 178,
+    "score": 0.0,
+    "extracted": "rs1801133",
+    "ground_truth": "rs9369898",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is homocysteine levels. Known genes involved in homocysteine metabolism include MTHFR, CBS, MTR, MTRR, etc. I recall that a strong GWAS signal for homocysteine is often near the MTHFR"
+  },
+  {
+    "task_instance_id": 197,
+    "score": 0.0,
+    "extracted": "rs13375749",
+    "ground_truth": "rs7542172",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"erythritol.\" This is a common degenerative joint disease affecting the hip, characterized by cartilage breakdown. It involves immune dysregulation, inflammation, and vascular abno"
+  },
+  {
+    "task_instance_id": 63,
+    "score": 1.0,
+    "extracted": "rs1801725",
+    "ground_truth": "rs1801725",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**: The phenotype is Calcium. I recall that calcium levels are strongly influenced by the calcium-sensing receptor (CASR) gene. The CASR gene is located on chromosome 3. Variant rs1801725 is a well-known mi"
+  },
+  {
+    "task_instance_id": 54,
+    "score": 1.0,
+    "extracted": "rs4343",
+    "ground_truth": "rs4343",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**: The GWAS phenotype is \"Aspartylphenylalanine\". This is a dipeptide (Asp-Phe). It might be related to metabolism, possibly involving enzymes like ACE (angiotensin-converting enzyme) which is known to deg"
+  },
+  {
+    "task_instance_id": 107,
+    "score": 1.0,
+    "extracted": "rs6048216",
+    "ground_truth": "rs6048216",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"D-Glucose,\" which likely refers to blood glucose levels. GWAS for glucose levels often implicate genes involved in glucose metabolism, insulin secretion, etc. Without specific gen"
+  },
+  {
+    "task_instance_id": 50,
+    "score": 1.0,
+    "extracted": "rs603424",
+    "ground_truth": "rs603424",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is \"Myristic acid / Myristoleic acid\" — these are fatty acids. GWAS for fatty acid levels often implicate genes involved in lipid metabolism, such as FADS1, FADS2, SCD, or ELOVL genes."
+  },
+  {
+    "task_instance_id": 174,
+    "score": 0.0,
+    "extracted": "rs1280",
+    "ground_truth": "rs750472",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**: The phenotype is \"L-Alanine / L-Asparagine\" which are amino acids. This suggests the GWAS is likely about blood or plasma levels of asparagine. Genes involved in asparagine metabolism include ASNS (aspa"
+  },
+  {
+    "task_instance_id": 211,
+    "score": 0.0,
+    "extracted": "rs646776",
+    "ground_truth": "rs6687813",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   I need to recall or infer which genomic region is most strongly associated with D-dimer levels from known GWAS. D-dimer is a fibrin degradation product and a marker of coagulation and fibrinolysis. "
+  },
+  {
+    "task_instance_id": 169,
+    "score": 1.0,
+    "extracted": "rs532545",
+    "ground_truth": "rs532545",
+    "raw_preview": "<|assistant|>\n<think>\nI need to identify the most promising variant associated with uridine levels from the given list. Since I don't have access to actual GWAS summary statistics (p-values, effect sizes, etc.), I'll need to rely on biological reasoning and known information about these variants.\n\nL"
+  },
+  {
+    "task_instance_id": 58,
+    "score": 0.0,
+    "extracted": "rs17145738",
+    "ground_truth": "rs116843064",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is \"triglyceride measurement.\" I recall that triglycerides are linked to genes involved in lipid metabolism, such as FAM151A, FAM151B, FAM151E, etc. But I need to check which var"
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "rs4343",
+    "ground_truth": "rs3757354",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The GWAS phenotype is low density lipoprotein cholesterol (LDL-C) measurement. Known LDL-C GWAS loci include genes like *PCSK9*, *LDLR*, *APOB*, *HMGCR*, *CETP*, *LPA*, etc. I need to check which va"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 1.0,
+    "extracted": "rs2160860",
+    "ground_truth": "rs2160860",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is \"5-Hydroxy-L-tryptophan\". This is an intermediate in serotonin synthesis, likely related to tryptophan metabolism. Genes involved could include TPH1 (tryptophan hydroxylase 1)"
+  },
+  {
+    "task_instance_id": 21,
+    "score": 1.0,
+    "extracted": "rs4949874",
+    "ground_truth": "rs4949874",
+    "raw_preview": "<|assistant|>\n<think>\nI need to identify the most promising variant associated with the GWAS phenotype \"L-Acetylcarnitine|Hexanoylcarnitine\" from the given list. The phenotype appears to be related to carnitine metabolism, possibly a metabolite ratio or combined trait. I should prioritize based on s"
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "rs2547231",
+    "ground_truth": "rs3847502",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is high density lipoprotein cholesterol (HDL-C) measurement. Known genes associated with HDL-C include CETP, LIPC, LPL, APOA1, ABCA1, etc. I need to check which variant among the"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "rs3780181",
+    "ground_truth": "rs17279437",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is \"Dimethylglycine / L-Alanine\" – likely a metabolite ratio or related to glycine/alanine metabolism.  \n   I recall that dimethylglycine is involved in choline metabolism and glycine "
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "rs6564851",
+    "ground_truth": "rs12150660",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   I need to recall or infer which genes are near these variants in relation to testosterone. Testosterone GWAS hits often involve genes like SHBG (sex hormone-binding globulin), CYP17A1, CYP19A1, etc"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 1.0,
+    "extracted": "rs4687717",
+    "ground_truth": "rs4687717",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is \"Phosphate / Erythronic acid\". This likely relates to phosphate metabolism or a metabolite (erythronic acid is a sugar acid). Variants near genes involved in phosphate homeost"
+  },
+  {
+    "task_instance_id": 129,
+    "score": 0.0,
+    "extracted": "rs2404602",
+    "ground_truth": "rs4814176",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Hydroxysphingomyeline C24:1\". This is a metabolite related to branched-chain amino acid (BCAA) metabolism, specifically leucine catabolism. Hydroxysphingomyline C24:1 is derived f"
+  },
+  {
+    "task_instance_id": 37,
+    "score": 1.0,
+    "extracted": "rs2270968",
+    "ground_truth": "rs2270968",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is \"hydroxyisovaleroyl carnitine.\" This is a metabolite related to branched-chain amino acid (BCAA) metabolism, specifically leucine catabolism. Hydroxyisovaleroyl carnitine is derived"
+  },
+  {
+    "task_instance_id": 157,
+    "score": 0.0,
+    "extracted": "rs1805313",
+    "ground_truth": "rs748196",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The GWAS phenotype is \"2-Arachidonoylglycerophosphoinositol\". This looks like a lipid-related metabolite, possibly related to arachidonic acid metabolism. Arachidonoylglycerophosphoinositol is a pho"
+  },
+  {
+    "task_instance_id": 203,
+    "score": 0.0,
+    "extracted": "rs34100980",
+    "ground_truth": "rs2040771",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Citric acid.\" This is a medium-chain acylcarnitine, often associated with fatty acid oxidation and mitochondrial metabolism. Known genes involved in carnitine metabolism or acylca"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "rs1800562",
+    "ground_truth": "rs9637599",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**: The phenotype is L-Valine, which is an amino acid. This suggests the GWAS is likely about blood or plasma levels of valerol/keptin. Genes involved in valerol metabolism include VEGFA, VEGFR, VEGFR, VEGF"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "rs1801725",
+    "ground_truth": "rs1061808",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is \"similar to Phosphatidylcholine(18:0/14:0)\". This is a specific phospholipid metabolite. Phosphatidylcholine is a major phospholipid class.  \n   I recall that phosphatidylchol"
+  },
+  {
+    "task_instance_id": 149,
+    "score": 1.0,
+    "extracted": "rs13375749",
+    "ground_truth": "rs13375749",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is \"Glutarylcarnitine\" — this is a metabolite related to fatty acid metabolism, often associated with genetic variants in genes involved in carnitine metabolism or organic acid metabol"
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "rs1801725",
+    "ground_truth": "rs4253772",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is Cholesterol. Known genes associated with cholesterol levels include:  \n   - *CETP* (cholesteryl ester transfer protein)  \n   - *LDLR* (low-density lipoprotein receptor)  \n   -"
+  },
+  {
+    "task_instance_id": 151,
+    "score": 1.0,
+    "extracted": "rs2686796",
+    "ground_truth": "rs2686796",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Uridine.\" Uridine is a nucleoside that can be influenced by genes involved in pyrimidine metabolism, transport, or related pathways. Key genes might include uridine phosphorylase "
+  },
+  {
+    "task_instance_id": 103,
+    "score": 1.0,
+    "extracted": "rs2576452",
+    "ground_truth": "rs2576452",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The GWAS phenotype is \"Arachidonate|1-Arachidonoylglycerophosphoinositol\". This looks like a lipid-related metabolite, possibly related to arachidonic acid metabolism. Arachidonate is a polyunsatura"
+  },
+  {
+    "task_instance_id": 99,
+    "score": 0.0,
+    "extracted": "rs4941615",
+    "ground_truth": "rs5030062",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Bradykinin.\" Bradykinin is a peptide involved in inflammation and blood pressure regulation. Key genes related to bradykinin metabolism include the kininogen gene (KNG1), bradykin"
+  },
+  {
+    "task_instance_id": 116,
+    "score": 1.0,
+    "extracted": "rs3738934",
+    "ground_truth": "rs3738934",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is \"Nonanoylcarnitine\" (also known as C9-carnitine). This is a medium-chain acylcarnitine, often associated with fatty acid oxidation and mitochondrial metabolism. Known genes involved"
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "rs1800562",
+    "ground_truth": "rs3017098",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**: The phenotype is L-Asparagine, which is an amino acid. This suggests the GWAS is likely about blood or plasma levels of asparagine. Genes involved in asparagine metabolism include ASNS (asparagine synth"
+  },
+  {
+    "task_instance_id": 202,
+    "score": 1.0,
+    "extracted": "rs2073547",
+    "ground_truth": "rs2073547",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is low-density lipoprotein cholesterol (LDL-C) measurement. Known genes involved in LDL metabolism include LDLR, PCSK9, APOB, CETP, etc. I need to check which variant is near or within"
+  },
+  {
+    "task_instance_id": 74,
+    "score": 1.0,
+    "extracted": "rs2366858",
+    "ground_truth": "rs2366858",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is high-density lipoprotein cholesterol (HDL-C) measurement. Known genes associated with HDL-C include *CETP* (cholesteryl ester transfer protein), *LIPC* (hepatic lipase), *LPL* (lip"
+  },
+  {
+    "task_instance_id": 121,
+    "score": 0.0,
+    "extracted": "rs16942887",
+    "ground_truth": "rs10455872",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is Cholesterol. Known genes associated with cholesterol levels include:  \n   - *CETP* (cholesteryl ester transfer protein)  \n   - *LDLR* (low-density lipoprotein receptor)  \n   -"
+  },
+  {
+    "task_instance_id": 214,
+    "score": 1.0,
+    "extracted": "rs12288023",
+    "ground_truth": "rs12288023",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is N-Acetyl-L-phenylalanine, which is a metabolite related to phenylalanine metabolism. Likely genes involved could be those related to phenylalanine hydroxylation, acetylation, or tra"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "rs247616",
+    "ground_truth": "rs7529794",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"LysoPC(16:0)\". This is a specific phospholipid class. It might be related to fatty acid metabolism, possibly involving genes like FADS1, FADS2, SCD, or ELOVL genes. I need to chec"
+  },
+  {
+    "task_instance_id": 188,
+    "score": 0.0,
+    "extracted": "rs2229738",
+    "ground_truth": "rs6073958",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is high density lipoprotein cholesterol (HDL-C) measurement. Known genes associated with HDL-C include LIPC, CETP, LPL, APOA1, ABCA1, etc. I need to check which variant is in or "
+  },
+  {
+    "task_instance_id": 71,
+    "score": 1.0,
+    "extracted": "rs7159888",
+    "ground_truth": "rs7159888",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is \"N-glycan measurement.\" I recall that N-glycosylation involves many genes, but key ones include MGAT5 (mannosyl (alpha-1,6-)-glycoprotein beta-1,6-N-acetyl-glucosaminyltransfe"
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "rs3738934",
+    "ground_truth": "rs7954638",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"L-histidine.\" L-histidine is a nucleoside that can be influenced by genes involved in pyrimidine metabolism, transport, or related pathways. Key genes might include uridine phosph"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "rs1030420",
+    "ground_truth": "rs10087900",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The GWAS phenotype is high-density lipoprotein cholesterol (HDL-C) measurement. Known genes associated with HDL-C include CETP, LIPC, LPL, APOA1, ABCA1, etc. I need to check which variant among the"
+  },
+  {
+    "task_instance_id": 92,
+    "score": 1.0,
+    "extracted": "rs7883218",
+    "ground_truth": "rs7883218",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**  \n   The phenotype is Thyroxine (T4), a thyroid hormone. Thyroid hormone levels are influenced by genes involved in thyroid hormone synthesis, transport, metabolism, and regulation. Known genes include D"
+  },
+  {
+    "task_instance_id": 179,
+    "score": 1.0,
+    "extracted": "rs1800562",
+    "ground_truth": "rs1800562",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Iron.\" I recall that iron-related GWAS often implicate genes involved in iron metabolism, such as HFE (hemochromatosis), TMPRSS6 (matriptase-2), TF (transferrin), etc.  \n   Lookin"
+  },
+  {
+    "task_instance_id": 102,
+    "score": 1.0,
+    "extracted": "rs4941615",
+    "ground_truth": "rs4941615",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Examine the genomic region and nearby genes**:  \n   The phenotype is \"Ketoleucine,\" which is a metabolite related to branched-chain amino acid metabolism (leucine catabolism). This suggests genes involved in leucine metabolism, such as BCAT2, BCKDHA"
+  }
+]

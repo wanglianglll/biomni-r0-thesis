@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 212,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG\", \"ID\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000161011",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg': <ENSG ID>}\n        \nBiomedical question: Which gene is most likely to be causal for the patient's phenotype??\nTo identify the causal gene, I first need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0000474 - Short neck\nHP:0000733 "
+  },
+  {
+    "task_instance_id": 295,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000168291",
+    "raw_preview": "gene1 format: ENSGxxxxxx\n\nStep 1: I need to decode the HPO terms (HP:xxxxxx) to understand the patient's phenotypes.\nLet me recall or infer what these HPO terms represent:\n\n- HP:0000343: Intellectual disability\n- HP:0000582: Muscular hypotonia\n- HP:0001251: Poor speech\n- HP:0001254: Motor delay\n- HP"
+  },
+  {
+    "task_instance_id": 457,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000137700",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n\nFirst, I need to decode the HPO terms to understand the patient's phenotypes:\n\nHP:0001250 - Seizure\nHP:0002719 - Mental deterioration\nHP:0003077 - Dystonia\nHP:0004322 - Cerebral atrophy\nHP:0100543 - Neurodevelopmental delay\nHP:0004426 - Dysarthri"
+  },
+  {
+    "task_instance_id": 251,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000179142",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0002902 – I recall this is \"Frontal bossing\"\nHP:0012606 – \"Abnormal cortical bone morphology\"\nHP:0001508 – \"Failure to thrive\"\nHP:0001945 – \"Fever\"\nHP:0011739 – \""
+  },
+  {
+    "task_instance_id": 488,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000039650",
+    "raw_preview": "gene1 = 'ENSG00000197912' or 'ENSG00000244687' or 'ENSG00000116014' or 'ENSG00000129167' or 'ENSG00000043355' or 'ENSG00000130600' or 'ENSG00000141682' or 'ENSG00000186439' or 'ENSG00000166949' or 'ENSG00000226983' or 'ENSG00000204103' or 'ENSG00000039650' or 'ENSG00000074266' or 'ENSG00000152217'\n\n"
+  },
+  {
+    "task_instance_id": 486,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000075624",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nBegin by mapping phenotypes to HPO terms and then analyze the pattern.\nI'll start by mapping the HPO terms to their descriptions to understand the patient's phenotypes.\n\nHP:0000348 - High palate\nHP:0000407 - Sensorineural hearing impairme"
+  },
+  {
+    "task_instance_id": 303,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HP\", \"JSON\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000158352",
+    "raw_preview": "gene1 = 'ENSG00000102001' if correct, '' otherwise\n\nQuery:\nStep 1: Analyze the given phenotypes (HP terms) to understand the patient's clinical features.\nStep 2: Identify patterns or combinations of symptoms that might suggest a known genetic disorder.\nStep 3: From the list of candidate genes, selec"
+  },
+  {
+    "task_instance_id": 350,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000130812",
+    "raw_preview": "gene1 = ENSG00000100348\n\nStep 1: Decode the HPO terms to understand the patient's phenotypes.\nHP:0007029 - Decreased nerve conduction velocity\nHP:0001123 - Gait disturbance\nHP:0001250 - Poor coordination\nHP:0001269 - Dysdiadochokinesis\nHP:0002363 - Distal sensory impairment\nHP:0002647 - Skeletal mus"
+  },
+  {
+    "task_instance_id": 269,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": []}",
+    "ground_truth": "ENSG00000196924",
+    "raw_preview": "gene1 = 'ENSG000001...' \n\nInstructions: Map the phenotypes to their most likely genetic cause from the list of candidate genes. Only return the JSON object with the causal gene.\n         If you cannot determine a causal gene, return {\"causal_gene\": []}.\n         Make sure your answer is biologically"
+  },
+  {
+    "task_instance_id": 201,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000185624",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exact match including capitalization)\n\nStep 1: I need to decode the HPO terms to understand the patient's phenotypes. Let me list the HPO IDs with their known meanings:\n\nHP:0000262 - Dolichocephaly\nHP:0000494 - Downslanted palpebral fissures\nHP:0000520 - Proptosis\nHP:000059"
+  },
+  {
+    "task_instance_id": 161,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"URL\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000133703",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exact match including capitalization)\n        \nBiomedical knowledge graph URL: http://127.0.0.1:7474/browser/#/node/HP%3A0000269-HP%3A0000324-HP%3A0000568-HP%3A0000612-HP%3A0001252-HP%3A0001305-HP%3A0001347-HP%3A0002007-HP%3A0002816-HP%3A0007360-HP%3A0007370-HP%3A0009720-HP"
+  },
+  {
+    "task_instance_id": 43,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG\", \"ID\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000197746",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg': <ENSG ID>}\n\nStep 1: Map the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\n\nHP:0000496 - Strabismus\nHP:0001252 - Muscular hypotonia\nHP:0001332 - Dystonia\nHP:0001336 - Myoclonus\nHP:0001522 - Death in infancy\nHP:0001744 "
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HP\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000170540",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nBiomedical question: Which gene is most likely to be the causal gene for the given patient's phenotypes?\n        \nPhenotype mapping: HP:0002355 → Cerebral atrophy; HP:0005109 → Global developmental delay; HP:0007178 → Spasticity; HP:00108"
+  },
+  {
+    "task_instance_id": 401,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSGXXXXXX\", \"HPO\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000168769",
+    "raw_preview": "gene1 format: ENSGXXXXXX\n\nStep 1: I need to decode the HPO terms first to understand the patient's phenotypes.\n\nLet me recall or infer what these HPO terms represent:\n\n- HP:0010972: Abnormality of the immune system\n- HP:0001945: Fever\n- HP:0001962: Palpitations\n- HP:0002875: Dysphagia\n- HP:0001873: "
+  },
+  {
+    "task_instance_id": 190,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000171094",
+    "raw_preview": "gene1 = 'ENSG00000163017' or 'ENSG00000136104' or 'ENSG00000183242' or 'ENSG00000171094' or 'ENSG00000134259' or 'ENSG00000185666' or 'ENSG00000164309' or 'ENSG00000141086' or 'ENSG00000143178' or 'ENSG00000137693' or 'ENSG00000177189' or 'ENSG00000185634' or 'ENSG00000174527'\n\nStep 1: Map HPO terms"
+  },
+  {
+    "task_instance_id": 309,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000111262",
+    "raw_preview": "gene1 = 'ENSG00000127249'\n        \nNote: The list may contain up to 20 candidate genes. The correct answer is provided for reference.\n\nStep 1: Map the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\n\nHP:0002172 - Intracranial hemorrhage\nHP:0002370 - Seizure\n"
+  },
+  {
+    "task_instance_id": 259,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HP\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000081087",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nBiomedical question: What is the causal gene for the following phenotype collection? {HP:0004330, HP:0006824, HP:0009830, HP:0025517, HP:0007367, HP:0000405, HP:0002120, HP:0001273, HP:0100256, HP:0025116, HP:0009102}\nOptions:\nA.MROH1\nB.F"
+  },
+  {
+    "task_instance_id": 105,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"UCSC\", \"BEGIN\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000165280",
+    "raw_preview": "(where gene1 is the most likely causal gene)\n         or None if the causal gene cannot be determined from the information given.\n         Make sure that gene symbols are correct and matched to UCSC gene names.\n         Do not round any values.\n        \nBEGIN\nFirst, I need to decode the HPO terms (H"
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000152700",
+    "raw_preview": "gene1 = 'ENSG00000172062' or 'ENSG00000165688' or 'ENSG00000106070' or 'ENSG00000152700' or 'ENSG00000185344' or 'ENSG00000108602' or 'ENSG00000143622' or 'ENSG00000042317' or 'ENSG00000187498'\n\nStep 1: Decode the HPO terms to understand the patient's phenotypes.\nHP:0002014 - Seizure\nHP:0003146 - Gl"
+  },
+  {
+    "task_instance_id": 389,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HP\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000143669",
+    "raw_preview": "gene1 = ENSG00000165409\n         gene1 = ENSG00000196411\n         gene1 = ENSG00000169876\n         gene1 = ENSG00000107562\n         gene1 = ENSG00000123384\n         gene1 = ENSG00000143669\n         gene1 = ENSG00000119537\n         gene1 = ENSG00000181027\n         gene1 = ENSG00000129226\n         gen"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HP\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000173801",
+    "raw_preview": "(where gene1 is the most likely causal gene)\n\nBiomedical question: Which gene is most likely to be the causal gene for the following phenotype collection in a patient? {HP:0000982, HP:0004751, HP:0010719, HP:0000113, HP:0001324, HP:0001640, HP:0003202, HP:0000708, HP:0011675, HP:0001948, HP:0000956,"
+  },
+  {
+    "task_instance_id": 441,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000102030",
+    "raw_preview": "gene1 format: ENSGxxxxxx\n\nStep 1: Map the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\nHP:0000270 - Coarse facial features\nHP:0001263 - Conductive hearing impairment\nHP:0002059 - Anteverted nares\nHP:0002650 - Short neck\nHP:0000369 - Large fontanelles\nHP:0"
+  },
+  {
+    "task_instance_id": 482,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000125779",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nAnswer:\n\nLet me first decode the HPO terms to understand the patient's phenotypes:\n\nHP:0000737 - Decreased nerve conduction velocity\nHP:0001300 - Gait disturbance\nHP:0002063 - Poor coordination\nHP:0002493 - Distal sensory impairment\nHP:01"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000171302",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nBegin:\n\nFirst, I need to decode the HPO terms to understand the patient's phenotypes. Let me list them with their known meanings:\n\n- HP:0000470: Short neck\n- HP:0000501: Depressed nasal bridge\n- HP:0001249: Intellectual disability\n- HP:00"
+  },
+  {
+    "task_instance_id": 419,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000054983",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n\nAnswer:\nLet me first decode the HPO terms to understand the patient's phenotypes:\n\nHP:0000505 - Visual impairment\nHP:0000708 - Behavioral abnormality\nHP:0000763 - Pectus excavatum\nHP:0001824 - Weight loss\nHP:0002205 - Respiratory distress\nHP:0002"
+  },
+  {
+    "task_instance_id": 80,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG000001\", \"ID\", \"HP\", \"HPO\", \"HPO\"]}",
+    "ground_truth": "ENSG00000105983",
+    "raw_preview": "gene1 = 'ENSG000001...' (exact Ensembl ID)\n\nNote: The patient phenotypes are given as HP IDs. You need to decode them to understand the patient's clinical features. Refer to the Human Phenotype Ontology (HPO) to map the IDs to known traits.\n\nLet me start by decoding the HPO IDs to understand the pat"
+  },
+  {
+    "task_instance_id": 205,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSGXXXXXX\", \"HPO\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000139219",
+    "raw_preview": "gene1 format: ENSGXXXXXX or None\n\nStep 1: I need to decode the HPO terms first to understand the patient's phenotypes.\nLet me recall or infer what these HPO terms represent:\n\n- HP:0000545: Myopia\n- HP:0000926: Platyspondyly\n- HP:0001373: Flexion contracture\n- HP:0002751: Osteoarthritis\n- HP:0002857:"
+  },
+  {
+    "task_instance_id": 34,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000171714",
+    "raw_preview": "gene1 = 'ENSG00000103449' or 'ENSG00000247626' or 'ENSG00000130702' or 'ENSG00000204386' or 'ENSG00000171714' or 'ENSG00000155657' or 'ENSG00000131711' or 'ENSG00000147804' or 'ENSG00000115221'\n\nStep 1: Translate the HPO terms into human-readable phenotypes.\nHP:0009053 - Decreased nerve conduction v"
+  },
+  {
+    "task_instance_id": 263,
+    "score": 1.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000148384\"]}",
+    "ground_truth": "ENSG00000148384",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exactly 9 characters including x)\n        \nBiomedical knowledge graph query: https://biomodels.net/model/60f55330-093a-11ec-9d6c-0ac135e8c1bf?tab=pheno_genotype_interactions\n         This is the query to get the gene from phenotypes. Make sure your answer matches one of the"
+  },
+  {
+    "task_instance_id": 427,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"FINAL\", \"ANSWER\"]}",
+    "ground_truth": "ENSG00000055609",
+    "raw_preview": "gene1 format: ENSG00000035664\n\nNote: HP:xxxxxx are HPO terms. You need to interpret them to understand the patient's phenotypes. Start by mapping the HPO terms to their descriptions to understand the patient's clinical features.\n\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000162711\"]} FINAL ANSWER: {\"cau"
+  },
+  {
+    "task_instance_id": 366,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"JSON\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000104381",
+    "raw_preview": "(where [gene1] is the Gene Symbol of the identified causal gene)\n\nAnswer in JSON format.\nStep 1: Translate the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\n\nHP:0000762 - Decreased nerve conduction velocity\nHP:0001288 - Gait disturbance\nHP:0002460 - Poor c"
+  },
+  {
+    "task_instance_id": 91,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ID\", \"HPO\", \"HP\", \"HPO\", \"HP\"]}",
+    "ground_truth": "ENSG00000162551",
+    "raw_preview": "(where gene1 is the Gene ID)\n\nAnswer:\n\nFirst, I need to decode the HPO terms (HP:xxxxxx) to understand the patient's phenotypes. Let me recall or infer what these HPO terms represent:\n\n- HP:0000164: Abnormality of the teeth\n- HP:0000239: Large fontanelles\n- HP:0000737: Irritability\n- HP:0000944: Ove"
+  },
+  {
+    "task_instance_id": 339,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSG00000107404\"]} The given phenotypes are:",
+    "ground_truth": "ENSG00000130707",
+    "raw_preview": "gene1 = Ensembl gene ID (e.g., ENSG00000123456)\n\nInstructions: Map the phenotypes to OMIM, find the gene with the given candidate list.\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000107404\"]} The given phenotypes are:\n- HP:0001987 (fever)\n- HP:0011966 (pneumonia)\n- HP:0001399 (shortness of breath)\n- HP:0"
+  },
+  {
+    "task_instance_id": 473,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HPO\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000125378",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nBegin by mapping the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\nLet's start by mapping the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\n\nFirst, I "
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"FINAL\", \"ANSWER\"]}",
+    "ground_truth": "ENSG00000125459",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exact match including capitalization)\n        \nBiomedical question: What is the causal gene for the following phenotype collection? {list of HPO terms}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000153922\"]} FINAL ANSWER: {\"causal_gene\": [\"ENSG00000153922\"]}\n\nI'll explain my rea"
+  },
+  {
+    "task_instance_id": 345,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000012504",
+    "raw_preview": "gene1 format: ENSG00000123456\n\nStep 1: I need to decode the HPO terms first to understand the patient's phenotypes.\nLet me recall or infer what these HPO terms represent:\n\n- HP:0001508: Splenomegaly\n- HP:0001744: Breast carcinoma\n- HP:0001872: Ovarian carcinoma\n- HP:0001928: Renal carcinoma\n- HP:000"
+  },
+  {
+    "task_instance_id": 264,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000102081",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nResponse:\n\nLet me first decode the HPO terms to understand the patient's phenotypes:\n\nHP:0000276 - Decreased nerve conduction velocity\nHP:0001252 - Gait disturbance\nHP:0001388 - Poor coordination\nHP:0002167 - Distal sensory impairment\nHP:"
+  },
+  {
+    "task_instance_id": 241,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000010404",
+    "raw_preview": "gene1 = 'ENSG00000179583' etc\n\n         (If unsure, return None)\n\nLet me first decode the HPO terms to understand the patient's phenotypes:\n\nHP:0000280 - Coarse facial features\nHP:0000403 - Conductive hearing impairment\nHP:0000457 - Anteverted nares\nHP:0000470 - Short neck\nHP:0000687 - Prominent sup"
+  },
+  {
+    "task_instance_id": 13,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"BAG3\"]}",
+    "ground_truth": "ENSG00000203908",
+    "raw_preview": "(where [gene1] is the Gene Symbol)\n\nBiomedical question: What is the causal gene for the following phenotype collection? {HP:0001903, HP:0002017, HP:0100878, HP:0400008, HP:0000752, HP:0002487, HP:0000836, HP:0005268, HP:0011069, HP:0001274, HP:0001942, HP:0002902}\nOptions: {ENSG00000106128: 'BAG3',"
+  },
+  {
+    "task_instance_id": 315,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"FINAL\", \"ANSWER\"]}",
+    "ground_truth": "ENSG00000104774",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exact match including capitalization)\n\nPlease provide the candidate gene that is most likely to be the causal gene based on the phenotypes given. If multiple genes are equally likely, provide all genes in alphabetical order.\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000183010\","
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000163702",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exact match including capitalization)\n\nStep 1: I need to decode the HPO terms first to understand the patient's phenotypes.\nLet me recall or infer what these HPO terms represent:\n\n- HP:0000153: Premature closure of fontanelles (craniosynostosis)\n- HP:0000988: Abnormality of"
+  },
+  {
+    "task_instance_id": 387,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000213380",
+    "raw_preview": "gene1 format: ENSG00000126749\n\nStep 1: First, I need to decode the HPO terms (HP:xxxxxx) to understand the patient's phenotypes. Let me recall or infer what these HPO terms represent:\n\n- HP:0001249: Intellectual disability\n- HP:0002421: Poor speech\n- HP:0002465: Motor delay\n- HP:0012537: Spasticity\n"
+  },
+  {
+    "task_instance_id": 273,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000142192",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nBegin by mapping the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\nLet's break this down step by step.\n\nFirst, I need to decode the HPO IDs to understand the patient's phenotypes.\n\nHP:0001288 - "
+  },
+  {
+    "task_instance_id": 166,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"XXX\", \"XXX\", \"HPO\", \"HPO\", \"HP\"]}",
+    "ground_truth": "ENSG00000204386",
+    "raw_preview": "gene1 format: {'gene': XXX, 'chromosome': XXX}\n        \nNote: You need to first decode the HPO terms to understand the patient's phenotypes. Take your time and list any additional information you might need.\n\nI will provide you with the HPO terms in groups. Let me start with the first group:\n\nHP:000"
+  },
+  {
+    "task_instance_id": 328,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"ENSGXXXXXX\", \"HPO\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000176884",
+    "raw_preview": "gene1 format: ENSGXXXXXX\n\nStep 1: I need to decode the HPO terms first to understand the patient's phenotypes.\n\nHP:0001250 - Seizure\nHP:0001268 - Mental deterioration\nHP:0002463 - Dystonia\nHP:0007362 - Cerebral atrophy\nHP:0000369 - Low-set ears\nHP:0011968 - Feeding difficulties in infancy\nHP:0410011"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"JSON\", \"HPO\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000060237",
+    "raw_preview": "(where gene1 is the gene symbol as a string)\n\nAnswer in JSON format.\nStep 1: Decode the HPO terms to understand the patient's phenotypes.\nLet me start by decoding the HPO IDs:\n\nHP:0000822 - Hypertension\nHP:0001324 - Muscle weakness\nHP:0000164 - Abnormality of the dentition\nHP:0000682 - Dental crowdi"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": []}",
+    "ground_truth": "ENSG00000068078",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'ensg_id': <ensg_id>}\n        \nPhenotypes need to be mapped to HPO terms first.\nFINAL ANSWER: {\"causal_gene\": []}\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0000256 - Seizure\nHP:000077"
+  },
+  {
+    "task_instance_id": 306,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"BRCA1\", \"HPO\", \"HPO\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000165671",
+    "raw_preview": "gene1 format: {'gene': <gene>, 'chromosome': <chrom>}\n         e.g., {\"causal_gene\": [{\"gene\": \"BRCA1\", \"chromosome\": \"17\"}]}\n            \nAnswer:\n\nFirst, I need to decode the HPO terms to understand the patient's phenotypes. Let me list the HPO IDs with their known meanings:\n\nHP:0001744 - Hyperrefl"
+  },
+  {
+    "task_instance_id": 480,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000101384",
+    "raw_preview": "gene1 format: ENSGxxxxxx (exactly 9 characters including x)\n\nStep 1: Map the HPO terms to their phenotypic descriptions to understand the patient's clinical features.\n\nHP:0000268 - Coarse facial features\nHP:0000337 - Conductive hearing impairment\nHP:0001156 - Anteverted nares\nHP:0001511 - Epicanthus"
+  },
+  {
+    "task_instance_id": 319,
+    "score": 0.0,
+    "extracted": "{\"causal_gene\": [\"HPO\", \"HP\", \"HP\", \"HP\", \"HP\"]}",
+    "ground_truth": "ENSG00000102580",
+    "raw_preview": "(where gene1 is the gene symbol as a string)\n\nAnswer:\n\nFirst, I need to decode the HPO terms (HP:xxxxxx) to understand the patient's phenotypes.\n\nHP:0000819 - Hypertension\nHP:0002066 - Muscle weakness\nHP:0002522 - Cardiomegaly\nHP:0004325 - Respiratory distress\nHP:0006827 - Peripheral neuropathy\nHP:0"
+  }
+]

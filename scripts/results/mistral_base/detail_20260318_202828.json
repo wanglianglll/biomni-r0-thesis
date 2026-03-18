@@ -1,0 +1,3053 @@
+{
+  "crispr_delivery": [
+    {
+      "task_instance_id": 10,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "a",
+      "raw_preview": "- Reasoning:\n\n- Most relevant method: c. RNP/mRNA electroporation\n- Reasoning: HEK293T cells are adherent cells, making transfection methods like plasmid transfection less efficient. Viral vectors like lentivirus/retrovirus may integrate into the genome, potentially causing unintended mutations. RNP"
+    },
+    {
+      "task_instance_id": 22,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "- Reasoning:\n\n- Most relevant method: c. RNP/mRNA electroporation\n- Reasoning: RNP/mRNA electroporation is a transient method that allows for efficient gene editing in primary cells, such as T-cells, without the need for viral integration. This method is particularly useful for gene editing in prima"
+    },
+    {
+      "task_instance_id": 18,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "- Brief explanation:\n\n- Most relevant method: c\n- Brief explanation: RNP/mRNA electroporation is a fast and efficient method for in vivo gene editing, particularly for transient gene expression in skin cells. This method involves the delivery of Cas9 RNP complexes and mRNA into the cells, which can "
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "- Reasoning:\n\n- Most relevant method: c. RNP/mRNA electroporation\n- Reasoning: RNP/mRNA electroporation is a transient method that allows for efficient and precise editing of specific genes in human cells, including organoids. This method is particularly useful for editing primary cells, such as tho"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "a",
+      "raw_preview": "- Brief explanation:\n\n- Most relevant method: c\n- Brief explanation: RNP/mRNA electroporation is a fast and efficient method for transient gene editing in cell lines like HeLa. It does not require the integration of the editing machinery into the genome, which can reduce off-target effects and simpl"
+    },
+    {
+      "task_instance_id": 7,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "- Reasoning:\n\n- Most relevant method: c. RNP/mRNA electroporation\n- Reasoning: Primary macrophages are difficult to transfect with plasmids due to their low transfection efficiency. Viral vectors like lentivirus/retrovirus may integrate into the genome, which could potentially cause unwanted mutatio"
+    },
+    {
+      "task_instance_id": 42,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "- Reasoning:\n\n- Most relevant method: c. RNP/mRNA electroporation\n- Reasoning: Primary macrophages are difficult to transfect with plasmids due to their low transfection efficiency. Viral vectors like lentivirus/retrovirus may integrate into the genome, which could potentially cause unwanted mutatio"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "- Reasoning:\n\n- Most relevant method: c. RNP/mRNA electroporation\n- Reasoning: RNP/mRNA electroporation is a highly efficient method for transient gene editing in organoids, as it does not require integration into the genome, which could potentially disrupt other genes. This method is also suitable "
+    },
+    {
+      "task_instance_id": 28,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "e",
+      "raw_preview": "- Brief explanation:\n\n- Most relevant method: c\n- Brief explanation: RNP/mRNA electroporation is a highly efficient method for in vivo gene editing, especially for transient gene expression in liver cells. This method involves the delivery of Cas9 RNP complexes and mRNA encoding the desired gene, wh"
+    },
+    {
+      "task_instance_id": 38,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "f",
+      "raw_preview": "- Brief explanation:\n\n- Most relevant method: c\n- Brief explanation: RNP/mRNA electroporation is a fast and efficient method for in vivo gene editing, making it suitable for editing the mouse eye. This method involves delivering the Cas9 protein and guide RNA complex (RNP) or mRNA encoding Cas9 and "
+    }
+  ],
+  "gwas_causal_gene_gwas_catalog": [
+    {
+      "task_instance_id": 630,
+      "score": 0.0,
+      "extracted": "APOA1",
+      "ground_truth": "APOA4",
+      "raw_preview": "APOA1, APOA4, APOA5, and APOC3 are all part of the Apolipoprotein family, which are involved in lipid metabolism and transport. Among these, APOA1 is known to be associated with sex hormone-binding globulin levels, a sex hormone, and sex-specific traits. Therefore, it is a strong candidate for the c"
+    },
+    {
+      "task_instance_id": 591,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "APOA4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is likely that the causal gene for Multi-trait sex score is PCSK7. This gene has been associated with sex hormone-binding globulin levels, which are related to sex traits.\n\nFINAL ANSWER: PCSK7"
+    },
+    {
+      "task_instance_id": 541,
+      "score": 0.0,
+      "extracted": "DGUOK",
+      "ground_truth": "NAT8",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for N-acetylasparagine metabolite levels is DGUOK. This gene is known to be involved in the metabolism of asparagine and its derivatives, making it a strong candidate for this GWAS phenotype.\n\nFINAL A"
+    },
+    {
+      "task_instance_id": 85,
+      "score": 0.0,
+      "extracted": "ALDH3B1",
+      "ground_truth": "ACY3",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have identified a potential candidate gene that could be associated with the metabolite levels of N-acetyltryptophan. The gene ALDH3B1 encodes for aldehyde dehydrogenase 3 family, member B1, an enzyme that plays a crucial"
+    },
+    {
+      "task_instance_id": 242,
+      "score": 0.0,
+      "extracted": "CXCL6",
+      "ground_truth": "RASSF6",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings regarding prostate cancer genetics.\n\nOne of the most well-known genes associated with prostate cancer is the \"CXCL12\" gene, which encodes the C-X-C motif chem"
+    },
+    {
+      "task_instance_id": 159,
+      "score": 1.0,
+      "extracted": "RNF213",
+      "ground_truth": "RNF213",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found that RNF213 is a strong candidate gene for Moyamoya disease. RNF213 has been previously associated with vascular diseases, and several studies have reported mutations in this gene in patients with Moyamoya dise"
+    },
+    {
+      "task_instance_id": 35,
+      "score": 0.0,
+      "extracted": "NDUFA11",
+      "ground_truth": "LONP1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to note that Mitochondrial DNA copy number regulation is primarily controlled by genes involved in mitochondrial biogenesis, replication, and maintenance. Among the given genes, NDUFA11 is a subunit of compl"
+    },
+    {
+      "task_instance_id": 170,
+      "score": 0.0,
+      "extracted": "NOT DETERMINABLE FROM THE GIVEN LIST",
+      "ground_truth": "PRKAG1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with body mass index or obesity. One such gene is the FTO gene, which is a strong candidate for body mass index regulation. However, the FTO gene is not"
+    },
+    {
+      "task_instance_id": 543,
+      "score": 0.0,
+      "extracted": "LZTS1",
+      "ground_truth": "LPL",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, it is important to consider the biological relevance of each gene to the sex score.\n\n1. ATP6V1B2: This gene encodes a subunit of the vacuolar H+ ATPase, which is involved in acidification of intracellular organelles. It d"
+    },
+    {
+      "task_instance_id": 535,
+      "score": 0.0,
+      "extracted": "MRPS11",
+      "ground_truth": "ACAN",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with sex-related traits or sex determination. Among the given genes, one of the genes, MRPS11, has been associated with sex determination in humans. Spe"
+    },
+    {
+      "task_instance_id": 601,
+      "score": 0.0,
+      "extracted": "NOT ENOUGH INFORMATION PROVIDED TO DETERMINE A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as the specific SNPs associated with the phenotype, their locations, and their effects on gene expression or function. Howeve"
+    },
+    {
+      "task_instance_id": 95,
+      "score": 0.0,
+      "extracted": "LZTS1",
+      "ground_truth": "LPL",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, it is important to consider the biological relevance of each gene to the sex score.\n\n1. ATP6V1B2: This gene encodes a subunit of the vacuolar H+ ATPase, which is involved in acidification of intracellular organelles. It d"
+    },
+    {
+      "task_instance_id": 240,
+      "score": 0.0,
+      "extracted": "NLRP3",
+      "ground_truth": "TRIM58",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to pinpoint a single likely causal gene without additional information such as linkage analysis, functional studies, or prior knowledge of the gene's role in platelet biology. However, among the given genes,"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 0.0,
+      "extracted": "UNABLE TO DEFINITIVELY IDENTIFY A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the locus are known to be involved in sex determination or sex hormone regulation.\n\nFor example, the gene C"
+    },
+    {
+      "task_instance_id": 557,
+      "score": 0.0,
+      "extracted": "ZFP69",
+      "ground_truth": "SLFNL1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings related to each gene and the multi-trait sex score.\n\nThe multi-trait sex score is a measure that combines various traits related to sex differences, such as r"
+    },
+    {
+      "task_instance_id": 206,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, I have found that SLC39A8 is a strong candidate for the causal gene associated with central nucleus volume. This gene encodes a Zn(II) transporter and has been implicated in various neurological disorders, including Alzheimer's dis"
+    },
+    {
+      "task_instance_id": 392,
+      "score": 0.0,
+      "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+    },
+    {
+      "task_instance_id": 397,
+      "score": 0.0,
+      "extracted": "MT1A",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score without additional information such as functional studies, linkage analysis, or other genetic evidence. However, some genes in the "
+    },
+    {
+      "task_instance_id": 536,
+      "score": 0.0,
+      "extracted": "NOT ENOUGH INFORMATION PROVIDED TO DETERMINE A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as the specific SNPs associated with the phenotype, their locations, and their effects on gene expression or function. Howeve"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 1.0,
+      "extracted": "BDNF",
+      "ground_truth": "BDNF",
+      "raw_preview": "After analyzing the given data, I have found that the BDNF gene is a strong candidate for the causal gene associated with smoking initiation. This gene encodes the brain-derived neurotrophic factor, which plays a crucial role in the development, maintenance, and function of the nervous system. Studi"
+    },
+    {
+      "task_instance_id": 4,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found that the SLC39A8 gene is a strong candidate for the causal gene associated with the Anterior amygdaloid area volume. This gene has been previously implicated in brain development and volume regulation, making i"
+    },
+    {
+      "task_instance_id": 568,
+      "score": 0.0,
+      "extracted": "AMFR",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that are known to be associated with sex-related traits or sex hormones. Among the given genes, the only one that is strongly associated with sex is the gene for the androgen receptor, AMFR"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 1.0,
+      "extracted": "SULT1A1",
+      "ground_truth": "SULT1A1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that are known to be involved in metabolism and metabolic pathways. Among the given genes, SULT1A1 and SULT1A2 are sulfotransferases, enzymes that catalyze the transfer of a sulfate group f"
+    },
+    {
+      "task_instance_id": 406,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "CEP164",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Triglyceride to HDL cholesterol ratio is PCSK7. This gene has been associated with lipid metabolism and triglyceride levels in several studies.\n\nFINAL ANSWER: PCSK7"
+    },
+    {
+      "task_instance_id": 502,
+      "score": 0.0,
+      "extracted": "WNK1",
+      "ground_truth": "B4GALNT3",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, replication in other populations, and fine-mapping. However, one gene that has been associated with se"
+    },
+    {
+      "task_instance_id": 47,
+      "score": 0.0,
+      "extracted": "UNABLE TO DEFINITIVELY IDENTIFY A SINGLE CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the list are known to be involved in sex determination or sex hormone regulation.\n\nFor example, the gene CE"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "APOA1",
+      "ground_truth": "APOA4",
+      "raw_preview": "APOA1, APOA4, APOA5, and APOC3 are all part of the Apolipoprotein family, which are involved in lipid metabolism. APOA1 is known to be associated with lipid levels and has been implicated in sex differences in lipid metabolism. PAFAH1B2, SIK3, and ZPR1 have no known direct association with sex or se"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, the most likely causal gene for Central nucleus volume is {SLC39A8}. This gene has been associated with various neurodegenerative diseases, and its expression levels have been shown to affect neuronal morphology and funct"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 1.0,
+      "extracted": "SLC39A8",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "FINAL ANSWER: SLC39A8"
+    },
+    {
+      "task_instance_id": 559,
+      "score": 0.0,
+      "extracted": "GCKR",
+      "ground_truth": "TRIM54",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for a multi-trait sum score could be GWAS-associated genes such as GCKR, C2orf16, or SNX17. However, without additional information such as the specific chromosomal location, linkage analysis, or func"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 0.0,
+      "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 0.0,
+      "extracted": "CATSPER1",
+      "ground_truth": "SART1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is challenging to pinpoint a single likely causal gene for the multi-trait sex score. However, some genes are known to be involved in sex determination or sex hormone regulation, such as CATSPER1, which encodes a protein"
+    },
+    {
+      "task_instance_id": 378,
+      "score": 0.0,
+      "extracted": "IT IS NOT POSSIBLE TO DEFINITIVELY IDENTIFY THE CAUSAL GENE WITH THE GIVEN INFORMATION",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the locus are known to be involved in sex determination or sex hormone regulation.\n\nFor example, the gene C"
+    },
+    {
+      "task_instance_id": 288,
+      "score": 0.0,
+      "extracted": "MT1A",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score without additional information such as functional studies, linkage analysis, or other genetic evidence. However, some genes in the "
+    },
+    {
+      "task_instance_id": 418,
+      "score": 0.0,
+      "extracted": "C4A",
+      "ground_truth": "ZBTB12",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Neonatal circulating Complement Component 4 (C4) protein concentration is C4A or C4B. These genes encode the alpha and beta chains of the Complement Component 4 protein, respectivel"
+    },
+    {
+      "task_instance_id": 391,
+      "score": 1.0,
+      "extracted": "BDNF",
+      "ground_truth": "BDNF",
+      "raw_preview": "FINAL ANSWER: {BDNF}"
+    },
+    {
+      "task_instance_id": 498,
+      "score": 0.0,
+      "extracted": "{",
+      "ground_truth": "TMEM175",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider previous research and literature on Parkinson's disease to identify potential causal genes.\n\nOne of the genes in the locus, PARK2 (PIGG), is known to be associated with Parkinson's disease. PARK2"
+    },
+    {
+      "task_instance_id": 138,
+      "score": 1.0,
+      "extracted": "SLCO1B1",
+      "ground_truth": "SLCO1B1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, it is important to consider the biological functions of these genes and their potential roles in metabolism.\n\n1-linoleoyl-GPG (18:2) is a lipid metabolite, and its levels might be influenced by genes involved in lipid metabolism, t"
+    },
+    {
+      "task_instance_id": 62,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "APOA4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with similar traits or lipid metabolism, as the multi-trait sex score is likely related to sex hormones and lipid levels.\n\nAmong the given genes, APOA1,"
+    },
+    {
+      "task_instance_id": 471,
+      "score": 1.0,
+      "extracted": "INHBB",
+      "ground_truth": "INHBB",
+      "raw_preview": "After analyzing the given data, I have found that the gene INHBB is located within a prostate cancer susceptibility locus on chromosome 2p23. This gene encodes for Inhibin beta B, a member of the transforming growth factor-beta (TGF-β) superfamily. Several studies have shown an association between I"
+    },
+    {
+      "task_instance_id": 128,
+      "score": 0.0,
+      "extracted": "APOA1",
+      "ground_truth": "APOA4",
+      "raw_preview": "APOA1, APOA4, APOA5, and APOC3 are all part of the Apolipoprotein family, which are involved in lipid metabolism. APOA1 is known to be associated with lipid levels and has been implicated in sex differences in lipid metabolism. PAFAH1B2, SIK3, and ZPR1 have no known direct association with sex or se"
+    },
+    {
+      "task_instance_id": 623,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "APOA4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with similar traits or lipid metabolism, as the multi-trait sex score is likely related to sex hormones and lipid levels.\n\nAmong the given genes, APOA1,"
+    },
+    {
+      "task_instance_id": 520,
+      "score": 0.0,
+      "extracted": "RCVRN",
+      "ground_truth": "MYH13",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Primary Open Angle Glaucoma (POAG) is {RCVRN}. This gene has been previously associated with POAG in multiple studies.\n\nFINAL ANSWER: RCVRN"
+    },
+    {
+      "task_instance_id": 64,
+      "score": 0.0,
+      "extracted": "ANGPTL4",
+      "ground_truth": "PRAM1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Multi-trait sex score is {ANGPTL4}. This gene has been associated with sex hormone-binding globulin levels and sex hormones in previous studies.\n\nFINAL ANSWER: ANGPTL4"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "LZTS1",
+      "ground_truth": "LPL",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the genes in the locus, it is important to consider the biological relevance of each gene to the sex score.\n\n1. ATP6V1B2: This gene encodes a subunit of the vacuolar H+ ATPase, which is involved in acidification of intracellular organelles. It d"
+    },
+    {
+      "task_instance_id": 156,
+      "score": 0.0,
+      "extracted": "NOT ENOUGH INFORMATION TO DETERMINE A CAUSAL GENE",
+      "ground_truth": "CETP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene without additional information such as functional studies, linkage analysis, or replication in other populations. However, some genes in the locus are known to b"
+    },
+    {
+      "task_instance_id": 40,
+      "score": 0.0,
+      "extracted": "C4A",
+      "ground_truth": "NOTCH4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for Neonatal circulating Complement Component 4 (C4) protein concentration is C4A and C4B. These genes encode the C4A and C4B proteins, which are key components of the complement system and play a crucia"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 0.0,
+      "extracted": "TINCR",
+      "ground_truth": "LONP1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to note that Mitochondrial DNA copy number regulation is primarily controlled by nuclear genes, as mitochondria do not contain their own DNA for replication. Among the given genes, several are known to be in"
+    },
+    {
+      "task_instance_id": 379,
+      "score": 0.0,
+      "extracted": "GWAS",
+      "ground_truth": "PKD1L3",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for the multi-trait sex score. However, some genes in the locus are known to be involved in sex determination or sex hormone regulation.\n\nFor instance, DHODH (Di"
+    }
+  ],
+  "gwas_causal_gene_opentargets": [
+    {
+      "task_instance_id": 767,
+      "score": 1.0,
+      "extracted": "HNF1A",
+      "ground_truth": "HNF1A",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is HNF1A. This gene has been strongly associated with an increased risk of Type 2 diabetes due to its role in pancreatic beta-cell function and ins"
+    },
+    {
+      "task_instance_id": 619,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is PPARG. This gene has been consistently associated with an increased risk of Type 2 diabetes in multiple GWAS studies.\n\nFINAL ANSWER: PPARG"
+    },
+    {
+      "task_instance_id": 760,
+      "score": 1.0,
+      "extracted": "CHEK2",
+      "ground_truth": "CHEK2",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Breast carcinoma is CHEK2. This gene has been previously associated with an increased risk of breast cancer in multiple studies.\n\nFINAL ANSWER: CHEK2"
+    },
+    {
+      "task_instance_id": 645,
+      "score": 0.0,
+      "extracted": "RIOK1",
+      "ground_truth": "RREB1",
+      "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the gene RIOK1 is the causal gene for Type 2 diabetes (type II diabetes mellitus).\n\nRIOK1 (Ras-like protein-specific kinase 1) has been implicated in insulin secretion and glucose metabolism. Studies h"
+    },
+    {
+      "task_instance_id": 755,
+      "score": 0.0,
+      "extracted": "BRCA1",
+      "ground_truth": "ALK",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Breast carcinoma is {BRCA1}.\n\nFINAL ANSWER: BRCA1"
+    },
+    {
+      "task_instance_id": 556,
+      "score": 1.0,
+      "extracted": "SLC2A9",
+      "ground_truth": "SLC2A9",
+      "raw_preview": "After analyzing the data, I have found that the gene SLC2A9 is most likely to be the causal gene for urate levels (uric acid) based on multiple studies and replications.\n\nFINAL ANSWER: SLC2A9"
+    },
+    {
+      "task_instance_id": 812,
+      "score": 1.0,
+      "extracted": "SLC30A8",
+      "ground_truth": "SLC30A8",
+      "raw_preview": "After careful analysis of the given genes in the locus and their known associations with Type 2 diabetes, the most likely causal gene is SLC30A8. This gene has been consistently associated with an increased risk of Type 2 diabetes in multiple GWAS studies.\n\nFINAL ANSWER: SLC30A8"
+    },
+    {
+      "task_instance_id": 577,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Hypercholesterolemia is PCSK9. This gene is well-known for its role in regulating cholesterol levels by degrading the LDL receptor, which is crucial for cholesterol homeostasis. Multiple stud"
+    },
+    {
+      "task_instance_id": 85,
+      "score": 1.0,
+      "extracted": "HNF1A",
+      "ground_truth": "HNF1A",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Type 2 diabetes (adjusted for BMI) is HNF1A. This gene has been strongly associated with an increased risk of Type 2 diabetes.\n\nFINAL ANSWER: HNF1A"
+    },
+    {
+      "task_instance_id": 242,
+      "score": 0.0,
+      "extracted": "NOBOX",
+      "ground_truth": "OR2A7",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is challenging to identify a likely causal gene for fresh fruit intake (diet measurement) as most of the genes in the list are olfactory receptor genes (OR genes) which are primarily involved in the sense of smell rather"
+    },
+    {
+      "task_instance_id": 159,
+      "score": 0.0,
+      "extracted": "IFIH1",
+      "ground_truth": "DPP4",
+      "raw_preview": "FINAL ANSWER: {IFIH1}"
+    },
+    {
+      "task_instance_id": 524,
+      "score": 1.0,
+      "extracted": "PRODH",
+      "ground_truth": "PRODH",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for blood metabolite levels (proline) is PRODH (Proline dehydrogenase). This enzyme plays a crucial role in the metabolism of proline, making it a strong candidate for a causal gene in this locus.\n\nFINAL"
+    },
+    {
+      "task_instance_id": 35,
+      "score": 1.0,
+      "extracted": "ESR1",
+      "ground_truth": "ESR1",
+      "raw_preview": "After analyzing the given data, I have found that the ESR1 gene is a strong candidate for being the causal gene for breast cancer (breast carcinoma) within the given locus. This gene encodes the estrogen receptor alpha, which plays a crucial role in the development and progression of breast cancer.\n"
+    },
+    {
+      "task_instance_id": 540,
+      "score": 1.0,
+      "extracted": "SUCLG2",
+      "ground_truth": "SUCLG2",
+      "raw_preview": "FINAL ANSWER: SUCLG2"
+    },
+    {
+      "task_instance_id": 170,
+      "score": 0.0,
+      "extracted": "TCF7L2",
+      "ground_truth": "KCNJ11",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is {TCF7L2}.\n\nFINAL ANSWER: TCF7L2"
+    },
+    {
+      "task_instance_id": 654,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for cardiovascular disease is PCSK9. This gene has been extensively studied and is known to play a significant role in the regulation of cholesterol levels, which are closely associated with card"
+    },
+    {
+      "task_instance_id": 728,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Ischemic heart disease (coronary artery disease) is PCSK9. This gene has been extensively studied and is known to play a significant role in the development of coronary artery disease due to "
+    },
+    {
+      "task_instance_id": 720,
+      "score": 0.0,
+      "extracted": "IL13",
+      "ground_truth": "IL5",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for asthma is IL13. This gene has been strongly associated with asthma in numerous studies, and it plays a crucial role in the pathogenesis of asthma by promoting airway inflammation and remodeli"
+    },
+    {
+      "task_instance_id": 801,
+      "score": 1.0,
+      "extracted": "ESR1",
+      "ground_truth": "ESR1",
+      "raw_preview": "After analyzing the given data, I have found that the ESR1 gene is a strong candidate for being the causal gene for breast cancer (breast carcinoma) within the given locus. This gene encodes the estrogen receptor alpha, which plays a crucial role in the development and progression of breast cancer.\n"
+    },
+    {
+      "task_instance_id": 95,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the gene most likely to be causal for Disorders of lipoid metabolism is PCSK9. This gene is known to play a crucial role in lipid metabolism, particularly in the regulation of cholesterol levels. Variants in PCSK9"
+    },
+    {
+      "task_instance_id": 563,
+      "score": 0.0,
+      "extracted": "HELT",
+      "ground_truth": "ACSL1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is likely that the causal gene for PC ae C44:5 is HELT. This gene encodes hecto-domain and lipid-binding protein, which is involved in lipid metabolism and is closely related to the phospholipids (PC) metabolism.\n\nFINAL "
+    },
+    {
+      "task_instance_id": 240,
+      "score": 1.0,
+      "extracted": "ANPEP",
+      "ground_truth": "ANPEP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is likely that the causal gene for HWESASXX - M32836 (C3f, complement C3 derived peptide) is ANPEP (CD13). This gene is known to be involved in the regulation of the complement system, which is relevant to the function o"
+    },
+    {
+      "task_instance_id": 574,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is PPARG. This gene has been consistently associated with an increased risk of Type 2 diabetes in multiple GWAS studies.\n\nFINAL ANSWER: PPARG"
+    },
+    {
+      "task_instance_id": 690,
+      "score": 0.0,
+      "extracted": "CYP2E1",
+      "ground_truth": "PAOX",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for the blood metabolite levels (X-03056--N-[3-(2-Oxopyrrolidin-1-yl)propyl]acetamide) (N-(3-acetamidopropyl)pyrrolidin-2-one) is CYP2E1. This gene encodes a cytochrome P450 enzyme that plays a crucia"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is GCKR (Glucokinase Regulator). This gene has been previously associated with an increased risk of developing Type 2 diabetes in multiple studies."
+    },
+    {
+      "task_instance_id": 553,
+      "score": 1.0,
+      "extracted": "IL12B",
+      "ground_truth": "IL12B",
+      "raw_preview": "FINAL ANSWER: IL12B"
+    },
+    {
+      "task_instance_id": 745,
+      "score": 1.0,
+      "extracted": "F5",
+      "ground_truth": "F5",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is known that F5 encodes for the coagulation factor 5, which plays a crucial role in the coagulation cascade and is directly related to D-dimer levels. Therefore, it is likely that F5 is the causal gene for the given GWA"
+    },
+    {
+      "task_instance_id": 206,
+      "score": 0.0,
+      "extracted": "SLC4A4",
+      "ground_truth": "GC",
+      "raw_preview": "FINAL ANSWER: SLC4A4"
+    },
+    {
+      "task_instance_id": 392,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is GCKR (Glucokinase Regulator). This gene has been previously associated with an increased risk of developing Type 2 diabetes in multiple studies."
+    },
+    {
+      "task_instance_id": 397,
+      "score": 0.0,
+      "extracted": "RIOK1",
+      "ground_truth": "RREB1",
+      "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the gene RIOK1 is the causal gene for Type 2 diabetes (type II diabetes mellitus).\n\nRIOK1 (Ras-like protein-specific kinase 1) has been implicated in insulin secretion and glucose metabolism. Studies h"
+    },
+    {
+      "task_instance_id": 721,
+      "score": 1.0,
+      "extracted": "KCNH2",
+      "ground_truth": "KCNH2",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Atrial fibrillation is KCNH2. This gene encodes the potassium voltage-gated channel subfamily H member 2, which plays a crucial role in cardiac electrophysiology and is associated with atrial fibr"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "VKORC1",
+      "ground_truth": "GUSB",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider which genes are known to be associated with calcium levels. Among the given genes, only one gene, VKORC1, is known to be associated with calcium levels. This gene encodes the vitamin K epoxide re"
+    },
+    {
+      "task_instance_id": 4,
+      "score": 1.0,
+      "extracted": "HMGCR",
+      "ground_truth": "HMGCR",
+      "raw_preview": "FINAL ANSWER: HMGCR (3-hydroxy-3-methylglutaryl-coenzyme A reductase) is a key enzyme in the mevalonate pathway, which is essential for the synthesis of cholesterol, sterols, and isoprenoids. Mutations in HMGCR have been associated with disorders of lipid metabolism, such as hypercholesterolemia and"
+    },
+    {
+      "task_instance_id": 642,
+      "score": 1.0,
+      "extracted": "MC1R",
+      "ground_truth": "MC1R",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for skin changes due to chronic exposure to nonionizing radiation is MC1R. This gene encodes melanocortin 1 receptor, which plays a crucial role in skin pigmentation and is known to be sensitive "
+    },
+    {
+      "task_instance_id": 761,
+      "score": 0.0,
+      "extracted": "ATP6V1G2",
+      "ground_truth": "TNF",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the gene that has been consistently associated with hypertension is the ATP6V1G2 gene. This gene encodes the beta subunit of the vacuolar H+ ATPase, which is involved in regulating blood pressure by controlling re"
+    },
+    {
+      "task_instance_id": 612,
+      "score": 1.0,
+      "extracted": "PAM",
+      "ground_truth": "PAM",
+      "raw_preview": "FINAL ANSWER: {PAM} (PPARG)\n\nExplanation:\nThe PPARG gene, also known as peroxisome proliferator-activated receptor gamma, is a well-established gene associated with Type 2 diabetes. It encodes a nuclear receptor that plays a crucial role in regulating glucose and lipid metabolism. Among the given ge"
+    },
+    {
+      "task_instance_id": 546,
+      "score": 1.0,
+      "extracted": "HNF4A",
+      "ground_truth": "HNF4A",
+      "raw_preview": "After analyzing the given genes in the locus for Type 2 diabetes (Type II diabetes mellitus), the most likely causal gene is HNF4A. This gene is strongly associated with Type 2 diabetes due to its role in pancreatic beta-cell function and insulin secretion.\n\nFINAL ANSWER: HNF4A"
+    },
+    {
+      "task_instance_id": 683,
+      "score": 0.0,
+      "extracted": "RIOK1",
+      "ground_truth": "RREB1",
+      "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the gene RIOK1 is the causal gene for Type 2 diabetes. RIOK1 encodes a serine/threonine protein kinase that has been implicated in insulin signaling and glucose metabolism. Several studies have shown a"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 1.0,
+      "extracted": "GLIS3",
+      "ground_truth": "GLIS3",
+      "raw_preview": "After careful analysis of the given genes in the locus and their known associations with Type 2 diabetes, the most likely causal gene is GLIS3. This gene has been consistently implicated in the development of Type 2 diabetes through various studies.\n\nFINAL ANSWER: GLIS3"
+    },
+    {
+      "task_instance_id": 573,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Type 2 diabetes (Type II diabetes mellitus) is GCKR (Glucokinase Regulator). This gene has been previously associated with an increased risk of developing Type 2 diabetes in multiple studies."
+    },
+    {
+      "task_instance_id": 406,
+      "score": 1.0,
+      "extracted": "SLC22A11",
+      "ground_truth": "SLC22A11",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for gout is:\n\nFINAL ANSWER: {SLC22A11} or {SLC22A12}\n\nThese two genes, SLC22A11 and SLC22A12, are urate transporters and have been associated with gout in multiple studies. They are good candidates fo"
+    },
+    {
+      "task_instance_id": 502,
+      "score": 0.0,
+      "extracted": "DDAH2",
+      "ground_truth": "AGPAT1",
+      "raw_preview": "After careful analysis of the given GWAS phenotype and the list of genes in the locus, the gene that is most likely to be causal for the phospholipid levels (plasma) (proportions (PC 32∶0/PC 34∶1)) is DDAH2 (Nitric oxide synthase, dimethylarginine dimethylaminohydrolase 2). This gene is involved in "
+    },
+    {
+      "task_instance_id": 47,
+      "score": 0.0,
+      "extracted": "IL13",
+      "ground_truth": "IL5",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for asthma or allergic disease is IL13. This gene has been strongly associated with asthma and allergic diseases in numerous studies.\n\nFINAL ANSWER: IL13"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 1.0,
+      "extracted": "PAX4",
+      "ground_truth": "PAX4",
+      "raw_preview": "After analyzing the given GWAS data and the functions of the genes in the locus, it is likely that the PAX4 gene is the causal gene for Type 2 diabetes. The PAX4 gene encodes a transcription factor that plays a crucial role in the development and function of pancreatic beta cells, which are responsi"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 0.0,
+      "extracted": "MYC",
+      "ground_truth": "PVT1",
+      "raw_preview": "FINAL ANSWER: MYC"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "EPHB3",
+      "ground_truth": "THPO",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I found that the gene EPHB3 is a strong candidate for platelet crit (plateletcrit) as it has been previously associated with platelet function and thrombosis.\n\nFINAL ANSWER: EPHB3"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "TBX2",
+      "ground_truth": "TBX4",
+      "raw_preview": "FINAL ANSWER: {TBX2}\n\nExplanation:\nThe given GWAS phenotype is arthrosis of hip (heel bone mineral density). Among the genes in the locus, TBX2 has been associated with osteoarthritis, a type of arthrosis that affects the hip joint. Therefore, TBX2 is the likely causal gene for this GWAS phenotype.\n"
+    },
+    {
+      "task_instance_id": 817,
+      "score": 1.0,
+      "extracted": "COL11A1",
+      "ground_truth": "COL11A1",
+      "raw_preview": "FINAL ANSWER: COL11A1"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 0.0,
+      "extracted": "CLMN",
+      "ground_truth": "GSC",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for male balding pattern (balding measurement) is {CLMN}. This gene is known to be associated with androgenetic alopecia, a common form of male pattern baldness.\n\nFINAL ANSWER: CLMN"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 1.0,
+      "extracted": "F2",
+      "ground_truth": "F2",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Thrombosis (pulmonary embolism) is F2. This gene encodes for Factor II (thrombin), a key player in the coagulation cascade and a well-established risk factor for thrombosis.\n\nFINAL ANSWER: F2"
+    }
+  ],
+  "gwas_causal_gene_pharmaprojects": [
+    {
+      "task_instance_id": 1475,
+      "score": 0.0,
+      "extracted": "BACH2",
+      "ground_truth": "XPO1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have identified a gene that is strongly associated with an increased risk of developing Large B-Cell, Diffuse Lymphoma. This gene is known to play a crucial role in the immune system and its dysregulation can lead to the "
+    },
+    {
+      "task_instance_id": 959,
+      "score": 1.0,
+      "extracted": "BTK",
+      "ground_truth": "BTK",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for B-Cell Lymphoma is BTK. This gene is known to play a crucial role in B-cell development and activation, and mutations in BTK have been associated with B-cell lymphoma.\n\nFINAL ANSWER: BTK"
+    },
+    {
+      "task_instance_id": 1588,
+      "score": 1.0,
+      "extracted": "FGFR3",
+      "ground_truth": "FGFR3",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the known associations between these genes and Myeloproliferative Disorders (MPD).\n\nAmong the given genes, FGFR3 (Fibroblast Growth Factor Receptor 3) has been previously associated with MPD. Spe"
+    },
+    {
+      "task_instance_id": 283,
+      "score": 1.0,
+      "extracted": "FOLR1",
+      "ground_truth": "FOLR1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider previous research and literature on the association between these genes and ovarian neoplasms.\n\nOne of the genes in the locus, FOLR1, encodes the folate receptor alpha, a protein that is overexpr"
+    },
+    {
+      "task_instance_id": 797,
+      "score": 1.0,
+      "extracted": "CNR1",
+      "ground_truth": "CNR1",
+      "raw_preview": "After careful analysis, I have found that the Cannabinoid Receptor 1 (CNR1) gene is a strong candidate for the causal gene associated with nausea. This gene is involved in the endocannabinoid system, which plays a crucial role in regulating nausea and vomiting.\n\nFINAL ANSWER: CNR1"
+    },
+    {
+      "task_instance_id": 1378,
+      "score": 1.0,
+      "extracted": "CD274",
+      "ground_truth": "CD274",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings regarding the association between these genes and colorectal neoplasms.\n\nCD274, also known as PD-L1, has been implicated in various cancers, including colorec"
+    },
+    {
+      "task_instance_id": 225,
+      "score": 0.0,
+      "extracted": "GWAS",
+      "ground_truth": "OXTR",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, it is important to consider the biological functions of each gene and their potential role in postpartum hemorrhage.\n\n1. CAV3 (Cav-3, calcium voltage-gated channel subunit alpha-3) is a key regulator of vascular smooth muscle contr"
+    },
+    {
+      "task_instance_id": 26,
+      "score": 0.0,
+      "extracted": "NONE OF THE GIVEN GENES ARE LIKELY CAUSAL FOR PULMONARY EMBOLISM",
+      "ground_truth": "SERPINC1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I found that there is no strong evidence linking any of the genes in the locus to Pulmonary Embolism. However, it is important to note that GWAS studies often identify multiple genes or loci associated with a given phenotyp"
+    },
+    {
+      "task_instance_id": 1497,
+      "score": 1.0,
+      "extracted": "KDR",
+      "ground_truth": "KDR",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Colorectal Neoplasms is KDR. KDR (Vascular Endothelial Growth Factor Receptor 2) is a well-known gene associated with angiogenesis, which is a critical process in tumor growth and development"
+    },
+    {
+      "task_instance_id": 437,
+      "score": 0.0,
+      "extracted": "PDGFRA",
+      "ground_truth": "KIT",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Sarcoma is PDGFRA. This gene is known to be associated with several types of sarcomas, including gastrointestinal stromal tumors (GISTs), which are a common type of sarcoma. PDGFRA encodes a "
+    },
+    {
+      "task_instance_id": 1645,
+      "score": 0.0,
+      "extracted": "DDR1",
+      "ground_truth": "TUBB",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to note that many of these genes are involved in various biological processes, but not specifically associated with head and neck neoplasms. However, there are a few genes that have been implicated in cancer"
+    },
+    {
+      "task_instance_id": 229,
+      "score": 0.0,
+      "extracted": "MESP1",
+      "ground_truth": "ANPEP",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found a potential candidate gene that has been previously associated with Hodgkin Disease.\n\nThe gene, MESP1, has been reported in several studies to be associated with Hodgkin Lymphoma, a subtype of Hodgkin Disease.\n"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "PHF19",
+      "ground_truth": "C5",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Paroxysmal Nocturnal Hemoglobinuria (PNH) is {PHF19}. PNH is a hematological disorder characterized by the absence of glycosylphosphatidylinositol (GPI)-anchored proteins on the surface of red blo"
+    },
+    {
+      "task_instance_id": 749,
+      "score": 1.0,
+      "extracted": "ADRB2",
+      "ground_truth": "ADRB2",
+      "raw_preview": "The locus containing the genes {ADRB2},{FBXO38},{HTR4},{MARCOL},{SPINK13},{SPINK14},{SPINK5},{SPINK6},{SPINK7},{SPINK9} has been associated with asthma in several GWAS studies. Among these genes, ADRB2 (beta-2 adrenergic receptor) is a strong candidate for asthma susceptibility as it plays a crucial"
+    },
+    {
+      "task_instance_id": 1045,
+      "score": 0.0,
+      "extracted": "BRCA1",
+      "ground_truth": "FGFR3",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings related to Fallopian Tube Neoplasms.\n\nOne of the genes that has been associated with ovarian cancer, which includes Fallopian Tube Neoplasms, is the BRCA1 gen"
+    },
+    {
+      "task_instance_id": 469,
+      "score": 0.0,
+      "extracted": "ICAM1",
+      "ground_truth": "S1PR5",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for Ulcerative Colitis is:\n\nFINAL ANSWER: {ICAM1}"
+    },
+    {
+      "task_instance_id": 1435,
+      "score": 1.0,
+      "extracted": "GLP1R",
+      "ground_truth": "GLP1R",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, I have identified a potential causal gene for obesity. The gene GLP1R (Glucagon-like peptide-1 receptor) is a strong candidate for obesity due to its role in regulating energy balance and glucose homeostasis.\n\nGLP1R is a G protein-"
+    },
+    {
+      "task_instance_id": 1662,
+      "score": 0.0,
+      "extracted": "SCN2A",
+      "ground_truth": "SCN3A",
+      "raw_preview": "FINAL ANSWER: SCN2A"
+    },
+    {
+      "task_instance_id": 687,
+      "score": 0.0,
+      "extracted": "SPINK1",
+      "ground_truth": "HTR4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found that there is evidence suggesting that the gene SPINK1 may be a likely causal gene for gastroparesis.\n\nFINAL ANSWER: SPINK1"
+    },
+    {
+      "task_instance_id": 1554,
+      "score": 1.0,
+      "extracted": "PARP2",
+      "ground_truth": "PARP2",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for Prostatic Neoplasms based solely on this information. However, some genes are known to be associated with prostate cancer, such as PARP2, RNASE9, and OR11H2."
+    },
+    {
+      "task_instance_id": 639,
+      "score": 1.0,
+      "extracted": "DRD2",
+      "ground_truth": "DRD2",
+      "raw_preview": "After analyzing the given GWAS data and the known associations between the genes in the locus and Restless Legs Syndrome (RLS), it is likely that the DRD2 gene is the causal gene for RLS. DRD2 encodes the dopamine D2 receptor, which plays a crucial role in regulating motor function and is implicated"
+    },
+    {
+      "task_instance_id": 1453,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the most likely causal gene for Diabetes Mellitus, Type 2 is PPARG. This gene has been extensively studied and is known to play a crucial role in the development of insulin resistance, a key factor in Type 2 diabetes.\n\nFINAL ANSWER"
+    },
+    {
+      "task_instance_id": 1218,
+      "score": 1.0,
+      "extracted": "MS4A1",
+      "ground_truth": "MS4A1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to note that Microscopic Polyangiitis (MPA) is a rare autoimmune vasculitis that primarily affects small vessels. It is characterized by necrotizing inflammation of small blood vessels, leading to organ dama"
+    },
+    {
+      "task_instance_id": 1158,
+      "score": 0.0,
+      "extracted": "SLC17A8",
+      "ground_truth": "NR1H4",
+      "raw_preview": "After analyzing the given GWAS data and the genes in the locus, the most likely causal gene for Non-alcoholic Fatty Liver Disease (NAFLD) is SLC17A8. This gene has been associated with NAFLD in multiple studies and is a strong candidate for the disease.\n\nFINAL ANSWER: SLC17A8"
+    },
+    {
+      "task_instance_id": 1403,
+      "score": 1.0,
+      "extracted": "PPARA",
+      "ground_truth": "PPARA",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the known associations between these genes and dyslipidemias.\n\nPPARA (Peroxisome proliferator-activated receptor alpha) is a key regulator of lipid metabolism and has been strongly associated wit"
+    },
+    {
+      "task_instance_id": 1300,
+      "score": 1.0,
+      "extracted": "DRD2",
+      "ground_truth": "DRD2",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is difficult to definitively identify a single causal gene for nausea as nausea is a complex trait with multiple genetic and environmental factors contributing to its development. However, some of the genes in the locus "
+    },
+    {
+      "task_instance_id": 1538,
+      "score": 0.0,
+      "extracted": "TCF7L2",
+      "ground_truth": "KCNJ11",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Diabetes Mellitus, Type 2 is {TCF7L2}. Although several genes in the locus have been associated with diabetes, the strongest evidence points to {TCF7L2} as the primary causal gene.\n\nFINAL ANS"
+    },
+    {
+      "task_instance_id": 800,
+      "score": 1.0,
+      "extracted": "IL17RA",
+      "ground_truth": "IL17RA",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have found that Scleroderma, Limited is associated with several genes, including IL17RA. IL-17 receptor A (IL17RA) is a key player in the immune response and has been implicated in the pathogenesis of Scleroderma, Limited"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "MECP2",
+      "ground_truth": "IRAK1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have identified a potential causal gene for Primary Myelofibrosis. This gene is known to be associated with myeloproliferative neoplasms, a group of diseases that includes Primary Myelofibrosis.\n\nThe likely causal gene in"
+    },
+    {
+      "task_instance_id": 956,
+      "score": 0.0,
+      "extracted": "TGFB1",
+      "ground_truth": "AXL",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with liver neoplasms. One such gene is TGFB1, which encodes transforming growth factor beta 1, a key regulator of cell growth, differentiation, and apop"
+    },
+    {
+      "task_instance_id": 1186,
+      "score": 1.0,
+      "extracted": "CXCL8",
+      "ground_truth": "CXCL8",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is known that CXCL8 (Interleukin-8) is a key player in the pathogenesis of psoriasis. This gene encodes a chemokine that attracts neutrophils to the site of inflammation, which is a hallmark of psoriasis.\n\nFINAL ANSWER: "
+    },
+    {
+      "task_instance_id": 821,
+      "score": 1.0,
+      "extracted": "HTR7",
+      "ground_truth": "HTR7",
+      "raw_preview": "ANKRD1, HTR7, PCGF5, and RPP30 are genes located in the same chromosomal region that has been associated with Schizophrenia through GWAS studies. However, among these genes, HTR7 (Serotonin Receptor 7) has been consistently implicated in Schizophrenia and other psychiatric disorders.\n\nFINAL ANSWER: "
+    },
+    {
+      "task_instance_id": 1463,
+      "score": 0.0,
+      "extracted": "NONE OF THE GIVEN GENES ARE LIKELY CAUSAL FOR PERIPHERAL T-CELL LYMPHOMA",
+      "ground_truth": "TOP2A",
+      "raw_preview": "From the given genes, TNS4 and RARA are known to be associated with T-cell lymphoma. However, TNS4 is more strongly associated with T-cell lymphoblastic leukemia, while RARA is more associated with acute promyelocytic leukemia and other T-cell lymphomas. Therefore, the most likely causal gene for pe"
+    },
+    {
+      "task_instance_id": 877,
+      "score": 0.0,
+      "extracted": "BRCA1",
+      "ground_truth": "PDGFRB",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider previous research and literature on the association between these genes and ovarian neoplasms.\n\nOne of the genes in the locus, TP53, is well-known to be associated with ovarian neoplasms. TP53 en"
+    },
+    {
+      "task_instance_id": 913,
+      "score": 0.0,
+      "extracted": "PDCD1LG2",
+      "ground_truth": "CD274",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, I have identified a gene that is strongly associated with Urinary Bladder Neoplasms. This gene is known to play a crucial role in the immune system and has been implicated in various types of cancer, including bladder cance"
+    },
+    {
+      "task_instance_id": 152,
+      "score": 0.0,
+      "extracted": "ZNF487",
+      "ground_truth": "RET",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the known roles of these genes in cancer development, particularly liver cancer.\n\nRET is a receptor tyrosine kinase that is frequently mutated in multiple endocrine neoplasia type 2 (MEN2) and me"
+    },
+    {
+      "task_instance_id": 1549,
+      "score": 0.0,
+      "extracted": "PPP3CB",
+      "ground_truth": "PLAU",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that have been previously associated with arthritis. One such gene is PPP3CB, which encodes calcineurin B subunit, a protein that plays a role in the immune response and inflammation, both "
+    },
+    {
+      "task_instance_id": 509,
+      "score": 0.0,
+      "extracted": "DLK2",
+      "ground_truth": "VEGFA",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider genes that are known to be associated with liver cancer or liver neoplasms.\n\nOne of the genes in the locus, DLK2, is a known tumor suppressor gene that has been implicated in liver cancer. It enc"
+    },
+    {
+      "task_instance_id": 1135,
+      "score": 1.0,
+      "extracted": "BRAF",
+      "ground_truth": "BRAF",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Liver Neoplasms is BRAF. This gene is frequently mutated in various types of cancer, including liver cancer. The BRAF gene encodes a protein that is part of the RAS/MAPK signaling pathway, wh"
+    },
+    {
+      "task_instance_id": 1250,
+      "score": 1.0,
+      "extracted": "IL6R",
+      "ground_truth": "IL6R",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the most likely causal gene for Rheumatoid Arthritis is IL6R (Interleukin 6 Receptor). This gene is strongly associated with Rheumatoid Arthritis as it plays a crucial role in the inflammatory response, which is a key featu"
+    },
+    {
+      "task_instance_id": 1612,
+      "score": 1.0,
+      "extracted": "CCR4",
+      "ground_truth": "CCR4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the biological relevance of each gene to T-cell lymphoma.\n\nCCR4 is a chemokine receptor that plays a crucial role in T-cell activation and migration. It has been implicated in T-cell lymphomas, m"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "PTK2B",
+      "ground_truth": "ADRA1A",
+      "raw_preview": "After analyzing the given GWAS data and the genes in the locus, I have found that the gene PTK2B (Protein Tyrosine Kinase 2 Beta) is a strong candidate for being the causal gene for Depressive Disorder, Major. This gene has been implicated in various neuropsychiatric disorders, including depression,"
+    },
+    {
+      "task_instance_id": 586,
+      "score": 0.0,
+      "extracted": "NONE OF THE GIVEN GENES CAN BE DEFINITIVELY IDENTIFIED AS THE LIKELY CAUSAL GENE FOR OVARIAN NEOPLASMS BASED ON THE PROVIDED INFORMATION. FURTHER RESEARCH AND ANALYSIS ARE NEEDED TO IDENTIFY POTENTIAL CAUSAL GENES WITHIN THE LOCUS",
+      "ground_truth": "TOP2A",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous findings regarding the association of these genes with ovarian neoplasms.\n\nOne of the genes in the locus, TP53, is well-known to be associated with ovarian neoplasms. "
+    },
+    {
+      "task_instance_id": 1572,
+      "score": 1.0,
+      "extracted": "SERPINA1",
+      "ground_truth": "SERPINA1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, the likely causal gene for alpha 1-Antitrypsin Deficiency is SERPINA1.\n\nFINAL ANSWER: SERPINA1"
+    },
+    {
+      "task_instance_id": 1143,
+      "score": 1.0,
+      "extracted": "HTR2C",
+      "ground_truth": "HTR2C",
+      "raw_preview": "After analyzing the given GWAS data and the known associations between genes and premenstrual syndrome (PMS), it is likely that the HTR2C gene is the causal gene within the given locus for PMS.\n\nHTR2C encodes the serotonin 2C receptor, which plays a crucial role in the regulation of mood and anxiety"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "GWAS",
+      "ground_truth": "FLT1",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider previous research and literature on the association between these genes and lung cancer.\n\nAmong the given genes, PDX1 is a pancreatic and duodenal homeobox-1 gene, which is primarily involved in "
+    },
+    {
+      "task_instance_id": 151,
+      "score": 0.0,
+      "extracted": "CRTAP",
+      "ground_truth": "CCR4",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous studies that have linked these genes to T-cell lymphoma.\n\nOne of the genes in the locus, CRTAP, has been implicated in T-cell lymphoma. CRTAP encodes a protein that is"
+    },
+    {
+      "task_instance_id": 403,
+      "score": 1.0,
+      "extracted": "F2",
+      "ground_truth": "F2",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, the likely causal gene for hemorrhage is F2, which encodes the coagulation factor II (prothrombin). This gene is well-known for its role in the coagulation cascade and mutations in it can lead to hemorrhagic disorders.\n\nFIN"
+    },
+    {
+      "task_instance_id": 1640,
+      "score": 0.0,
+      "extracted": "IL21R",
+      "ground_truth": "IL4R",
+      "raw_preview": "After analyzing the given GWAS phenotype and the genes in the locus, it is important to consider the biological functions of these genes and their association with sinusitis.\n\nIL21R (Interleukin 21 receptor) is a key player in the immune response, particularly in the Th17 cell-mediated inflammation,"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 1.0,
+      "extracted": "IL2RA",
+      "ground_truth": "IL2RA",
+      "raw_preview": "After analyzing the given GWAS phenotype and the list of genes in the locus, it is important to consider the literature and previous studies that have identified genes associated with lymphoma.\n\nOne of the most well-known genes associated with lymphoma is the IL2RA gene, which encodes the interleuki"
+    }
+  ],
+  "gwas_variant_prioritization": [
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "rs7700133",
+      "ground_truth": "rs4253311",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, Bradykinin, we need to analyze the p-values or effect sizes (beta values) of each variant from the GWAS study.\n\nUnfortunately, I don't have access to the actual GWAS data or results. However, I can provide a general approach to "
+    },
+    {
+      "task_instance_id": 178,
+      "score": 1.0,
+      "extracted": "rs9369898",
+      "ground_truth": "rs9369898",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will look for the variant with the lowest p-value. This indicates a stronger association with the phenotype.\n\nLet's analyze the data:\n\n1. rs9369898: p-value = 1.14e-15\n2. rs1395: p-value = 1.00e-07\n3. rs662138: p-value = 1.00"
+    },
+    {
+      "task_instance_id": 197,
+      "score": 0.0,
+      "extracted": "<Cannot provide a definitive answer without the p-values or effect sizes>",
+      "ground_truth": "rs7542172",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants in relation to erythritol. However, I can suggest that you should priori"
+    },
+    {
+      "task_instance_id": 63,
+      "score": 0.0,
+      "extracted": "rs4941615",
+      "ground_truth": "rs1801725",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs4941615: 1.66e-16\n- rs8012: 1.19e-08\n- rs1280: 1.19e-08\n- rs2970818: 1.19e-08\n- rs4690522: 1.19e-08\n- rs12"
+    },
+    {
+      "task_instance_id": 54,
+      "score": 0.0,
+      "extracted": "rs13122250",
+      "ground_truth": "rs4343",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs494562: 1.00e-08\n- rs13122250: 5.00e-09\n- rs1800961: 1.00e"
+    },
+    {
+      "task_instance_id": 107,
+      "score": 0.0,
+      "extracted": "rs7582179",
+      "ground_truth": "rs6048216",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs7582179: 1.66e-11\n- rs6748734: 1.18e-08\n- rs6687813: 1.18e-08\n- rs10882272: 1.66e-08\n- rs3780181: 5.00e-08"
+    },
+    {
+      "task_instance_id": 50,
+      "score": 0.0,
+      "extracted": "<Cannot provide a definitive answer without additional information>",
+      "ground_truth": "rs603424",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant in the given GWAS study. However, the information about the p-value or effect size is not provided in the question.\n\nSince we don't have enough information to priori"
+    },
+    {
+      "task_instance_id": 174,
+      "score": 0.0,
+      "extracted": "Not provided, as the information about the p-value or effect size is not given in the question. A literature search is recommended to find the most significant variant(s)",
+      "ground_truth": "rs750472",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant in the given GWAS study. However, the information about the p-value or effect size is not provided in the question.\n\nSince we don't have enough information to priori"
+    },
+    {
+      "task_instance_id": 211,
+      "score": 0.0,
+      "extracted": "rs646776",
+      "ground_truth": "rs6687813",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs646776: 1.00e-08\n- rs34100980: 5.00e-09\n- rs6687813: 1.00e-07\n- rs8012: 1.00e-06\n- rs7535263: 1.00e-07\n- r"
+    },
+    {
+      "task_instance_id": 169,
+      "score": 0.0,
+      "extracted": "rs3132440",
+      "ground_truth": "rs532545",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs3132440: 1.23e-08\n- rs11119805: 5.00e-07\n- rs14"
+    },
+    {
+      "task_instance_id": 58,
+      "score": 0.0,
+      "extracted": "rs17145738",
+      "ground_truth": "rs116843064",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs17145738: p-value = 1.1 x 10^-11, effect size = 0.08, replication = yes\n2. rs4921914: p-value = 1.6 x 10^-8, effect size = 0.07, replication = yes\n3. rs29"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "rs4343",
+      "ground_truth": "rs3757354",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value of each variant in the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs4343: 0.000000000000000000000000000"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "Not applicable without p-values or effect sizes",
+      "ground_truth": "rs2160860",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant in the given GWAS study. However, the information about the p-value or effect size is not provided in the question.\n\nSince we don't have enough information to priori"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "rs10903129",
+      "ground_truth": "rs4949874",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant in the given GWAS study. A lower p-value indicates a stronger association with the phenotype.\n\nHere are the p-values for each variant:\n- rs4587594: 1.00e-08\n- rs558971: 5.00e-07\n- rs10903129: 1.00e-07\n- rs4503368: 2"
+    },
+    {
+      "task_instance_id": 57,
+      "score": 0.0,
+      "extracted": "rs2547231",
+      "ground_truth": "rs3847502",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs2547231: p-value = 1.00e-08, effect size = -0.067, replication = yes\n2. rs4846914: p-value = 5.00e-09, effect size = -0.072, replication = yes\n3. rs963532"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "rs3846710",
+      "ground_truth": "rs17279437",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value and effect size of each variant.\n\n1. rs3780181: p-value = 1.00e-08, effect size = 0.12\n2. rs3846710: p-value = 5.00e-09, effect size = 0.13\n3. rs8177240: p-value = 1.00e-07, effect size = 0.11\n4. rs6459467: p-value = 1.00e-06, effe"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 0.0,
+      "extracted": "rs6564851",
+      "ground_truth": "rs12150660",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n\n* rs6564851: 1.00e-08\n* rs7809"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 0.0,
+      "extracted": "rs2235544",
+      "ground_truth": "rs4687717",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will analyze the p-value of each variant in the given GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs2970818: 1.23e-08\n- rs3410098"
+    },
+    {
+      "task_instance_id": 129,
+      "score": 0.0,
+      "extracted": "rs8012",
+      "ground_truth": "rs4814176",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association with the given phenotype.\n\nHere are the p-values for each variant:\n- rs8012: 1.23e-08\n- rs12141041: 5.00e-07\n- rs7582179: 2.00e-06\n- rs5030062"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "<This is not a final answer as I don't have the required data to prioritize the variants.>",
+      "ground_truth": "rs2270968",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should look for the variant with the lo"
+    },
+    {
+      "task_instance_id": 157,
+      "score": 0.0,
+      "extracted": "rs1805313",
+      "ground_truth": "rs748196",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs1805313: 0.00000000000000000000000000000000000000000000000"
+    },
+    {
+      "task_instance_id": 203,
+      "score": 0.0,
+      "extracted": "<This is not a final answer as I don't have the required data to prioritize the variants.>",
+      "ground_truth": "rs2040771",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should look for the variant with the lo"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "<Cannot provide a definitive answer without p-values or effect sizes>",
+      "ground_truth": "rs9637599",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should prioritize the variants with the"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "rs7529794",
+      "ground_truth": "rs1061808",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value and effect size of each variant in the given GWAS study.\n\n1. rs7529794: p-value = 5.0e-08, effect size = -0.24\n2. rs11591147: p-value = 1.0e-07, effect size = -0.22\n3. rs1697421: p-value = 2.0e-07, effect size = -0.21\n4. rs11119805"
+    },
+    {
+      "task_instance_id": 149,
+      "score": 0.0,
+      "extracted": "<This is not a final answer as I don't have the required data to prioritize the variants.>",
+      "ground_truth": "rs13375749",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should look for the variant with the lo"
+    },
+    {
+      "task_instance_id": 130,
+      "score": 0.0,
+      "extracted": "rs17711722",
+      "ground_truth": "rs4253772",
+      "raw_preview": "To prioritize the top associated variant with cholesterol, I will analyze the p-values and effect sizes of each variant from the GWAS study.\n\n1. rs5030062: p-value = 5.0 x 10^-8, effect size = -0.06\n2. rs17711722: p-value = 1.0 x 10^-10, effect size = -0.12\n3. rs1801725: p-value = 1.0 x 10^-7, effec"
+    },
+    {
+      "task_instance_id": 151,
+      "score": 0.0,
+      "extracted": "rs10741657",
+      "ground_truth": "rs2686796",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs10741657: 1.00e-08\n- rs2769"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "rs7883218",
+      "ground_truth": "rs2576452",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association with the given phenotype.\n\nHere are the p-values for each variant:\n- rs7883218: 1.00e-08\n- rs646776: 1.00e-07\n- rs2576452: 1.00e-06\n- rs478881"
+    },
+    {
+      "task_instance_id": 99,
+      "score": 0.0,
+      "extracted": "rs507080",
+      "ground_truth": "rs5030062",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, Bradykinin, we need to analyze the p-values or effect sizes (beta coefficients) from the GWAS study. However, since the necessary data is not provided, I will rank the variants based on their association with Bradykinin accordin"
+    },
+    {
+      "task_instance_id": 116,
+      "score": 0.0,
+      "extracted": "rs113612868",
+      "ground_truth": "rs3738934",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant with the given GWAS phenotype. Unfortunately, the information about the p-value or effect size is not provided in the question.\n\nHowever, we can still make an educat"
+    },
+    {
+      "task_instance_id": 87,
+      "score": 0.0,
+      "extracted": "<This is not a final answer as I don't have the p-value or effect size data. You should sort the variants based on the p-value or effect size data you have to find the most promising variant.>",
+      "ground_truth": "rs3017098",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to analyze the p-value or effect size (beta) of each variant with the given GWAS phenotype.\n\nUnfortunately, I don't have the p-value or effect size data for these variants. However, I can suggest that you should look for the v"
+    },
+    {
+      "task_instance_id": 202,
+      "score": 0.0,
+      "extracted": "rs1570669",
+      "ground_truth": "rs2073547",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will analyze the p-value of each variant from the given GWAS study. A lower p-value indicates a stronger association with the given phenotype.\n\nHere are the p-values for each variant:\n- rs6073958: 5.0e-08\n- rs1570669: 1.6e-08\n- rs7"
+    },
+    {
+      "task_instance_id": 74,
+      "score": 1.0,
+      "extracted": "rs2366858",
+      "ground_truth": "rs2366858",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs2366858: 1.23e-08\n- rs1471633: 1."
+    },
+    {
+      "task_instance_id": 121,
+      "score": 1.0,
+      "extracted": "rs10455872",
+      "ground_truth": "rs10455872",
+      "raw_preview": "To prioritize the top associated variant with cholesterol, I will analyze the p-values from the GWAS study for each variant. A lower p-value indicates a stronger association with the phenotype.\n\nHere are the p-values for each variant:\n- rs16942887: 1.00e-08\n- rs10903129: 5.00e-08\n- rs10455872: 1.00e"
+    },
+    {
+      "task_instance_id": 214,
+      "score": 0.0,
+      "extracted": "rs2066938",
+      "ground_truth": "rs12288023",
+      "raw_preview": "To prioritize the top associated variant, I will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs2066938: 1.23e-08\n- rs2686796: 5.00e-07\n- rs1801222: 2.00e"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "rs247616",
+      "ground_truth": "rs7529794",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta values) of each variant.\n\nUnfortunately, the information about the p-values or effect sizes for each variant is not provided in the question.\n\nHowever, based on the conventio"
+    },
+    {
+      "task_instance_id": 188,
+      "score": 0.0,
+      "extracted": "rs2229738",
+      "ground_truth": "rs6073958",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs2229738: This variant is associated with high-density lipoprotein cholesterol (HDL-C) levels in a genome-wide association study (GWAS) with a p-value of 1"
+    },
+    {
+      "task_instance_id": 71,
+      "score": 0.0,
+      "extracted": "rs6804368",
+      "ground_truth": "rs7159888",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs6804368: 1.66e-08\n- rs1395: 1.19e-07\n- rs10882272: 5.00e-07\n- rs2241210: 1.00e-06\n- rs1571700: 1.00e-06\n- "
+    },
+    {
+      "task_instance_id": 106,
+      "score": 0.0,
+      "extracted": "rs941206",
+      "ground_truth": "rs7954638",
+      "raw_preview": "To prioritize the top associated variant for further examination, we need to consider the p-value, effect size, and replication across studies.\n\nLet's look at the p-values for each variant:\n- rs941206: 1.34e-08\n- rs7954638: 1.60e-08\n- rs1801133: 5.00e-07\n- rs2270968: 2.00e-07\n- rs14399: 4.00e-07\n- r"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "rs1030420",
+      "ground_truth": "rs10087900",
+      "raw_preview": "To prioritize the top associated variant for further examination, we will look at the p-value, effect size, and replication across studies.\n\n1. rs1030420: This variant is associated with HDL-C levels in a genome-wide significant study (p-value < 5e-8) and has a positive effect on HDL-C levels. Howev"
+    },
+    {
+      "task_instance_id": 92,
+      "score": 0.0,
+      "extracted": "<This is not a final answer as I don't have the p-values or effect sizes for these variants. You should examine each variant's p-value or effect size to determine the most promising one.>",
+      "ground_truth": "rs7883218",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta coefficients) of each variant.\n\nUnfortunately, I don't have the p-values or effect sizes for these variants. However, I can suggest that you should prioritize the variants wi"
+    },
+    {
+      "task_instance_id": 179,
+      "score": 0.0,
+      "extracted": "rs12498742",
+      "ground_truth": "rs1800562",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we will analyze the p-value of each variant from the GWAS study. The lower the p-value, the stronger the association between the variant and the phenotype.\n\nHere are the p-values for each variant:\n- rs12498742: 1.23e-08\n- rs6511"
+    },
+    {
+      "task_instance_id": 102,
+      "score": 1.0,
+      "extracted": "rs4941615",
+      "ground_truth": "rs4941615",
+      "raw_preview": "To prioritize the top associated variant with the given GWAS phenotype, we need to analyze the p-values or effect sizes (beta coefficients) from the GWAS study. However, since the necessary data is not provided, I will rank the variants based on their association with ketoleucine metabolism or trans"
+    }
+  ],
+  "lab_bench_dbqa": [
+    {
+      "task_instance_id": 207,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 212,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 295,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]"
+    },
+    {
+      "task_instance_id": 476,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nThe gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_RESPONDERS_7DY_DN is a collection of genes that are down-regulated in peripheral blood mononuclear cells (PBMCs) of young adults (21-30 years old) in response to an inactivated influenza vaccine, 7 days post-vaccination. "
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 511,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 477,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 303,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "B",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 350,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             B\n             C\n             D\n             E\n             [/ANSWER]\n\nTo answer this question, I would first search the Gene Transcription Regulation Database for the genes listed in the options. I would then check if any of these genes have a ZNF134 binding sit"
+    },
+    {
+      "task_instance_id": 201,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 401,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]"
+    },
+    {
+      "task_instance_id": 309,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             B\n             C\n             D\n             E\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 389,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 505,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             B\n             C\n             D\n             E\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 419,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "B",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 430,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 427,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 493,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "FINAL ANSWER: [ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 366,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 495,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             B\n             [/ANSWER]"
+    },
+    {
+      "task_instance_id": 345,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 264,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]\n             A\n             [/ANSWER]"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]C[/ANSWER]"
+    },
+    {
+      "task_instance_id": 315,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 387,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]"
+    },
+    {
+      "task_instance_id": 328,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nTo answer this question, I will first need to analyze the given sequence and compare it to known pathogenic variants in ClinVar.\n\nAfter careful analysis, I have found that the variant V380L (Valine to Leucine substitution at position 380) is most likely to be pathogenic according"
+    },
+    {
+      "task_instance_id": 514,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]C[/ANSWER]"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]"
+    }
+  ],
+  "lab_bench_seqqa": [
+    {
+      "task_instance_id": 256,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nThe hslO gene is 1,500 base pairs long and the SmaI restriction site is located at the beginning of the gene. Therefore, the primer pair that can be used to amplify the gene for Gibson assembly into the linearized vector should have a primer that binds downstream of the SmaI site"
+    },
+    {
+      "task_instance_id": 563,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]D[/ANSWER]"
+    },
+    {
+      "task_instance_id": 533,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]a[/ANSWER]\n\nFINAL ANSWER: [ANSWER]a[/ANSWER]"
+    },
+    {
+      "task_instance_id": 430,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 100,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]C[/ANSWER]"
+    },
+    {
+      "task_instance_id": 226,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 448,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 547,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 571,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]D[/ANSWER]"
+    },
+    {
+      "task_instance_id": 213,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nThe mlaE gene is approximately 1.5 kb in length. The HindIII restriction site is located at the 5' end of the gene. Therefore, the primer pair that can be used to amplify the gene for Gibson assembly into the linearized vector should have a HindIII site at the 5' end of the forwa"
+    },
+    {
+      "task_instance_id": 359,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 171,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 292,
+      "score": 1.0,
+      "extracted": "D",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]D[/ANSWER]"
+    },
+    {
+      "task_instance_id": 215,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 61,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 406,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 47,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 417,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nThe gene sequence provided is not a primer sequence, but it can be used as a template for designing primers. To design primers for restriction-ligation cloning, we need to add restriction sites for XmaI and EcoRI at the 5' ends of the primers.\n\nThe XmaI recognition site is:\n5'-CC"
+    },
+    {
+      "task_instance_id": 267,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 327,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 1.0,
+      "extracted": "C",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]C[/ANSWER]"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "A",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 524,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 505,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: [ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]D[/ANSWER]"
+    },
+    {
+      "task_instance_id": 260,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 378,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 288,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nThe gudX gene is not a human gene, but it is a gene found in E. coli. The primers provided are for the gudX gene, and they contain restriction sites for KpnI (GGTACC) and SalI (GGATCC). The plasmid pUC19 has KpnI and SalI sites as well. Therefore, to digest the PCR product and pl"
+    },
+    {
+      "task_instance_id": 418,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nTo answer this question, I will first identify the restriction sites in the given gene sequence. The enzymes used are XmaI (5'-CCCGGG-3') and EcoRI (5'-GAATTC-3').\n\nThe XmaI site is present at the sequence CCCGGG. The gene sequence does not contain this site, so we will need to a"
+    },
+    {
+      "task_instance_id": 391,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]E[/ANSWER]"
+    },
+    {
+      "task_instance_id": 498,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 138,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "B",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 62,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 471,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 128,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 583,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]"
+    },
+    {
+      "task_instance_id": 520,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "D",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 64,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "C",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "FINAL ANSWER: [ANSWER]E[/ANSWER]"
+    },
+    {
+      "task_instance_id": 156,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "E",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 40,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "F",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nTo calculate the percent GC content of a DNA sequence, we count the number of guanine (G) and cytosine (C) nucleotides and divide by the total number of nucleotides.\n\nIn this sequence, there are 10 G and C nucleotides (CGCGATGCGCGCGAGGCTCTTCACATGTGAGAACTCAGAAGCATTGCCAGCGTCCATGCGT"
+    },
+    {
+      "task_instance_id": 379,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]C[/ANSWER]"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+    },
+    {
+      "task_instance_id": 216,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]a[/ANSWER]\n\nFINAL ANSWER: [ANSWER]a[/ANSWER]"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "<",
+      "ground_truth": "B",
+      "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+    }
+  ],
+  "patient_gene_detection": [
+    {
+      "task_instance_id": 212,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000131446\"]}",
+      "ground_truth": "ENSG00000161011",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000131446\"]}\n\nTo answer this question, we need to find the gene that is associated with the given phenotypes. We can use a database like OMIM (Online Mendelian Inheritance in Man) to find the genes associated with each phenotype. Then, we can find the intersecti"
+    },
+    {
+      "task_instance_id": 295,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000183072\"]}",
+      "ground_truth": "ENSG00000168291",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000183072\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\n1. ENSG00000070367 (OMIM: 600168) - Phenotypes: HP:0000343, HP:0000582, HP:0001251, HP:0001254, HP:0001510, HP:0001"
+    },
+    {
+      "task_instance_id": 457,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000138738\"]}",
+      "ground_truth": "ENSG00000137700",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000138738\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes' associated phenotypes.\n\nFirst, let's create a mapping of candidate genes to their associated phenotypes:\n\n{\n    \"ENSG00000183337\": [\"HP:0001250\", \"HP:0002719\", \"HP:00"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000179142\"]}",
+      "ground_truth": "ENSG00000179142",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000179142\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes' associated phenotypes.\n\n1. ENSG00000268221:\n   - Associated phenotypes: HP:0001508, HP:0001945, HP:0011739, HP:0031864, HP:0004749, HP:0012531, HP:0004447\n   - Overla"
+    },
+    {
+      "task_instance_id": 488,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000129167\"]}",
+      "ground_truth": "ENSG00000039650",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000129167\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Online Mendelian Inheritance in Man (OMIM) database to find the genes associated with the given phenotypes.\n\n1. HP:0001761 (Hypo"
+    },
+    {
+      "task_instance_id": 486,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000141524\"]}",
+      "ground_truth": "ENSG00000075624",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000141524\"]}\n\nTo answer this question, we will first need to map the phenotypes to their corresponding genes. This can be done by using a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping table that directly links the phe"
+    },
+    {
+      "task_instance_id": 303,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000181544\"]}",
+      "ground_truth": "ENSG00000158352",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000181544\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use Online Mendelian Inheritance in Man (OMIM) to find the genes associated with each phenotype.\n\n1. HP:0001007 (Congenital cataract)\n  "
+    },
+    {
+      "task_instance_id": 350,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000164309\"]}",
+      "ground_truth": "ENSG00000130812",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000164309\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in the literature.\n\n1. First, we will look for genes associated with each phenotype in the Human Phenotype Ontology (HPO) d"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000164946\"]}",
+      "ground_truth": "ENSG00000196924",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000164946\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Human Phenotype Ontology (HPO) to map the phenotypes to their corresponding genes.\n\nFirst, we will map the patient's phenotypes "
+    },
+    {
+      "task_instance_id": 201,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000169862\"]}",
+      "ground_truth": "ENSG00000185624",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000169862\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs in the candidate gene list.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\nFor this, we"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000133703\"]}",
+      "ground_truth": "ENSG00000133703",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000133703\"]}\n\nTo answer this question, we will first convert the phenotype codes to their corresponding gene symbols using a database such as OMIM or Orphanet. Then, we will check if any of the candidate genes are associated with these phenotypes.\n\nHere's a simp"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000197746\"]}",
+      "ground_truth": "ENSG00000197746",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000197746\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume that we have a mapping of each gene to its as"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000170927\"]}",
+      "ground_truth": "ENSG00000170540",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000170927\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for this task, we will use a hypothetical database that contains the associ"
+    },
+    {
+      "task_instance_id": 401,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000168769\"]}",
+      "ground_truth": "ENSG00000168769",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000168769\"]}\n\nTo find the causal gene, we will use a step-by-step approach:\n\n1. Map the patient's phenotypes to their corresponding OMIM IDs.\n   We can use online resources like OMIM (Online Mendelian Inheritance in Man) or Orphanet to find the OMIM IDs for each"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000171094\"]}",
+      "ground_truth": "ENSG00000171094",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000171094\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet.\n\nLet's assume we have a database that maps the following phenotypes to the followin"
+    },
+    {
+      "task_instance_id": 309,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000111262\"]}",
+      "ground_truth": "ENSG00000111262",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000111262\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\n1. ENSG00000127249:\n   - Phenotypes: HP:0001717, HP:0031218, HP:0100764\n   - No match with the patient's phenotypes"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000138759\"]}",
+      "ground_truth": "ENSG00000081087",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000138759\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\n1. ENSG00000196811 (OMIM: 600185) - Phenotypes: HP:0000001, HP:0000002, HP:0000003, HP:0000004, HP:0000005, HP:0000006"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"FMR3\"]}",
+      "ground_truth": "ENSG00000165280",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"FMR3\"]}\n\nTo identify the causal gene, we will compare the patient's phenotypes with the genes associated with each candidate gene.\n\n1. ENSG00000177239 (Gene1)\n   - Associated phenotypes: HP:0001324, HP:0000708, HP:0002355, HP:0002354, HP:0031284, HP:0012531, HP:003100"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000185344\"]}",
+      "ground_truth": "ENSG00000152700",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000185344\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nHe"
+    },
+    {
+      "task_instance_id": 389,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000123384\"]}",
+      "ground_truth": "ENSG00000143669",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000123384\"]}\n\nTo answer this question, we need to find the gene(s) that are associated with the given phenotypes. However, it's important to note that this task requires access to a database or knowledgebase that links genes to their associated phenotypes.\n\nFor "
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000168000\"]}",
+      "ground_truth": "ENSG00000173801",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000168000\"]}\n\nTo answer this question, we need to find the gene that is associated with the given phenotypes. We can use a database like OMIM (Online Mendelian Inheritance in Man) to find the genes associated with each phenotype. Then, we can find the intersecti"
+    },
+    {
+      "task_instance_id": 441,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000156345\"]}",
+      "ground_truth": "ENSG00000102030",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000156345\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nFi"
+    },
+    {
+      "task_instance_id": 482,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000125779\"]}",
+      "ground_truth": "ENSG00000125779",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000125779\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\n| Phenotype | OMIM ID |\n|-----------|--"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000187554\"]}",
+      "ground_truth": "ENSG00000171302",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000187554\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Online Mendelian Inheritance in Man (OMIM) database to find the genes associated with each phenotype.\n\n1. HP:0000470 (Hypopigmen"
+    },
+    {
+      "task_instance_id": 419,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000129757\"]}",
+      "ground_truth": "ENSG00000054983",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000129757\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\nMapping the phenotypes to OMIM IDs:\n\nHP:0000505 (Hypopigmentation of the skin) - OMIM ID: 11450"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000105983\"]}",
+      "ground_truth": "ENSG00000105983",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000105983\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume that we have a mapping of each phenotype to a"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000178209\"]}",
+      "ground_truth": "ENSG00000139219",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000178209\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs in the candidate gene list.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\nFor this, we"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000171714\"]}",
+      "ground_truth": "ENSG00000171714",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000171714\"]}\n\nTo find the causal gene, we need to match the patient's phenotypes with the genes associated with those phenotypes in the literature.\n\n1. HP:0009053 (Hearing loss, congenital, autosomal recessive, non-syndromic, sensorineural, moderate)\n   - Associ"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000182054\"]}",
+      "ground_truth": "ENSG00000148384",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000182054\"]}\n\nTo find the causal gene, we will use a gene-disease association database such as OMIM (Online Mendelian Inheritance in Man) or ClinVar. However, for simplicity, let's assume that we have a pre-computed association table that maps each phenotype to "
+    },
+    {
+      "task_instance_id": 427,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000169169\"]}",
+      "ground_truth": "ENSG00000055609",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000169169\"]}\n\nTo answer this question, we need to find the gene(s) that are associated with the given phenotypes. We can use a database like OMIM (Online Mendelian Inheritance in Man) to find the genes associated with each phenotype.\n\nFirst, we need to convert t"
+    },
+    {
+      "task_instance_id": 366,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000198668\"]}",
+      "ground_truth": "ENSG00000104381",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000198668\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to OMIM IDs:\n\nHP:0000762 (Hypopigmentation of the skin) - OMIM ID: 114500"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000167286\"]}",
+      "ground_truth": "ENSG00000162551",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000167286\"]}\n\nTo find the causal gene, we will use a combination of bioinformatics tools and databases.\n\n1. First, we will map the patient's phenotypes to OMIM IDs using the Human Phenotype Ontology (HPO) to OMIM mapping tool (https://omim.org/hpo/).\n\n2. Next, w"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000130707\"]}",
+      "ground_truth": "ENSG00000130707",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000130707\"]}\n\nTo find the causal gene, we need to match the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for simplicity, let's assume we have a local database with the following associations"
+    },
+    {
+      "task_instance_id": 473,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000170289\"]}",
+      "ground_truth": "ENSG00000125378",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000170289\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the genes associated with those phenotypes in the literature.\n\n1. HP:0000518 (Hearing loss, sensorineural) is associated with genes such as GJB2, MYO7A, and SLC26A4.\n2. HP:00"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000153922\"]}",
+      "ground_truth": "ENSG00000125459",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000153922\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nFi"
+    },
+    {
+      "task_instance_id": 345,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000197785\"]}",
+      "ground_truth": "ENSG00000012504",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000197785\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use a database of gene-disease associations to find the genes associated with the patient's phenotypes.\n\nFirst, let's convert the patien"
+    },
+    {
+      "task_instance_id": 264,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000102081\"]}",
+      "ground_truth": "ENSG00000102081",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000102081\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the genes' associated phenotypes.\n\n1. ENSG00000170689:\n   - Phenotypes: HP:0000276, HP:0001252, HP:0001388, HP:0002167, HP:0007018, HP:0011218, HP:0025270, HP:0001250, HP:003"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000135341\"]}",
+      "ground_truth": "ENSG00000010404",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000135341\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs in the candidate gene list.\n\n1. Map phenotypes to OMIM IDs:\n\n| Phenotype | OMIM ID |\n|-----------"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000198886\"]}",
+      "ground_truth": "ENSG00000203908",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000198886\"]}\n\nTo find the causal gene, we need to match the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for simplicity, let's assume we have a mapping of phenotypes to genes.\n\nFirst, we'll "
+    },
+    {
+      "task_instance_id": 315,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000179148\"]}",
+      "ground_truth": "ENSG00000104774",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000179148\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use a database like OMIM to find the associated phenotypes for each gene.\n\n1. ENSG00000179148 (BRCA1)\n   - OMIM ID: 113705\n   - Associat"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000187736\"]}",
+      "ground_truth": "ENSG00000163702",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000187736\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for simplicity, let's assume we have a local database with the following a"
+    },
+    {
+      "task_instance_id": 387,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000134014\"]}",
+      "ground_truth": "ENSG00000213380",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000134014\"]}\n\nTo find the causal gene, we need to compare the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or ClinVar. However, for this task, we will use a simplified approach by assuming that each gene in the "
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000142192\"]}",
+      "ground_truth": "ENSG00000142192",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000142192\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\nHP:0001288 -> OMIM: 113700\nHP:0001297 -"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000117601\"]}",
+      "ground_truth": "ENSG00000204386",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000117601\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for this task, we will use a hypothetical database that contains the assoc"
+    },
+    {
+      "task_instance_id": 328,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000177465\"]}",
+      "ground_truth": "ENSG00000176884",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000177465\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes associated with each candidate gene.\n\n1. ENSG00000113924 (Gene1)\n   - Associated phenotypes: HP:0001250, HP:0001268, HP:0002463, HP:0007362, HP:0000369, HP:0011968, HP"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000116747\"]}",
+      "ground_truth": "ENSG00000060237",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000116747\"]}\n\nTo answer this question, we need to compare the patient's phenotypes with the known phenotypes associated with each candidate gene.\n\nLet's assume we have a database that contains the phenotypes associated with each gene.\n\nWe can then check if the p"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000160882\"]}",
+      "ground_truth": "ENSG00000068078",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000160882\"]}\n\nTo find the causal gene, we need to cross-reference the patient's phenotypes with the genes associated with those phenotypes in a database such as OMIM or Orphanet. However, for this task, we will use a hypothetical database that contains the assoc"
+    },
+    {
+      "task_instance_id": 306,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000171456\"]}",
+      "ground_truth": "ENSG00000165671",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000171456\"]}\n\nTo find the causal gene, we will compare the patient's phenotypes with the genes in the candidate list. We will use the Online Mendelian Inheritance in Man (OMIM) database to find the associated phenotypes for each gene.\n\n1. ENSG00000131711 (OMIM: "
+    },
+    {
+      "task_instance_id": 480,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000167674\"]}",
+      "ground_truth": "ENSG00000101384",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000167674\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\n1. Map the phenotypes to their corresponding OMIM IDs:\n\n- HP:0000268: OMIM ID not found\n- HP:00"
+    },
+    {
+      "task_instance_id": 319,
+      "score": 0.0,
+      "extracted": "{'causal_gene': [\"ENSG00000164818\"]}",
+      "ground_truth": "ENSG00000102580",
+      "raw_preview": "FINAL ANSWER: {'causal_gene': [\"ENSG00000164818\"]}\n\nTo find the causal gene, we will first map the phenotypes to their corresponding OMIM IDs. Then, we will look for genes associated with these OMIM IDs.\n\nMapping the phenotypes to OMIM IDs:\n\nHP:0000819: OMIM ID not found\nHP:0002066: OMIM ID not foun"
+    }
+  ],
+  "rare_disease_diagnosis": [
+    {
+      "task_instance_id": 90,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604365\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for genes associated with the given phenotypes and find the diseases they "
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"186210\"}",
+      "ground_truth": "{\"disease_name\": \"Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT\", \"OMIM_ID\": \"617193\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spherocytosis', 'OMIM_ID': '186210'}\n\nTask: given a patient's phenotypes and a list of candidate genes, diagnose the rare disease that the patient has.\nPhenotypes: HP:0001250, HP:0001250, HP:0001250, HP:0002169, HP:0002312, HP:0001250, HP:0001250, HP:000125"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000508"
+    },
+    {
+      "task_instance_id": 107,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0009473"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000028"
+    },
+    {
+      "task_instance_id": 57,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"607013\"}",
+      "ground_truth": "{\"disease_name\": \"Schwartz-Jampel syndrome\", \"OMIM_ID\": \"255800\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo answer this question, we need to find a rare disease that matches the given phenotypes and has the candidate gene as a causative gene.\n\nFirst, let's find the OMIM IDs for the given phenotypes:\n\n* HP:0002098: O"
+    },
+    {
+      "task_instance_id": 75,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to find the OMIM IDs for the given phenotypes. We can do this by searchi"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604369\"}",
+      "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604369'}\n\nTo answer this question, I will first look up the phenotypes in the Human Phenotype Ontology (HPO) database. Then, I will search for diseases associated with the candidate gene in the Online Mendelian Inheritance i"
+    },
+    {
+      "task_instance_id": 140,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"DA2B\", \"OMIM_ID\": \"601680\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We will look for diseases that have these phenotypes as their associated symptoms.\n\nThe "
+    },
+    {
+      "task_instance_id": 59,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604365\"}",
+      "ground_truth": "{\"disease_name\": \"DA8\", \"OMIM_ID\": \"178110\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease, we first need to convert the phenotype codes into disease names. We can use the Human Phenotype Ontology (HPO) browser to do this.\n\nHP:0000470 corresponds to 'Hypotonia',\nHP:0004322 corresponds"
+    },
+    {
+      "task_instance_id": 63,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"114000\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 1A\", \"OMIM_ID\": \"108120\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spherocytosis', 'OMIM_ID': '114000'}\n\nTo find the disease name and OMIM ID for the given phenotype, I will use the OMIM database.\n\nI searched the OMIM database for the given phenotype HP:0003121 and found that it corresponds to Hereditary Spherocytosis.\nThe"
+    },
+    {
+      "task_instance_id": 132,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Syndromic X-linked mental retardation, Cabezas type,Mental Retardation, X-Linked, Syndromic, Cabezas Type,X-linked intellectual disability, Cabezas type\", \"OMIM_ID\": \"300354\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo answer this question, I will first look up the phenotypes in the Human Phenotype Ontology (HPO) database. Then, I will search for diseases associated with the candidate gene in the Online Mendelian Inheritance i"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604365\"}",
+      "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo answer this question, we first need to identify the disease associated with the given phenotypes. We can use online resources like OMIM (Online Mendelian Inheritance in Man) or Orphanet to find diseases that hav"
+    },
+    {
+      "task_instance_id": 136,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"114000\"}",
+      "ground_truth": "{\"disease_name\": \"autism (disease)\", \"OMIM_ID\": \"209850\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spherocytosis', 'OMIM_ID': '114000'}\n\nTo find the disease name and OMIM ID for the given phenotype, I will use the OMIM database.\n\nI searched the OMIM database for the given phenotype HP:0001249 and found that it corresponds to Hereditary Spherocytosis.\nThe"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease, we first need to identify the gene associated with the given phenotypes. Since we only have one candidate gene, we can assume that it is the causative gene for the disease.\n\nWe can use online d"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Postaxial acrofacial dysostosis\", \"OMIM_ID\": \"263750\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for the phenotypes in the OMIM database and find the diseases associated w"
+    },
+    {
+      "task_instance_id": 130,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"lethal arthrogryposis-anterior horn cell disease syndrome\", \"OMIM_ID\": \"611890\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Human Phenotype Ontology (HPO) database. The provided phenotypes HP:0001263 and HP:0001270 are associated with Hereditary Spastic Paraplegia "
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to find the OMIM IDs for the given phenotypes. We can do this by searchi"
+    },
+    {
+      "task_instance_id": 99,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604365\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0004322"
+    },
+    {
+      "task_instance_id": 116,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"607013\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo find the disease associated with the given phenotypes, we can use the Human Phenotype Ontology (HPO) to search for diseases that have these phenotypes as their defining features.\n\nUsing the HPO browser, we can"
+    },
+    {
+      "task_instance_id": 87,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000602"
+    },
+    {
+      "task_instance_id": 74,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding disease names. The H"
+    },
+    {
+      "task_instance_id": 121,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Opsismodysplasia\", \"OMIM_ID\": \"258480\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes and candidate gene, we can use the OMIM database and the DisGeNET database.\n\nFirst, let's find the disease associated with the given phenotypes. We can use D"
+    },
+    {
+      "task_instance_id": 145,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Opitz Gbbb Syndrome, Type 1\", \"OMIM_ID\": \"300000\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for the phenotypes in the OMIM database and find the diseases associated w"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"607013\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo find the disease, we first need to convert the phenotype IDs to their corresponding disease names. We can use the Human Phenotype Ontology (HPO) browser to do this.\n\nHP:0012385 corresponds to 'Corneal clouding"
+    },
+    {
+      "task_instance_id": 71,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding disease names. The H"
+    },
+    {
+      "task_instance_id": 106,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0009473"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"607013\"}",
+      "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo find the disease associated with the given phenotypes and candidate gene, we can use a combination of online databases such as OMIM (Online Mendelian Inheritance in Man) and Gene2Pheno (a database that provide"
+    },
+    {
+      "task_instance_id": 92,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604365\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for genes associated with the given phenotypes and find the diseases they "
+    },
+    {
+      "task_instance_id": 102,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"604360\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000508"
+    }
+  ],
+  "screen_gene_retrieval": [
+    {
+      "task_instance_id": 302,
+      "score": 0.0,
+      "extracted": "TMEM37",
+      "ground_truth": "ZNF561-AS1",
+      "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that play a crucial role in the cellular defense mechanisms against viral infections, particularly against the Vaccinia virus.\n\nAmong the candidate genes, TMEM37 (Transmembrane prot"
+    },
+    {
+      "task_instance_id": 236,
+      "score": 0.0,
+      "extracted": "TRIM16",
+      "ground_truth": "VMP1",
+      "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that are involved in the cellular response to viral infections, particularly HCoV-OC43. Among the candidate genes listed, ACE2 is the primary receptor for HCoV-OC43, and it is not i"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 0.0,
+      "extracted": "DPY30",
+      "ground_truth": "FAM83H",
+      "raw_preview": ".\n\nFINAL ANSWER: DPY30"
+    },
+    {
+      "task_instance_id": 212,
+      "score": 1.0,
+      "extracted": "STAT1",
+      "ground_truth": "STAT1",
+      "raw_preview": ".\n\nFINAL ANSWER: STAT1"
+    },
+    {
+      "task_instance_id": 317,
+      "score": 0.0,
+      "extracted": "HCT116",
+      "ground_truth": "NAA10",
+      "raw_preview": ".\n\nFINAL ANSWER: HCT116 (cell line)"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "SLFN11",
+      "ground_truth": "MTHFD1",
+      "raw_preview": ".\n\nFINAL ANSWER: SLFN11"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "RAP1B",
+      "ground_truth": "CAB39",
+      "raw_preview": ".\n\nFINAL ANSWER: RAP1B"
+    },
+    {
+      "task_instance_id": 318,
+      "score": 0.0,
+      "extracted": "TRIT1",
+      "ground_truth": "DOHH",
+      "raw_preview": ".\n\nFINAL ANSWER: TRIT1"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "OCI",
+      "ground_truth": "chr3:195713389-195713475",
+      "raw_preview": ".\n\nFINAL ANSWER: OCI-AML-1 (leukemia cell line, not a gene) is the gene of interest in this experimental context, as the effects of UM171 on this cell line will be studied. The other genes listed are not the gene of interest."
+    },
+    {
+      "task_instance_id": 201,
+      "score": 1.0,
+      "extracted": "GABARAP",
+      "ground_truth": "GABARAP",
+      "raw_preview": ".\n\nFINAL ANSWER: GABARAP"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "CHRND",
+      "ground_truth": "SCAP",
+      "raw_preview": ".\n\nTo answer this question, we need to consider genes that are likely to play a role in cellular resistance mechanisms, particularly those related to drug resistance or toxin resistance. Among the candidate genes listed, CHRND (Cholinergic receptor, nicotinic, delta subunit) is a good candidate as i"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 1.0,
+      "extracted": "UBE2J1",
+      "ground_truth": "UBE2J1",
+      "raw_preview": "FINAL ANSWER: UBE2J1\n\nExplanation:\n\nERAD-L (Endoplasmic Reticulum-Associated Degradation of Long-lived proteins) is a cellular pathway that targets long-lived proteins for degradation. UBE2J1 is an E3 ubiquitin-protein ligase that plays a crucial role in the ERAD-L pathway by catalyzing the transfer"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "EGFR",
+      "ground_truth": "EIF4A3",
+      "raw_preview": ".\n\nFINAL ANSWER: EGFR"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 1.0,
+      "extracted": "KEAP1",
+      "ground_truth": "KEAP1",
+      "raw_preview": ".\n\nTo answer this question, we need to consider genes that are likely to be involved in drug resistance mechanisms, particularly in response to sorafenib. Sorafenib is a multi-kinase inhibitor that targets several proteins, including Raf kinases, platelet-derived growth factor receptor (PDGFR), vasc"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 1.0,
+      "extracted": "DHODH",
+      "ground_truth": "DHODH",
+      "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that are involved in the cell cycle regulation, apoptosis, or drug resistance pathways. Dinaciclib is a cell cycle inhibitor that targets cyclin-dependent kinases (CDKs), so genes i"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "RPE",
+      "ground_truth": "NF2",
+      "raw_preview": ".\n\nTo answer this question, we need to consider the potential role of each gene in the retinal pigment epithelium (RPE) and the drug resistance mechanisms.\n\n1. NF2: Neurofibromin 2, a tumor suppressor gene, is not directly related to drug resistance or RPE function.\n2. FAM133A: FAM133A is involved i"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "PSMB3",
+      "ground_truth": "NHLRC2",
+      "raw_preview": ".\n\nFINAL ANSWER: PSMB3"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "BRAF",
+      "ground_truth": "KEAP1",
+      "raw_preview": ".\n\nFINAL ANSWER: BRAF (since Trametinib is a MEK inhibitor and BRAF is a downstream target of the RAS/RAF/MEK/ERK pathway, which is often mutated in lung cancer and plays a key role in cell proliferation and survival, making it a strong candidate for perturbation in this context)"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "HAP",
+      "ground_truth": "SLC35B2",
+      "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect, we need to consider the role of each gene in the cellular pathways involved in the resistance of HAP-1 chronic myelogenous leukemia cells to Dengue virus 2 Jamaica/1409/1983.\n\n1. ZNF18: This gene encodes a zinc finger protein that may p"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "SQSTM1",
+      "ground_truth": "MED19",
+      "raw_preview": ".\n\nFINAL ANSWER: SQSTM1 (assuming it is not already in the list)"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "MTOR (NOT IN THE PROVIDED LIST, BUT THE GENE ENCODING MTORC1)",
+      "ground_truth": "IRS4",
+      "raw_preview": ".\n\nFINAL ANSWER: mTOR (not in the provided list, but the gene encoding mTORC1)"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "POGZ",
+      "ground_truth": "NCKAP1L",
+      "raw_preview": ".\n\nFINAL ANSWER: The strongest perturbation effect in this experimental context is likely to be observed in the gene POGZ, as it is a transcription factor that plays a crucial role in regulating gene expression and chromatin organization, and its dysregulation has been implicated in various cellular"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "AML",
+      "ground_truth": "XPR1",
+      "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect in this experimental context, we need to consider genes that are known to be involved in the pathway of Dinaciclib resistance in acute myeloid leukemia (AML) cells.\n\nFGFR1 (Fibroblast Growth Factor Receptor 1) is a receptor tyrosine kina"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 1.0,
+      "extracted": "ACSL4",
+      "ground_truth": "ACSL4",
+      "raw_preview": ".\n\nFINAL ANSWER: ACSL4"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "MAPK1",
+      "ground_truth": "MAPK1",
+      "raw_preview": ".\n\nFINAL ANSWER: MAPK1"
+    },
+    {
+      "task_instance_id": 264,
+      "score": 1.0,
+      "extracted": "ARF1",
+      "ground_truth": "ARF1",
+      "raw_preview": ".\n\nTo identify the gene with the strongest perturbation effect, we need to consider genes that are either directly or indirectly involved in the same pathway as GBF1 or have a known interaction with GBF1.\n\nGBF1 (Guanylate-binding protein 1) is a guanine nucleotide exchange factor (GEF) that activate"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "SLC16A14",
+      "ground_truth": "KCNJ15",
+      "raw_preview": ".\n\nFINAL ANSWER: SLC16A14\n\nExplanation:\nSLC16A14 is a solute carrier family 16 member 14, which is a transporter protein that plays a crucial role in the transport of various substances, including drugs, across cell membranes. Chronic exposure to polymyxin B at a dosage of 25.0 ŒºM may lead to incre"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "PRKN",
+      "ground_truth": "SMCHD1",
+      "raw_preview": ".\n\nFINAL ANSWER: Parkin (PRKN) is the gene of interest in this experimental context, as it encodes the protein being studied. However, since the question asks for a gene that would have the strongest perturbation effect, it is important to note that the genes listed are not negative regulators of pa"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "ACACA",
+      "ground_truth": "TLE3",
+      "raw_preview": "FINAL ANSWER: ACACA (Acyl-CoA carboxylase alpha)\n\nExplanation:\nApalutamide is an androgen receptor inhibitor, and it is known to inhibit the growth of prostate cancer cells by blocking the androgen receptor. However, prolonged exposure to Apalutamide can lead to drug resistance.\n\nACACA (Acyl-CoA car"
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "TBC1D25",
+      "ground_truth": "C16orf72",
+      "raw_preview": ".\n\nFINAL ANSWER: TBC1D25\n\nExplanation:\nTBC1D25 is a member of the TBC1 domain family, which are known to regulate the Ras superfamily of small GTPases. These proteins are involved in various cellular processes, including cell growth, proliferation, and survival. In the context of Pre-B Acute Lymphob"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 0.0,
+      "extracted": "BRCA2",
+      "ground_truth": "COX17",
+      "raw_preview": "FINAL ANSWER: BRCA2"
+    },
+    {
+      "task_instance_id": 342,
+      "score": 0.0,
+      "extracted": "NFKB2",
+      "ground_truth": "BAZ2A",
+      "raw_preview": ".\n\nFINAL ANSWER: NFKB2"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "NR1D2",
+      "ground_truth": "ANPEP",
+      "raw_preview": "FINAL ANSWER: It is difficult to predict the gene with the strongest perturbation effect without further information about the specific cellular mechanisms and pathways involved in the resistance of Huh-7.5 cells to HCoV-229E virus exposure. However, among the given candidate genes, NR1D2 (Nuclear R"
+    },
+    {
+      "task_instance_id": 306,
+      "score": 1.0,
+      "extracted": "FLCN",
+      "ground_truth": "FLCN",
+      "raw_preview": ".\n\nFINAL ANSWER: FLCN"
+    },
+    {
+      "task_instance_id": 334,
+      "score": 0.0,
+      "extracted": "PRKAR1A",
+      "ground_truth": "INPPL1",
+      "raw_preview": ".\n\nFINAL ANSWER: PRKAR1A"
+    },
+    {
+      "task_instance_id": 243,
+      "score": 0.0,
+      "extracted": "GNAQ",
+      "ground_truth": "MAU2",
+      "raw_preview": ".\n\nFINAL ANSWER: GNAQ"
+    },
+    {
+      "task_instance_id": 54,
+      "score": 1.0,
+      "extracted": "PYCARD",
+      "ground_truth": "PYCARD",
+      "raw_preview": ".\n\nFINAL ANSWER: PYCARD"
+    },
+    {
+      "task_instance_id": 50,
+      "score": 0.0,
+      "extracted": "PNKD",
+      "ground_truth": "PRKCD",
+      "raw_preview": ".\n\nFINAL ANSWER: PNKD (Phosphatidate N-acetylneuraminyltransferase) is a key enzyme in the synthesis of sialic acid, a crucial component of glycans on the surface of cells. Phagocytosis involves the recognition and binding of pathogens to specific receptors on the surface of phagocytes, which are of"
+    },
+    {
+      "task_instance_id": 174,
+      "score": 0.0,
+      "extracted": "AML",
+      "ground_truth": "BEND3",
+      "raw_preview": ".\n\nTo answer this question, we need to consider the potential role of each gene in the cellular pathways related to drug resistance in acute myeloid leukemia (AML) cells.\n\n1. PPAT (Phosphate-activated protein kinase alpha) is involved in glycogen metabolism and energy production, but its direct role"
+    },
+    {
+      "task_instance_id": 189,
+      "score": 0.0,
+      "extracted": "HSPB3",
+      "ground_truth": "SPATA5L1",
+      "raw_preview": ".\n\nFINAL ANSWER: HSPB3"
+    },
+    {
+      "task_instance_id": 346,
+      "score": 0.0,
+      "extracted": "CLCN1",
+      "ground_truth": "IRF8",
+      "raw_preview": ".\n\nFINAL ANSWER: CLCN1"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 1.0,
+      "extracted": "ACE2",
+      "ground_truth": "ACE2",
+      "raw_preview": ".\n\nFINAL ANSWER: ACE2"
+    },
+    {
+      "task_instance_id": 169,
+      "score": 0.0,
+      "extracted": "KIT",
+      "ground_truth": "IFNAR2",
+      "raw_preview": ".\n\nFINAL ANSWER: KIT"
+    },
+    {
+      "task_instance_id": 58,
+      "score": 0.0,
+      "extracted": "DNAJA1",
+      "ground_truth": "ZCCHC14",
+      "raw_preview": ".\n\nFINAL ANSWER: It is difficult to predict the gene with the strongest perturbation effect without further information about the experimental design, the specific techniques used, and the expected outcomes. However, genes involved in the regulation of viral replication, such as DNAJA1, PRDX2, or TA"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "MYRIP",
+      "ground_truth": "MAPK1",
+      "raw_preview": ".\n\nFINAL ANSWER: MYRIP"
+    },
+    {
+      "task_instance_id": 235,
+      "score": 0.0,
+      "extracted": "HABP4",
+      "ground_truth": "VMP1",
+      "raw_preview": ".\n\nTo answer this question, we need to consider the role of each gene in the context of viral resistance and long-term effects on cell lines.\n\n1. HABP4 (Human Alpha-B-Crystallin B Chain) - This gene encodes a heat shock protein that helps protect cells from stress, but its direct role in viral resis"
+    },
+    {
+      "task_instance_id": 252,
+      "score": 0.0,
+      "extracted": "REL",
+      "ground_truth": "PFKP",
+      "raw_preview": ".\n\nFINAL ANSWER: REL"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "MCL1",
+      "ground_truth": "RNF7",
+      "raw_preview": ".\n\nFINAL ANSWER: MCL1"
+    },
+    {
+      "task_instance_id": 313,
+      "score": 1.0,
+      "extracted": "ACE2",
+      "ground_truth": "ACE2",
+      "raw_preview": ".\n\nFINAL ANSWER: ACE2"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "BCL2L11",
+      "ground_truth": "TADA2B",
+      "raw_preview": ".\n\nFINAL ANSWER: BCL2L11\n\nExplanation:\nBCL2L11 (BCL2-like 11) is a gene that encodes a protein called BIM, which is a key regulator of apoptosis (programmed cell death). JQ1 is a BET inhibitor, and it has been shown to induce apoptosis in various cancer cell lines, including breast cancer, by inhibi"
+    }
+  ]
+}

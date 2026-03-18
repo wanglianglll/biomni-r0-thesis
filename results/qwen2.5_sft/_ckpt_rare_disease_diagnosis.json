@@ -1,0 +1,212 @@
+[
+  {
+    "task_instance_id": 90,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000265\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features (HP terms)**\n   - HP:0002650: Scoliosis\n   - HP:0000175: Cleft palate\n   - HP:0007099: Short stature\n   - HP:0004322: Short neck\n   - HP:0001263: Global developmental delay\n   - HP:0009473: Joint laxity\n\n2. **Consider"
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000125\"}",
+    "ground_truth": "{\"disease_name\": \"Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT\", \"OMIM_ID\": \"617193\"}",
+    "raw_preview": "BEGIN\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   The phenotypes are given as HP (Human Phenotype Ontology) codes. I need to look them up:\n   - HP:0001250: Seizure (appears multiple times)\n   - HP:0002169: Intellectual disability, severe\n   - HP:0002312: Inability"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"178110\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "PHENOTYPE MAPPINGS: HP:0000508 = global developmental delay, HP:0000193 = macrocephaly, HP:0009473 = short neck, HP:0000347 = hypertelorism\n\nFINAL ANSWER: {\"disease_name\": \"Macrocephaly-short neck-hypertelorism-developmental delay syndrome\", \"OMIM_ID\": \"178110\"}\nExplanation: The phenotypes correspon"
+  },
+  {
+    "task_instance_id": 107,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000947\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "Phenotype IDs mapping:\nHP:0009473 = Arthrogryposis multiplex congenita\nHP:0001371 = Lower limb deficiency\nHP:0000602 = Upper limb deficiency\nHP:0002650 = Radioulnar synostosis\nHP:0000508 = Talipes equinovarus\n\nCandidate gene: ENSG00000154864 = MYH3\n\nSo the patient has: Arthrogryposis multiplex conge"
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000002\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+    "raw_preview": "PHENOTYPE MAPPINGS: HP:0000028 = Cryptorchidism\n                   HP:0000160 = Narrow mouth\n                   HP:0002650 = Scoliosis\n                   HP:0012385 = Camptodactyly\n\nCANDIDATE GENE: ENSG00000109063 = GENETIC_INFO: {'gene_symbol': 'FBN3', 'chr': '15q21', 'variant_ids': ['rs77015870'],"
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000209\"}",
+    "ground_truth": "{\"disease_name\": \"Schwartz-Jampel syndrome\", \"OMIM_ID\": \"255800\"}",
+    "raw_preview": "def parse_phenotypes(phenotypes):\n            phens = []\n            for p in phenotypes.split(','):\n                hp = { 'id': p.strip() }\n                if '-' in p:\n                    hp['label'] = p.strip().split('-')[1].strip()\n                else:\n                    hp['label'] = p.strip"
+  },
+  {
+    "task_instance_id": 75,
+    "score": 0.0,
+    "extracted": "Let's break this down step by step",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": "FINAL ANSWER: \nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   The patient has three HPO (Human Phenotype Ontology) codes:\n   - HP:0002561: \"Abnormality of the nipple\"  \n   - HP:0000598: \"Aplasia/Hypoplasia of the skin\"  \n   - HP:0001057: \"Abnormality of the ear\"  \n\n "
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000764\"}",
+    "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   I need to decode the HPO terms first:\n   - HP:0007646 → Arthrogryposis multiplex congenita\n   - HP:0000347 → Flexion contracture\n   - HP:0000175 → Oculomotor apraxia\n   - HP:0000365 → Scoliosis\n   - HP:0001172 "
+  },
+  {
+    "task_instance_id": 140,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"001238\"}",
+    "ground_truth": "{\"disease_name\": \"DA2B\", \"OMIM_ID\": \"601680\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   I need to decode the HPO terms first:\n   - HP:0012385 → Camptodactyly of finger\n   - HP:0001371 → Flexion contracture\n   - HP:0001836 → Short toe\n   - HP:0100490 → Camptodactyly of toe\n   - HP:0000494 → Downsla"
+  },
+  {
+    "task_instance_id": 59,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000047\"}",
+    "ground_truth": "{\"disease_name\": \"DA8\", \"OMIM_ID\": \"178110\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   I need to decode the HPO terms first:\n   - HP:0000470 = Micrognathia (small lower jaw)\n   - HP:0004322 = Scoliosis\n   - HP:0005281 = Short stature\n   - HP:0000508 = Ptosis (drooping of the upper eyelid)\n   - HP"
+  },
+  {
+    "task_instance_id": 63,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"171700\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 1A\", \"OMIM_ID\": \"108120\"}",
+    "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"171700\", \"disease_name\": \"Conductive hearing impairment, hereditary, type II\"}\n            \nExplanation: The patient phenotype is given as HP:0003121, which is \"Conductive hearing impairment\" according to the Human Phenotype Ontology. The candidate gene is ENSG00000130595."
+  },
+  {
+    "task_instance_id": 132,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000127\"}",
+    "ground_truth": "{\"disease_name\": \"Syndromic X-linked mental retardation, Cabezas type,Mental Retardation, X-Linked, Syndromic, Cabezas Type,X-linked intellectual disability, Cabezas type\", \"OMIM_ID\": \"300354\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   I need to decode the HPO terms first:\n   - HP:0001276 → Arthrogryposis multiplex congenita\n   - HP:0001270 → Flexion contracture\n   - HP:0002378 → Oculomotor apraxia\n   - HP:0000750 → Scoliosis\n   - HP:0001263 "
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"020000\"}",
+    "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features**  \nFirst, I need to translate the HPO terms into human-readable phenotypes.  \nHP:0200006 = Slender long bone  \nHP:0007646 = Radial deviation of finger  \nHP:0011800 = Flexion contracture of finger  \nHP:0000347 = Micro"
+  },
+  {
+    "task_instance_id": 136,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"123456\"}",
+    "ground_truth": "{\"disease_name\": \"autism (disease)\", \"OMIM_ID\": \"209850\"}",
+    "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"123456\", \"disease_name\": \"Test Disease\"}\nNote: In a real response, replace {\"OMIM_ID\": \"123456\", \"disease_name\": \"Test Disease\"} with the actual OMIM ID and disease name.\nGiven the patient phenotype HP:0001249 and the candidate gene ENSG00000101825, we need to diagnose the"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000200\"}",
+    "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes. I'll look up each one:\n\n- HP:0002000: Seizure\n- HP:0000205: High forehead\n- HP:0002987: Narrow chest\n- HP:0000343: Pectus excavatum\n- HP:0002086: Dyspnea\n- HP:0000347"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000034\"}",
+    "ground_truth": "{\"disease_name\": \"Postaxial acrofacial dysostosis\", \"OMIM_ID\": \"263750\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0000347 - Micrognathia (small lower jaw)\nHP:0000411 - Protruding ear\nHP:0000378 - Cupped ear\nHP:0002558 - Highly arched eyebrow\nHP:0000625 - Iris coloboma\nHP:0000"
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"123400\"}",
+    "ground_truth": "{\"disease_name\": \"lethal arthrogryposis-anterior horn cell disease syndrome\", \"OMIM_ID\": \"611890\"}",
+    "raw_preview": "FINAL ANSWER: {\"disease_name\": \"Disease with OMIM ID 123400\", \"OMIM_ID\": \"123400\"}\nNote: The actual disease name and OMIM ID need to be determined based on the phenotypes and candidate genes provided. In this example, the OMIM ID is assumed to be 123400 for illustration.\nGiven the phenotypes HP:0001"
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"154864\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {\"disease_name\": \"Intellectual disability, severe, with absence of speech and motor delays\", \"OMIM_ID\": \"154864\"}\n        \nNote: The candidate gene ENSG00000154864 corresponds to the gene TBX2, which is associated with the disease with OMIM ID 154864. However, the phenotypes need to be"
+  },
+  {
+    "task_instance_id": 99,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000265\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "where XXX is a string\n\nNote: Make sure to include the {} and '' as needed.\n\nEXAMPLE:\nInput:\nPhenotypes: HP:0002650, HP:0008572, HP:0000508, HP:0000602\nCandidate genes: ['ENSG00000103494']\n\nOutput: {\"disease_name\": \"Lethal congenital contracture syndrome 1\", \"OMIM_ID\": \"253310\"}\n\nNow, analyze the giv"
+  },
+  {
+    "task_instance_id": 116,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"705980\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "Phenotype labels: \nHP:0009473 = Global developmental delay\nHP:0001488 = HP:0001488 Muscular hypotonia\nHP:0002091 = HP:0002091 Scoliosis\nHP:0002650 = HP:0002650 Camptodactyly\nHP:0005745 = HP:0005745 Short stature\n\nDisease name: Williams syndrome\nOMIM ID: 705980\n\nNote: This is a corrected example. Do "
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000060\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "PHENOTYPE MAPPINGS: HP:0000602 = camptodactyly of finger; HP:0000175 = congenital contracture; HP:0009473 = flexion contracture; HP:0000347 = arthrogryposis multiplex congenita\n\nI'll analyze the question step by step.\n\n1. **List the key clinical features**  \n   The phenotypes are given as HP terms:\n"
+  },
+  {
+    "task_instance_id": 74,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"256100\"}",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"256100\"}\nExplanation of reasoning:\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   The patient has three HPO (Human Phenotype Ontology) codes:\n   - HP:0002561: \"Abnormality of the nipple\"  \n   - HP:0001057: \"Aplasia/Hypoplasia of the skin\"  "
+  },
+  {
+    "task_instance_id": 121,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"001122\"}",
+    "ground_truth": "{\"disease_name\": \"Opsismodysplasia\", \"OMIM_ID\": \"258480\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0011220 - Increased nuchal translucency\nHP:0000348 - High forehead\nHP:0000316 - Hypertelorism\nHP:0000637 - Nystagmus\nHP:0000520 - Proptosis\nHP:0000586 - Blue scle"
+  },
+  {
+    "task_instance_id": 145,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000125\"}",
+    "ground_truth": "{\"disease_name\": \"Opitz Gbbb Syndrome, Type 1\", \"OMIM_ID\": \"300000\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0001250 – I recall this is \"Seizure\" (or similar, but let's be precise: I look up my knowledge – HP:0001250 is indeed \"Seizure\"))\n\nHP:0001263 – \"Global developmen"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"001238\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to interpret the given phenotypes (HPO terms) and candidate genes.\n\n**Step 1: List the key clinical features (HPO terms)**\n\nI'll look up the HPO IDs:\n\n- HP:0012385: Camptodactyly of finger\n- HP:0000365: Hearing impairment\n- HP:0000160: Nar"
+  },
+  {
+    "task_instance_id": 71,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"123456\"}",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"123456\"}\nExplanation of reasoning:\n\nLet's break this down step by step.\n\n1. **List the key clinical features**  \n   The patient has three HPO (Human Phenotype Ontology) codes:\n   - HP:0001057: \"Abnormality of the nipple\"  \n   - HP:0002561: \"Aplasia/Hypoplasia of the skin\" "
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000947\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "Phenotype labels: \nHP:0009473 - Proximal muscle weakness\nHP:0001371 - Distal muscle weakness\nHP:0000602 - Optic atrophy\nHP:0002650 - Cerebellar ataxia\nHP:0001488 - Peripheral neuropathy\n\nGene label: ENSG00000154864 - TMEM134\n\nStep 1: Analyze the patient's phenotypes\nThe patient exhibits proximal and"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000075\"}",
+    "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\nFirst, I need to decode the HPO terms (HP:...) to understand the patient's phenotypes.\n\nHP:0000750 - Decreased nerve conduction velocity\nHP:0000969 - Gait disturbance\nHP:0001263 - Motor delay\nHP:0001270 - Myopathic facies\nHP:0002093 - Distal limb weakne"
+  },
+  {
+    "task_instance_id": 92,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000060\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "Analysis:\nLet's break this down step by step.\n\n1. **List the key clinical features (HP terms)**\n   - HP:0000602: Long face\n   - HP:0000175: Cleft palate\n   - HP:0004322: Short stature\n   - HP:0002650: Scoliosis\n   - HP:0000508: Cataract\n   - HP:0009473: Camptodactyly\n\n2. **Consider known rare diseas"
+  },
+  {
+    "task_instance_id": 102,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"000050\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "Phenotype IDs mapping: \nHP:0000508 = Coarse facial features \nHP:0001371 = Global developmental delay \nHP:0000602 = Conductive hearing impairment \nHP:0009473 = Abnormality of the palpebral fissure\n\nCandidate gene: ENSG00000154864 = FBN3 (fibronectin 3)\n\nDisease with these phenotypes and candidate gen"
+  }
+]

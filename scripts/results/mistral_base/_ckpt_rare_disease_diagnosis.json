@@ -1,0 +1,212 @@
+[
+  {
+    "task_instance_id": 90,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604365\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for genes associated with the given phenotypes and find the diseases they "
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"186210\"}",
+    "ground_truth": "{\"disease_name\": \"Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT\", \"OMIM_ID\": \"617193\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spherocytosis', 'OMIM_ID': '186210'}\n\nTask: given a patient's phenotypes and a list of candidate genes, diagnose the rare disease that the patient has.\nPhenotypes: HP:0001250, HP:0001250, HP:0001250, HP:0002169, HP:0002312, HP:0001250, HP:0001250, HP:000125"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000508"
+  },
+  {
+    "task_instance_id": 107,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0009473"
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000028"
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"607013\"}",
+    "ground_truth": "{\"disease_name\": \"Schwartz-Jampel syndrome\", \"OMIM_ID\": \"255800\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo answer this question, we need to find a rare disease that matches the given phenotypes and has the candidate gene as a causative gene.\n\nFirst, let's find the OMIM IDs for the given phenotypes:\n\n* HP:0002098: O"
+  },
+  {
+    "task_instance_id": 75,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to find the OMIM IDs for the given phenotypes. We can do this by searchi"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604369\"}",
+    "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604369'}\n\nTo answer this question, I will first look up the phenotypes in the Human Phenotype Ontology (HPO) database. Then, I will search for diseases associated with the candidate gene in the Online Mendelian Inheritance i"
+  },
+  {
+    "task_instance_id": 140,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"DA2B\", \"OMIM_ID\": \"601680\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We will look for diseases that have these phenotypes as their associated symptoms.\n\nThe "
+  },
+  {
+    "task_instance_id": 59,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604365\"}",
+    "ground_truth": "{\"disease_name\": \"DA8\", \"OMIM_ID\": \"178110\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease, we first need to convert the phenotype codes into disease names. We can use the Human Phenotype Ontology (HPO) browser to do this.\n\nHP:0000470 corresponds to 'Hypotonia',\nHP:0004322 corresponds"
+  },
+  {
+    "task_instance_id": 63,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"114000\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 1A\", \"OMIM_ID\": \"108120\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spherocytosis', 'OMIM_ID': '114000'}\n\nTo find the disease name and OMIM ID for the given phenotype, I will use the OMIM database.\n\nI searched the OMIM database for the given phenotype HP:0003121 and found that it corresponds to Hereditary Spherocytosis.\nThe"
+  },
+  {
+    "task_instance_id": 132,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Syndromic X-linked mental retardation, Cabezas type,Mental Retardation, X-Linked, Syndromic, Cabezas Type,X-linked intellectual disability, Cabezas type\", \"OMIM_ID\": \"300354\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo answer this question, I will first look up the phenotypes in the Human Phenotype Ontology (HPO) database. Then, I will search for diseases associated with the candidate gene in the Online Mendelian Inheritance i"
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604365\"}",
+    "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo answer this question, we first need to identify the disease associated with the given phenotypes. We can use online resources like OMIM (Online Mendelian Inheritance in Man) or Orphanet to find diseases that hav"
+  },
+  {
+    "task_instance_id": 136,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"114000\"}",
+    "ground_truth": "{\"disease_name\": \"autism (disease)\", \"OMIM_ID\": \"209850\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spherocytosis', 'OMIM_ID': '114000'}\n\nTo find the disease name and OMIM ID for the given phenotype, I will use the OMIM database.\n\nI searched the OMIM database for the given phenotype HP:0001249 and found that it corresponds to Hereditary Spherocytosis.\nThe"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease, we first need to identify the gene associated with the given phenotypes. Since we only have one candidate gene, we can assume that it is the causative gene for the disease.\n\nWe can use online d"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Postaxial acrofacial dysostosis\", \"OMIM_ID\": \"263750\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for the phenotypes in the OMIM database and find the diseases associated w"
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"lethal arthrogryposis-anterior horn cell disease syndrome\", \"OMIM_ID\": \"611890\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Human Phenotype Ontology (HPO) database. The provided phenotypes HP:0001263 and HP:0001270 are associated with Hereditary Spastic Paraplegia "
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to find the OMIM IDs for the given phenotypes. We can do this by searchi"
+  },
+  {
+    "task_instance_id": 99,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604365\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0004322"
+  },
+  {
+    "task_instance_id": 116,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"607013\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo find the disease associated with the given phenotypes, we can use the Human Phenotype Ontology (HPO) to search for diseases that have these phenotypes as their defining features.\n\nUsing the HPO browser, we can"
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000602"
+  },
+  {
+    "task_instance_id": 74,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding disease names. The H"
+  },
+  {
+    "task_instance_id": 121,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Opsismodysplasia\", \"OMIM_ID\": \"258480\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes and candidate gene, we can use the OMIM database and the DisGeNET database.\n\nFirst, let's find the disease associated with the given phenotypes. We can use D"
+  },
+  {
+    "task_instance_id": 145,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Opitz Gbbb Syndrome, Type 1\", \"OMIM_ID\": \"300000\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for the phenotypes in the OMIM database and find the diseases associated w"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"607013\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo find the disease, we first need to convert the phenotype IDs to their corresponding disease names. We can use the Human Phenotype Ontology (HPO) browser to do this.\n\nHP:0012385 corresponds to 'Corneal clouding"
+  },
+  {
+    "task_instance_id": 71,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding disease names. The H"
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0009473"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"607013\"}",
+    "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Mucopolysaccharidosis type IIIB', 'OMIM_ID': '607013'}\n\nTo find the disease associated with the given phenotypes and candidate gene, we can use a combination of online databases such as OMIM (Online Mendelian Inheritance in Man) and Gene2Pheno (a database that provide"
+  },
+  {
+    "task_instance_id": 92,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604365\"}",
+    "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604365'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database. We can search for genes associated with the given phenotypes and find the diseases they "
+  },
+  {
+    "task_instance_id": 102,
+    "score": 0.0,
+    "extracted": "{\"OMIM_ID\": \"604360\"}",
+    "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+    "raw_preview": "FINAL ANSWER: {'disease_name': 'Hereditary Spastic Paraplegia', 'OMIM_ID': '604360'}\n\nTo find the disease associated with the given phenotypes, we can use the Online Mendelian Inheritance in Man (OMIM) database.\n\nFirst, we need to convert the phenotype IDs to their corresponding OMIM IDs.\nHP:0000508"
+  }
+]

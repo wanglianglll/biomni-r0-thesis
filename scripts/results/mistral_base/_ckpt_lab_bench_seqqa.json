@@ -103,5 +103,250 @@
     "extracted": "A",
     "ground_truth": "C",
     "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+  },
+  {
+    "task_instance_id": 61,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 406,
+    "score": 1.0,
+    "extracted": "B",
+    "ground_truth": "B",
+    "raw_preview": "[ANSWER]B[/ANSWER]"
+  },
+  {
+    "task_instance_id": 47,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "A",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 32,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 417,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "B",
+    "raw_preview": "[ANSWER]A[/ANSWER]\n\nThe gene sequence provided is not a primer sequence, but it can be used as a template for designing primers. To design primers for restriction-ligation cloning, we need to add restriction sites for XmaI and EcoRI at the 5' ends of the primers.\n\nThe XmaI recognition site is:\n5'-CC"
+  },
+  {
+    "task_instance_id": 267,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "D",
+    "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+  },
+  {
+    "task_instance_id": 327,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 200,
+    "score": 1.0,
+    "extracted": "C",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]C[/ANSWER]"
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 27,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "A",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 524,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 505,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 230,
+    "score": 0.0,
+    "extracted": "B",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: [ANSWER]B[/ANSWER]"
+  },
+  {
+    "task_instance_id": 489,
+    "score": 0.0,
+    "extracted": "D",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]D[/ANSWER]"
+  },
+  {
+    "task_instance_id": 260,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "D",
+    "raw_preview": "[ANSWER]A[/ANSWER]"
+  },
+  {
+    "task_instance_id": 378,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 288,
+    "score": 0.0,
+    "extracted": "E",
+    "ground_truth": "C",
+    "raw_preview": "[ANSWER]E[/ANSWER]\n\nThe gudX gene is not a human gene, but it is a gene found in E. coli. The primers provided are for the gudX gene, and they contain restriction sites for KpnI (GGTACC) and SalI (GGATCC). The plasmid pUC19 has KpnI and SalI sites as well. Therefore, to digest the PCR product and pl"
+  },
+  {
+    "task_instance_id": 418,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "D",
+    "raw_preview": "[ANSWER]A[/ANSWER]\n\nTo answer this question, I will first identify the restriction sites in the given gene sequence. The enzymes used are XmaI (5'-CCCGGG-3') and EcoRI (5'-GAATTC-3').\n\nThe XmaI site is present at the sequence CCCGGG. The gene sequence does not contain this site, so we will need to a"
+  },
+  {
+    "task_instance_id": 391,
+    "score": 0.0,
+    "extracted": "E",
+    "ground_truth": "D",
+    "raw_preview": "[ANSWER]E[/ANSWER]"
+  },
+  {
+    "task_instance_id": 498,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 138,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "B",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 62,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 471,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 128,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 583,
+    "score": 1.0,
+    "extracted": "B",
+    "ground_truth": "B",
+    "raw_preview": "[ANSWER]B[/ANSWER]"
+  },
+  {
+    "task_instance_id": 520,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "D",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 64,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "C",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "E",
+    "ground_truth": "B",
+    "raw_preview": "FINAL ANSWER: [ANSWER]E[/ANSWER]"
+  },
+  {
+    "task_instance_id": 156,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 40,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "F",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 492,
+    "score": 1.0,
+    "extracted": "E",
+    "ground_truth": "E",
+    "raw_preview": "[ANSWER]E[/ANSWER]\n\nTo calculate the percent GC content of a DNA sequence, we count the number of guanine (G) and cytosine (C) nucleotides and divide by the total number of nucleotides.\n\nIn this sequence, there are 10 G and C nucleotides (CGCGATGCGCGCGAGGCTCTTCACATGTGAGAACTCAGAAGCATTGCCAGCGTCCATGCGT"
+  },
+  {
+    "task_instance_id": 379,
+    "score": 0.0,
+    "extracted": "C",
+    "ground_truth": "E",
+    "raw_preview": "[ANSWER]C[/ANSWER]"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "D",
+    "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: [ANSWER]A[/ANSWER]"
+  },
+  {
+    "task_instance_id": 216,
+    "score": 0.0,
+    "extracted": "A",
+    "ground_truth": "E",
+    "raw_preview": "[ANSWER]a[/ANSWER]\n\nFINAL ANSWER: [ANSWER]a[/ANSWER]"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "B",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
   }
 ]

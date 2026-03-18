@@ -1,0 +1,37 @@
+[
+  {
+    "task_instance_id": 256,
+    "score": 0.0,
+    "extracted": "S",
+    "ground_truth": "C",
+    "raw_preview": "<|assistant|>\n<think>\nLet's break this down step by step.\n\n1. Goal: Clone the hslO gene from E. coli into plasmid pUC19 linearized with SmaI using Gibson assembly.\n\n2. Gibson assembly basics: It requires overlapping ends between the PCR product (insert) and the linearized vector. The overlaps are ty"
+  },
+  {
+    "task_instance_id": 563,
+    "score": 0.0,
+    "extracted": "I",
+    "ground_truth": "A",
+    "raw_preview": "<|assistant|>\n<think>\nFirst, I need to understand the question. It asks how many fragments I should expect when digesting the given DNA sequence with the enzyme MboI. MboI is a restriction enzyme that recognizes a specific DNA sequence and cuts at that site. I need to recall the recognition sequence"
+  },
+  {
+    "task_instance_id": 533,
+    "score": 0.0,
+    "extracted": "I",
+    "ground_truth": "A",
+    "raw_preview": "<|assistant|>\n<think>\nI need to analyze the question: It asks for fragment lengths after digesting a given DNA sequence with the enzyme NheI. NheI is a restriction enzyme that cuts at the sequence GTYRAC (where Y = C or T, R = A or G). But wait, I need to know the recognition sequence for NheI.\n\nNhe"
+  },
+  {
+    "task_instance_id": 430,
+    "score": 0.0,
+    "extracted": "<",
+    "ground_truth": "E",
+    "raw_preview": "You are a helpful biologist and expert geneticist.\nYou are given a biomedical question. Analyze it carefully and provide your answer.\n\nIMPORTANT: At the very end of your response, clearly state your final answer on a new line in this exact format:\nFINAL ANSWER: <your answer here>\n\nFor multiple choic"
+  },
+  {
+    "task_instance_id": 100,
+    "score": 0.0,
+    "extracted": "S",
+    "ground_truth": "B",
+    "raw_preview": "<|assistant|>\n<think>\nLet's break this down step by step.\n\n1. The question asks: \"How many open reading frames that encode proteins greater than 26 AAs in length are in the DNA sequence ...\"\n\n2. An open reading frame (ORF) is a stretch of DNA that starts with a start codon (usually ATG, which codes "
+  }
+]

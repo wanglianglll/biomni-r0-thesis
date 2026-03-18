@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 1475,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "XPO1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: The GWAS phenotype is \"Lymphoma, Large B-Cell, Diffuse\" which refers to Diffuse Large B-Cell Lymphoma (DLBCL). DLBCL is an aggressive type of non-Hodgkin lymphoma. It is a cancer of B cells, and genetic factors play"
+  },
+  {
+    "task_instance_id": 959,
+    "score": 1.0,
+    "extracted": "BTK",
+    "ground_truth": "BTK",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Lymphoma, B-Cell. This is a type of non-Hodgkin lymphoma that originates from B cells, which are part of the immune system. B-cell lymphomas involve malignant transformations of B lymphocytes.\n\n2. Consider known drug targets for this indicatio"
+  },
+  {
+    "task_instance_id": 1588,
+    "score": 0.0,
+    "extracted": "ALK",
+    "ground_truth": "FGFR3",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Myeloproliferative Disorders refers to disorders of the immune system, including abnormal levels of immune cells, pathogens, or dead cells. This can lead to conditions like hyper-IgD syndrome (mevalonate kinase deficiency), hyper-IgE syndrome "
+  },
+  {
+    "task_instance_id": 283,
+    "score": 0.0,
+    "extracted": "BRCA1",
+    "ground_truth": "FOLR1",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Ovarian neoplasms refer to tumors of the ovary, which can be benign or malignant. The most common and serious type is ovarian cancer. Key risk factors include genetic mutations (e.g., BRCA1/2), family history, and age. Therapeutic targets often involve path"
+  },
+  {
+    "task_instance_id": 797,
+    "score": 0.0,
+    "extracted": "CTZ",
+    "ground_truth": "CNR1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Nausea is a symptom that can be caused by many conditions, including gastrointestinal issues, motion sickness, pregnancy, medications, or treatments like chemotherapy. It involves complex neural pathways, including "
+  },
+  {
+    "task_instance_id": 1378,
+    "score": 0.0,
+    "extracted": "MSI",
+    "ground_truth": "CD274",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Colorectal neoplasms refer to abnormal growths in the colon or rectum, including benign tumors and cancers like colorectal cancer. This is a common and serious malignancy with known genetic and environmental risk factors.\n\n2. Consider known drug targets for"
+  },
+  {
+    "task_instance_id": 225,
+    "score": 0.0,
+    "extracted": "PPH",
+    "ground_truth": "OXTR",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Postpartum hemorrhage (PPH) is excessive bleeding after childbirth, a major cause of maternal mortality. It is often related to uterine atony (failure of the uterus to contract properly after delivery). Key physiological processes involved include uterine s"
+  },
+  {
+    "task_instance_id": 26,
+    "score": 0.0,
+    "extracted": "PMD",
+    "ground_truth": "SERPINC1",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Pulmonary embryonic dysplasia (PMD) is a rare and aggressive type of cancer that develops from transformed cells of mesenchymal origin (e.g., bone, cartilage, fat, muscle, vascular, or hematopoietic tissues). PMD includes a wide variety of sub"
+  },
+  {
+    "task_instance_id": 1497,
+    "score": 0.0,
+    "extracted": "CRC",
+    "ground_truth": "KDR",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Colorectal neoplasms include colorectal cancer (CRC) and precancerous lesions. It's a common malignancy with known genetic and environmental risk factors.\n\n2. Consider known drug targets for this indication: For colorectal cancer, key targets "
+  },
+  {
+    "task_instance_id": 437,
+    "score": 0.0,
+    "extracted": "GIST",
+    "ground_truth": "KIT",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Sarcoma is a type of cancer that arises from transformed cells of mesenchymal origin (e.g., bone, cartilage, fat, muscle, vascular, or hematopoietic tissues). Sarcomas include a wide variety of subtypes, such as gas"
+  },
+  {
+    "task_instance_id": 1645,
+    "score": 0.0,
+    "extracted": "AZD5976",
+    "ground_truth": "TUBB",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Head and neck neoplasms refer to tumors of the head and neck, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Key risk factors include chronic liver diseases (e.g., hepatitis B/C, cirrhosis), metabolic disorde"
+  },
+  {
+    "task_instance_id": 229,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "ANPEP",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Hodgkin Disease, also known as Hodgkin lymphoma, is a type of cancer that originates in lymphocytes. It is characterized by the presence of Reed-Sternberg cells. The disease has known genetic susceptibility loci identified through genome-wide "
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "PNH",
+    "ground_truth": "C5",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Hemoglobinuria, Paroxysmal (also known as Paroxysmal Nocturnal Hemoglobinuria, PNH) is a rare, acquired, life-threatening disease of the blood characterized by destruction of red blood cells (hemolysis) by the compl"
+  },
+  {
+    "task_instance_id": 749,
+    "score": 1.0,
+    "extracted": "ADRB2",
+    "ground_truth": "ADRB2",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Asthma is a common chronic inflammatory disease of the airways characterized by variable and recurring symptoms, bronchospasm, and reversible airflow obstruction. It involves complex interactions between environmental factors and genetic predisposition.\n\n2."
+  },
+  {
+    "task_instance_id": 1045,
+    "score": 0.0,
+    "extracted": "SLC22A5",
+    "ground_truth": "FGFR3",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Fallopian Tube Neoplasms refers to tumors of the falloprotein, which are hepatocellular carcinoma cells. The OMIM entry for this is 14123450, and the disease name is \"Falloparian Tube Neoplasms\" (also known as Finlay-Marks syndrome). This is a"
+  },
+  {
+    "task_instance_id": 469,
+    "score": 0.0,
+    "extracted": "UC",
+    "ground_truth": "S1PR5",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Ulcerative colitis (UC) is a chronic inflammatory bowel disease (IBD) affecting the colon. It involves immune dysregulation, inflammation, and epithelial barrier dysfunction. Known pathways include immune activation"
+  },
+  {
+    "task_instance_id": 1435,
+    "score": 0.0,
+    "extracted": "GLP",
+    "ground_truth": "GLP1R",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Obesity is a complex metabolic disorder characterized by excessive body fat accumulation. It involves appetite regulation, energy expenditure, and glucose metabolism.\n\n2. Consider known drug targets for this indication: Several drug targets fo"
+  },
+  {
+    "task_instance_id": 1662,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SCN3A",
+    "raw_preview": "<think>\n1. Analyze the disease indication: The GWAS phenotype is \"Epilepsies, Partial.\" This refers to partial (focal) epilepsies, which are neurological disorders characterized by seizures originating in a specific area of the brain. Genetic factors play a significant role in epilepsy, and many epi"
+  },
+  {
+    "task_instance_id": 687,
+    "score": 0.0,
+    "extracted": "TNF",
+    "ground_truth": "HTR4",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Gastroparesis is a common chronic inflammatory disease of the gastrointestinal system characterized by red, scaly plaques. It involves immune system dysregulation, particularly T-cell mediated inflammation, with key roles for cytokines like TN"
+  },
+  {
+    "task_instance_id": 1554,
+    "score": 1.0,
+    "extracted": "PARP2",
+    "ground_truth": "PARP2",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Prostatic Neoplasms refers to prostate cancer, a common malignancy in men. It has strong genetic components, and GWAS have identified multiple susceptibility loci.\n\n2. Consider known drug targets for this indication: For prostate cancer, sever"
+  },
+  {
+    "task_instance_id": 639,
+    "score": 0.0,
+    "extracted": "IL23",
+    "ground_truth": "DRD2",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Restless Legs Syndrome (RLS) is a chronic autoimmune disease characterized by inflammation of the legs, leading to pain, swelling, and potential joint destruction. It involves dysregulation of the immune system, particularly involving cytokine"
+  },
+  {
+    "task_instance_id": 1453,
+    "score": 0.0,
+    "extracted": "T2D",
+    "ground_truth": "PPARG",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Type 2 diabetes mellitus (T2D) is a complex metabolic disorder characterized by insulin resistance and impaired insulin secretion. It has a strong genetic component, and many susceptibility loci have been identified"
+  },
+  {
+    "task_instance_id": 1218,
+    "score": 0.0,
+    "extracted": "MSI",
+    "ground_truth": "MS4A1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Microscopic polyangiitis (MSI-H) is a rare, progressive cerebrovascular disorder characterized by the narrowing of the internal carotid arteries and their major branches, leading to reduced blood flow to the brain. "
+  },
+  {
+    "task_instance_id": 1158,
+    "score": 0.0,
+    "extracted": "NAF",
+    "ground_truth": "NR1H4",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Non-alcoholic fatty acid disease (NAF) is a complex metabolic disorder characterized by the triad of sacral agenesis, anorectal malformation, and presacral mass. It involves the gastrointestinal system and the central nervous system.\n\n2. Consi"
+  },
+  {
+    "task_instance_id": 1403,
+    "score": 0.0,
+    "extracted": "HMG",
+    "ground_truth": "PPARA",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Dyslipidemias refer to disorders of lipid metabolism, including abnormal levels of cholesterol, triglycerides, or lipoproteins in the blood. This can lead to conditions like hypercholesterolemia, hypertriglyceridemia, or mixed dyslipidemia, wh"
+  },
+  {
+    "task_instance_id": 1300,
+    "score": 0.0,
+    "extracted": "CTZ",
+    "ground_truth": "DRD2",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Nausea is a symptom that can be caused by many conditions, but it often involves the gastrointestinal system and the central nervous system. It is commonly associated with drug side effects (e.g., chemotherapy), motion sickness, pregnancy, and"
+  },
+  {
+    "task_instance_id": 1538,
+    "score": 0.0,
+    "extracted": "T2D",
+    "ground_truth": "KCNJ11",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Type 2 diabetes mellitus (T2D) is a complex metabolic disorder characterized by insulin resistance and impaired insulin secretion. It has a strong genetic component, and many susceptibility loci have been identified through GWAS.\n\n2. Consider "
+  },
+  {
+    "task_instance_id": 800,
+    "score": 1.0,
+    "extracted": "IL17RA",
+    "ground_truth": "IL17RA",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Scleroderma, Limited, also known as limited cutaneous systemic sclerosis, is an autoimmune disease characterized by fibrosis of the skin and internal organs. It involves immune dysregulation, inflammation, and vascular abnormalities.\n\n2. Consider known drug"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "PMF",
+    "ground_truth": "IRAK1",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Primary Myelofibrosis (PMF) is a rare, progressive cerebrovascular disorder characterized by the narrowing of the internal carotid arteries and their major branches, leading to reduced blood flow to the brain. The b"
+  },
+  {
+    "task_instance_id": 956,
+    "score": 0.0,
+    "extracted": "HCC",
+    "ground_truth": "AXL",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Liver neoplasms refer to tumors in the liver, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Key risk factors include chronic liver diseases (e.g., hepatitis B/C, cirrhosis), metabolic disorders, and genetic factors.\n\n2. C"
+  },
+  {
+    "task_instance_id": 1186,
+    "score": 0.0,
+    "extracted": "TNF",
+    "ground_truth": "CXCL8",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Psoriasis is a chronic inflammatory skin disease characterized by red, scaly plaques. It involves immune system dysregulation, particularly T-cell mediated inflammation, with key roles for cytokines like TNF-α, IL-1"
+  },
+  {
+    "task_instance_id": 821,
+    "score": 0.0,
+    "extracted": "D2",
+    "ground_truth": "HTR7",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Schizophrenia is a severe mental disorder characterized by disturbances in thought, perception, and behavior. It has a strong genetic component, with heritability estimated around 80%. The pathophysiology involves dysregulation of neurotransmi"
+  },
+  {
+    "task_instance_id": 1463,
+    "score": 0.0,
+    "extracted": "PTCL",
+    "ground_truth": "TOP2A",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Peripheral T-cell lymphoma (PTCL) is a rare and aggressive type of non-Hodgkin lymphoma that develops from mature T-cells. It involves dysregulation of T-cell proliferation and survival.\n\n2. Consider known drug targets for this indication: Kno"
+  },
+  {
+    "task_instance_id": 877,
+    "score": 0.0,
+    "extracted": "DNA",
+    "ground_truth": "PDGFRB",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Ovarian neoplasms refer to tumors of the ovary, which can be benign or malignant (ovarian cancer). Ovarian cancer is a significant gynecologic malignancy, often diagnosed at late stages. Key pathways involved include growth factor signaling, DNA repair, and"
+  },
+  {
+    "task_instance_id": 913,
+    "score": 1.0,
+    "extracted": "CD274",
+    "ground_truth": "CD274",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Urinary bladder neoplasms refer to tumors of the urinary bladder, most commonly urothelial carcinoma (bladder cancer). This is a malignancy with known involvement of immune responses and checkpoint pathways.\n\n2. Consider known drug targets for this indicati"
+  },
+  {
+    "task_instance_id": 152,
+    "score": 0.0,
+    "extracted": "HCC",
+    "ground_truth": "RET",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Liver neoplasms refer to tumors in the liver, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Key risk factors include chronic liver diseases (e.g., hepatitis B/C, cirrhosis), metabolic disorders, and genetic factors.\n\n2. C"
+  },
+  {
+    "task_instance_id": 1549,
+    "score": 0.0,
+    "extracted": "TNF",
+    "ground_truth": "PLAU",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Arthritis is a broad term for joint inflammation. Common types include osteoarthritis (degenerative) and rheumatoid arthritis (autoimmune). Genetic studies often point to immune/inflammatory pathways for rheumatoid "
+  },
+  {
+    "task_instance_id": 509,
+    "score": 0.0,
+    "extracted": "HCC",
+    "ground_truth": "VEGFA",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Liver neoplasms refer to tumors in the liver, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Key risk factors include chronic liver diseases (e.g., hepatitis B/C, cirrhosis), metabolic disorders, and genetic "
+  },
+  {
+    "task_instance_id": 1135,
+    "score": 0.0,
+    "extracted": "HCC",
+    "ground_truth": "BRAF",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Liver neoplasms refer to tumors in the liver, including hepatocellular carcinoma (HCC), which is a common primary liver cancer. Key risk factors include chronic liver diseases (e.g., hepatitis B/C, cirrhosis), metabolic disorders, and genetic factors.\n\n2. C"
+  },
+  {
+    "task_instance_id": 1250,
+    "score": 1.0,
+    "extracted": "IL6R",
+    "ground_truth": "IL6R",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by inflammation of the joints, leading to pain, swelling, and potential joint destruction. It involves dysregulation of the immune system, particularly involving cytokines"
+  },
+  {
+    "task_instance_id": 1612,
+    "score": 0.0,
+    "extracted": "TNF",
+    "ground_truth": "CCR4",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: The GWAS phenotype is \"Lymphoma, T-Cell, Cutaneous\" which refers to cutaneous T-cell lymphoma (CTCL). CTCL is an aggressive type of non-Hodgkin lymphoma. It is a cancer of T lymphocytes, and genetic factors play a role in susceptibility and pa"
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "MDD",
+    "ground_truth": "ADRA1A",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Major Depressive Disorder (MDD) is a common and serious mood disorder characterized by persistent sadness, loss of interest, and other symptoms. It has a strong genetic component, with heritability estimated around 30-40%. Neurotransmitter systems (like ser"
+  },
+  {
+    "task_instance_id": 586,
+    "score": 0.0,
+    "extracted": "DNA",
+    "ground_truth": "TOP2A",
+    "raw_preview": "<|assistant|>\n<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Ovarian neoplasms refer to tumors of the ovary, which can be benign or malignant (ovarian cancer). Ovarian cancer is a significant gynecologic malignancy, often diagnosed at late stages. Key pathways involved includ"
+  },
+  {
+    "task_instance_id": 1572,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "SERPINA1",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: The GWAS phenotype is \"alpha 1-antitrypsin deficiency\". This is a common degenerative joint disease affecting the hip, characterized by cartilage breakdown. It involves immune dysregulation, inflammation, and vascular abnormaliti"
+  },
+  {
+    "task_instance_id": 1143,
+    "score": 1.0,
+    "extracted": "HTR2C",
+    "ground_truth": "HTR2C",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Premenstrual Syndrome (PMS) is a condition characterized by mood, behavioral, and physical symptoms that occur in the luteal phase of the menstrual cycle. It involves complex interactions between ovarian hormones and neurotransmitters, particularly serotoni"
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "NSCLC",
+    "ground_truth": "FLT1",
+    "raw_preview": "<think>\nLet's go step by step.\n\n1. **Analyze the disease indication**: Non-small-cell lung carcinoma (NSCLC) is the most common type of lung cancer, accounting for about 85% of cases. It includes adenocarcinoma, squamous cell carcinoma, and large cell carcinoma. Known risk factors include smoking, b"
+  },
+  {
+    "task_instance_id": 151,
+    "score": 0.0,
+    "extracted": "GWAS",
+    "ground_truth": "CCR4",
+    "raw_preview": "<think>\n1. Analyze the disease indication: The GWAS phenotype is \"Lymphoma, T-Cell,\" which refers to cancers of T lymphocytes, a type of white blood cell. T-cell lymphomas are a diverse group of non-Hodgkin lymphomas. Understanding the biology of T-cells and their dysregulation in cancer is key.\n\n2."
+  },
+  {
+    "task_instance_id": 403,
+    "score": 0.0,
+    "extracted": "FINAL1",
+    "ground_truth": "F2",
+    "raw_preview": "<|assistant|>\n<think>\n1. Analyze the disease indication: The GWAS phenotype is \"Hemorrhage,\" which refers to bleeding, either internally or externally. This could be related to disorders of hemostasis, such as coagulation factor deficiencies, platelet disorders, or vascular abnormalities.\n\n2. Consid"
+  },
+  {
+    "task_instance_id": 1640,
+    "score": 1.0,
+    "extracted": "IL4R",
+    "ground_truth": "IL4R",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Sinusitis is inflammation of the sinuses, often associated with allergic or immune-mediated pathways. Chronic sinusitis is linked to type 2 inflammation, involving cytokines like IL-4, IL-5, and IL-13.\n\n2. Consider known drug targets for this indication: Bi"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "BTK",
+    "ground_truth": "IL2RA",
+    "raw_preview": "<think>\n1. Analyze the disease indication: Lymphoma, B-Cell. This is a type of non-Hodgkin lymphoma that originates from B cells, which are part of the immune system. B-cell lymphomas involve malignant transformations of B lymphocytes.\n\n2. Consider known drug targets for this indication: In B-cell m"
+  }
+]
