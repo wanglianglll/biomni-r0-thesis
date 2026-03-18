@@ -25,8 +25,6 @@ ENV_PYTHON="$CONDA_BASE/envs/biomni/bin/python"
 echo $ENV_PYTHON
 
 ④启动 FastAPI：
-CONDA_BASE=$(conda info --base)
-ENV_PYTHON="$CONDA_BASE/envs/biomni/bin/python"
 setsid /bin/bash -lc "cd ~/autodl-tmp/Biomni-main && $ENV_PYTHON -m uvicorn scripts.fastapi_server:app --host 127.0.0.1 --port 6006 --workers 1" > ~/autodl-tmp/Biomni-main/logs/fastapi.log 2>&1 &
 ps：检查之查看近期日志
 tail -n 200 ~/autodl-tmp/Biomni-main/logs/fastapi.log
@@ -37,7 +35,7 @@ ps：检查之查看近期日志
 tail -n 200 ~/autodl-tmp/Biomni-main/logs/gradio.log
 
 ⑥本机测试FastAPI接口：
-curl -i -X POST http://127.0.0.1:8000/generate \
+curl -i -X POST http://127.0.0.1:6006/generate \
   -H "Content-Type: application/json" \
   -d '{"prompt":"Hello, how are you?","max_new_tokens":64,"temperature":0.7}'
 
@@ -45,9 +43,6 @@ curl -i -X POST http://127.0.0.1:8000/generate \
 curl -I http://127.0.0.1:8000/docs || echo "curl not found or connection failed"
 curl -I http://127.0.0.1:7860 || echo "curl not found or connection failed"
 
-curl -s -X POST http://127.0.0.1:8000/generate \
-  -H "Content-Type: application/json" \
-  -d '{"prompt":"Hello, how are you?","max_new_tokens":16}' 
 ps：查找相关进程：
 pgrep -a -f 'gradio|app.py|python.*app' || true
 清除缓存：

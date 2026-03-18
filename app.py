@@ -1,59 +1,46 @@
-"""
-app.py
-
-Gradio Web 原型（浏览器界面），默认通过本地 FastAPI 服务调用本地推理（http://127.0.0.1:8000/generate）。
-也支持“直接导入” LocalInfer（如果你希望在同一进程中加载模型并运行，请将 USE_DIRECT_IMPORT 环境变量设为 "1"）。
-
-运行步骤（推荐）：
-1) 启动本地服务（推荐，模型只加载一次）：
-   python -m uvicorn scripts.fastapi_server:app --host 0.0.0.0 --port 8000 --workers 1
-2) 启动前端：
-   python app.py
-3) 浏览器打开 http://localhost:7860
-
-如果想在单个进程内运行（小模型或 CPU），设置环境变量：
-  export USE_DIRECT_IMPORT=1
-然后直接运行： python app.py
-"""
 import os
-import requests
-from typing import List, Tuple
 import gradio as gr
+import requests
+from typing import List, Dict, Any
 
-# 配置
 FASTAPI_URL = os.getenv("LOCAL_INFER_URL", "http://127.0.0.1:6006/generate")
 USE_DIRECT_IMPORT = os.getenv("USE_DIRECT_IMPORT", "0") == "1"
-
-# 如果选择直接导入模式，则导入 LocalInfer 并实例化（会在此进程加载模型）
 local_infer = None
 if USE_DIRECT_IMPORT:
     try:
         from scripts.run_local_infer import LocalInfer
         local_infer = LocalInfer()
-        print("[app.py] 使用直接导入模式加载模型（注意：在此进程将加载模型）。")
     except Exception as e:
         local_infer = None
-        print(f"[app.py] 直接导入 LocalInfer 失败: {e}. 将回退到 HTTP 模式。")
         USE_DIRECT_IMPORT = False
 
-def call_local_model_http(prompt: str, temperature: float, top_p: float, max_tokens: int) -> str:
+# 多轮对话历史格式化
+def build_context(history: List[Dict[str, Any]], user_prompt: str) -> str:
+    context = ""
+    for msg in history:
+        if msg["role"] == "user":
+            context += f"<|im_start|>user\n{msg['content']}<|im_end|>\n"
+        elif msg["role"] == "assistant":
+            context += f"<|im_start|>assistant\n{msg['content']}<|im_end|>\n"
+    context += f"<|im_start|>user\n{user_prompt}<|im_end|>\n<|im_start|>assistant\n"
+    return context
+
+def call_local_model_http(prompt, temperature, top_p, max_tokens):
     try:
         payload = {
             "prompt": prompt,
             "temperature": float(temperature),
-            "top_new_tokens": int(max_tokens),  # 兼容性字段名
             "max_new_tokens": int(max_tokens),
             "top_p": float(top_p),
         }
-        # timeout 根据模型大小调整（单位秒）
         r = requests.post(FASTAPI_URL, json=payload, timeout=300)
         r.raise_for_status()
         data = r.json()
-        return data.get("text", "[服务返回格式异常] " + str(data))
+        return data.get("text", "")
     except Exception as e:
         return f"[本地服务调用失败] {e}"
 
-def call_local_model_direct(prompt: str, temperature: float, top_p: float, max_tokens: int) -> str:
+def call_local_model_direct(prompt, temperature, top_p, max_tokens):
     if local_infer is None:
         return "[本地直接导入未初始化]"
     try:
@@ -61,16 +48,13 @@ def call_local_model_direct(prompt: str, temperature: float, top_p: float, max_t
     except Exception as e:
         return f"[本地直接调用失败] {e}"
 
-def call_deepseek_api(prompt: str, temperature: float, top_p: float, max_tokens: int) -> str:
-    """
-    Deepseek API gpt兼容方式
-    """
+def call_deepseek_api(prompt, temperature, top_p, max_tokens):
     import json
     DEEPSEEK_API_KEY = os.environ.get("CUSTOM_MODEL_API_KEY") or os.environ.get("DEEPSEEK_API_KEY", "")
     ENDPOINT = "https://api.deepseek.com/v1/chat/completions"
     headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
     payload = {
-        "model": "deepseek-chat",  # 或 deepseek-coder
+        "model": "deepseek-chat",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": float(temperature),
         "top_p": float(top_p),
@@ -80,30 +64,33 @@ def call_deepseek_api(prompt: str, temperature: float, top_p: float, max_tokens:
         r = requests.post(ENDPOINT, json=payload, headers=headers, timeout=120)
         r.raise_for_status()
         data = r.json()
-        # deepseek v1 兼容gpt格式
         return data["choices"][0]["message"]["content"]
     except Exception as e:
         return f"[Deepseek API 调用失败] {e}"
 
+# 核心历史维护
 def respond(choice, prompt, temperature, top_p, max_tokens, history):
     if not prompt.strip():
-        return history, ""
+        return history, "", history
+    full_prompt = build_context(history, prompt)
     if choice == "Local (direct import)":
-        reply = call_local_model_direct(prompt, temperature, top_p, max_tokens)
+        reply = call_local_model_direct(full_prompt, temperature, top_p, max_tokens)
     elif choice == "Local (HTTP service)":
-        reply = call_local_model_http(prompt, temperature, top_p, max_tokens)
+        reply = call_local_model_http(full_prompt, temperature, top_p, max_tokens)
     else:
-        reply = call_deepseek_api(prompt, temperature, top_p, max_tokens)
-
-    # 新 history 列表
+        reply = call_deepseek_api(full_prompt, temperature, top_p, max_tokens)
+    # 新增历史
     new_history = history + [
         {"role": "user", "content": prompt},
         {"role": "assistant", "content": reply}
     ]
-    return new_history, ""
+    return new_history, "", new_history
+
+def clear_history():
+    return [], "", []
 
 with gr.Blocks() as demo:
-    gr.Markdown("## Biomni-R0 thesis — 本地推理 Web 原型")
+    gr.Markdown("## Biomni-R0 thesis — 本地推理 Web 原型\n多轮聊天历史（对话窗口保留），支持上下文记忆")
     with gr.Row():
         model_choice = gr.Dropdown(
             choices=["Local (HTTP service)", "Local (direct import)", "Deepseek API"],
@@ -113,15 +100,17 @@ with gr.Blocks() as demo:
         temp = gr.Slider(0.0, 1.0, value=0.1, step=0.01, label="Temperature")
         top_p = gr.Slider(0.0, 1.0, value=0.9, step=0.01, label="Top-p")
         max_tokens = gr.Slider(16, 2048, value=512, step=1, label="Max tokens")
-    chatbot = gr.Chatbot(label="Chat")
+    chatbot = gr.Chatbot(label="Chat", value=[])
     with gr.Row():
         txt = gr.Textbox(show_label=False, placeholder="在此输入 prompt 并回车或点击发送...")
         send = gr.Button("Send")
+        clear = gr.Button("清空历史")
 
     history_state = gr.State([])
 
-    send.click(fn=respond, inputs=[model_choice, txt, temp, top_p, max_tokens, history_state], outputs=[chatbot, txt])
+    # outputs 三个，保持历史+文本框+状态同步
+    send.click(fn=respond, inputs=[model_choice, txt, temp, top_p, max_tokens, history_state], outputs=[chatbot, txt, history_state])
+    clear.click(fn=clear_history, inputs=[], outputs=[chatbot, txt, history_state])
 
 if __name__ == "__main__":
-    # 推荐启用 queue 防止并发冲突
     demo.queue().launch(server_name="127.0.0.1", server_port=6008, share=False)

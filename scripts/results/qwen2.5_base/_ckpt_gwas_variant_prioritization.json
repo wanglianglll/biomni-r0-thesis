@@ -1,0 +1,303 @@
+[
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "rs1280",
+    "ground_truth": "rs4253311",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of bradykinin, we need to look at the literature and databases for known associations between these variants and bradykinin levels or related traits. However, since I don't have direct access to real-time databases or literat"
+  },
+  {
+    "task_instance_id": 178,
+    "score": 0.0,
+    "extracted": "rs662138",
+    "ground_truth": "rs9369898",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of homocysteine, we need to look at the literature and databases that have reported associations between these variants and homocysteine levels. Typically, the most significant association is indicated by the highest p-value "
+  },
+  {
+    "task_instance_id": 197,
+    "score": 0.0,
+    "extracted": "rs2000999",
+    "ground_truth": "rs7542172",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of erythritol, we need to look at the p-values or effect sizes reported for each of these variants. However, since those details are not provided in the question, I will assume that the variants have been ranked based on thei"
+  },
+  {
+    "task_instance_id": 63,
+    "score": 0.0,
+    "extracted": "rs4941615",
+    "ground_truth": "rs1801725",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of calcium, we need to consider the strength of association for each variant. Typically, the variant with the highest p-value or the strongest effect size is considered the most promising for further examination.\n\nGiven the v"
+  },
+  {
+    "task_instance_id": 54,
+    "score": 0.0,
+    "extracted": "rs12709013",
+    "ground_truth": "rs4343",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Aspartylphenylalanine,\" we need to consider the statistical significance of each variant's association with the phenotype. Typically, the variant with the highest p-value or the lowest -log10(p-value) is considered the most s"
+  },
+  {
+    "task_instance_id": 107,
+    "score": 0.0,
+    "extracted": "rs7582179",
+    "ground_truth": "rs6048216",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of D-Glucose, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising for further examina"
+  },
+  {
+    "task_instance_id": 50,
+    "score": 0.0,
+    "extracted": "rs9844948",
+    "ground_truth": "rs603424",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of myristic acid/myristoleic acid, we need to look at the literature and databases for known associations between these fatty acids and genetic variants. However, since specific association data for these variants with myrist"
+  },
+  {
+    "task_instance_id": 174,
+    "score": 0.0,
+    "extracted": "rs7954638",
+    "ground_truth": "rs750472",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype \"L-Alanine / L-Asparagine,\" we need to look at the p-values or effect sizes reported for each of these variants. However, since no specific p-values or effect sizes are provided in the question, I will assume that the variant"
+  },
+  {
+    "task_instance_id": 211,
+    "score": 0.0,
+    "extracted": "rs646776",
+    "ground_truth": "rs6687813",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of D-dimer measurement, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising for furth"
+  },
+  {
+    "task_instance_id": 169,
+    "score": 0.0,
+    "extracted": "rs3132440",
+    "ground_truth": "rs532545",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of uridine, we need to look at the p-values or effect sizes reported for each of these variants. However, since the actual p-values or effect sizes are not provided in the question, I will assume that the variants have been ra"
+  },
+  {
+    "task_instance_id": 58,
+    "score": 0.0,
+    "extracted": "rs17145738",
+    "ground_truth": "rs116843064",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of triglyceride measurement, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most significant and"
+  },
+  {
+    "task_instance_id": 48,
+    "score": 0.0,
+    "extracted": "rs10455872",
+    "ground_truth": "rs3757354",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of low-density lipoprotein cholesterol (LDL-C) measurement, we need to look at the literature and existing data for each of these variants. However, since I don't have access to real-time databases or specific studies, I will"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "rs7700133",
+    "ground_truth": "rs2160860",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of 5-Hydroxy-L-tryptophan, we need to consider the p-values or effect sizes reported for each variant. However, since the actual p-values or effect sizes are not provided in the question, I will assume that the variants have "
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "rs4587594",
+    "ground_truth": "rs4949874",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype \"L-Acetylcarnitine|Hexanoylcarnitine,\" we need to look at the p-values or effect sizes reported for each variant in the GWAS summary statistics. However, since those details are not provided in the question, I will assume tha"
+  },
+  {
+    "task_instance_id": 57,
+    "score": 0.0,
+    "extracted": "rs9635324",
+    "ground_truth": "rs3847502",
+    "raw_preview": "To determine the most promising variant associated with high density lipoprotein cholesterol (HDL-C) measurement from the provided list, we need to consider the existing literature and known associations between these variants and HDL-C levels. \n\nThe most well-known and strongly associated variant w"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "rs3780181",
+    "ground_truth": "rs17279437",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype \"Dimethylglycine / L-Alanine,\" we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising fo"
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "rs6564851",
+    "ground_truth": "rs12150660",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of testosterone, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising for further exami"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 0.0,
+    "extracted": "rs2970818",
+    "ground_truth": "rs4687717",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype \"Phosphate / Erythronic acid,\" we need to look at the p-values or effect sizes reported for each variant in the relevant literature or summary statistics. However, since such detailed information is not provided in the prompt"
+  },
+  {
+    "task_instance_id": 129,
+    "score": 0.0,
+    "extracted": "rs8012",
+    "ground_truth": "rs4814176",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of hydroxysphingomyelin C24:1, we need to look at the p-values or effect sizes reported for each variant. However, since those details are not provided in the question, I will assume that the variants have been ranked based o"
+  },
+  {
+    "task_instance_id": 37,
+    "score": 0.0,
+    "extracted": "rs4690522",
+    "ground_truth": "rs2270968",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of hydroxyisovaleroyl carnitine, we would typically look at the p-values or effect sizes reported in the GWAS summary statistics. However, since those details are not provided, we can infer based on the common practice that t"
+  },
+  {
+    "task_instance_id": 157,
+    "score": 0.0,
+    "extracted": "rs1805313",
+    "ground_truth": "rs748196",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype \"2-Arachidonoylglycerophosphocholine,\" we need to look at the p-values or effect sizes reported for each variant in the GWAS study. However, since those details are not provided in the question, I will assume that the variant"
+  },
+  {
+    "task_instance_id": 203,
+    "score": 0.0,
+    "extracted": "rs12288023",
+    "ground_truth": "rs2040771",
+    "raw_preview": "To determine the most promising variant associated with the citric acid GWAS phenotype, we need to look at the p-values or effect sizes reported for each variant. However, since those details are not provided in the question, I will assume that the variants have been ranked based on their significan"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "rs7130284",
+    "ground_truth": "rs9637599",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype L-Valine, we need to look at the p-values or effect sizes reported for each variant in the literature or summary statistics. Typically, the variant with the lowest p-value or the largest effect size is considered the most pro"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "rs7529794",
+    "ground_truth": "rs1061808",
+    "raw_preview": "To determine the most promising variant associated with the given GWAS phenotype, we need to look at the p-values or effect sizes reported for each variant. However, since those details are not provided in the question, I will assume that the variants have been ranked based on their significance fro"
+  },
+  {
+    "task_instance_id": 149,
+    "score": 0.0,
+    "extracted": "rs7954638",
+    "ground_truth": "rs13375749",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of glutarylcarnitine, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising for further"
+  },
+  {
+    "task_instance_id": 130,
+    "score": 0.0,
+    "extracted": "rs5030062",
+    "ground_truth": "rs4253772",
+    "raw_preview": "To determine the most promising variant associated with cholesterol levels from the provided list, we need to look at the literature and GWAS results for each variant. However, since specific GWAS results are not provided, I will use publicly available data from sources like the NHGRI-EBI GWAS Catal"
+  },
+  {
+    "task_instance_id": 151,
+    "score": 0.0,
+    "extracted": "rs10741657",
+    "ground_truth": "rs2686796",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of uridine, we need to look at the p-values or effect sizes reported for each of these variants. However, since those details are not provided in the question, I will assume that the variants have been ranked based on their si"
+  },
+  {
+    "task_instance_id": 103,
+    "score": 0.0,
+    "extracted": "rs7883218",
+    "ground_truth": "rs2576452",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype \"Arachidonate|1-Arachidonoylglycerophosphoinositol,\" we need to look at the p-values or effect sizes reported for each of these variants. However, since no specific p-values or effect sizes are provided in the question, I will"
+  },
+  {
+    "task_instance_id": 99,
+    "score": 0.0,
+    "extracted": "rs507080",
+    "ground_truth": "rs5030062",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of bradykinin, we need to look at the literature and databases for variants that have been previously linked to bradykinin levels or related traits. However, since no specific literature or database results are provided in the"
+  },
+  {
+    "task_instance_id": 116,
+    "score": 0.0,
+    "extracted": "rs113612868",
+    "ground_truth": "rs3738934",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of nonanoylcarnitine, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising for further "
+  },
+  {
+    "task_instance_id": 87,
+    "score": 0.0,
+    "extracted": "rs4941615",
+    "ground_truth": "rs3017098",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype L-Asparagine, we need to look at the p-values or effect sizes reported for each of these variants. However, since those details are not provided in the question, I will assume that the variants have been ranked based on their"
+  },
+  {
+    "task_instance_id": 202,
+    "score": 0.0,
+    "extracted": "rs1065852",
+    "ground_truth": "rs2073547",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of low-density lipoprotein cholesterol (LDL-C) measurement, we need to look at the literature and existing data on variants related to LDL-C levels. The variants provided are not commonly known to be strongly associated with "
+  },
+  {
+    "task_instance_id": 74,
+    "score": 0.0,
+    "extracted": "rs2229738",
+    "ground_truth": "rs2366858",
+    "raw_preview": "To identify the most promising variant associated with high density lipoprotein cholesterol (HDL-C) measurement from the provided list, we need to look at the existing literature and GWAS results for HDL-C. The most significant variants associated with HDL-C levels have been well-documented in vario"
+  },
+  {
+    "task_instance_id": 121,
+    "score": 1.0,
+    "extracted": "rs10455872",
+    "ground_truth": "rs10455872",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of cholesterol, we need to look at the literature and databases that report associations between these variants and cholesterol levels. Typically, the strongest association will have the highest p-value or the largest effect s"
+  },
+  {
+    "task_instance_id": 214,
+    "score": 0.0,
+    "extracted": "rs2066938",
+    "ground_truth": "rs12288023",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype N-Acetyl-L-phenylalanine, we need to look at the p-values or effect sizes reported for each variant. However, since those details are not provided in the question, I will assume that the variants have been ranked based on the"
+  },
+  {
+    "task_instance_id": 20,
+    "score": 0.0,
+    "extracted": "rs247616",
+    "ground_truth": "rs7529794",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype LysoPC(16:0), we need to look at the p-values or effect sizes reported for each variant. However, since those details are not provided in the question, I will assume that the variants have been ranked based on their significa"
+  },
+  {
+    "task_instance_id": 188,
+    "score": 0.0,
+    "extracted": "rs9296404",
+    "ground_truth": "rs6073958",
+    "raw_preview": "To determine the most promising variant associated with high density lipoprotein cholesterol (HDL-C) measurement from the provided list, we need to consider the existing literature and known associations between these variants and HDL-C levels. \n\nThe most well-known and strongly associated variant w"
+  },
+  {
+    "task_instance_id": 71,
+    "score": 0.0,
+    "extracted": "rs6804368",
+    "ground_truth": "rs7159888",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype of N-glycan measurement, we need to look at the literature and existing studies that have investigated the relationship between these variants and N-glycan levels. However, since no specific study results or p-values are prov"
+  },
+  {
+    "task_instance_id": 106,
+    "score": 0.0,
+    "extracted": "rs10083777",
+    "ground_truth": "rs7954638",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype L-Histidine, we need to look at the literature or databases that contain summary statistics from genome-wide association studies (GWAS) for L-Histidine levels. However, since specific GWAS results for L-Histidine are not wide"
+  },
+  {
+    "task_instance_id": 14,
+    "score": 0.0,
+    "extracted": "rs1030420",
+    "ground_truth": "rs10087900",
+    "raw_preview": "To identify the most promising variant associated with high density lipoprotein cholesterol (HDL-C) measurement from the provided list, we need to look at the literature and GWAS results for HDL-C. The variants listed are not well-known for their direct association with HDL-C levels, but we can use "
+  },
+  {
+    "task_instance_id": 92,
+    "score": 0.0,
+    "extracted": "rs2270968",
+    "ground_truth": "rs7883218",
+    "raw_preview": "To identify the most promising variant associated with the GWAS phenotype of thyroxine, we need to look at the p-values or effect sizes reported for each of these variants. Typically, the variant with the lowest p-value or the largest effect size is considered the most promising for further examinat"
+  },
+  {
+    "task_instance_id": 179,
+    "score": 1.0,
+    "extracted": "rs1800562",
+    "ground_truth": "rs1800562",
+    "raw_preview": "FINAL ANSWER: rs1800562\nThe variant rs1800562 has been consistently associated with iron metabolism and storage in several genome-wide association studies (GWAS) related to iron-related traits. This variant is located in the HFE gene, which plays a crucial role in iron homeostasis by regulating hepc"
+  },
+  {
+    "task_instance_id": 102,
+    "score": 0.0,
+    "extracted": "rs4680",
+    "ground_truth": "rs4941615",
+    "raw_preview": "To determine the most promising variant associated with the GWAS phenotype \"ketoleucine,\" we need to consider the strength of association for each variant. Typically, the variant with the highest p-value or the lowest -log10(p-value) is considered the most significant. However, since no specific p-v"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "task_instance_id": 302,
+    "score": 0.0,
+    "extracted": "ITGB6",
+    "ground_truth": "ZNF561-AS1",
+    "raw_preview": ".\nFINAL ANSWER: ITGB6\nBased on the provided context, ITGB6 (Integrin Beta 6) appears to be a strong candidate for having a significant perturbation effect in the context of HeLa cells developing resistance to the Vaccinia virus. Integrins play crucial roles in cell adhesion and signaling, and their "
+  },
+  {
+    "task_instance_id": 236,
+    "score": 0.0,
+    "extracted": "TRIM16",
+    "ground_truth": "VMP1",
+    "raw_preview": ".\nFINAL ANSWER: TRIM16\nThe gene TRIM16 (Tripartite Motif Containing 16) has been implicated in various cellular processes including antiviral responses and innate immunity. Given the context of studying increased resistance to HCoV-OC43 in HEK293T/ACE2 cells, TRIM16 could play a significant role in "
+  },
+  {
+    "task_instance_id": 207,
+    "score": 0.0,
+    "extracted": "TMED5",
+    "ground_truth": "FAM83H",
+    "raw_preview": ".\nFINAL ANSWER: TMED5\nThe TMED5 gene encodes a protein involved in the transport of proteins across membranes, which could be significantly affected by DMSO exposure. This could lead to changes in cellular processes related to drug resistance. Therefore, TMED5 is a strong candidate for having a sign"
+  },
+  {
+    "task_instance_id": 212,
+    "score": 1.0,
+    "extracted": "STAT1",
+    "ground_truth": "STAT1",
+    "raw_preview": ".\nFINAL ANSWER: STAT1\nThe gene STAT1 (Signal Transducer and Activator of Transcription 1) is a key player in the immune response pathway, particularly in the activation of genes involved in inflammation and antiviral defense. Given the experimental context involving exposure to Salmonella enterica s"
+  },
+  {
+    "task_instance_id": 317,
+    "score": 0.0,
+    "extracted": "ZNF704",
+    "ground_truth": "NAA10",
+    "raw_preview": ".\nFINAL ANSWER: ZNF704\nThe gene ZNF704 was selected based on its known role in cellular processes that could be significantly affected by SARS-CoV-2 infection, particularly in the context of programmed ribosomal frameshifting. While the other genes listed also play important roles, ZNF704 has been i"
+  },
+  {
+    "task_instance_id": 251,
+    "score": 0.0,
+    "extracted": "SLFN11",
+    "ground_truth": "MTHFD1",
+    "raw_preview": ".\nFINAL ANSWER: SLFN11\nThe gene SLFN11 has been implicated in various cellular processes including cell cycle regulation and antiviral responses. In the context of studying drug resistance in THP-1 cells exposed to AZD5576, SLFN11 could play a significant role due to its involvement in stress respon"
+  },
+  {
+    "task_instance_id": 339,
+    "score": 0.0,
+    "extracted": "KMT2E",
+    "ground_truth": "CAB39",
+    "raw_preview": ".\nFINAL ANSWER: KMT2E\nThe gene KMT2E (also known as MLL2) is a histone methyltransferase that plays a critical role in chromatin modification and gene regulation. In the context of studying the response of KMS-28BM cells to selinexor, KMT2E could be particularly relevant because it is involved in th"
+  },
+  {
+    "task_instance_id": 318,
+    "score": 0.0,
+    "extracted": "TRIT1",
+    "ground_truth": "DOHH",
+    "raw_preview": ".\nTo determine which gene among the provided candidates would have the strongest perturbation effect in the context of studying SARS-CoV-2 exposure on programmed ribosomal frameshifting (PRF) in HCT 116 colorectal cancer cells, we need to consider the functional relevance of each gene to PRF and the"
+  },
+  {
+    "task_instance_id": 269,
+    "score": 0.0,
+    "extracted": "PIAS3",
+    "ground_truth": "chr3:195713389-195713475",
+    "raw_preview": ".\nFINAL ANSWER: PIAS3\nThe gene PIAS3 (Pias3) has been implicated in various cellular processes including transcriptional regulation, which could be significantly affected by UM171 treatment. Given the context of studying drug-induced changes in resistance in acute myeloid leukemia cells, PIAS3 stand"
+  },
+  {
+    "task_instance_id": 201,
+    "score": 0.0,
+    "extracted": "UBE2G2",
+    "ground_truth": "GABARAP",
+    "raw_preview": ".\nFINAL ANSWER: UBE2G2\nThe gene UBE2G2 encodes an ubiquitin-conjugating enzyme that plays a crucial role in the ubiquitination pathway, which is closely linked to autophagy regulation. Perturbing this gene could significantly impact autophagic flux, leading to changes in protein/peptide accumulation"
+  },
+  {
+    "task_instance_id": 161,
+    "score": 0.0,
+    "extracted": "TSGA10",
+    "ground_truth": "SCAP",
+    "raw_preview": ".\nFINAL ANSWER: TSGA10\nThe gene TSGA10 (Tumor Suppressor Gene A10) has been implicated in various cellular processes including cell cycle regulation, DNA repair, and apoptosis. Given the context of studying resistance development in HAP-1 cells exposed to CfTX-1, TSGA10 could play a significant role"
+  },
+  {
+    "task_instance_id": 43,
+    "score": 0.0,
+    "extracted": "TMED5",
+    "ground_truth": "UBE2J1",
+    "raw_preview": ".\nFINAL ANSWER: TMED5\nThe Transmembrane Protein 5 (TMED5) is a component of the ERAD-L (Endoplasmic Reticulum Associated Degradation - Low pH) pathway, which is crucial for the degradation of misfolded or incorrectly assembled proteins in the endoplasmic reticulum. Given the focus on studying the ro"
+  },
+  {
+    "task_instance_id": 217,
+    "score": 0.0,
+    "extracted": "DUSP6",
+    "ground_truth": "EIF4A3",
+    "raw_preview": ".\nFINAL ANSWER: DUSP6\nThe gene DUSP6 (Dual specificity phosphatase 6) is known to play a significant role in regulating the MAPK/ERK signaling pathway, which is often dysregulated in EGFR-mutant lung adenocarcinomas. The EGFR-T790M and L858R mutations can activate this pathway, leading to increased "
+  },
+  {
+    "task_instance_id": 190,
+    "score": 0.0,
+    "extracted": "HOXB7",
+    "ground_truth": "KEAP1",
+    "raw_preview": ".\nFINAL ANSWER: HOXB7\nThe gene HOXB7 has been implicated in various cellular processes including cell proliferation, differentiation, and apoptosis, which are all relevant to understanding drug resistance mechanisms. Given the context of studying HUH-7 SR cells developing resistance to sorafenib, HO"
+  },
+  {
+    "task_instance_id": 259,
+    "score": 1.0,
+    "extracted": "DHODH",
+    "ground_truth": "DHODH",
+    "raw_preview": ".\nFINAL ANSWER: DHODH\nThe gene DHODH (Dihydroorotate dehydrogenase) is often associated with drug resistance mechanisms, particularly in cancer cells. It plays a crucial role in the de novo pyrimidine synthesis pathway, which is essential for DNA replication and repair. In the context of studying TH"
+  },
+  {
+    "task_instance_id": 105,
+    "score": 0.0,
+    "extracted": "CLK3",
+    "ground_truth": "NF2",
+    "raw_preview": ".\nFINAL ANSWER: CLK3\nThe gene CLK3 (Cyclin-dependent Kinase 3) is involved in cell cycle regulation and has been shown to play a role in drug resistance mechanisms. Given the context of studying increased or decreased drug resistance in response to prolonged Dexrazoxane exposure, CLK3 could be a key"
+  },
+  {
+    "task_instance_id": 53,
+    "score": 0.0,
+    "extracted": "CCDC174",
+    "ground_truth": "NHLRC2",
+    "raw_preview": ".\nFINAL ANSWER: CCDC174\nThe gene CCDC174 (Chromosome 9 open reading frame 80) has been implicated in various cellular processes including endocytosis and phagocytosis. Its involvement in these processes makes it a strong candidate for having a significant perturbation effect in the context of studyi"
+  },
+  {
+    "task_instance_id": 1,
+    "score": 0.0,
+    "extracted": "DUSP10",
+    "ground_truth": "KEAP1",
+    "raw_preview": ".\nFINAL ANSWER: DUSP10\nThe gene DUSP10 (Dual specificity phosphatase 10) is a strong candidate for having a significant perturbation effect in the context of Trametinib resistance in the HCC364 lung cancer cell line. DUSP10 is known to dephosphorylate MAPK/ERK pathway substrates, which is relevant b"
+  },
+  {
+    "task_instance_id": 49,
+    "score": 0.0,
+    "extracted": "CXCR3",
+    "ground_truth": "SLC35B2",
+    "raw_preview": ".\nFINAL ANSWER: CXCR3\nThe CXCR3 gene encodes a chemokine receptor that plays a role in immune cell trafficking and inflammation. In the context of chronic myelogenous leukemia (CML) cells and their interaction with Dengue virus 2, CXCR3 could be involved in modulating the immune response and viral e"
+  },
+  {
+    "task_instance_id": 80,
+    "score": 0.0,
+    "extracted": "KLHL8",
+    "ground_truth": "MED19",
+    "raw_preview": ".\nFINAL ANSWER: KLHL8\nThe gene KLHL8 has been implicated in the regulation of SQSTM1 through ubiquitination and degradation pathways. Given the context of studying positive regulators of SQSTM1, KLHL8 stands out as a strong candidate due to its known interaction with SQSTM1. Therefore, perturbing KL"
+  },
+  {
+    "task_instance_id": 205,
+    "score": 1.0,
+    "extracted": "IRS4",
+    "ground_truth": "IRS4",
+    "raw_preview": ".\nFINAL ANSWER: IRS4\nThe gene IRS4 (Insulin Receptor Substrate 4) is a strong candidate for studying the effects of mTORC1 activation. IRS4 plays a crucial role in insulin signaling and is also involved in mTORC1 pathway regulation. Given that mTORC1 is a key regulator of protein synthesis and cell "
+  },
+  {
+    "task_instance_id": 34,
+    "score": 1.0,
+    "extracted": "NCKAP1L",
+    "ground_truth": "NCKAP1L",
+    "raw_preview": ".\nFINAL ANSWER: NCKAP1L\nThe gene NCKAP1L (Nck-associated protein 1-like) has been implicated in various cellular processes including signal transduction, cell adhesion, and cytoskeletal organization. Given the context of studying the response of U-937 lymphoma cells to Legionella pneumophila exposur"
+  },
+  {
+    "task_instance_id": 263,
+    "score": 0.0,
+    "extracted": "FGFR1",
+    "ground_truth": "XPR1",
+    "raw_preview": ".\nFINAL ANSWER: FGFR1\nThe FGFR1 gene encodes the fibroblast growth factor receptor 1, which plays a crucial role in cell proliferation, differentiation, and survival. In the context of studying resistance to Dinaciclib in MV4-11 cells, FGFR1 could be a strong candidate because Dinaciclib is known to"
+  },
+  {
+    "task_instance_id": 91,
+    "score": 1.0,
+    "extracted": "ACSL4",
+    "ground_truth": "ACSL4",
+    "raw_preview": ".\nFINAL ANSWER: ACSL4\nThe gene *ACSL4* (Acyl-CoA Synthetase Long-Chain Family Member 4) has been implicated in lipid metabolism and is known to play a role in the regulation of ferroptosis. Ferroptosis is a form of regulated cell death that is dependent on iron and lipid peroxidation. Given the cont"
+  },
+  {
+    "task_instance_id": 52,
+    "score": 0.0,
+    "extracted": "DENND4B",
+    "ground_truth": "MAPK1",
+    "raw_preview": ".\nFINAL ANSWER: DENND4B\nThe gene DENND4B has been implicated in various cellular processes including vesicle trafficking and endocytosis, which are closely related to phagocytosis. Given its role in these processes, it is likely to have a significant perturbation effect when studied in the U-937 lym"
+  },
+  {
+    "task_instance_id": 264,
+    "score": 0.0,
+    "extracted": "IRF1",
+    "ground_truth": "ARF1",
+    "raw_preview": ".\nFINAL ANSWER: IRF1\nBased on the provided context, IRF1 (Interferon Regulatory Factor 1) is a transcription factor that plays a critical role in immune responses and stress responses. Golgicide A (GCA) is known to inhibit GBF1, which is involved in Golgi function. Given the context of studying the "
+  },
+  {
+    "task_instance_id": 241,
+    "score": 0.0,
+    "extracted": "PAPSS2",
+    "ground_truth": "KCNJ15",
+    "raw_preview": ".\nFINAL ANSWER: PAPSS2\nThe gene PAPSS2 (3'-phosphoadenosine 5'-phosphosulfate synthase 2) is involved in the synthesis of tauroursodeoxycholic acid, which has been shown to play a role in modulating inflammation and oxidative stress. Chronic exposure to polymyxin B can induce oxidative stress and in"
+  },
+  {
+    "task_instance_id": 13,
+    "score": 0.0,
+    "extracted": "MPP3",
+    "ground_truth": "SMCHD1",
+    "raw_preview": ".\nFINAL ANSWER: MPP3\nThe gene MPP3 (Multidrug Resistance Protein 3) is selected based on its known role in cellular processes that could influence protein stability and degradation, which aligns well with the experimental context of studying parkin protein levels over time. While other genes may als"
+  },
+  {
+    "task_instance_id": 88,
+    "score": 0.0,
+    "extracted": "BRWD3HUMAN: GIVEN THE CONTEXT OF STUDYING APALUTAMIDE RESISTANCE",
+    "ground_truth": "TLE3",
+    "raw_preview": ".\nTo determine which gene would have the strongest perturbation effect in the context of studying drug resistance mechanisms in LNCaP prostate cancer cells exposed to Apalutamide, we need to consider the known functions and roles of each candidate gene in relation to drug resistance and cellular res"
+  },
+  {
+    "task_instance_id": 273,
+    "score": 0.0,
+    "extracted": "CYP3A7",
+    "ground_truth": "C16orf72",
+    "raw_preview": ".\nFINAL ANSWER: CYP3A7\nThe CYP3A7 gene encodes a cytochrome P450 enzyme that is involved in the metabolism of various drugs, including those used in cancer therapy. Given the context of studying drug resistance in Pre-B Acute Lymphoblastic Leukemia cells, perturbing the expression or function of CYP"
+  },
+  {
+    "task_instance_id": 166,
+    "score": 0.0,
+    "extracted": "IGSF10",
+    "ground_truth": "COX17",
+    "raw_preview": ".\nFINAL ANSWER: IGSF10\nThe choice of IGSF10 (Cluster of Differentiation 180) is based on its known role in cell adhesion and signaling pathways, which could potentially influence cellular responses to Olaparib treatment. However, it's important to note that the strongest perturbation effect might no"
+  },
+  {
+    "task_instance_id": 342,
+    "score": 0.0,
+    "extracted": "NFKB2",
+    "ground_truth": "BAZ2A",
+    "raw_preview": ".\nFINAL ANSWER: NFKB2\nThe gene NFKB2 is selected based on its known role in regulating the NF-κB signaling pathway, which is often involved in cellular responses to stress, inflammation, and cellular proliferation. Selinexor works by inhibiting nuclear export, leading to the accumulation of various "
+  },
+  {
+    "task_instance_id": 134,
+    "score": 0.0,
+    "extracted": "TRIM50",
+    "ground_truth": "ANPEP",
+    "raw_preview": ".\nFINAL ANSWER: TRIM50\nThe gene TRIM50 has been shown to play a role in antiviral defense mechanisms, particularly against retroviruses. While its direct involvement with HCoV-229E is less established, the general mechanism of action against viral infections makes it a strong candidate for perturbat"
+  },
+  {
+    "task_instance_id": 306,
+    "score": 0.0,
+    "extracted": "NUP107",
+    "ground_truth": "FLCN",
+    "raw_preview": ".\nFINAL ANSWER: NUP107\nThe Nuclear Pore Complex (NPC) is a key structure involved in the transport of molecules between the nucleus and cytoplasm. The NUP107 gene encodes a component of the NPC and has been shown to play a critical role in cellular responses to viral infections, including those medi"
+  },
+  {
+    "task_instance_id": 334,
+    "score": 0.0,
+    "extracted": "PRKAR1A",
+    "ground_truth": "INPPL1",
+    "raw_preview": ".\nFINAL ANSWER: PRKAR1A\nThe gene PRKAR1A was selected based on its known role in cellular signaling pathways and its potential relevance to drug resistance mechanisms in cancer cells. PRKAR1A encodes regulatory subunits of protein kinase A (PKA), which play critical roles in various cellular process"
+  },
+  {
+    "task_instance_id": 243,
+    "score": 0.0,
+    "extracted": "GNAQ",
+    "ground_truth": "MAU2",
+    "raw_preview": ".\nFINAL ANSWER: GNAQ\nThe gene GNAQ is a strong candidate for studying perturbation effects in the context of drug resistance and chemical response in lung cancer cells. GNAQ encodes a G protein alpha subunit that can influence cellular signaling pathways involved in drug resistance and response to c"
+  },
+  {
+    "task_instance_id": 54,
+    "score": 1.0,
+    "extracted": "PYCARD",
+    "ground_truth": "PYCARD",
+    "raw_preview": ".\nFINAL ANSWER: PYCARD\nThe gene PYCARD (also known as ASC) is a key component of the inflammasome complex and plays a crucial role in the activation of caspase-1, which leads to the processing of pro-inflammatory cytokines such as IL-1β and IL-18, and the induction of pyroptosis. Given the focus of "
+  },
+  {
+    "task_instance_id": 50,
+    "score": 1.0,
+    "extracted": "PRKCD",
+    "ground_truth": "PRKCD",
+    "raw_preview": ".\nFINAL ANSWER: PRKCD\nThe gene PRKCD (Protein Kinase C delta) is known to play a significant role in various cellular processes including phagocytosis. It is involved in the regulation of cell signaling pathways that are crucial for the activation and function of immune cells, which are relevant to "
+  },
+  {
+    "task_instance_id": 174,
+    "score": 1.0,
+    "extracted": "BEND3",
+    "ground_truth": "BEND3",
+    "raw_preview": ".\nFINAL ANSWER: BEND3\nThe gene BEND3 (also known as DCTN4) has been implicated in various cellular processes including cytoskeletal organization and cell division, which are crucial for the survival and proliferation of cancer cells like those in the OCI-AML-2 cell line. Given the context of studyin"
+  },
+  {
+    "task_instance_id": 189,
+    "score": 0.0,
+    "extracted": "CEBPE",
+    "ground_truth": "SPATA5L1",
+    "raw_preview": ".\nFINAL ANSWER: CEBPE\nThe gene CEBPE (CCAAT/enhancer-binding protein epsilon) is a transcription factor that plays a critical role in cell cycle regulation, apoptosis, and stress response. Given the context of studying increased resistance to Berzosertib (VE822) in HeLa cells, CEBPE could be a stron"
+  },
+  {
+    "task_instance_id": 346,
+    "score": 1.0,
+    "extracted": "IRF8",
+    "ground_truth": "IRF8",
+    "raw_preview": ".\nFINAL ANSWER: IRF8\nThe Interferon Regulatory Factor 8 (IRF8) is a transcription factor that plays a critical role in hematopoiesis and immune responses. Given the context of studying the effects of prolonged exposure to selinexor on RL Diffuse Large B-cell Lymphoma cells, IRF8 stands out due to it"
+  },
+  {
+    "task_instance_id": 187,
+    "score": 1.0,
+    "extracted": "ACE2",
+    "ground_truth": "ACE2",
+    "raw_preview": ".\nFINAL ANSWER: ACE2\nThe gene ACE2 is the primary receptor for SARS-CoV-2 and its expression level can significantly influence the cell's susceptibility to viral infection. In the context of studying the response of A549-ACE2 lung cancer cells to SARS-CoV-2 Sdel, the perturbation of ACE2 expression "
+  },
+  {
+    "task_instance_id": 169,
+    "score": 1.0,
+    "extracted": "IFNAR2",
+    "ground_truth": "IFNAR2",
+    "raw_preview": ".\nFINAL ANSWER: IFNAR2\nThe gene IFNAR2 (Interferon alpha/beta receptor 2) is a strong candidate for studying the adaptive mechanisms and potential resistance development in HT-29 cells when exposed to Salmonella enterica serovar Typhimurium. Interferons play a crucial role in the immune response aga"
+  },
+  {
+    "task_instance_id": 58,
+    "score": 0.0,
+    "extracted": "GPAT4",
+    "ground_truth": "ZCCHC14",
+    "raw_preview": ".\nFINAL ANSWER: GPAT4\nThe gene GPAT4 (Glycerol-3-Phosphate O-Acyltransferase 4) is selected based on its role in lipid metabolism and its potential involvement in viral envelope biosynthesis. Given the context of studying the production of hepatitis B virus surface antigen (HBsAg), GPAT4 could play "
+  },
+  {
+    "task_instance_id": 48,
+    "score": 1.0,
+    "extracted": "MAPK1",
+    "ground_truth": "MAPK1",
+    "raw_preview": ".\nFINAL ANSWER: MAPK1\nThe gene MAPK1 (also known as ERK1) is a key player in signal transduction pathways that are often activated during phagocytosis. It is involved in various cellular processes including proliferation, differentiation, and survival, which are all relevant to the phagocytic proces"
+  },
+  {
+    "task_instance_id": 235,
+    "score": 0.0,
+    "extracted": "HABP4",
+    "ground_truth": "VMP1",
+    "raw_preview": ".\nFINAL ANSWER: HABP4\nThe gene HABP4 (Human Albumin Binding Protein 4) has been implicated in various cellular processes including protein trafficking and endocytosis, which could play a role in the interaction between HCoV-OC43 and the host cell. Given the context of studying resistance mechanisms "
+  },
+  {
+    "task_instance_id": 252,
+    "score": 0.0,
+    "extracted": "REL",
+    "ground_truth": "PFKP",
+    "raw_preview": ".\nFINAL ANSWER: REL\nThe gene REL is selected based on its role in NF-κB signaling, which is often dysregulated in cancer cells leading to drug resistance. In the context of studying Dinaciclib resistance in THP-1 cells, REL could play a significant role due to its involvement in cellular survival pa"
+  },
+  {
+    "task_instance_id": 21,
+    "score": 0.0,
+    "extracted": "MGMT",
+    "ground_truth": "RNF7",
+    "raw_preview": ".\nFINAL ANSWER: MGMT\nThe gene MGMT (O6-methylguanine-DNA methyltransferase) is often associated with drug resistance in various cancers, including lung squamous cell carcinoma. Inhibition of MGMT can enhance the sensitivity of cancer cells to DNA-damaging agents, such as the MCL1 inhibitor AZD5991. "
+  },
+  {
+    "task_instance_id": 313,
+    "score": 1.0,
+    "extracted": "ACE2",
+    "ground_truth": "ACE2",
+    "raw_preview": ".\nFINAL ANSWER: ACE2\nThe gene ACE2 is central to the interaction between SARS-CoV-2 and host cells, as it serves as the primary receptor for the virus. Perturbing the expression or function of ACE2 could significantly impact the virus's ability to enter and infect the cells. Therefore, among the lis"
+  },
+  {
+    "task_instance_id": 160,
+    "score": 0.0,
+    "extracted": "BCL2L11",
+    "ground_truth": "TADA2B",
+    "raw_preview": ".\nFINAL ANSWER: BCL2L11\nThe gene BCL2L11 is a strong candidate for studying drug resistance in cancer cells, particularly in the context of breast cancer. It encodes a protein involved in apoptosis regulation and has been implicated in drug resistance mechanisms. Given the experimental setup focusin"
+  }
+]
