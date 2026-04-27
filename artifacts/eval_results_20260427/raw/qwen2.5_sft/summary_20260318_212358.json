@@ -1,0 +1,59 @@
+{
+  "crispr_delivery": {
+    "accuracy": 0.3,
+    "correct": 3,
+    "total": 10
+  },
+  "gwas_causal_gene_gwas_catalog": {
+    "accuracy": 0.28,
+    "correct": 14,
+    "total": 50
+  },
+  "gwas_causal_gene_opentargets": {
+    "accuracy": 0.76,
+    "correct": 38,
+    "total": 50
+  },
+  "gwas_causal_gene_pharmaprojects": {
+    "accuracy": 0.6,
+    "correct": 30,
+    "total": 50
+  },
+  "gwas_variant_prioritization": {
+    "accuracy": 0.3023,
+    "correct": 13,
+    "total": 43
+  },
+  "lab_bench_dbqa": {
+    "accuracy": 0.02,
+    "correct": 1,
+    "total": 50
+  },
+  "lab_bench_seqqa": {
+    "accuracy": 0.06,
+    "correct": 3,
+    "total": 50
+  },
+  "patient_gene_detection": {
+    "accuracy": 0.02,
+    "correct": 1,
+    "total": 50
+  },
+  "rare_disease_diagnosis": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 30
+  },
+  "screen_gene_retrieval": {
+    "accuracy": 0.28,
+    "correct": 14,
+    "total": 50
+  },
+  "_overall": {
+    "accuracy": 0.2702,
+    "correct": 117,
+    "total": 433,
+    "model": "/root/autodl-tmp/Biomni-main/scripts/output/qwen2.5_sft",
+    "timestamp": "20260318_212358"
+  }
+}

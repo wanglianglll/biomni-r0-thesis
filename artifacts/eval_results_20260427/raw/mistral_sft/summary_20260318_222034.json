@@ -1,0 +1,59 @@
+{
+  "crispr_delivery": {
+    "accuracy": 0.2,
+    "correct": 2,
+    "total": 10
+  },
+  "gwas_causal_gene_gwas_catalog": {
+    "accuracy": 0.02,
+    "correct": 1,
+    "total": 50
+  },
+  "gwas_causal_gene_opentargets": {
+    "accuracy": 0.2,
+    "correct": 10,
+    "total": 50
+  },
+  "gwas_causal_gene_pharmaprojects": {
+    "accuracy": 0.16,
+    "correct": 8,
+    "total": 50
+  },
+  "gwas_variant_prioritization": {
+    "accuracy": 0.4884,
+    "correct": 21,
+    "total": 43
+  },
+  "lab_bench_dbqa": {
+    "accuracy": 0.18,
+    "correct": 9,
+    "total": 50
+  },
+  "lab_bench_seqqa": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 50
+  },
+  "patient_gene_detection": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 50
+  },
+  "rare_disease_diagnosis": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 30
+  },
+  "screen_gene_retrieval": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 50
+  },
+  "_overall": {
+    "accuracy": 0.1178,
+    "correct": 51,
+    "total": 433,
+    "model": "/root/autodl-tmp/Biomni-main/scripts/output/mistral_sft",
+    "timestamp": "20260318_222034"
+  }
+}

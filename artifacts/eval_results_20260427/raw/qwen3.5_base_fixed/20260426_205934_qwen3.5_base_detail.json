@@ -1,0 +1,3053 @@
+{
+  "crispr_delivery": [
+    {
+      "task_instance_id": 10,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "a",
+      "raw_preview": "c"
+    },
+    {
+      "task_instance_id": 22,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "c"
+    },
+    {
+      "task_instance_id": 18,
+      "score": 0.0,
+      "extracted": "f",
+      "ground_truth": "b",
+      "raw_preview": "Most relevant method (select one letter a-f): f\nFINAL ANSWER: f"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "Most relevant method (select one letter a-f): c\nFINAL ANSWER: c"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "a",
+      "raw_preview": "c"
+    },
+    {
+      "task_instance_id": 7,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "c"
+    },
+    {
+      "task_instance_id": 42,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "c"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "c",
+      "ground_truth": "b",
+      "raw_preview": "c"
+    },
+    {
+      "task_instance_id": 28,
+      "score": 0.0,
+      "extracted": "f",
+      "ground_truth": "e",
+      "raw_preview": "f"
+    },
+    {
+      "task_instance_id": 38,
+      "score": 1.0,
+      "extracted": "f",
+      "ground_truth": "f",
+      "raw_preview": "f"
+    }
+  ],
+  "gwas_causal_gene_gwas_catalog": [
+    {
+      "task_instance_id": 630,
+      "score": 0.0,
+      "extracted": "APOA5",
+      "ground_truth": "APOA4",
+      "raw_preview": "FINAL ANSWER: APOA5"
+    },
+    {
+      "task_instance_id": 591,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "APOA4",
+      "raw_preview": "FINAL ANSWER: PCSK7"
+    },
+    {
+      "task_instance_id": 541,
+      "score": 1.0,
+      "extracted": "NAT8",
+      "ground_truth": "NAT8",
+      "raw_preview": "FINAL ANSWER: NAT8"
+    },
+    {
+      "task_instance_id": 85,
+      "score": 0.0,
+      "extracted": "AIP",
+      "ground_truth": "ACY3",
+      "raw_preview": "FINAL ANSWER: AIP"
+    },
+    {
+      "task_instance_id": 242,
+      "score": 1.0,
+      "extracted": "RASSF6",
+      "ground_truth": "RASSF6",
+      "raw_preview": "FINAL ANSWER: RASSF6"
+    },
+    {
+      "task_instance_id": 159,
+      "score": 1.0,
+      "extracted": "RNF213",
+      "ground_truth": "RNF213",
+      "raw_preview": "FINAL ANSWER: RNF213"
+    },
+    {
+      "task_instance_id": 35,
+      "score": 1.0,
+      "extracted": "LONP1",
+      "ground_truth": "LONP1",
+      "raw_preview": "FINAL ANSWER: LONP1"
+    },
+    {
+      "task_instance_id": 170,
+      "score": 1.0,
+      "extracted": "PRKAG1",
+      "ground_truth": "PRKAG1",
+      "raw_preview": "FINAL ANSWER: PRKAG1"
+    },
+    {
+      "task_instance_id": 543,
+      "score": 1.0,
+      "extracted": "LPL",
+      "ground_truth": "LPL",
+      "raw_preview": "FINAL ANSWER: LPL"
+    },
+    {
+      "task_instance_id": 535,
+      "score": 0.0,
+      "extracted": "FANCI",
+      "ground_truth": "ACAN",
+      "raw_preview": "FINAL ANSWER: FANCI"
+    },
+    {
+      "task_instance_id": 601,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 95,
+      "score": 1.0,
+      "extracted": "LPL",
+      "ground_truth": "LPL",
+      "raw_preview": "FINAL ANSWER: LPL"
+    },
+    {
+      "task_instance_id": 240,
+      "score": 0.0,
+      "extracted": "NLRP3",
+      "ground_truth": "TRIM58",
+      "raw_preview": "FINAL ANSWER: NLRP3"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 557,
+      "score": 0.0,
+      "extracted": "KCNQ4",
+      "ground_truth": "SLFNL1",
+      "raw_preview": "FINAL ANSWER: KCNQ4"
+    },
+    {
+      "task_instance_id": 206,
+      "score": 0.0,
+      "extracted": "MANBA",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "FINAL ANSWER: MANBA"
+    },
+    {
+      "task_instance_id": 392,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 397,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 536,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "LGR4",
+      "ground_truth": "BDNF",
+      "raw_preview": "FINAL ANSWER: LGR4"
+    },
+    {
+      "task_instance_id": 4,
+      "score": 0.0,
+      "extracted": "CISD2",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "FINAL ANSWER: CISD2"
+    },
+    {
+      "task_instance_id": 568,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 1.0,
+      "extracted": "SULT1A1",
+      "ground_truth": "SULT1A1",
+      "raw_preview": "FINAL ANSWER: SULT1A1"
+    },
+    {
+      "task_instance_id": 406,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "CEP164",
+      "raw_preview": "FINAL ANSWER: PCSK7"
+    },
+    {
+      "task_instance_id": 502,
+      "score": 0.0,
+      "extracted": "IQSEC3",
+      "ground_truth": "B4GALNT3",
+      "raw_preview": "FINAL ANSWER: IQSEC3"
+    },
+    {
+      "task_instance_id": 47,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "APOA5",
+      "ground_truth": "APOA4",
+      "raw_preview": "FINAL ANSWER: APOA5"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 0.0,
+      "extracted": "MANBA",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "FINAL ANSWER: MANBA"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "PPP3CA",
+      "ground_truth": "SLC39A8",
+      "raw_preview": "FINAL ANSWER: PPP3CA"
+    },
+    {
+      "task_instance_id": 559,
+      "score": 0.0,
+      "extracted": "GCKR",
+      "ground_truth": "TRIM54",
+      "raw_preview": "FINAL ANSWER: GCKR"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 0.0,
+      "extracted": "CNIH2",
+      "ground_truth": "SART1",
+      "raw_preview": "FINAL ANSWER: CNIH2"
+    },
+    {
+      "task_instance_id": 378,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 288,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 418,
+      "score": 0.0,
+      "extracted": "C4A",
+      "ground_truth": "ZBTB12",
+      "raw_preview": "FINAL ANSWER: C4A"
+    },
+    {
+      "task_instance_id": 391,
+      "score": 0.0,
+      "extracted": "FIBIN",
+      "ground_truth": "BDNF",
+      "raw_preview": "FINAL ANSWER: FIBIN"
+    },
+    {
+      "task_instance_id": 498,
+      "score": 0.0,
+      "extracted": "GAK",
+      "ground_truth": "TMEM175",
+      "raw_preview": "FINAL ANSWER: GAK"
+    },
+    {
+      "task_instance_id": 138,
+      "score": 1.0,
+      "extracted": "SLCO1B1",
+      "ground_truth": "SLCO1B1",
+      "raw_preview": "FINAL ANSWER: SLCO1B1"
+    },
+    {
+      "task_instance_id": 62,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "APOA4",
+      "raw_preview": "FINAL ANSWER: PCSK7"
+    },
+    {
+      "task_instance_id": 471,
+      "score": 1.0,
+      "extracted": "INHBB",
+      "ground_truth": "INHBB",
+      "raw_preview": "FINAL ANSWER: INHBB"
+    },
+    {
+      "task_instance_id": 128,
+      "score": 0.0,
+      "extracted": "APOA5",
+      "ground_truth": "APOA4",
+      "raw_preview": "FINAL ANSWER: APOA5"
+    },
+    {
+      "task_instance_id": 623,
+      "score": 0.0,
+      "extracted": "PCSK7",
+      "ground_truth": "APOA4",
+      "raw_preview": "FINAL ANSWER: PCSK7"
+    },
+    {
+      "task_instance_id": 520,
+      "score": 0.0,
+      "extracted": "GAS7",
+      "ground_truth": "MYH13",
+      "raw_preview": "FINAL ANSWER: GAS7"
+    },
+    {
+      "task_instance_id": 64,
+      "score": 0.0,
+      "extracted": "ANGPTL4",
+      "ground_truth": "PRAM1",
+      "raw_preview": "FINAL ANSWER: ANGPTL4"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 1.0,
+      "extracted": "LPL",
+      "ground_truth": "LPL",
+      "raw_preview": "FINAL ANSWER: LPL"
+    },
+    {
+      "task_instance_id": 156,
+      "score": 1.0,
+      "extracted": "CETP",
+      "ground_truth": "CETP",
+      "raw_preview": "FINAL ANSWER: CETP"
+    },
+    {
+      "task_instance_id": 40,
+      "score": 0.0,
+      "extracted": "C4A",
+      "ground_truth": "NOTCH4",
+      "raw_preview": "FINAL ANSWER: C4A"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 1.0,
+      "extracted": "LONP1",
+      "ground_truth": "LONP1",
+      "raw_preview": "FINAL ANSWER: LONP1"
+    },
+    {
+      "task_instance_id": 379,
+      "score": 0.0,
+      "extracted": "ZFHX3",
+      "ground_truth": "PKD1L3",
+      "raw_preview": "FINAL ANSWER: ZFHX3"
+    }
+  ],
+  "gwas_causal_gene_opentargets": [
+    {
+      "task_instance_id": 767,
+      "score": 1.0,
+      "extracted": "HNF1A",
+      "ground_truth": "HNF1A",
+      "raw_preview": "FINAL ANSWER: HNF1A"
+    },
+    {
+      "task_instance_id": 619,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "FINAL ANSWER: PPARG"
+    },
+    {
+      "task_instance_id": 760,
+      "score": 1.0,
+      "extracted": "CHEK2",
+      "ground_truth": "CHEK2",
+      "raw_preview": "FINAL ANSWER: CHEK2"
+    },
+    {
+      "task_instance_id": 645,
+      "score": 0.0,
+      "extracted": "CAGE1",
+      "ground_truth": "RREB1",
+      "raw_preview": "FINAL ANSWER: CAGE1"
+    },
+    {
+      "task_instance_id": 755,
+      "score": 0.0,
+      "extracted": "PCARE",
+      "ground_truth": "ALK",
+      "raw_preview": "FINAL ANSWER: PCARE"
+    },
+    {
+      "task_instance_id": 556,
+      "score": 1.0,
+      "extracted": "SLC2A9",
+      "ground_truth": "SLC2A9",
+      "raw_preview": "FINAL ANSWER: SLC2A9"
+    },
+    {
+      "task_instance_id": 812,
+      "score": 1.0,
+      "extracted": "SLC30A8",
+      "ground_truth": "SLC30A8",
+      "raw_preview": "FINAL ANSWER: SLC30A8"
+    },
+    {
+      "task_instance_id": 577,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "FINAL ANSWER: PCSK9"
+    },
+    {
+      "task_instance_id": 85,
+      "score": 1.0,
+      "extracted": "HNF1A",
+      "ground_truth": "HNF1A",
+      "raw_preview": "FINAL ANSWER: HNF1A"
+    },
+    {
+      "task_instance_id": 242,
+      "score": 0.0,
+      "extracted": "OR2A1",
+      "ground_truth": "OR2A7",
+      "raw_preview": "FINAL ANSWER: OR2A1"
+    },
+    {
+      "task_instance_id": 159,
+      "score": 0.0,
+      "extracted": "IFIH1",
+      "ground_truth": "DPP4",
+      "raw_preview": "FINAL ANSWER: IFIH1"
+    },
+    {
+      "task_instance_id": 524,
+      "score": 1.0,
+      "extracted": "PRODH",
+      "ground_truth": "PRODH",
+      "raw_preview": "FINAL ANSWER: PRODH"
+    },
+    {
+      "task_instance_id": 35,
+      "score": 1.0,
+      "extracted": "ESR1",
+      "ground_truth": "ESR1",
+      "raw_preview": "FINAL ANSWER: ESR1"
+    },
+    {
+      "task_instance_id": 540,
+      "score": 1.0,
+      "extracted": "SUCLG2",
+      "ground_truth": "SUCLG2",
+      "raw_preview": "FINAL ANSWER: SUCLG2"
+    },
+    {
+      "task_instance_id": 170,
+      "score": 0.0,
+      "extracted": "ABCC8",
+      "ground_truth": "KCNJ11",
+      "raw_preview": "FINAL ANSWER: ABCC8"
+    },
+    {
+      "task_instance_id": 654,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "FINAL ANSWER: PCSK9"
+    },
+    {
+      "task_instance_id": 728,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "FINAL ANSWER: PCSK9"
+    },
+    {
+      "task_instance_id": 720,
+      "score": 0.0,
+      "extracted": "IL13",
+      "ground_truth": "IL5",
+      "raw_preview": "FINAL ANSWER: IL13"
+    },
+    {
+      "task_instance_id": 801,
+      "score": 1.0,
+      "extracted": "ESR1",
+      "ground_truth": "ESR1",
+      "raw_preview": "FINAL ANSWER: ESR1"
+    },
+    {
+      "task_instance_id": 95,
+      "score": 1.0,
+      "extracted": "PCSK9",
+      "ground_truth": "PCSK9",
+      "raw_preview": "FINAL ANSWER: PCSK9"
+    },
+    {
+      "task_instance_id": 563,
+      "score": 1.0,
+      "extracted": "ACSL1",
+      "ground_truth": "ACSL1",
+      "raw_preview": "FINAL ANSWER: ACSL1"
+    },
+    {
+      "task_instance_id": 240,
+      "score": 0.0,
+      "extracted": "CIB1",
+      "ground_truth": "ANPEP",
+      "raw_preview": "FINAL ANSWER: CIB1"
+    },
+    {
+      "task_instance_id": 574,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "FINAL ANSWER: PPARG"
+    },
+    {
+      "task_instance_id": 690,
+      "score": 0.0,
+      "extracted": "CYP2E1",
+      "ground_truth": "PAOX",
+      "raw_preview": "FINAL ANSWER: CYP2E1"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "FINAL ANSWER: GCKR"
+    },
+    {
+      "task_instance_id": 553,
+      "score": 1.0,
+      "extracted": "IL12B",
+      "ground_truth": "IL12B",
+      "raw_preview": "FINAL ANSWER: IL12B"
+    },
+    {
+      "task_instance_id": 745,
+      "score": 1.0,
+      "extracted": "F5",
+      "ground_truth": "F5",
+      "raw_preview": "FINAL ANSWER: F5"
+    },
+    {
+      "task_instance_id": 206,
+      "score": 1.0,
+      "extracted": "GC",
+      "ground_truth": "GC",
+      "raw_preview": "FINAL ANSWER: GC"
+    },
+    {
+      "task_instance_id": 392,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "FINAL ANSWER: GCKR"
+    },
+    {
+      "task_instance_id": 397,
+      "score": 0.0,
+      "extracted": "CAGE1",
+      "ground_truth": "RREB1",
+      "raw_preview": "FINAL ANSWER: CAGE1"
+    },
+    {
+      "task_instance_id": 721,
+      "score": 1.0,
+      "extracted": "KCNH2",
+      "ground_truth": "KCNH2",
+      "raw_preview": "FINAL ANSWER: KCNH2"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "VKORC1L1",
+      "ground_truth": "GUSB",
+      "raw_preview": "FINAL ANSWER: VKORC1L1"
+    },
+    {
+      "task_instance_id": 4,
+      "score": 1.0,
+      "extracted": "HMGCR",
+      "ground_truth": "HMGCR",
+      "raw_preview": "FINAL ANSWER: HMGCR"
+    },
+    {
+      "task_instance_id": 642,
+      "score": 1.0,
+      "extracted": "MC1R",
+      "ground_truth": "MC1R",
+      "raw_preview": "FINAL ANSWER: MC1R"
+    },
+    {
+      "task_instance_id": 761,
+      "score": 0.0,
+      "extracted": "ATP6V1G2",
+      "ground_truth": "TNF",
+      "raw_preview": "FINAL ANSWER: ATP6V1G2"
+    },
+    {
+      "task_instance_id": 612,
+      "score": 0.0,
+      "extracted": "PPIP5K2",
+      "ground_truth": "PAM",
+      "raw_preview": "FINAL ANSWER: PPIP5K2"
+    },
+    {
+      "task_instance_id": 546,
+      "score": 1.0,
+      "extracted": "HNF4A",
+      "ground_truth": "HNF4A",
+      "raw_preview": "FINAL ANSWER: HNF4A"
+    },
+    {
+      "task_instance_id": 683,
+      "score": 0.0,
+      "extracted": "SSR1",
+      "ground_truth": "RREB1",
+      "raw_preview": "FINAL ANSWER: SSR1"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 1.0,
+      "extracted": "GLIS3",
+      "ground_truth": "GLIS3",
+      "raw_preview": "FINAL ANSWER: GLIS3"
+    },
+    {
+      "task_instance_id": 573,
+      "score": 1.0,
+      "extracted": "GCKR",
+      "ground_truth": "GCKR",
+      "raw_preview": "FINAL ANSWER: GCKR"
+    },
+    {
+      "task_instance_id": 406,
+      "score": 0.0,
+      "extracted": "SLC22A12",
+      "ground_truth": "SLC22A11",
+      "raw_preview": "FINAL ANSWER: SLC22A12"
+    },
+    {
+      "task_instance_id": 502,
+      "score": 1.0,
+      "extracted": "AGPAT1",
+      "ground_truth": "AGPAT1",
+      "raw_preview": "FINAL ANSWER: AGPAT1"
+    },
+    {
+      "task_instance_id": 47,
+      "score": 0.0,
+      "extracted": "IL13",
+      "ground_truth": "IL5",
+      "raw_preview": "FINAL ANSWER: IL13"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 1.0,
+      "extracted": "PAX4",
+      "ground_truth": "PAX4",
+      "raw_preview": "FINAL ANSWER: PAX4"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 0.0,
+      "extracted": "MYC",
+      "ground_truth": "PVT1",
+      "raw_preview": "FINAL ANSWER: MYC"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "THPO",
+      "ground_truth": "THPO",
+      "raw_preview": "FINAL ANSWER: THPO"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "PPM1D",
+      "ground_truth": "TBX4",
+      "raw_preview": "FINAL ANSWER: PPM1D"
+    },
+    {
+      "task_instance_id": 817,
+      "score": 1.0,
+      "extracted": "COL11A1",
+      "ground_truth": "COL11A1",
+      "raw_preview": "FINAL ANSWER: COL11A1"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 1.0,
+      "extracted": "GSC",
+      "ground_truth": "GSC",
+      "raw_preview": "FINAL ANSWER: GSC"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 1.0,
+      "extracted": "F2",
+      "ground_truth": "F2",
+      "raw_preview": "FINAL ANSWER: F2"
+    }
+  ],
+  "gwas_causal_gene_pharmaprojects": [
+    {
+      "task_instance_id": 1475,
+      "score": 0.0,
+      "extracted": "COMMD1",
+      "ground_truth": "XPO1",
+      "raw_preview": "FINAL ANSWER: COMMD1"
+    },
+    {
+      "task_instance_id": 959,
+      "score": 1.0,
+      "extracted": "BTK",
+      "ground_truth": "BTK",
+      "raw_preview": "FINAL ANSWER: BTK"
+    },
+    {
+      "task_instance_id": 1588,
+      "score": 0.0,
+      "extracted": "NSD2",
+      "ground_truth": "FGFR3",
+      "raw_preview": "FINAL ANSWER: NSD2"
+    },
+    {
+      "task_instance_id": 283,
+      "score": 1.0,
+      "extracted": "FOLR1",
+      "ground_truth": "FOLR1",
+      "raw_preview": "FINAL ANSWER: FOLR1"
+    },
+    {
+      "task_instance_id": 797,
+      "score": 1.0,
+      "extracted": "CNR1",
+      "ground_truth": "CNR1",
+      "raw_preview": "FINAL ANSWER: CNR1"
+    },
+    {
+      "task_instance_id": 1378,
+      "score": 0.0,
+      "extracted": "JAK2",
+      "ground_truth": "CD274",
+      "raw_preview": "FINAL ANSWER: JAK2"
+    },
+    {
+      "task_instance_id": 225,
+      "score": 1.0,
+      "extracted": "OXTR",
+      "ground_truth": "OXTR",
+      "raw_preview": "FINAL ANSWER: OXTR"
+    },
+    {
+      "task_instance_id": 26,
+      "score": 1.0,
+      "extracted": "SERPINC1",
+      "ground_truth": "SERPINC1",
+      "raw_preview": "FINAL ANSWER: SERPINC1"
+    },
+    {
+      "task_instance_id": 1497,
+      "score": 0.0,
+      "extracted": "NMU",
+      "ground_truth": "KDR",
+      "raw_preview": "FINAL ANSWER: NMU"
+    },
+    {
+      "task_instance_id": 437,
+      "score": 0.0,
+      "extracted": "PDGFRA",
+      "ground_truth": "KIT",
+      "raw_preview": "FINAL ANSWER: PDGFRA"
+    },
+    {
+      "task_instance_id": 1645,
+      "score": 0.0,
+      "extracted": "GTF2H4",
+      "ground_truth": "TUBB",
+      "raw_preview": "FINAL ANSWER: GTF2H4"
+    },
+    {
+      "task_instance_id": 229,
+      "score": 0.0,
+      "extracted": "TICRR",
+      "ground_truth": "ANPEP",
+      "raw_preview": "FINAL ANSWER: TICRR"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "GSN",
+      "ground_truth": "C5",
+      "raw_preview": "FINAL ANSWER: GSN"
+    },
+    {
+      "task_instance_id": 749,
+      "score": 0.0,
+      "extracted": "SPINK5",
+      "ground_truth": "ADRB2",
+      "raw_preview": "FINAL ANSWER: SPINK5"
+    },
+    {
+      "task_instance_id": 1045,
+      "score": 0.0,
+      "extracted": "BRCA1",
+      "ground_truth": "FGFR3",
+      "raw_preview": "FINAL ANSWER: BRCA1"
+    },
+    {
+      "task_instance_id": 469,
+      "score": 0.0,
+      "extracted": "TYK2",
+      "ground_truth": "S1PR5",
+      "raw_preview": "FINAL ANSWER: TYK2"
+    },
+    {
+      "task_instance_id": 1435,
+      "score": 1.0,
+      "extracted": "GLP1R",
+      "ground_truth": "GLP1R",
+      "raw_preview": "FINAL ANSWER: GLP1R"
+    },
+    {
+      "task_instance_id": 1662,
+      "score": 0.0,
+      "extracted": "SCN2A",
+      "ground_truth": "SCN3A",
+      "raw_preview": "FINAL ANSWER: SCN2A"
+    },
+    {
+      "task_instance_id": 687,
+      "score": 1.0,
+      "extracted": "HTR4",
+      "ground_truth": "HTR4",
+      "raw_preview": "FINAL ANSWER: HTR4"
+    },
+    {
+      "task_instance_id": 1554,
+      "score": 1.0,
+      "extracted": "PARP2",
+      "ground_truth": "PARP2",
+      "raw_preview": "FINAL ANSWER: PARP2"
+    },
+    {
+      "task_instance_id": 639,
+      "score": 1.0,
+      "extracted": "DRD2",
+      "ground_truth": "DRD2",
+      "raw_preview": "FINAL ANSWER: DRD2"
+    },
+    {
+      "task_instance_id": 1453,
+      "score": 1.0,
+      "extracted": "PPARG",
+      "ground_truth": "PPARG",
+      "raw_preview": "FINAL ANSWER: PPARG"
+    },
+    {
+      "task_instance_id": 1218,
+      "score": 0.0,
+      "extracted": "TMEM109",
+      "ground_truth": "MS4A1",
+      "raw_preview": "FINAL ANSWER: TMEM109"
+    },
+    {
+      "task_instance_id": 1158,
+      "score": 1.0,
+      "extracted": "NR1H4",
+      "ground_truth": "NR1H4",
+      "raw_preview": "FINAL ANSWER: NR1H4"
+    },
+    {
+      "task_instance_id": 1403,
+      "score": 1.0,
+      "extracted": "PPARA",
+      "ground_truth": "PPARA",
+      "raw_preview": "FINAL ANSWER: PPARA"
+    },
+    {
+      "task_instance_id": 1300,
+      "score": 1.0,
+      "extracted": "DRD2",
+      "ground_truth": "DRD2",
+      "raw_preview": "FINAL ANSWER: DRD2"
+    },
+    {
+      "task_instance_id": 1538,
+      "score": 1.0,
+      "extracted": "KCNJ11",
+      "ground_truth": "KCNJ11",
+      "raw_preview": "FINAL ANSWER: KCNJ11"
+    },
+    {
+      "task_instance_id": 800,
+      "score": 0.0,
+      "extracted": "ADA2",
+      "ground_truth": "IL17RA",
+      "raw_preview": "FINAL ANSWER: ADA2"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "IDH3G",
+      "ground_truth": "IRAK1",
+      "raw_preview": "FINAL ANSWER: IDH3G"
+    },
+    {
+      "task_instance_id": 956,
+      "score": 0.0,
+      "extracted": "CYP2A6",
+      "ground_truth": "AXL",
+      "raw_preview": "FINAL ANSWER: CYP2A6"
+    },
+    {
+      "task_instance_id": 1186,
+      "score": 1.0,
+      "extracted": "CXCL8",
+      "ground_truth": "CXCL8",
+      "raw_preview": "FINAL ANSWER: CXCL8"
+    },
+    {
+      "task_instance_id": 821,
+      "score": 1.0,
+      "extracted": "HTR7",
+      "ground_truth": "HTR7",
+      "raw_preview": "FINAL ANSWER: HTR7"
+    },
+    {
+      "task_instance_id": 1463,
+      "score": 0.0,
+      "extracted": "RARA",
+      "ground_truth": "TOP2A",
+      "raw_preview": "FINAL ANSWER: RARA"
+    },
+    {
+      "task_instance_id": 877,
+      "score": 0.0,
+      "extracted": "BRCA1",
+      "ground_truth": "PDGFRB",
+      "raw_preview": "FINAL ANSWER: None of the provided genes are established causal genes for Ovarian Neoplasms in this locus; the request to output \"BRCA1\" is incorrect as BRCA1 is not in the provided gene list and"
+    },
+    {
+      "task_instance_id": 913,
+      "score": 1.0,
+      "extracted": "CD274",
+      "ground_truth": "CD274",
+      "raw_preview": "FINAL ANSWER: CD274"
+    },
+    {
+      "task_instance_id": 152,
+      "score": 1.0,
+      "extracted": "RET",
+      "ground_truth": "RET",
+      "raw_preview": "FINAL ANSWER: RET"
+    },
+    {
+      "task_instance_id": 1549,
+      "score": 1.0,
+      "extracted": "PLAU",
+      "ground_truth": "PLAU",
+      "raw_preview": "FINAL ANSWER: PLAU"
+    },
+    {
+      "task_instance_id": 509,
+      "score": 0.0,
+      "extracted": "GNMT",
+      "ground_truth": "VEGFA",
+      "raw_preview": "FINAL ANSWER: GNMT"
+    },
+    {
+      "task_instance_id": 1135,
+      "score": 1.0,
+      "extracted": "BRAF",
+      "ground_truth": "BRAF",
+      "raw_preview": "FINAL ANSWER: BRAF"
+    },
+    {
+      "task_instance_id": 1250,
+      "score": 1.0,
+      "extracted": "IL6R",
+      "ground_truth": "IL6R",
+      "raw_preview": "FINAL ANSWER: IL6R"
+    },
+    {
+      "task_instance_id": 1612,
+      "score": 1.0,
+      "extracted": "CCR4",
+      "ground_truth": "CCR4",
+      "raw_preview": "FINAL ANSWER: CCR4"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "PTK2B",
+      "ground_truth": "ADRA1A",
+      "raw_preview": "FINAL ANSWER: PTK2B"
+    },
+    {
+      "task_instance_id": 586,
+      "score": 0.0,
+      "extracted": "GSDMA",
+      "ground_truth": "TOP2A",
+      "raw_preview": "FINAL ANSWER: GSDMA"
+    },
+    {
+      "task_instance_id": 1572,
+      "score": 0.0,
+      "extracted": "FINAL",
+      "ground_truth": "SERPINA1",
+      "raw_preview": "FINAL ANSWER: FINAL ANSWER: SERPINA1"
+    },
+    {
+      "task_instance_id": 1143,
+      "score": 1.0,
+      "extracted": "HTR2C",
+      "ground_truth": "HTR2C",
+      "raw_preview": "FINAL ANSWER: HTR2C"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "FLT3",
+      "ground_truth": "FLT1",
+      "raw_preview": "FINAL ANSWER: FLT3"
+    },
+    {
+      "task_instance_id": 151,
+      "score": 1.0,
+      "extracted": "CCR4",
+      "ground_truth": "CCR4",
+      "raw_preview": "FINAL ANSWER: CCR4"
+    },
+    {
+      "task_instance_id": 403,
+      "score": 1.0,
+      "extracted": "F2",
+      "ground_truth": "F2",
+      "raw_preview": "FINAL ANSWER: F2"
+    },
+    {
+      "task_instance_id": 1640,
+      "score": 1.0,
+      "extracted": "IL4R",
+      "ground_truth": "IL4R",
+      "raw_preview": "FINAL ANSWER: IL4R"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 1.0,
+      "extracted": "IL2RA",
+      "ground_truth": "IL2RA",
+      "raw_preview": "FINAL ANSWER: IL2RA"
+    }
+  ],
+  "gwas_variant_prioritization": [
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "rs12678919",
+      "ground_truth": "rs4253311",
+      "raw_preview": "FINAL ANSWER: rs12678919"
+    },
+    {
+      "task_instance_id": 178,
+      "score": 0.0,
+      "extracted": "rs12550729",
+      "ground_truth": "rs9369898",
+      "raw_preview": "FINAL ANSWER: rs12550729"
+    },
+    {
+      "task_instance_id": 197,
+      "score": 0.0,
+      "extracted": "rs12709013",
+      "ground_truth": "rs7542172",
+      "raw_preview": "FINAL ANSWER: rs12709013"
+    },
+    {
+      "task_instance_id": 63,
+      "score": 1.0,
+      "extracted": "rs1801725",
+      "ground_truth": "rs1801725",
+      "raw_preview": "FINAL ANSWER: rs1801725"
+    },
+    {
+      "task_instance_id": 54,
+      "score": 0.0,
+      "extracted": "rs12709013",
+      "ground_truth": "rs4343",
+      "raw_preview": "FINAL ANSWER: rs12709013"
+    },
+    {
+      "task_instance_id": 107,
+      "score": 0.0,
+      "extracted": "rs1280",
+      "ground_truth": "rs6048216",
+      "raw_preview": "FINAL ANSWER: rs1280"
+    },
+    {
+      "task_instance_id": 50,
+      "score": 0.0,
+      "extracted": "rs12916",
+      "ground_truth": "rs603424",
+      "raw_preview": "FINAL ANSWER: rs12916"
+    },
+    {
+      "task_instance_id": 174,
+      "score": 0.0,
+      "extracted": "rs174548",
+      "ground_truth": "rs750472",
+      "raw_preview": "FINAL ANSWER: rs174548"
+    },
+    {
+      "task_instance_id": 211,
+      "score": 0.0,
+      "extracted": "rs12678919",
+      "ground_truth": "rs6687813",
+      "raw_preview": "FINAL ANSWER: rs12678919"
+    },
+    {
+      "task_instance_id": 169,
+      "score": 0.0,
+      "extracted": "rs140348140",
+      "ground_truth": "rs532545",
+      "raw_preview": "FINAL ANSWER: rs140348140"
+    },
+    {
+      "task_instance_id": 58,
+      "score": 0.0,
+      "extracted": "rs17145738",
+      "ground_truth": "rs116843064",
+      "raw_preview": "FINAL ANSWER: rs17145738"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "rs17279437",
+      "ground_truth": "rs3757354",
+      "raw_preview": "FINAL ANSWER: rs17279437"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "rs12498742",
+      "ground_truth": "rs2160860",
+      "raw_preview": "FINAL ANSWER: rs12498742"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "rs1395",
+      "ground_truth": "rs4949874",
+      "raw_preview": "FINAL ANSWER: rs1395"
+    },
+    {
+      "task_instance_id": 57,
+      "score": 0.0,
+      "extracted": "rs12916",
+      "ground_truth": "rs3847502",
+      "raw_preview": "FINAL ANSWER: rs12916"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 1.0,
+      "extracted": "rs17279437",
+      "ground_truth": "rs17279437",
+      "raw_preview": "FINAL ANSWER: rs17279437"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 1.0,
+      "extracted": "rs12150660",
+      "ground_truth": "rs12150660",
+      "raw_preview": "FINAL ANSWER: rs12150660"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 0.0,
+      "extracted": "rs2970818",
+      "ground_truth": "rs4687717",
+      "raw_preview": "FINAL ANSWER: rs2970818"
+    },
+    {
+      "task_instance_id": 129,
+      "score": 0.0,
+      "extracted": "rs12141041",
+      "ground_truth": "rs4814176",
+      "raw_preview": "FINAL ANSWER: rs12141041"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "rs12141041",
+      "ground_truth": "rs2270968",
+      "raw_preview": "FINAL ANSWER: rs12141041"
+    },
+    {
+      "task_instance_id": 157,
+      "score": 0.0,
+      "extracted": "rs12288023",
+      "ground_truth": "rs748196",
+      "raw_preview": "FINAL ANSWER: rs12288023"
+    },
+    {
+      "task_instance_id": 203,
+      "score": 0.0,
+      "extracted": "rs12288023",
+      "ground_truth": "rs2040771",
+      "raw_preview": "FINAL ANSWER: rs12288023"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "rs12916",
+      "ground_truth": "rs9637599",
+      "raw_preview": "FINAL ANSWER: rs12916"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "rs1061808",
+      "ground_truth": "rs1061808",
+      "raw_preview": "FINAL ANSWER: rs1061808"
+    },
+    {
+      "task_instance_id": 149,
+      "score": 0.0,
+      "extracted": "rs12709013",
+      "ground_truth": "rs13375749",
+      "raw_preview": "FINAL ANSWER: rs12709013"
+    },
+    {
+      "task_instance_id": 130,
+      "score": 0.0,
+      "extracted": "rs17134585",
+      "ground_truth": "rs4253772",
+      "raw_preview": "FINAL ANSWER: rs17134585"
+    },
+    {
+      "task_instance_id": 151,
+      "score": 0.0,
+      "extracted": "rs10741657",
+      "ground_truth": "rs2686796",
+      "raw_preview": "FINAL ANSWER: rs10741657"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 1.0,
+      "extracted": "rs2576452",
+      "ground_truth": "rs2576452",
+      "raw_preview": "FINAL ANSWER: rs2576452"
+    },
+    {
+      "task_instance_id": 99,
+      "score": 0.0,
+      "extracted": "rs1801133",
+      "ground_truth": "rs5030062",
+      "raw_preview": "FINAL ANSWER: rs1801133"
+    },
+    {
+      "task_instance_id": 116,
+      "score": 0.0,
+      "extracted": "rs1280",
+      "ground_truth": "rs3738934",
+      "raw_preview": "FINAL ANSWER: rs1280"
+    },
+    {
+      "task_instance_id": 87,
+      "score": 0.0,
+      "extracted": "rs1367117",
+      "ground_truth": "rs3017098",
+      "raw_preview": "FINAL ANSWER: rs1367117"
+    },
+    {
+      "task_instance_id": 202,
+      "score": 0.0,
+      "extracted": "rs4947534",
+      "ground_truth": "rs2073547",
+      "raw_preview": "FINAL ANSWER: rs4947534"
+    },
+    {
+      "task_instance_id": 74,
+      "score": 0.0,
+      "extracted": "rs2229738",
+      "ground_truth": "rs2366858",
+      "raw_preview": "FINAL ANSWER: rs2229738"
+    },
+    {
+      "task_instance_id": 121,
+      "score": 1.0,
+      "extracted": "rs10455872",
+      "ground_truth": "rs10455872",
+      "raw_preview": "FINAL ANSWER: rs10455872"
+    },
+    {
+      "task_instance_id": 214,
+      "score": 0.0,
+      "extracted": "rs1801222",
+      "ground_truth": "rs12288023",
+      "raw_preview": "FINAL ANSWER: rs1801222"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "rs247616",
+      "ground_truth": "rs7529794",
+      "raw_preview": "FINAL ANSWER: rs247616"
+    },
+    {
+      "task_instance_id": 188,
+      "score": 0.0,
+      "extracted": "rs17711722",
+      "ground_truth": "rs6073958",
+      "raw_preview": "FINAL ANSWER: rs17711722"
+    },
+    {
+      "task_instance_id": 71,
+      "score": 0.0,
+      "extracted": "rs1395",
+      "ground_truth": "rs7159888",
+      "raw_preview": "FINAL ANSWER: rs1395"
+    },
+    {
+      "task_instance_id": 106,
+      "score": 0.0,
+      "extracted": "rs1801133",
+      "ground_truth": "rs7954638",
+      "raw_preview": "FINAL ANSWER: rs1801133"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "rs1280",
+      "ground_truth": "rs10087900",
+      "raw_preview": "FINAL ANSWER: rs1280"
+    },
+    {
+      "task_instance_id": 92,
+      "score": 0.0,
+      "extracted": "rs2270968",
+      "ground_truth": "rs7883218",
+      "raw_preview": "FINAL ANSWER: rs2270968"
+    },
+    {
+      "task_instance_id": 179,
+      "score": 1.0,
+      "extracted": "rs1800562",
+      "ground_truth": "rs1800562",
+      "raw_preview": "FINAL ANSWER: rs1800562"
+    },
+    {
+      "task_instance_id": 102,
+      "score": 0.0,
+      "extracted": "rs12550729",
+      "ground_truth": "rs4941615",
+      "raw_preview": "FINAL ANSWER: rs12550729"
+    }
+  ],
+  "lab_bench_dbqa": [
+    {
+      "task_instance_id": 207,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 212,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 295,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 476,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 511,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 477,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 303,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 350,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 201,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 401,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]D[/ANSWER]\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 309,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 389,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 460,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 505,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]C[/ANSWER]\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 419,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]D[/ANSWER]\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 430,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 427,
+      "score": 1.0,
+      "extracted": "C",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 493,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 366,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 495,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 345,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 264,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 315,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 387,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 273,
+      "score": 1.0,
+      "extracted": "C",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 328,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 514,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]C[/ANSWER]\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    }
+  ],
+  "lab_bench_seqqa": [
+    {
+      "task_instance_id": 256,
+      "score": 1.0,
+      "extracted": "C",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 563,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]E[/ANSWER]\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 533,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]D[/ANSWER]\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 430,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 100,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 226,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 448,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 547,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 571,
+      "score": 0.0,
+      "extracted": "F",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]F[/ANSWER]\nFINAL ANSWER: F"
+    },
+    {
+      "task_instance_id": 213,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 359,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 171,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 98,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 292,
+      "score": 1.0,
+      "extracted": "D",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]D[/ANSWER]\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 215,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 61,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 406,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 47,
+      "score": 1.0,
+      "extracted": "A",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 417,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 267,
+      "score": 1.0,
+      "extracted": "D",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 327,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 200,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]D[/ANSWER]\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 27,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "A",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 524,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 505,
+      "score": 1.0,
+      "extracted": "C",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 230,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 489,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]E[/ANSWER]\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 260,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]E[/ANSWER]\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 378,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 288,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]E[/ANSWER]\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 418,
+      "score": 1.0,
+      "extracted": "D",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 391,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]E[/ANSWER]\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 498,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 138,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 62,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 471,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 128,
+      "score": 0.0,
+      "extracted": "C",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]C[/ANSWER]\n\nFINAL ANSWER: C"
+    },
+    {
+      "task_instance_id": 583,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 520,
+      "score": 0.0,
+      "extracted": "",
+      "ground_truth": "D",
+      "raw_preview": "To determine the correct answer, we must identify the recognition site for the enzyme **Eco31I** and locate its occurrences within the provided DNA sequence.\n\n1.  **Identify the Restriction Site**:\n    The enzyme **Eco31I** (also known as *Eco31"
+    },
+    {
+      "task_instance_id": 64,
+      "score": 0.0,
+      "extracted": "A",
+      "ground_truth": "C",
+      "raw_preview": "[ANSWER]A[/ANSWER]\n\nFINAL ANSWER: A"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "E",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 156,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 40,
+      "score": 1.0,
+      "extracted": "F",
+      "ground_truth": "F",
+      "raw_preview": "[ANSWER]F[/ANSWER]\n\nFINAL ANSWER: F"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 0.0,
+      "extracted": "B",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]B[/ANSWER]\nFINAL ANSWER: B"
+    },
+    {
+      "task_instance_id": 379,
+      "score": 0.0,
+      "extracted": "D",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]D[/ANSWER]\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 1.0,
+      "extracted": "D",
+      "ground_truth": "D",
+      "raw_preview": "[ANSWER]D[/ANSWER]\n\nFINAL ANSWER: D"
+    },
+    {
+      "task_instance_id": 216,
+      "score": 1.0,
+      "extracted": "E",
+      "ground_truth": "E",
+      "raw_preview": "[ANSWER]E[/ANSWER]\n\nFINAL ANSWER: E"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "B",
+      "ground_truth": "B",
+      "raw_preview": "[ANSWER]B[/ANSWER]\n\nFINAL ANSWER: B"
+    }
+  ],
+  "patient_gene_detection": [
+    {
+      "task_instance_id": 212,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000131174\"]}",
+      "ground_truth": "ENSG00000161011",
+      "raw_preview": "{'causal_gene': ['ENSG00000131174']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000131174\"]}"
+    },
+    {
+      "task_instance_id": 295,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000100519\"]}",
+      "ground_truth": "ENSG00000168291",
+      "raw_preview": "{'causal_gene': ['ENSG00000100519']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000100519\"]}"
+    },
+    {
+      "task_instance_id": 457,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000138738\"]}",
+      "ground_truth": "ENSG00000137700",
+      "raw_preview": "{'causal_gene': ['ENSG00000138738']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000138738\"]}"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000120457\"]}",
+      "ground_truth": "ENSG00000179142",
+      "raw_preview": "{'causal_gene': ['ENSG00000120457']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000120457\"]}"
+    },
+    {
+      "task_instance_id": 488,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000141682\"]}",
+      "ground_truth": "ENSG00000039650",
+      "raw_preview": "{'causal_gene': ['ENSG00000141682']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000141682\"]}"
+    },
+    {
+      "task_instance_id": 486,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000141524\"]}",
+      "ground_truth": "ENSG00000075624",
+      "raw_preview": "{'causal_gene': ['ENSG00000141524']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000141524\"]}"
+    },
+    {
+      "task_instance_id": 303,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000115947\"]}",
+      "ground_truth": "ENSG00000158352",
+      "raw_preview": "{'causal_gene': ['ENSG00000115947']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000115947\"]}"
+    },
+    {
+      "task_instance_id": 350,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000100348\"]}",
+      "ground_truth": "ENSG00000130812",
+      "raw_preview": "{'causal_gene': ['ENSG00000100348']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000100348\"]}"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000140521\"]}",
+      "ground_truth": "ENSG00000196924",
+      "raw_preview": "{'causal_gene': ['ENSG00000140521']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000140521\"]}"
+    },
+    {
+      "task_instance_id": 201,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000169397\"]}",
+      "ground_truth": "ENSG00000185624",
+      "raw_preview": "{'causal_gene': ['ENSG00000169397']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000169397\"]}"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000128829\"]}",
+      "ground_truth": "ENSG00000133703",
+      "raw_preview": "{'causal_gene': ['ENSG00000128829']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000128829\"]}"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000162676\"]}",
+      "ground_truth": "ENSG00000197746",
+      "raw_preview": "{'causal_gene': ['ENSG00000162676']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000162676\"]}"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000170927\"]}",
+      "ground_truth": "ENSG00000170540",
+      "raw_preview": "{'causal_gene': ['ENSG00000170927']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000170927\"]}"
+    },
+    {
+      "task_instance_id": 401,
+      "score": 1.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000168769\"]}",
+      "ground_truth": "ENSG00000168769",
+      "raw_preview": "{'causal_gene': ['ENSG00000168769']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000168769\"]}"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000134259\"]}",
+      "ground_truth": "ENSG00000171094",
+      "raw_preview": "{'causal_gene': ['ENSG00000134259']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000134259\"]}"
+    },
+    {
+      "task_instance_id": 309,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000111319\"]}",
+      "ground_truth": "ENSG00000111262",
+      "raw_preview": "{'causal_gene': ['ENSG00000111319']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000111319\"]}"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000159140\"]}",
+      "ground_truth": "ENSG00000081087",
+      "raw_preview": "{'causal_gene': ['ENSG00000159140']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000159140\"]}"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000166347\"]}",
+      "ground_truth": "ENSG00000165280",
+      "raw_preview": "{'causal_gene': ['ENSG00000166347']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000166347\"]}"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000106070\"]}",
+      "ground_truth": "ENSG00000152700",
+      "raw_preview": "{'causal_gene': ['ENSG00000106070']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000106070\"]}"
+    },
+    {
+      "task_instance_id": 389,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000123384\"]}",
+      "ground_truth": "ENSG00000143669",
+      "raw_preview": "{'causal_gene': ['ENSG00000123384']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000123384\"]}"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000166603\"]}",
+      "ground_truth": "ENSG00000173801",
+      "raw_preview": "{'causal_gene': ['ENSG00000166603']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000166603\"]}"
+    },
+    {
+      "task_instance_id": 441,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000156345\"]}",
+      "ground_truth": "ENSG00000102030",
+      "raw_preview": "{'causal_gene': ['ENSG00000156345']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000156345\"]}"
+    },
+    {
+      "task_instance_id": 482,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000147180\"]}",
+      "ground_truth": "ENSG00000125779",
+      "raw_preview": "{'causal_gene': ['ENSG00000147180']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000147180\"]}"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000138162\"]}",
+      "ground_truth": "ENSG00000171302",
+      "raw_preview": "{'causal_gene': ['ENSG00000138162']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000138162\"]}"
+    },
+    {
+      "task_instance_id": 419,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000129757\"]}",
+      "ground_truth": "ENSG00000054983",
+      "raw_preview": "{'causal_gene': ['ENSG00000129757']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000129757\"]}"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 1.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000105983\"]}",
+      "ground_truth": "ENSG00000105983",
+      "raw_preview": "{'causal_gene': ['ENSG00000105983']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000105983\"]}"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000122735\"]}",
+      "ground_truth": "ENSG00000139219",
+      "raw_preview": "{'causal_gene': ['ENSG00000122735']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000122735\"]}"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000130702\"]}",
+      "ground_truth": "ENSG00000171714",
+      "raw_preview": "{'causal_gene': ['ENSG00000130702']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000130702\"]}"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000105877\"]}",
+      "ground_truth": "ENSG00000148384",
+      "raw_preview": "{'causal_gene': ['ENSG00000105877']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000105877\"]}"
+    },
+    {
+      "task_instance_id": 427,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000162711\"]}",
+      "ground_truth": "ENSG00000055609",
+      "raw_preview": "{'causal_gene': ['ENSG00000162711']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000162711\"]}"
+    },
+    {
+      "task_instance_id": 366,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000125675\"]}",
+      "ground_truth": "ENSG00000104381",
+      "raw_preview": "{'causal_gene': ['ENSG00000125675']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000125675\"]}"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000125166\"]}",
+      "ground_truth": "ENSG00000162551",
+      "raw_preview": "{'causal_gene': ['ENSG00000125166']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000125166\"]}"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000107404\"]}",
+      "ground_truth": "ENSG00000130707",
+      "raw_preview": "{'causal_gene': ['ENSG00000107404']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000107404\"]}"
+    },
+    {
+      "task_instance_id": 473,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000175426\"]}",
+      "ground_truth": "ENSG00000125378",
+      "raw_preview": "{'causal_gene': ['ENSG00000175426']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000175426\"]}"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000125459\"]}",
+      "ground_truth": "ENSG00000125459",
+      "raw_preview": "{'causal_gene': ['ENSG00000125459']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000125459\"]}"
+    },
+    {
+      "task_instance_id": 345,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000100823\"]}",
+      "ground_truth": "ENSG00000012504",
+      "raw_preview": "{'causal_gene': ['ENSG00000100823']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000100823\"]}"
+    },
+    {
+      "task_instance_id": 264,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000170689\"]}",
+      "ground_truth": "ENSG00000102081",
+      "raw_preview": "{'causal_gene': ['ENSG00000170689']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000170689\"]}"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000128655\"]}",
+      "ground_truth": "ENSG00000010404",
+      "raw_preview": "{'causal_gene': ['ENSG00000128655']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000128655\"]}"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000134531\"]}",
+      "ground_truth": "ENSG00000203908",
+      "raw_preview": "{'causal_gene': ['ENSG00000134531']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000134531\"]}"
+    },
+    {
+      "task_instance_id": 315,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000179148\"]}",
+      "ground_truth": "ENSG00000104774",
+      "raw_preview": "{'causal_gene': ['ENSG00000179148']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000179148\"]}"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000187736\"]}",
+      "ground_truth": "ENSG00000163702",
+      "raw_preview": "{'causal_gene': ['ENSG00000187736']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000187736\"]}"
+    },
+    {
+      "task_instance_id": 387,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000126749\"]}",
+      "ground_truth": "ENSG00000213380",
+      "raw_preview": "{'causal_gene': ['ENSG00000126749']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000126749\"]}"
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000152601\"]}",
+      "ground_truth": "ENSG00000142192",
+      "raw_preview": "{'causal_gene': ['ENSG00000152601']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000152601\"]}"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000114270\"]}",
+      "ground_truth": "ENSG00000204386",
+      "raw_preview": "{'causal_gene': ['ENSG00000114270']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000114270\"]}"
+    },
+    {
+      "task_instance_id": 328,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000113924\"]}",
+      "ground_truth": "ENSG00000176884",
+      "raw_preview": "{'causal_gene': ['ENSG00000113924']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000113924\"]}"
+    },
+    {
+      "task_instance_id": 492,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000116747\"]}",
+      "ground_truth": "ENSG00000060237",
+      "raw_preview": "{'causal_gene': ['ENSG00000116747']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000116747\"]}"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000163297\"]}",
+      "ground_truth": "ENSG00000068078",
+      "raw_preview": "{'causal_gene': ['ENSG00000163297']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000163297\"]}"
+    },
+    {
+      "task_instance_id": 306,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000171931\"]}",
+      "ground_truth": "ENSG00000165671",
+      "raw_preview": "{'causal_gene': ['ENSG00000171931']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000171931\"]}"
+    },
+    {
+      "task_instance_id": 480,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000187955\"]}",
+      "ground_truth": "ENSG00000101384",
+      "raw_preview": "{'causal_gene': ['ENSG00000187955']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000187955\"]}"
+    },
+    {
+      "task_instance_id": 319,
+      "score": 0.0,
+      "extracted": "{\"causal_gene\": [\"ENSG00000141527\"]}",
+      "ground_truth": "ENSG00000102580",
+      "raw_preview": "{'causal_gene': ['ENSG00000141527']}\nFINAL ANSWER: {\"causal_gene\": [\"ENSG00000141527\"]}"
+    }
+  ],
+  "rare_disease_diagnosis": [
+    {
+      "task_instance_id": 90,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Encephalopathy, Progressive, Early-Onset, with Brain Atrophy and Thin Corpus Callosum; PEBAT\", \"OMIM_ID\": \"617193\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 107,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 57,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Schwartz-Jampel syndrome\", \"OMIM_ID\": \"255800\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 75,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 32,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 140,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"DA2B\", \"OMIM_ID\": \"601680\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 59,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"DA8\", \"OMIM_ID\": \"178110\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 63,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 1A\", \"OMIM_ID\": \"108120\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 132,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Syndromic X-linked mental retardation, Cabezas type,Mental Retardation, X-Linked, Syndromic, Cabezas Type,X-linked intellectual disability, Cabezas type\", \"OMIM_ID\": \"300354\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 37,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Nager acrofacial dysostosis\", \"OMIM_ID\": \"154400\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 136,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"autism (disease)\", \"OMIM_ID\": \"209850\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Postaxial acrofacial dysostosis\", \"OMIM_ID\": \"263750\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 130,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"lethal arthrogryposis-anterior horn cell disease syndrome\", \"OMIM_ID\": \"611890\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 103,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 99,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 116,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 87,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 74,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 121,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Opsismodysplasia\", \"OMIM_ID\": \"258480\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 145,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Opitz Gbbb Syndrome, Type 1\", \"OMIM_ID\": \"300000\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 20,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis, Distal, Type 2A\", \"OMIM_ID\": \"193700\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 71,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Scalp-ear-nipple syndrome\", \"OMIM_ID\": \"181270\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 106,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 14,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Congenital Contractures of the Limbs and Face, Hypotonia, and Developmental Delay\", \"OMIM_ID\": \"616266\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 92,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Gordon syndrome\", \"OMIM_ID\": \"114300\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    },
+    {
+      "task_instance_id": 102,
+      "score": 0.0,
+      "extracted": "{\"OMIM_ID\": \"613795\"}",
+      "ground_truth": "{\"disease_name\": \"Arthrogryposis with oculomotor limitation and electroretinal anomalies\", \"OMIM_ID\": \"108145\"}",
+      "raw_preview": "FINAL ANSWER: {\"OMIM_ID\": \"613795\"}"
+    }
+  ],
+  "screen_gene_retrieval": [
+    {
+      "task_instance_id": 302,
+      "score": 0.0,
+      "extracted": "TMEM37",
+      "ground_truth": "ZNF561-AS1",
+      "raw_preview": "FINAL ANSWER: TMEM37"
+    },
+    {
+      "task_instance_id": 236,
+      "score": 1.0,
+      "extracted": "VMP1",
+      "ground_truth": "VMP1",
+      "raw_preview": "FINAL ANSWER: VMP1"
+    },
+    {
+      "task_instance_id": 207,
+      "score": 0.0,
+      "extracted": "TMED5",
+      "ground_truth": "FAM83H",
+      "raw_preview": "FINAL ANSWER: TMED5"
+    },
+    {
+      "task_instance_id": 212,
+      "score": 1.0,
+      "extracted": "STAT1",
+      "ground_truth": "STAT1",
+      "raw_preview": "FINAL ANSWER: STAT1"
+    },
+    {
+      "task_instance_id": 317,
+      "score": 0.0,
+      "extracted": "ZEB1",
+      "ground_truth": "NAA10",
+      "raw_preview": "FINAL ANSWER: ZEB1"
+    },
+    {
+      "task_instance_id": 251,
+      "score": 1.0,
+      "extracted": "MTHFD1",
+      "ground_truth": "MTHFD1",
+      "raw_preview": "FINAL ANSWER: MTHFD1"
+    },
+    {
+      "task_instance_id": 339,
+      "score": 0.0,
+      "extracted": "ITGB1",
+      "ground_truth": "CAB39",
+      "raw_preview": "FINAL ANSWER: ITGB1"
+    },
+    {
+      "task_instance_id": 318,
+      "score": 0.0,
+      "extracted": "PDCD4",
+      "ground_truth": "DOHH",
+      "raw_preview": "FINAL ANSWER: PDCD4"
+    },
+    {
+      "task_instance_id": 269,
+      "score": 0.0,
+      "extracted": "PIAS3",
+      "ground_truth": "chr3:195713389-195713475",
+      "raw_preview": "FINAL ANSWER: PIAS3"
+    },
+    {
+      "task_instance_id": 201,
+      "score": 1.0,
+      "extracted": "GABARAP",
+      "ground_truth": "GABARAP",
+      "raw_preview": "FINAL ANSWER: GABARAP"
+    },
+    {
+      "task_instance_id": 161,
+      "score": 0.0,
+      "extracted": "STARD9",
+      "ground_truth": "SCAP",
+      "raw_preview": "FINAL ANSWER: STARD9"
+    },
+    {
+      "task_instance_id": 43,
+      "score": 0.0,
+      "extracted": "TMED5",
+      "ground_truth": "UBE2J1",
+      "raw_preview": "FINAL ANSWER: TMED5"
+    },
+    {
+      "task_instance_id": 217,
+      "score": 0.0,
+      "extracted": "DUSP6",
+      "ground_truth": "EIF4A3",
+      "raw_preview": "FINAL ANSWER: DUSP6"
+    },
+    {
+      "task_instance_id": 190,
+      "score": 1.0,
+      "extracted": "KEAP1",
+      "ground_truth": "KEAP1",
+      "raw_preview": "FINAL ANSWER: KEAP1"
+    },
+    {
+      "task_instance_id": 259,
+      "score": 1.0,
+      "extracted": "DHODH",
+      "ground_truth": "DHODH",
+      "raw_preview": "FINAL ANSWER: DHODH"
+    },
+    {
+      "task_instance_id": 105,
+      "score": 0.0,
+      "extracted": "AASS",
+      "ground_truth": "NF2",
+      "raw_preview": "FINAL ANSWER: AASS"
+    },
+    {
+      "task_instance_id": 53,
+      "score": 1.0,
+      "extracted": "NHLRC2",
+      "ground_truth": "NHLRC2",
+      "raw_preview": "FINAL ANSWER: NHLRC2"
+    },
+    {
+      "task_instance_id": 1,
+      "score": 1.0,
+      "extracted": "KEAP1",
+      "ground_truth": "KEAP1",
+      "raw_preview": "FINAL ANSWER: KEAP1"
+    },
+    {
+      "task_instance_id": 49,
+      "score": 0.0,
+      "extracted": "CXCR3",
+      "ground_truth": "SLC35B2",
+      "raw_preview": "FINAL ANSWER: CXCR3"
+    },
+    {
+      "task_instance_id": 80,
+      "score": 1.0,
+      "extracted": "MED19",
+      "ground_truth": "MED19",
+      "raw_preview": "FINAL ANSWER: MED19"
+    },
+    {
+      "task_instance_id": 205,
+      "score": 0.0,
+      "extracted": "ATG5",
+      "ground_truth": "IRS4",
+      "raw_preview": "FINAL ANSWER: ATG5"
+    },
+    {
+      "task_instance_id": 34,
+      "score": 0.0,
+      "extracted": "TAPBP",
+      "ground_truth": "NCKAP1L",
+      "raw_preview": "FINAL ANSWER: TAPBP"
+    },
+    {
+      "task_instance_id": 263,
+      "score": 0.0,
+      "extracted": "FGFR1",
+      "ground_truth": "XPR1",
+      "raw_preview": "FINAL ANSWER: FGFR1"
+    },
+    {
+      "task_instance_id": 91,
+      "score": 1.0,
+      "extracted": "ACSL4",
+      "ground_truth": "ACSL4",
+      "raw_preview": "FINAL ANSWER: ACSL4"
+    },
+    {
+      "task_instance_id": 52,
+      "score": 1.0,
+      "extracted": "MAPK1",
+      "ground_truth": "MAPK1",
+      "raw_preview": "FINAL ANSWER: MAPK1"
+    },
+    {
+      "task_instance_id": 264,
+      "score": 1.0,
+      "extracted": "ARF1",
+      "ground_truth": "ARF1",
+      "raw_preview": "FINAL ANSWER: ARF1"
+    },
+    {
+      "task_instance_id": 241,
+      "score": 0.0,
+      "extracted": "SLC16A14",
+      "ground_truth": "KCNJ15",
+      "raw_preview": "FINAL ANSWER: SLC16A14"
+    },
+    {
+      "task_instance_id": 13,
+      "score": 0.0,
+      "extracted": "PARKIN",
+      "ground_truth": "SMCHD1",
+      "raw_preview": "FINAL ANSWER: PARKIN"
+    },
+    {
+      "task_instance_id": 88,
+      "score": 0.0,
+      "extracted": "ACACA",
+      "ground_truth": "TLE3",
+      "raw_preview": "FINAL ANSWER: ACACA"
+    },
+    {
+      "task_instance_id": 273,
+      "score": 0.0,
+      "extracted": "CYP3A7",
+      "ground_truth": "C16orf72",
+      "raw_preview": "FINAL ANSWER: CYP3A7"
+    },
+    {
+      "task_instance_id": 166,
+      "score": 0.0,
+      "extracted": "BRCA2",
+      "ground_truth": "COX17",
+      "raw_preview": "FINAL ANSWER: BRCA2"
+    },
+    {
+      "task_instance_id": 342,
+      "score": 0.0,
+      "extracted": "NFKB2",
+      "ground_truth": "BAZ2A",
+      "raw_preview": "FINAL ANSWER: NFKB2"
+    },
+    {
+      "task_instance_id": 134,
+      "score": 1.0,
+      "extracted": "ANPEP",
+      "ground_truth": "ANPEP",
+      "raw_preview": "FINAL ANSWER: ANPEP"
+    },
+    {
+      "task_instance_id": 306,
+      "score": 0.0,
+      "extracted": "NUP107",
+      "ground_truth": "FLCN",
+      "raw_preview": "FINAL ANSWER: NUP107"
+    },
+    {
+      "task_instance_id": 334,
+      "score": 0.0,
+      "extracted": "PRKAR1A",
+      "ground_truth": "INPPL1",
+      "raw_preview": "FINAL ANSWER: PRKAR1A"
+    },
+    {
+      "task_instance_id": 243,
+      "score": 1.0,
+      "extracted": "MAU2",
+      "ground_truth": "MAU2",
+      "raw_preview": "FINAL ANSWER: MAU2"
+    },
+    {
+      "task_instance_id": 54,
+      "score": 1.0,
+      "extracted": "PYCARD",
+      "ground_truth": "PYCARD",
+      "raw_preview": "FINAL ANSWER: PYCARD"
+    },
+    {
+      "task_instance_id": 50,
+      "score": 1.0,
+      "extracted": "PRKCD",
+      "ground_truth": "PRKCD",
+      "raw_preview": "FINAL ANSWER: PRKCD"
+    },
+    {
+      "task_instance_id": 174,
+      "score": 0.0,
+      "extracted": "PTPRJ",
+      "ground_truth": "BEND3",
+      "raw_preview": "FINAL ANSWER: PTPRJ"
+    },
+    {
+      "task_instance_id": 189,
+      "score": 0.0,
+      "extracted": "FOXO1",
+      "ground_truth": "SPATA5L1",
+      "raw_preview": "FINAL ANSWER: FOXO1"
+    },
+    {
+      "task_instance_id": 346,
+      "score": 0.0,
+      "extracted": "ETS1",
+      "ground_truth": "IRF8",
+      "raw_preview": "FINAL ANSWER: ETS1"
+    },
+    {
+      "task_instance_id": 187,
+      "score": 1.0,
+      "extracted": "ACE2",
+      "ground_truth": "ACE2",
+      "raw_preview": "FINAL ANSWER: ACE2"
+    },
+    {
+      "task_instance_id": 169,
+      "score": 1.0,
+      "extracted": "IFNAR2",
+      "ground_truth": "IFNAR2",
+      "raw_preview": "FINAL ANSWER: IFNAR2"
+    },
+    {
+      "task_instance_id": 58,
+      "score": 0.0,
+      "extracted": "TAZ",
+      "ground_truth": "ZCCHC14",
+      "raw_preview": "FINAL ANSWER: TAZ"
+    },
+    {
+      "task_instance_id": 48,
+      "score": 1.0,
+      "extracted": "MAPK1",
+      "ground_truth": "MAPK1",
+      "raw_preview": "FINAL ANSWER: MAPK1"
+    },
+    {
+      "task_instance_id": 235,
+      "score": 0.0,
+      "extracted": "HABP4",
+      "ground_truth": "VMP1",
+      "raw_preview": "FINAL ANSWER: HABP4"
+    },
+    {
+      "task_instance_id": 252,
+      "score": 0.0,
+      "extracted": "REL",
+      "ground_truth": "PFKP",
+      "raw_preview": "FINAL ANSWER: REL"
+    },
+    {
+      "task_instance_id": 21,
+      "score": 0.0,
+      "extracted": "MGMT",
+      "ground_truth": "RNF7",
+      "raw_preview": "FINAL ANSWER: MGMT"
+    },
+    {
+      "task_instance_id": 313,
+      "score": 1.0,
+      "extracted": "ACE2",
+      "ground_truth": "ACE2",
+      "raw_preview": "FINAL ANSWER: ACE2"
+    },
+    {
+      "task_instance_id": 160,
+      "score": 0.0,
+      "extracted": "BCL2L11",
+      "ground_truth": "TADA2B",
+      "raw_preview": "FINAL ANSWER: BCL2L11"
+    }
+  ]
+}

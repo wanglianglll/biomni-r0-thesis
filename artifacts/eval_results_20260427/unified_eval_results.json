@@ -1,0 +1,390 @@
+{
+  "generated_at": "2026-04-27",
+  "repo": "wanglianglll/biomni-r0-thesis",
+  "results": [
+    {
+      "run_key": "mistral_base",
+      "instance": "instance1_bjb2_37152",
+      "summary_source": "scripts/results/mistral_base/summary_20260318_202828.json",
+      "detail_source": null,
+      "model": "/root/autodl-tmp/Biomni-main/models/Mistral-7B-Instruct-v0.3",
+      "timestamp": "20260318_202828",
+      "run_stem": null,
+      "accuracy": 0.2217,
+      "correct": 96,
+      "total": 433,
+      "tasks": {
+        "crispr_delivery": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 10
+        },
+        "gwas_causal_gene_gwas_catalog": {
+          "accuracy": 0.2,
+          "correct": 10,
+          "total": 50
+        },
+        "gwas_causal_gene_opentargets": {
+          "accuracy": 0.62,
+          "correct": 31,
+          "total": 50
+        },
+        "gwas_causal_gene_pharmaprojects": {
+          "accuracy": 0.48,
+          "correct": 24,
+          "total": 50
+        },
+        "gwas_variant_prioritization": {
+          "accuracy": 0.093,
+          "correct": 4,
+          "total": 43
+        },
+        "lab_bench_dbqa": {
+          "accuracy": 0.18,
+          "correct": 9,
+          "total": 50
+        },
+        "lab_bench_seqqa": {
+          "accuracy": 0.12,
+          "correct": 6,
+          "total": 50
+        },
+        "patient_gene_detection": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 50
+        },
+        "rare_disease_diagnosis": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "screen_gene_retrieval": {
+          "accuracy": 0.24,
+          "correct": 12,
+          "total": 50
+        }
+      }
+    },
+    {
+      "run_key": "qwen2.5_base",
+      "instance": "instance1_bjb2_37152",
+      "summary_source": "scripts/results/qwen2.5_base/summary_20260318_141734.json",
+      "detail_source": null,
+      "model": "/root/autodl-tmp/Biomni-main/models/Qwen2.5-7B-Instruct/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+      "timestamp": "20260318_141734",
+      "run_stem": null,
+      "accuracy": 0.1732,
+      "correct": 75,
+      "total": 433,
+      "tasks": {
+        "crispr_delivery": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 10
+        },
+        "gwas_causal_gene_gwas_catalog": {
+          "accuracy": 0.14,
+          "correct": 7,
+          "total": 50
+        },
+        "gwas_causal_gene_opentargets": {
+          "accuracy": 0.56,
+          "correct": 28,
+          "total": 50
+        },
+        "gwas_causal_gene_pharmaprojects": {
+          "accuracy": 0.4,
+          "correct": 20,
+          "total": 50
+        },
+        "gwas_variant_prioritization": {
+          "accuracy": 0.0465,
+          "correct": 2,
+          "total": 43
+        },
+        "lab_bench_dbqa": {
+          "accuracy": 0.06,
+          "correct": 3,
+          "total": 50
+        },
+        "lab_bench_seqqa": {
+          "accuracy": 0.04,
+          "correct": 2,
+          "total": 50
+        },
+        "patient_gene_detection": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 50
+        },
+        "rare_disease_diagnosis": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "screen_gene_retrieval": {
+          "accuracy": 0.26,
+          "correct": 13,
+          "total": 50
+        }
+      }
+    },
+    {
+      "run_key": "mistral_sft",
+      "instance": "instance1_bjb2_37152",
+      "summary_source": "results/mistral_sft/summary_20260318_222034.json",
+      "detail_source": null,
+      "model": "/root/autodl-tmp/Biomni-main/scripts/output/mistral_sft",
+      "timestamp": "20260318_222034",
+      "run_stem": null,
+      "accuracy": 0.1178,
+      "correct": 51,
+      "total": 433,
+      "tasks": {
+        "crispr_delivery": {
+          "accuracy": 0.2,
+          "correct": 2,
+          "total": 10
+        },
+        "gwas_causal_gene_gwas_catalog": {
+          "accuracy": 0.02,
+          "correct": 1,
+          "total": 50
+        },
+        "gwas_causal_gene_opentargets": {
+          "accuracy": 0.2,
+          "correct": 10,
+          "total": 50
+        },
+        "gwas_causal_gene_pharmaprojects": {
+          "accuracy": 0.16,
+          "correct": 8,
+          "total": 50
+        },
+        "gwas_variant_prioritization": {
+          "accuracy": 0.4884,
+          "correct": 21,
+          "total": 43
+        },
+        "lab_bench_dbqa": {
+          "accuracy": 0.18,
+          "correct": 9,
+          "total": 50
+        },
+        "lab_bench_seqqa": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 50
+        },
+        "patient_gene_detection": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 50
+        },
+        "rare_disease_diagnosis": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "screen_gene_retrieval": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 50
+        }
+      }
+    },
+    {
+      "run_key": "qwen2.5_sft",
+      "instance": "instance1_bjb2_37152",
+      "summary_source": "results/qwen2.5_sft/summary_20260318_212358.json",
+      "detail_source": null,
+      "model": "/root/autodl-tmp/Biomni-main/scripts/output/qwen2.5_sft",
+      "timestamp": "20260318_212358",
+      "run_stem": null,
+      "accuracy": 0.2702,
+      "correct": 117,
+      "total": 433,
+      "tasks": {
+        "crispr_delivery": {
+          "accuracy": 0.3,
+          "correct": 3,
+          "total": 10
+        },
+        "gwas_causal_gene_gwas_catalog": {
+          "accuracy": 0.28,
+          "correct": 14,
+          "total": 50
+        },
+        "gwas_causal_gene_opentargets": {
+          "accuracy": 0.76,
+          "correct": 38,
+          "total": 50
+        },
+        "gwas_causal_gene_pharmaprojects": {
+          "accuracy": 0.6,
+          "correct": 30,
+          "total": 50
+        },
+        "gwas_variant_prioritization": {
+          "accuracy": 0.3023,
+          "correct": 13,
+          "total": 43
+        },
+        "lab_bench_dbqa": {
+          "accuracy": 0.02,
+          "correct": 1,
+          "total": 50
+        },
+        "lab_bench_seqqa": {
+          "accuracy": 0.06,
+          "correct": 3,
+          "total": 50
+        },
+        "patient_gene_detection": {
+          "accuracy": 0.02,
+          "correct": 1,
+          "total": 50
+        },
+        "rare_disease_diagnosis": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "screen_gene_retrieval": {
+          "accuracy": 0.28,
+          "correct": 14,
+          "total": 50
+        }
+      }
+    },
+    {
+      "run_key": "qwen3.5_base_fixed",
+      "instance": "instance1_bjb2_37152",
+      "summary_source": "scripts/results/qwen3.5_base_postfix/20260426_205934_qwen3.5_base_summary.json",
+      "detail_source": "scripts/results/qwen3.5_base_postfix/20260426_205934_qwen3.5_base_detail.json",
+      "model": "Qwen3.5-9B",
+      "timestamp": "20260426_205934",
+      "run_stem": "20260426_205934_qwen3.5_base",
+      "accuracy": 0.3279,
+      "correct": 142,
+      "total": 433,
+      "tasks": {
+        "crispr_delivery": {
+          "accuracy": 0.1,
+          "correct": 1,
+          "total": 10
+        },
+        "gwas_causal_gene_gwas_catalog": {
+          "accuracy": 0.48,
+          "correct": 24,
+          "total": 50
+        },
+        "gwas_causal_gene_opentargets": {
+          "accuracy": 0.66,
+          "correct": 33,
+          "total": 50
+        },
+        "gwas_causal_gene_pharmaprojects": {
+          "accuracy": 0.54,
+          "correct": 27,
+          "total": 50
+        },
+        "gwas_variant_prioritization": {
+          "accuracy": 0.1628,
+          "correct": 7,
+          "total": 43
+        },
+        "lab_bench_dbqa": {
+          "accuracy": 0.24,
+          "correct": 12,
+          "total": 50
+        },
+        "lab_bench_seqqa": {
+          "accuracy": 0.3,
+          "correct": 15,
+          "total": 50
+        },
+        "patient_gene_detection": {
+          "accuracy": 0.06,
+          "correct": 3,
+          "total": 50
+        },
+        "rare_disease_diagnosis": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "screen_gene_retrieval": {
+          "accuracy": 0.4,
+          "correct": 20,
+          "total": 50
+        }
+      }
+    },
+    {
+      "run_key": "llama3.1_base_fixed",
+      "instance": "instance2_bjb1_17526",
+      "summary_source": "scripts/results/llama3.1_base_fixed/20260426_210856_llama3.1_base_summary.json",
+      "detail_source": "scripts/results/llama3.1_base_fixed/20260426_210856_llama3.1_base_detail.json",
+      "model": "Meta-Llama-3.1-8B-Instruct",
+      "timestamp": "20260426_210856",
+      "run_stem": "20260426_210856_llama3.1_base",
+      "accuracy": 0.3025,
+      "correct": 131,
+      "total": 433,
+      "tasks": {
+        "crispr_delivery": {
+          "accuracy": 0.1,
+          "correct": 1,
+          "total": 10
+        },
+        "gwas_causal_gene_gwas_catalog": {
+          "accuracy": 0.2,
+          "correct": 10,
+          "total": 50
+        },
+        "gwas_causal_gene_opentargets": {
+          "accuracy": 0.68,
+          "correct": 34,
+          "total": 50
+        },
+        "gwas_causal_gene_pharmaprojects": {
+          "accuracy": 0.5,
+          "correct": 25,
+          "total": 50
+        },
+        "gwas_variant_prioritization": {
+          "accuracy": 0.186,
+          "correct": 8,
+          "total": 43
+        },
+        "lab_bench_dbqa": {
+          "accuracy": 0.32,
+          "correct": 16,
+          "total": 50
+        },
+        "lab_bench_seqqa": {
+          "accuracy": 0.3,
+          "correct": 15,
+          "total": 50
+        },
+        "patient_gene_detection": {
+          "accuracy": 0.12,
+          "correct": 6,
+          "total": 50
+        },
+        "rare_disease_diagnosis": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "total": 30
+        },
+        "screen_gene_retrieval": {
+          "accuracy": 0.32,
+          "correct": 16,
+          "total": 50
+        }
+      }
+    }
+  ]
+}
