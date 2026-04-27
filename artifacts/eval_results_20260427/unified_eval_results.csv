@@ -1,0 +1,7 @@
+run_key,model,variant,timestamp,accuracy,correct,total,crispr_delivery,gwas_causal_gene_gwas_catalog,gwas_causal_gene_opentargets,gwas_causal_gene_pharmaprojects,gwas_variant_prioritization,lab_bench_dbqa,lab_bench_seqqa,patient_gene_detection,rare_disease_diagnosis,screen_gene_retrieval
+mistral_base,/root/autodl-tmp/Biomni-main/models/Mistral-7B-Instruct-v0.3,base,20260318_202828,0.2217,96,433,0.0,0.2,0.62,0.48,0.093,0.18,0.12,0.0,0.0,0.24
+qwen2.5_base,/root/autodl-tmp/Biomni-main/models/Qwen2.5-7B-Instruct/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28,base,20260318_141734,0.1732,75,433,0.0,0.14,0.56,0.4,0.0465,0.06,0.04,0.0,0.0,0.26
+mistral_sft,/root/autodl-tmp/Biomni-main/scripts/output/mistral_sft,sft,20260318_222034,0.1178,51,433,0.2,0.02,0.2,0.16,0.4884,0.18,0.0,0.0,0.0,0.0
+qwen2.5_sft,/root/autodl-tmp/Biomni-main/scripts/output/qwen2.5_sft,sft,20260318_212358,0.2702,117,433,0.3,0.28,0.76,0.6,0.3023,0.02,0.06,0.02,0.0,0.28
+qwen3.5_base_fixed,Qwen3.5-9B,base,20260426_205934,0.3279,142,433,0.1,0.48,0.66,0.54,0.1628,0.24,0.3,0.06,0.0,0.4
+llama3.1_base_fixed,Meta-Llama-3.1-8B-Instruct,base,20260426_210856,0.3025,131,433,0.1,0.2,0.68,0.5,0.186,0.32,0.3,0.12,0.0,0.32
