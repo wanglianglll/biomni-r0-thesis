@@ -27,7 +27,7 @@ def format_qwen_prompt(user_prompt: str) -> str:
 
 app = FastAPI(title="Local SFT Inference Service")
 
-MODEL_DIR = os.getenv("LOCAL_SFT_MODEL_DIR", "output/sft_qwen2_7b")
+MODEL_DIR = os.getenv("LOCAL_SFT_MODEL_DIR", "output/qwen2.5_sft")
 # 你可以通过环境变量 USE_CACHE（示例）或其他方式控制行为
 
 infer: Optional[LocalInfer] = None

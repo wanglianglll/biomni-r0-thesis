@@ -206,6 +206,86 @@ agent = A1()  # Everything uses gpt-4, 1200s timeout
 
 For detailed configuration options, see the **[Configuration Guide](docs/configuration.md)**.
 
+
+## Experiment Quick Reference
+
+### Unified Entry Points
+
+Run all thesis experiments from two unified scripts:
+
+```bash
+# Evaluation
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py --model qwen2.5 --variant base
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py --model qwen2.5 --variant sft
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py --model mistral --variant base
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py --model mistral --variant sft
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py --model deepseek --variant base --temperature 0.7
+
+# Training: recommended QLoRA on D1+D2+D3
+/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/train_qwen35_qlora_d123.json
+/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/train_llama31_qlora_d123.json
+
+# Training: LoRA control run when GPU memory is enough
+/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/train_qwen35_lora_d123.json
+
+# Dry run: validate config and paths without loading model or starting training
+/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/train_qwen35_qlora_d123.json --dry-run
+```
+
+### Config File Mode
+
+Both unified entry points support `--config` with `.json` or `.toml` files.
+
+```bash
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py --config configs/eval_qwen25_sft.json
+/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/train_qwen35_qlora_d123.json
+/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/train_llama31_qlora_d123.json
+```
+
+CLI arguments still override values from the config file:
+
+```bash
+/root/miniconda3/envs/biomni/bin/python scripts/run_eval.py   --config configs/eval_qwen25_sft.json   --subset 20   --temperature 0.2
+```
+
+### Result Naming Rule
+
+Evaluation outputs now use a unified naming rule:
+
+```text
+YYYYMMDD_HHMMSS_<model>_<variant>_summary.json
+YYYYMMDD_HHMMSS_<model>_<variant>_detail.json
+YYYYMMDD_HHMMSS_<model>_<variant>_ckpt_<task>.json
+```
+
+Examples:
+
+```text
+20260424_153000_qwen2.5_sft_summary.json
+20260424_153000_mistral_base_detail.json
+```
+
+Training logs now use:
+
+```text
+YYYYMMDD_HHMMSS_<model>_<peft_method>_sft_train_log.json
+YYYYMMDD_HHMMSS_<model>_<peft_method>_sft_metadata.json
+```
+
+The latest full training log is still also written to `train_log_history.json` for compatibility.
+
+Training supports both `--peft-method qlora` and `--peft-method lora`. QLoRA requires `peft` and `bitsandbytes`; LoRA requires `peft`. Output directories default to `scripts/output/YYYYMMDD_HHMMSS_<model>_<peft_method>_sft` to avoid overwriting base model folders.
+
+### Legacy Wrapper Scripts
+
+The old scripts are still available as thin wrappers:
+
+```bash
+/root/miniconda3/envs/biomni/bin/python scripts/run_qwen2.5_base_baseline.py
+/root/miniconda3/envs/biomni/bin/python scripts/run_qwen2.5_sft_train.py
+/root/miniconda3/envs/biomni/bin/python scripts/run_Mistral_sft_baseline.py
+```
+
 ### PDF Generation
 
 Generate PDF reports of execution traces:

@@ -1,116 +1,167 @@
-import os
+from __future__ import annotations
+
 import json
-import pandas as pd
+import re
+from pathlib import Path
+
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
+from matplotlib import font_manager
 
-# 配置文件路径和说明
-file_paths = {
-    "deepseek_base": "results/baseline/summary_final.json",
-    "qwen1.5_sft": "results/baseline/summary_20260317_151518.json",
-    "qwen1.5_base": "results/qwen_base/summary_20260317_144334.json",
-    "qwen2.5_base": "scripts/results/qwen2.5_base/summary_20260318_141734.json",
-    "qwen2.5_sft": "results/qwen2.5_sft/summary_20260318_212358.json",   # 待补充
-    "mistral_base": "scripts/results/mistral_base/summary_20260318_202828.json",
-    "mistral_sft": "scripts/results/mistral_sft/summary_xxx.json"    # 待补充
+PROJECT_ROOT = Path(__file__).resolve().parent
+font_path = '/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc'
+prop = font_manager.FontProperties(fname=font_path)
+
+RESULT_LOCATIONS = {
+    'deepseek_base': [PROJECT_ROOT / 'results' / 'baseline'],
+    'qwen2.5_base': [PROJECT_ROOT / 'scripts' / 'results' / 'qwen2.5_base'],
+    'qwen2.5_sft': [PROJECT_ROOT / 'results' / 'qwen2.5_sft'],
+    'mistral_base': [PROJECT_ROOT / 'scripts' / 'results' / 'mistral_base'],
+    'mistral_sft': [PROJECT_ROOT / 'results' / 'mistral_sft'],
 }
 
-labels_display = {
-    "deepseek_base": "DeepSeek Base",
-    "qwen1.5_base": "Qwen1.5-7B Base",
-    "qwen1.5_sft": "Qwen1.5-7B SFT",
-    "qwen2.5_base": "Qwen2.5-7B Base",
-    "qwen2.5_sft": "Qwen2.5-7B SFT",
-    "mistral_base": "Mistral Base",
-    "mistral_sft": "Mistral SFT"
+LABELS = {
+    'deepseek_base': 'DeepSeek Base',
+    'qwen2.5_base': 'Qwen2.5-7B Base',
+    'qwen2.5_sft': 'Qwen2.5-7B SFT',
+    'mistral_base': 'Mistral Base',
+    'mistral_sft': 'Mistral SFT',
 }
 
-# 读取所有结果
-results = {}
-for k, path in file_paths.items():
-    if os.path.isfile(path):
-        with open(path, "r", encoding="utf-8") as f:
-            summary = json.load(f)
-        if "_overall" in summary:
-            summary.pop("_overall")
-        results[k] = summary
-    else:
-        results[k] = None  # 未提供则空
+RUN_PATTERN = re.compile(r'^(\d{8}_\d{6})_([^.]+)_(base|sft)_summary\.json$')
 
-# 生成每个模型各自的测试表（分别保存为excel/csv，也可以画热力图/柱状图）
-for key in ["qwen1.5_base", "qwen1.5_sft", "qwen2.5_base", "qwen2.5_sft", "mistral_base", "mistral_sft", "deepseek_base"]:
-    data = results.get(key)
-    if data:
-        df = pd.DataFrame.from_dict(data, orient="index")
-        df.reset_index(inplace=True)
-        df.rename(columns={"index": "Task"}, inplace=True)
-        df.to_csv(f"{key}_result.csv", index=False)
-        # 条形图用于指标展示
-        plt.figure(figsize=(12,6))
-        sns.barplot(x="Task", y="accuracy", data=df)
-        plt.title(f"{labels_display[key]} Test Results")
+
+def resolve_latest_summary(model_key: str) -> Path | None:
+    candidates = []
+    for directory in RESULT_LOCATIONS[model_key]:
+        if not directory.exists():
+            continue
+        for path in directory.glob('*_summary.json'):
+            match = RUN_PATTERN.match(path.name)
+            if not match:
+                continue
+            timestamp, model_name, variant = match.groups()
+            expected_model, expected_variant = model_key.rsplit('_', 1)
+            if model_name != expected_model or variant != expected_variant:
+                continue
+            candidates.append((timestamp, path))
+        legacy = directory / 'summary_final.json'
+        if legacy.exists() and model_key == 'deepseek_base':
+            candidates.append(('00000000_000000', legacy))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: item[0])
+    return candidates[-1][1]
+
+
+def load_summary(path: Path | None):
+    if path is None or not path.exists():
+        return None
+    with path.open('r', encoding='utf-8') as f:
+        data = json.load(f)
+    data.pop('_overall', None)
+    return data
+
+
+def export_single_model_charts(results: dict):
+    for key, data in results.items():
+        if not data:
+            print(f'{LABELS[key]}: no summary found, skipped.')
+            continue
+        df = pd.DataFrame.from_dict(data, orient='index').reset_index().rename(columns={'index': 'Task'})
+        df.to_csv(PROJECT_ROOT / 'artifacts' / 'tables' / f'{key}_result.csv', index=False)
+        plt.figure(figsize=(12, 6))
+        sns.barplot(x='Task', y='accuracy', data=df)
+        plt.title(f'{LABELS[key]} Test Results')
         plt.xticks(rotation=60)
         plt.tight_layout()
-        plt.savefig(f"{key}_result.png")
+        plt.savefig(PROJECT_ROOT / 'artifacts' / 'figures' / f'{key}_result.png')
         plt.close()
-    else:
-        print(f"{labels_display[key]}: 文件未提供，将留空，建议后续补充。")
 
-# 各模型SFT前后对比表
-for model in ["qwen1.5", "qwen2.5", "mistral"]:
-    base_key = f"{model}_base"
-    sft_key = f"{model}_sft"
+
+def export_sft_vs_base(results: dict, model: str):
+    base_key = f'{model}_base'
+    sft_key = f'{model}_sft'
     base_data = results.get(base_key)
     sft_data = results.get(sft_key)
-    task_set = set(base_data.keys() if base_data else [])
-    task_set |= set(sft_data.keys() if sft_data else [])
-    vs_df = []
-    for task in task_set:
-        row = {"Task": task}
-        row["Base"] = base_data[task]["accuracy"] if base_data and task in base_data else None
-        row["SFT"] = sft_data[task]["accuracy"] if sft_data and task in sft_data else None
-        vs_df.append(row)
-    vs_df = pd.DataFrame(vs_df)
-    vs_df.to_csv(f"{model}_sft_vs_base.csv", index=False)
-    # 可视化对比
-    if vs_df["Base"].notnull().any() or vs_df["SFT"].notnull().any():
-        plt.figure(figsize=(12,6))
-        plt.plot(vs_df["Task"], vs_df["Base"], label="Base", marker="o")
-        plt.plot(vs_df["Task"], vs_df["SFT"], label="SFT", marker="o")
-        plt.legend()
-        plt.xticks(rotation=60)
-        plt.title(f"{model.upper()} SFT前后准确率对比")
-        plt.tight_layout()
-        plt.savefig(f"{model}_sft_vs_base.png")
-        plt.close()
-    else:
-        print(f"{model}: sft对比数据缺失。")
+    task_set = set(base_data.keys() if base_data else []) | set(sft_data.keys() if sft_data else [])
+    rows = []
+    for task in sorted(task_set):
+        rows.append({
+            'Task': task,
+            'Base': base_data[task]['accuracy'] if base_data and task in base_data else None,
+            'SFT': sft_data[task]['accuracy'] if sft_data and task in sft_data else None,
+        })
+    df = pd.DataFrame(rows, columns=['Task', 'Base', 'SFT'])
+    df.to_csv(PROJECT_ROOT / 'artifacts' / 'tables' / f'{model}_sft_vs_base.csv', index=False)
+    if df.empty or not df[['Base', 'SFT']].notnull().any().any():
+        print(f'{model}: base/sft comparison skipped because no usable data was found.')
+        return
+    plt.figure(figsize=(12, 6))
+    plt.plot(df['Task'], df['Base'], label='Base', marker='o')
+    plt.plot(df['Task'], df['SFT'], label='SFT', marker='o')
+    plt.legend()
+    plt.xticks(rotation=60)
+    plt.title(f'{model.upper()} Base vs SFT Accuracy', fontproperties=prop)
+    plt.tight_layout()
+    plt.savefig(PROJECT_ROOT / 'artifacts' / 'figures' / f'{model}_sft_vs_base.png')
+    plt.close()
 
-# 模型横向对比（训练前后分别出一表）
-for stage, keys in [("base", ["qwen1.5_base", "qwen2.5_base", "mistral_base", "deepseek_base"]), 
-                    ("sft", ["qwen1.5_sft", "qwen2.5_sft", "mistral_sft"])]:
+
+def export_stage_compare(results: dict, stage: str, keys: list[str]):
     tasks_union = set()
-    for k in keys:
-        if results.get(k):
-            tasks_union |= set(results[k].keys())
-    table = []
-    for task in tasks_union:
-        row = {"Task": task}
-        for k in keys:
-            row[labels_display[k]] = results[k][task]["accuracy"] if results.get(k) and task in results[k] else None
-        table.append(row)
-    df = pd.DataFrame(table)
-    df.to_csv(f"models_{stage}_compare.csv", index=False)
-    # 画图（分阶段，每个模型一条线/一组柱状）
-    plt.figure(figsize=(12,6))
-    for k in keys:
-        if k in labels_display and df[labels_display[k]].notnull().any():
-            plt.plot(df["Task"], df[labels_display[k]], marker="o", label=labels_display[k])
-    plt.title(f"不同模型{stage.upper()}阶段横向对比")
+    for key in keys:
+        if results.get(key):
+            tasks_union |= set(results[key].keys())
+    rows = []
+    for task in sorted(tasks_union):
+        row = {'Task': task}
+        for key in keys:
+            row[LABELS[key]] = results[key][task]['accuracy'] if results.get(key) and task in results[key] else None
+        rows.append(row)
+    columns = ['Task'] + [LABELS[key] for key in keys]
+    df = pd.DataFrame(rows, columns=columns)
+    df.to_csv(PROJECT_ROOT / 'artifacts' / 'tables' / f'models_{stage}_compare.csv', index=False)
+    if df.empty:
+        print(f'{stage}: stage comparison skipped because no summaries were found.')
+        return
+    plt.figure(figsize=(12, 6))
+    plotted = False
+    for key in keys:
+        col = LABELS[key]
+        if col in df and df[col].notnull().any():
+            plt.plot(df['Task'], df[col], marker='o', label=col)
+            plotted = True
+    if not plotted:
+        plt.close()
+        print(f'{stage}: stage comparison skipped because all values were empty.')
+        return
+    plt.title(f'Model Comparison ({stage.upper()})', fontproperties=prop)
     plt.legend()
     plt.xticks(rotation=60)
     plt.tight_layout()
-    plt.savefig(f"models_{stage}_compare.png")
+    plt.savefig(PROJECT_ROOT / 'artifacts' / 'figures' / f'models_{stage}_compare.png')
     plt.close()
 
-print("所有单表、对比表已生成。未提供数据的表自动留空，后续补上相应JSON即可自动更新。")
+
+def main():
+    (PROJECT_ROOT / 'artifacts' / 'figures').mkdir(parents=True, exist_ok=True)
+    (PROJECT_ROOT / 'artifacts' / 'tables').mkdir(parents=True, exist_ok=True)
+
+    resolved = {key: resolve_latest_summary(key) for key in RESULT_LOCATIONS}
+    for key, path in resolved.items():
+        print(f'{key}: {path}' if path else f'{key}: no summary found')
+
+    results = {key: load_summary(path) for key, path in resolved.items()}
+
+    export_single_model_charts(results)
+    export_sft_vs_base(results, 'qwen2.5')
+    export_sft_vs_base(results, 'mistral')
+    export_stage_compare(results, 'base', ['qwen2.5_base', 'mistral_base', 'deepseek_base'])
+    export_stage_compare(results, 'sft', ['qwen2.5_sft', 'mistral_sft'])
+    print('All charts and tables updated from latest timestamped summaries.')
+
+
+if __name__ == '__main__':
+    main()

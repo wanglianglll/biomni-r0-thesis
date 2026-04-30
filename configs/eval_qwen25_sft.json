@@ -1,0 +1,13 @@
+{
+  "model": "qwen2.5",
+  "variant": "sft",
+  "dataset": "/root/autodl-tmp/Biomni-main/data/biomni_eval1_dataset.parquet",
+  "subset": 0,
+  "max_retries": 3,
+  "sleep_between": 0.1,
+  "max_new_tokens": 512,
+  "temperature": 0.0,
+  "top_p": 0.95,
+  "top_k": 50,
+  "do_sample": false
+}

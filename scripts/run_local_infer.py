@@ -3,7 +3,7 @@ scripts/run_local_infer.py
 
 本地推理封装：加载 SFT/基础模型并提供 generate_text 接口。
 
-默认模型路径：output/sft_qwen2_7b
+默认模型路径：output/qwen2.5_sft
 可通过环境变量 LOCAL_SFT_MODEL_DIR 覆盖。
 
 注意：
@@ -15,8 +15,8 @@ from typing import Optional, List
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-MODEL_DIR_DEFAULT = os.getenv("LOCAL_SFT_MODEL_DIR", "output/sft_qwen2_7b")
-BASE_MODEL_FALLBACK = "Qwen/Qwen1.5-7B-Chat"
+MODEL_DIR_DEFAULT = os.getenv("LOCAL_SFT_MODEL_DIR", "output/qwen2.5_sft")
+BASE_MODEL_FALLBACK = "/root/autodl-tmp/Biomni-main/models/Qwen2.5-7B-Instruct/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28"
 
 class LocalInfer:
     def __init__(self, model_dir: Optional[str] = None, device: Optional[str] = None):

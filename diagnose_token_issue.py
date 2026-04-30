@@ -20,7 +20,7 @@ except Exception as e:
     traceback.print_exc()
     raise SystemExit(1)
 
-infer = LocalInfer(model_dir=os.getenv("LOCAL_SFT_MODEL_DIR", "Qwen/Qwen1.5-7B-Chat"))
+infer = LocalInfer(model_dir=os.getenv("LOCAL_SFT_MODEL_DIR", "/root/autodl-tmp/Biomni-main/models/Qwen2.5-7B-Instruct/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28"))
 tok = infer.tokenizer
 model = infer.model
 

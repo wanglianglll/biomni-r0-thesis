@@ -1,0 +1,57 @@
+[
+  {
+    "task": "rare_disease_diagnosis",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_rare_disease_diagnosis.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_rare_disease_diagnosis.json"
+  },
+  {
+    "task": "gwas_variant_prioritization",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_variant_prioritization.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_variant_prioritization.json"
+  },
+  {
+    "task": "patient_gene_detection",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_patient_gene_detection.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_patient_gene_detection.json"
+  },
+  {
+    "task": "screen_gene_retrieval",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_screen_gene_retrieval.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_screen_gene_retrieval.json"
+  },
+  {
+    "task": "gwas_causal_gene_gwas_catalog",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_causal_gene_gwas_catalog.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_causal_gene_gwas_catalog.json"
+  },
+  {
+    "task": "gwas_causal_gene_opentargets",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_causal_gene_opentargets.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_causal_gene_opentargets.json"
+  },
+  {
+    "task": "gwas_causal_gene_pharmaprojects",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_causal_gene_pharmaprojects.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_gwas_causal_gene_pharmaprojects.json"
+  },
+  {
+    "task": "lab_bench_dbqa",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_lab_bench_dbqa.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_lab_bench_dbqa.json"
+  },
+  {
+    "task": "lab_bench_seqqa",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_lab_bench_seqqa.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_lab_bench_seqqa.json"
+  },
+  {
+    "task": "crispr_delivery",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_crispr_delivery.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_crispr_delivery.json"
+  },
+  {
+    "task": "mixed_all_tasks",
+    "config": "/root/autodl-tmp/Biomni-main/configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_mixed_all_tasks.json",
+    "command": "/root/miniconda3/envs/biomni/bin/python scripts/run_train.py --config configs/eval1_taskwise_short_v1_qwen35_lora/train_qwen35_lora_mixed_all_tasks.json"
+  }
+]

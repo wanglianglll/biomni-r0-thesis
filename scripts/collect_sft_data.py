@@ -32,7 +32,7 @@ random.seed(SEED)
 
 # ========== Step 1: 拆分数据集 ==========
 print("=" * 60)
-print("Step 1: Split val into train/test (70/30)")
+print("Step 1: Split val into train/test (30/70)")
 print("=" * 60)
 
 df = pd.read_parquet(LOCAL_PARQUET)
@@ -48,7 +48,7 @@ for task_name in sorted(val_df["task_name"].unique()):
     task_df = task_df.sample(frac=1, random_state=SEED)  # shuffle
 
     n = len(task_df)
-    n_train = max(1, int(n * 0.7))  # 至少 1 条训练
+    n_train = max(1, int(n * 0.3))  # 至少 1 条训练
 
     train_dfs.append(task_df.iloc[:n_train])
     test_dfs.append(task_df.iloc[n_train:])
